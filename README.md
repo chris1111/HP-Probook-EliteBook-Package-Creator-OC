@@ -88,9 +88,9 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 
 
 ### Follow all steps in the 2 Video ⇩
-[![Modular Image Creation](![Probook](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png))](https://youtu.be/42qO8zuUzPE)
+[![Modular Image Creation](![Probook](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/42qO8zuUzPE)
 
 
 ### Video Post Install ⇩
-[![Modular Image Creation](![Probook](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png))](https://youtu.be/cCdffBkRWrM)
+[![Modular Image Creation](![Probook](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/cCdffBkRWrM)
 

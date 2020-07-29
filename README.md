@@ -50,7 +50,7 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 - ———————————————————————————————
 ## Recommand WIFI
 - Wifi mini PCI Broadcom BCM943224HMS
-- Wifi mini PCI Azureware BCM94360HMB
+- Wifi mini PCI AzureWave Broadcom BCM94352HMB
 
 ## Card reader Fix
 - Bios setup ☞ Port Option: Uncheck 1394 Port

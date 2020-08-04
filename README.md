@@ -50,13 +50,13 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 - ———————————————————————————————
 ## Recommand WIFI
 - Wifi mini PCI Broadcom BCM943224HMS
-- Wifi mini PCI Azureware BCM94360HMB
+- Wifi mini PCI AzureWave Broadcom BCM94352HMB
 
 ## Card reader Fix
 - Bios setup ☞ Port Option: Uncheck 1394 Port
 - SIP security disable by booting with installer macOS or in recovery boot, open terminal then type: 
 - csrutil disable
-- Reboot to the SSD then Install HSSDBlockStorage.kext, JMB38X.kext with ☞ [Kext-Droplet-Big Sur](https://github.com/chris1111/Kext-Droplet-Big-Sur)
+- Reboot to the SSD then Install [Kext☞ HSSDBlockStorage.kext, JMB38X.kext](https://drive.google.com/file/d/1nBwUaRkyXYLlJBbbEBP0DPxODYif9k1X/view?usp=sharing) with ☞ [Kext-Droplet-Big Sur](https://github.com/chris1111/Kext-Droplet-Big-Sur)
 - Before reboot, you have to allow JMicron on Security allow software
 #### View Spoiler ⇩ Card Reader works
 <details> 

@@ -1,7 +1,7 @@
 # HP-Probook-EliteBook-Package-Creator-OC
 ![Image](https://user-images.githubusercontent.com/6248794/87810976-e0452c00-c82b-11ea-86b6-df352e1e9fa8.png)
 
-### Update: 23 July 2020 adapted for BS Beta 3
+### Update: 03 August 2020 OpenCore 0.6.1 Update all kexts remove vsmcgen=1 from boot args
 
 - Credit: Old Project Tester: Screenz, mus68, MueKo, 
 platinumsteel, doodoo94, jeremy19, arno608rw, Mtkhan13

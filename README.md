@@ -88,9 +88,6 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 ### Post Installer 
 ![Capture 4](https://user-images.githubusercontent.com/6248794/87813175-63b44c80-c82f-11ea-8607-f3ad6b1dd167.png)
 
-### New Choice Post Installer ⬇︎
-![Webp net-gifmaker](https://user-images.githubusercontent.com/6248794/90356254-df670c00-e01c-11ea-874d-80f30e1a4bff.gif)
-
 
 ### Follow all steps in the 2 Video ⇩
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/42qO8zuUzPE)

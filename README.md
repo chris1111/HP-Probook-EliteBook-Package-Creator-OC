@@ -85,8 +85,8 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 - 4- Reboot again on the SSD ➦ (Wait for the last line of verbose mode and your screen will open)
 - ———————————————————————————————
 
-### Post Installer
-![Capture 4](https://user-images.githubusercontent.com/6248794/87813175-63b44c80-c82f-11ea-8607-f3ad6b1dd167.png)
+### Post Installer ------------------------------------------ New Choice Post Installer ⬇︎
+![Capture 4](https://user-images.githubusercontent.com/6248794/87813175-63b44c80-c82f-11ea-8607-f3ad6b1dd167.png)![Webp net-gifmaker](https://user-images.githubusercontent.com/6248794/90356254-df670c00-e01c-11ea-874d-80f30e1a4bff.gif)
 
 
 ### Follow all steps in the 2 Video ⇩

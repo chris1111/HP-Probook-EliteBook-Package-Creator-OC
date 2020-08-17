@@ -1,7 +1,7 @@
 # HP-Probook-EliteBook-Package-Creator-OC
 ![Image](https://user-images.githubusercontent.com/6248794/87810976-e0452c00-c82b-11ea-86b6-df352e1e9fa8.png)
 
-### Update: 04 August 2020 SIP disable on USB program
+### Update: 14 August 2020 update apfs.efi
 
 - Credit: Old Project Tester: Screenz, mus68, MueKo, 
 platinumsteel, doodoo94, jeremy19, arno608rw, Mtkhan13
@@ -85,13 +85,17 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 - 4- Reboot again on the SSD ➦ (Wait for the last line of verbose mode and your screen will open)
 - ———————————————————————————————
 
-### Post Installer
+### Post Installer 
 ![Capture 4](https://user-images.githubusercontent.com/6248794/87813175-63b44c80-c82f-11ea-8607-f3ad6b1dd167.png)
 
 
 ### Follow all steps in the 2 Video ⇩
+## See new Option menu in the OC Package, this is not show in video!
+![USB](https://user-images.githubusercontent.com/6248794/90392185-67b8d180-e05c-11ea-983b-dc5f463e4f2e.gif)
+### Video USB Install ⇩
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/42qO8zuUzPE)
-
+## See new Option menu in the Post install Package, this is not show in video!
+![USB](https://user-images.githubusercontent.com/6248794/90356254-df670c00-e01c-11ea-874d-80f30e1a4bff.gif)
 ### Video Post Install ⇩
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/cCdffBkRWrM)
 

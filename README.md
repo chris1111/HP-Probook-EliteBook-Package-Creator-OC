@@ -21,7 +21,7 @@ platinumsteel, doodoo94, jeremy19, arno608rw, Mtkhan13
    - Install macOS xxx.app (From Mac App Store)
    
 ### Bios Version:
-- Known working bios version is F61, F62, F64
+- Known working bios version is F61, F62, F64 [(F73 ➤ Confirmed 2570p)](https://www.insanelymac.com/forum/topic/344428-pre-release-macos-big-sur/?page=91&tab=comments#comment-2734611)
 Important Try do not take another Bios version! it would not be dramatic but it's the known bios that works very well
 
 ### Bios setup:

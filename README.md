@@ -21,7 +21,7 @@ platinumsteel, doodoo94, jeremy19, arno608rw, Mtkhan13
    - Install macOS xxx.app (From Mac App Store)
    
 ### Bios Version:
-- Known working bios version is F61, F62, F64
+- Known working bios version is F61, F62, F64 [(F73 ➤ Confirmed 2570p)](https://www.insanelymac.com/forum/topic/344428-pre-release-macos-big-sur/?page=91&tab=comments#comment-2734611)
 Important Try do not take another Bios version! it would not be dramatic but it's the known bios that works very well
 
 ### Bios setup:
@@ -90,11 +90,11 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 
 
 ### Follow all steps in the 2 Video ⇩
-## See new Option menu in the OC Package, this is not show in video!
+## See new Option menu in the OC Package, HFSPlus or VboxHFS this is not show in video!
 ![USB](https://user-images.githubusercontent.com/6248794/90392185-67b8d180-e05c-11ea-983b-dc5f463e4f2e.gif)
 ### Video USB Install ⇩
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/42qO8zuUzPE)
-## See new Option menu in the Post install Package, this is not show in video!
+## See new Option menu in the Post install Package, HFSPlus or VboxHFS this is not show in video!
 ![USB](https://user-images.githubusercontent.com/6248794/90356254-df670c00-e01c-11ea-874d-80f30e1a4bff.gif)
 ### Video Post Install ⇩
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/cCdffBkRWrM)

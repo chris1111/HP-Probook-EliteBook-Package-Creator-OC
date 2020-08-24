@@ -19,6 +19,7 @@ echo "             Welcome "`tput setaf 7``tput sgr0``tput bold``tput setaf 26`$
 echo " "
 echo "                       `tput setaf 26`
                   ===========================================
+                  - Credit: asdesoso, RegieMac, Axon, jeremy 94
                   - Credit: Old project Tester Screenz, mus68, MueKo,
                     platinumsteel, doodoo94, jeremy19, arno608rw
                   - Credit: RehabMan for all DSDT patch

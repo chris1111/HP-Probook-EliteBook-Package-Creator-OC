@@ -3,7 +3,8 @@
 
 ### Update: 19 August 2020 Add vsmcgen=1 for usb installer
 
-- Credit Tester: asdesoso, RegieMac, Axon, jeremy 94, Paul
+- Credit Tester: asdesoso, RegieMac, Axon, jeremy 94, 
+Paul, sajtos888
 - Credit: Old Project Tester: Screenz, mus68, MueKo, 
 platinumsteel, doodoo94, jeremy19, arno608rw, Mtkhan13
 - Credit: RehabMan for all DSDT patch

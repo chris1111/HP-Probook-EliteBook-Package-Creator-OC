@@ -1,7 +1,7 @@
 # HP-Probook-EliteBook-Package-Creator-OC
 ![Image](https://user-images.githubusercontent.com/6248794/87810976-e0452c00-c82b-11ea-86b6-df352e1e9fa8.png)
 
-### Update: 19 August 2020 Add vsmcgen=1 for usb installer
+### Update: 08 Sept 2020 OpenCore Configurator V-2.12.0
 
 - Credit Tester: asdesoso, RegieMac, Axon, jeremy 94, 
 Paul, sajtos888

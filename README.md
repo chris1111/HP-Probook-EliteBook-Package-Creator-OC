@@ -57,7 +57,7 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 - Wifi mini PCI Broadcom BCM943224HMS
 - Wifi mini PCI AzureWave Broadcom BCM94352HMB
 
-## Card reader Fix
+## Card reader Fix for macOS Big Sur 11 only
 - Bios setup ☞ Port Option: Uncheck 1394 Port
 - SIP security disable by booting with installer macOS or in recovery boot, open terminal then type: 
 - csrutil disable

@@ -74,6 +74,7 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 
  ## macOS Catalina Wifi Bluetooth Fix
  - You have to change kexts in OpenCore ➤ [Wifi Bluetooth Kext](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/files/5291954/Archive.zip) 
+- ———————————————————————————————
 
 
 ### Package Creator

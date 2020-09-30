@@ -1,6 +1,8 @@
 # HP-Probook-EliteBook-Package-Creator-OC
 ![Image](https://user-images.githubusercontent.com/6248794/87810976-e0452c00-c82b-11ea-86b6-df352e1e9fa8.png)
 
+### NOTE: 29 Sept 2020 After testing Big Sur (Beta 9) I notice no issue.
+
 ### Update: 23 Sept 2020 SecureBootModel disable in config + Update OpenCore configurator V-2.13.0
 
 
@@ -55,7 +57,7 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 - Wifi mini PCI Broadcom BCM943224HMS
 - Wifi mini PCI AzureWave Broadcom BCM94352HMB
 
-## Card reader Fix
+## Card reader Fix for macOS Big Sur 11 only
 - Bios setup ☞ Port Option: Uncheck 1394 Port
 - SIP security disable by booting with installer macOS or in recovery boot, open terminal then type: 
 - csrutil disable
@@ -68,6 +70,10 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 ![Screen Shot ](https://user-images.githubusercontent.com/6248794/87852436-f4426980-c8cf-11ea-913f-72c6093eb32a.png)	
 
 </details>
+- ———————————————————————————————
+
+ ## macOS Catalina Wifi Bluetooth Fix
+ - You have to change kexts in OpenCore ➤ [Wifi Bluetooth Kext](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/files/5291954/Archive.zip) 
 - ———————————————————————————————
 
 
@@ -101,5 +107,6 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 ![USB](https://user-images.githubusercontent.com/6248794/90356254-df670c00-e01c-11ea-874d-80f30e1a4bff.gif)
 ### Video Post Install ⇩
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/cCdffBkRWrM)
+
 
 

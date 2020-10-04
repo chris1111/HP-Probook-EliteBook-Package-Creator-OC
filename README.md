@@ -2,9 +2,8 @@
 ![Image](https://user-images.githubusercontent.com/6248794/87810976-e0452c00-c82b-11ea-86b6-df352e1e9fa8.png)
 
 ### NOTE: 29 Sept 2020 After testing Big Sur (Beta 9) I notice no issue.
-
-### Update: 23 Sept 2020 SecureBootModel disable in config + Update OpenCore configurator V-2.13.0
-
+- NOTE: 24 Sept 2020 After testing Big Sur (Beta 8) I notice issue compilling DSDT, the bug is introduce in Beta 6, 7, 8 so waiting for next Beta
+-  Update: 23 Sept 2020 SecureBootModel disable in config + Update OpenCore configurator V-2.13.0.
 
 - Credit Tester: asdesoso, RegieMac, Axon, jeremy 94, 
 Paul, sajtos888

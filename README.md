@@ -3,7 +3,7 @@
 
 ### NOTE: 29 Sept 2020 After testing Big Sur (Beta 9) I notice no issue.
 - NOTE: 24 Sept 2020 After testing Big Sur (Beta 8) I notice issue compilling DSDT, the bug is introduce in Beta 6, 7, 8 so waiting for next Beta
-### Latest Update: 03 Oct 2020 Add Drop EFI.
+### Latest Update: 12 Oct 2020 config.plist adjustment.
 
 - Credit Tester: asdesoso, RegieMac, Axon, jeremy 94, 
 Paul, sajtos888

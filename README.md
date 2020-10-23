@@ -1,8 +1,8 @@
 # HP-Probook-EliteBook-Package-Creator-OC
 ![Image](https://user-images.githubusercontent.com/6248794/87810976-e0452c00-c82b-11ea-86b6-df352e1e9fa8.png)
 
-### NOTE: 29 Sept 2020 After testing Big Sur (Beta 9) I notice no issue.
-- NOTE: 24 Sept 2020 After testing Big Sur (Beta 8) I notice issue compilling DSDT, the bug is introduce in Beta 6, 7, 8 so waiting for next Beta
+### NOTE: 17 Oct 2020 After testing Big Sur (Beta 10) I notice no issue.
+- Testing Install macOS Big Sur (Beta 10).app
 ### Latest Update: 12 Oct 2020 config.plist adjustment.
 
 - Credit Tester: asdesoso, RegieMac, Axon, jeremy 94, 

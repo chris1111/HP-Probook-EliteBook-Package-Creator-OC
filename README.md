@@ -4,6 +4,8 @@
 ### NOTE: 15 Nov 2020 After Testing Install macOS Big Sur release (20B29) I notice no issue. 
 ### Latest Update: 16 Nov 2020 config.plist adjustment.
 
+### Any issue without the Log or all relevant information will be deleted.
+
 - Credit Tester: asdesoso, RegieMac, Axon, jeremy 94, 
 Paul, sajtos888
 - Credit: Old Project Tester: Screenz, mus68, MueKo, 

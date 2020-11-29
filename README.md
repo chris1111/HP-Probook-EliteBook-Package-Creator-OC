@@ -1,9 +1,10 @@
 # HP-Probook-EliteBook-Package-Creator-OC
 ![Image](https://user-images.githubusercontent.com/6248794/87810976-e0452c00-c82b-11ea-86b6-df352e1e9fa8.png)
 
-### NOTE: 17 Oct 2020 After testing Big Sur (Beta 10) I notice no issue.
-- Testing Install macOS Big Sur (Beta 10).app
-### Latest Update: 12 Oct 2020 config.plist adjustment.
+### Latest Update: 16 Nov 2020 config.plist adjustment.
+### NOTE: 15 Nov 2020 After Testing Install macOS Big Sur release (20B29) I notice no issue. 
+
+### Any issue without the Log or all relevant information will be deleted.
 
 - Credit Tester: asdesoso, RegieMac, Axon, jeremy 94, 
 Paul, sajtos888
@@ -84,8 +85,10 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 ![Capture 3](https://user-images.githubusercontent.com/6248794/87812929-f86a7a80-c82e-11ea-8ed8-50558744775c.png)
 - OpenCore Bootloader
 
-![Capture 5](https://user-images.githubusercontent.com/6248794/87813383-d1607880-c82f-11ea-8fe2-d18cbed8b32d.png)
+- Troubleshooting ➤ [High Screen Laptop 1600x900](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/issues/2#issuecomment-679373248)
 
+
+- https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/issues/2#issuecomment-679373248
 ## macOS Big Sur Installation Steps
 - 1- Boot on Install macOS Big Sur ➦ (Wait for the last line of verbose mode and your screen will open)
 - 2- Boot on macOS Installer (25 minutes Install time)

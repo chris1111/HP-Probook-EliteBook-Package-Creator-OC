@@ -1,7 +1,7 @@
 # HP-Probook-EliteBook-Package-Creator-OC
 ![Image](https://user-images.githubusercontent.com/6248794/87810976-e0452c00-c82b-11ea-86b6-df352e1e9fa8.png)
 
-### Latest Update: 16 Nov 2020 config.plist adjustment.
+### Latest Update: 29 Nov 2020 Update OC Configurator
 ### NOTE: 15 Nov 2020 After Testing Install macOS Big Sur release (20B29) I notice no issue. 
 
 ### Any issue without the Log or all relevant information will be deleted.

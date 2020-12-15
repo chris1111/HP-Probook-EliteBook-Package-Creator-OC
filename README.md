@@ -72,7 +72,7 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 </details>
 - ———————————————————————————————
 
-## High Screen (1600x900) Fix ➡︎ [High Screen (1600x900) Fix](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/issues/2#issuecomment-679373248)
+#### High Screen (1600x900) Fix Boot USB Installer black screen ➡︎ [Fix Boot USB Installer (1600x900) black screen](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/issues/2#issuecomment-679373248)
 - ———————————————————————————————
 
 ## macOS Catalina Wifi Bluetooth Fix

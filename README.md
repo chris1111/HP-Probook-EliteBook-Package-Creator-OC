@@ -5,7 +5,9 @@
 #### Latest Update: 06 Dec 2020 Update OC / Fix issue booting USB ➤ install macOS Big Sur.app (16.1.04)
 ##### NOTE: 14 Dec 2020 After Testing Install macOS Big Sur release (20C69) I notice no issue. ➤ [macOS Big Sur (20C69)](https://user-images.githubusercontent.com/6248794/102162209-c77e8800-3e56-11eb-8589-14687a340203.png)
 
-Beta testing ☞ [HP-Probook-EliteBook-Package-Creator-OC-0.6.6](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/OC-0.6.6)
+### Beta testing ☞ [HP-Probook-EliteBook-Package-Creator-OC-0.6.6](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/OC-0.6.6)
+- Update 26 Jan 2021 Add Beta testing HP-Probook-EliteBook-Package-Creator-OC-0.6.6
+
 ##### NOTE: 14 Dec 2020 After Testing Install macOS Big Sur release (20C69) I notice no issue. ➤ [macOS Big Sur (20C69)](https://user-images.githubusercontent.com/6248794/102162209-c77e8800-3e56-11eb-8589-14687a340203.png)
 
 #### Any issue without the Log or all relevant information will be deleted. This does not work on a VM

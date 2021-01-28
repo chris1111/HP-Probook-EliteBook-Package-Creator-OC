@@ -12,7 +12,7 @@
 
 #### Any issue without the Log or all relevant information will be deleted. This does not work on a VM
 
-- Credit Tester: asdesoso, RegieMac, Axon, jeremy 94, 
+- Credit Tester: asdesoso, RegieMac, Axon, jeremy 94, djams 
 Paul, sajtos888
 - Credit: Old Project Tester: Screenz, mus68, MueKo, 
 platinumsteel, doodoo94, jeremy19, arno608rw, Mtkhan13

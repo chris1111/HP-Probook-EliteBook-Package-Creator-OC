@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-script minSpecVersion="2.000000" authoringTool="com.apple.PackageMaker" authoringToolVersion="3.0.7" authoringToolBuild="203">
+    <title>OpenCore USB</title>
+    <options customize="allow" allow-external-scripts="true"/>
+    <domains enable_anywhere="true"/>
+    <background file="background" alignment="center" scaling="tofit"/>
+    <background-darkAqua file="background" alignment="center" scaling="tofit"/>
+    <welcome file="Welcome.rtf"/>
+    <readme file="ReadMe.rtf"/>
+    <license file="License.rtf"/>
+    <choices-outline>
+        <line choice="choice6">
+            <line choice="choice7"/>
+            <line choice="choice8"/>
+        </line>
+    </choices-outline>
+    <choice id="choice6" title="OpenCore">
+        <pkg-ref id="org.opencoreUsb.EFIFOLDER.pkg"/>
+    </choice>
+    <choice id="choice7" title="VBoxHfs" description="Install VBoxHfs.efi in OpenCore" start_selected="false" selected="!choices['choice8'].selected">
+        <pkg-ref id="org.opencoreUsb.VBOX.pkg"/>
+    </choice>
+    <choice id="choice8" title="HFSPlus" description="Install HfsPlus.efi in OpenCore" start_selected="true" selected="!choices['choice7'].selected">
+        <pkg-ref id="org.opencoreUsb.HFSPLUS.pkg"/>
+    </choice>
+    <pkg-ref id="org.opencoreUsb.EFIFOLDER.pkg" installKBytes="4808" version="1.0" auth="Root">#efifolder.pkg</pkg-ref>
+    <pkg-ref id="org.opencoreUsb.VBOX.pkg" installKBytes="60" version="1.0" auth="Root">#vbox.pkg</pkg-ref>
+    <pkg-ref id="org.opencoreUsb.HFSPLUS.pkg" installKBytes="0" version="1.0" auth="Root">#hfsplus.pkg</pkg-ref>
+</installer-script>

@@ -19,8 +19,8 @@ echo "             Welcome "`tput setaf 7``tput sgr0``tput bold``tput setaf 26`$
 echo " "
 echo "                       `tput setaf 26`
                   ===========================================
-                  - Credit Tester: asdesoso, RegieMac, Axon, jeremy 94, 
-                    Paul, sajtos888
+                  - Credit Tester: asdesoso, RegieMac, Axon, jeremy 94, Paul, 
+                    sajtos888, Bogey, djams.
                   - Credit: Old project Tester Screenz, mus68, MueKo,
                     platinumsteel, doodoo94, jeremy19, arno608rw
                   - Credit: RehabMan for all DSDT patch
@@ -62,7 +62,7 @@ function INSTALLER
 head
 echo " "
 echo "Build Install Media HP Laptop OC.app"
-./Builder/Installer.sh
+./Builder/Create-Install-Media/create_app.sh
 echo " "
 }
 function Quit

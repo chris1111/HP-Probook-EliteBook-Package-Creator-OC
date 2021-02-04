@@ -1,0 +1,660 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2577
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Verdana;\f1\fnil\fcharset0 Verdana-Bold;\f2\fnil\fcharset0 Verdana-Italic;
+\f3\fnil\fcharset77 ZapfDingbatsITC;}
+{\colortbl;\red255\green255\blue255;\red76\green78\blue78;\red0\green0\blue0;\red64\green128\blue0;
+\red68\green21\blue176;\red0\green22\blue176;\red0\green0\blue255;\red108\green5\blue211;}
+{\*\expandedcolortbl;;\csgenericrgb\c29999\c30457\c30457;\csgenericrgb\c0\c0\c0;\csgenericrgb\c25000\c50001\c0;
+\csgenericrgb\c26552\c8264\c69162;\csgenericrgb\c0\c8656\c68986;\csgenericrgb\c0\c0\c100000;\csgenericrgb\c42337\c1841\c82833;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li785\fi-786\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 \CocoaLigature0 # Applescript create by chris1111\cf3 \
+\cf2 # Install Media HP Laptop OC Copyright (c) 2020 chris1111 All rights reserved.\cf3 \
+\cf2 # No right on OpenCore Bootloader\cf3 \
+\
+
+\f1\b set
+\f0\b0  \cf4 theAction\cf3  
+\f1\b to
+\f0\b0  \cf5 button returned\cf3  
+\f1\b of
+\f0\b0  (
+\f1\b \cf6 display dialog
+\f0\b0 \cf3  "\
+Welcome Install Media HP Laptop OC\
+\
+You can create a bootable USB key \
+from macOS 10.12 to macOS Big Sur 11\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li785\fi-786\pardirnatural\partightenfactor0
+\cf3 Format your USB Drive with Disk Utility \
+in the format Mac OS Extended (Journaled) \
+GUID Partition Map\
+\
+*****************************\
+You must quit Disk Utility to continue \
+installation !" \cf6 with icon\cf3  
+\f2\i \cf5 note
+\f0\i0 \cf3  \cf6 buttons\cf3  \{"Quit", "Create Install Media"\} \cf6 cancel button\cf3  "Quit" \cf6 default button\cf3  \{"Create Install Media"\})\
+\
+\cf2 --If Create Install Media\cf3 \
+
+\f1\b if
+\f0\b0  \cf4 theAction\cf3  = "Create Install Media" 
+\f1\b then
+\f0\b0 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li1571\fi-1572\pardirnatural\partightenfactor0
+\cf3 	\
+	
+\f1\b tell
+\f0\b0  
+\f2\i \cf7 application
+\f0\i0 \cf3  "Disk Utility"\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		
+\f1\b \cf7 activate
+\f0\b0 \cf3 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li1571\fi-1572\pardirnatural\partightenfactor0
+\cf3 	
+\f1\b end
+\f0\b0  
+\f1\b tell
+\f0\b0 \
+	\
+	
+\f1\b repeat
+\f0\b0 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		
+\f1\b if
+\f0\b0  
+\f2\i \cf7 application
+\f0\i0 \cf3  "Disk Utility" 
+\f1\b is not
+\f0\b0  \cf8 running\cf3  
+\f1\b then
+\f0\b0  
+\f1\b exit
+\f0\b0  
+\f1\b repeat
+\f0\b0 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li1571\fi-1572\pardirnatural\partightenfactor0
+\cf3 	
+\f1\b end
+\f0\b0  
+\f1\b repeat
+\f0\b0 \
+	
+\f1\b \cf7 activate
+\f0\b0 \cf3  
+\f1\b me
+\f0\b0 \
+	
+\f1\b set
+\f0\b0  \cf4 all\cf3  
+\f1\b to
+\f0\b0  
+\f2\i \cf7 paragraphs
+\f0\i0 \cf3  
+\f1\b of
+\f0\b0  (
+\f1\b \cf6 do shell script
+\f0\b0 \cf3  "ls /Volumes")\
+	
+\f1\b set
+\f0\b0  \cf4 w\cf3  
+\f1\b to
+\f0\b0  
+\f1\b \cf6 choose from list
+\f0\b0 \cf3  \cf4 all\cf3  \cf6 with prompt\cf3  " \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li785\fi-786\pardirnatural\partightenfactor0
+\cf3 Pour pouvoir continuer, s\'e9lectionner le volume \
+que vous venez de formater.\
+Ensuite appuyez sur le bouton OK" \cf6 OK button name\cf3  "OK" 
+\f1\b with
+\f0\b0  \cf6 multiple selections allowed\cf3 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li1571\fi-1572\pardirnatural\partightenfactor0
+\cf3 	
+\f1\b if
+\f0\b0  \cf4 w\cf3  
+\f1\b is
+\f0\b0  
+\f2\i \cf8 false
+\f0\i0 \cf3  
+\f1\b then
+\f0\b0 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		
+\f1\b \cf6 display dialog
+\f0\b0 \cf3  "Quitter Installer" \cf6 with icon\cf3  
+\f2\i \cf5 note
+\f0\i0 \cf3  \cf6 buttons\cf3  \{"SORTIR"\} \cf6 default button\cf3  \{"SORTIR"\}\
+		\
+		
+\f1\b return
+\f0\b0 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li1571\fi-1572\pardirnatural\partightenfactor0
+\cf3 	
+\f1\b end
+\f0\b0  
+\f1\b if
+\f0\b0 \
+	
+\f1\b try
+\f0\b0 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		
+\f1\b repeat
+\f0\b0  
+\f1\b with
+\f0\b0  \cf4 teil\cf3  
+\f1\b in
+\f0\b0  \cf4 w\cf3 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li3142\fi-3143\pardirnatural\partightenfactor0
+\cf3 			
+\f1\b \cf6 do shell script
+\f0\b0 \cf3  "diskutil `diskutil list | awk '/ " & \cf4 teil\cf3  & "  / \{print $NF\}'`" 
+\f1\b with
+\f0\b0  \cf6 administrator privileges\cf3 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		
+\f1\b end
+\f0\b0  
+\f1\b repeat
+\f0\b0 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li1571\fi-1572\pardirnatural\partightenfactor0
+\cf3 	
+\f1\b end
+\f0\b0  
+\f1\b try
+\f0\b0 \
+	\
+	\
+	
+\f1\b set
+\f0\b0  \cf4 source\cf3  
+\f1\b to
+\f0\b0  
+\f1\b \cf6 path to
+\f0\b0 \cf3  
+\f1\b me
+\f0\b0  \cf6 as\cf3  
+\f2\i \cf7 string
+\f0\i0 \cf3 \
+	
+\f1\b set
+\f0\b0  \cf4 source\cf3  
+\f1\b to
+\f0\b0  \cf8 POSIX path\cf3  
+\f1\b of
+\f0\b0  \cf4 source\cf3  & "Contents/Resources/Installer/VolumePackage.pkg"\
+	
+\f1\b set
+\f0\b0  \cf4 source\cf3  
+\f1\b to
+\f0\b0  \cf8 quoted form\cf3  
+\f1\b of
+\f0\b0  \cf4 source\cf3 \
+	\
+	
+\f1\b \cf6 do shell script
+\f0\b0 \cf3  \'ac\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		"installer -pkg  " & \cf4 source\cf3  & " -target \\"" & \cf4 w\cf3  & "\\"" 
+\f1\b with
+\f0\b0  \cf6 administrator privileges\cf3 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li1571\fi-1572\pardirnatural\partightenfactor0
+\cf3 	
+\f1\b \cf7 delay
+\f0\b0 \cf3  1\
+	\cf2 --If Continue		\cf3 \
+	
+\f1\b set
+\f0\b0  \cf4 theAction\cf3  
+\f1\b to
+\f0\b0  \cf5 button returned\cf3  
+\f1\b of
+\f0\b0  (
+\f1\b \cf6 display dialog
+\f0\b0 \cf3  "\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li785\fi-786\pardirnatural\partightenfactor0
+\cf3 \
+Choose the location of your Install macOS.app" \cf6 with icon\cf3  
+\f2\i \cf5 note
+\f0\i0 \cf3  \cf6 buttons\cf3  \{"Quit", "macOS 10.12", "10.13 to Big Sur 11"\} \cf6 cancel button\cf3  "Quit" \cf6 default button\cf3  \{"10.13 to Big Sur 11"\})\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li1571\fi-1572\pardirnatural\partightenfactor0
+\cf3 	
+\f1\b if
+\f0\b0  \cf4 theAction\cf3  = "10.13 to Big Sur 11" 
+\f1\b then
+\f0\b0 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		\cf2 --If 10.13 to 10.16\cf3 \
+		
+\f1\b \cf6 display dialog
+\f0\b0 \cf3  "\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li785\fi-786\pardirnatural\partightenfactor0
+\cf3 Your choice is 10.13 to Big Sur 11\
+Choose your Install OS X.app \
+From macOS High Sierra to macOS Big Sur" \cf6 with icon\cf3  
+\f2\i \cf5 note
+\f0\i0 \cf3  \cf6 buttons\cf3  \{"Quit", "Continue"\} \cf6 cancel button\cf3  "Quit" \cf6 default button\cf3  \{"Continue"\}\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		\
+		
+\f1\b set
+\f0\b0  \cf4 InstallOSX\cf3  
+\f1\b to
+\f0\b0  
+\f1\b \cf6 choose file
+\f0\b0 \cf3  \cf6 of type\cf3  \{"XLSX", "APPL"\} \cf6 default location\cf3  (
+\f1\b \cf6 path to
+\f0\b0 \cf3  
+\f2\i \cf5 applications folder
+\f0\i0 \cf3 ) \cf6 with prompt\cf3  "Choose your Install macOS.app"\
+		
+\f1\b set
+\f0\b0  \cf4 OSXInstaller\cf3  
+\f1\b to
+\f0\b0  \cf8 POSIX path\cf3  
+\f1\b of
+\f0\b0  \cf4 InstallOSX\cf3 \
+		\
+		
+\f1\b \cf7 delay
+\f0\b0 \cf3  2\
+		\
+		
+\f1\b set
+\f0\b0  \cf8 progress description\cf3  
+\f1\b to
+\f0\b0  "Create Install Media\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li785\fi-786\pardirnatural\partightenfactor0
+\cf3 ======================================\
+Installation time 15 to 25 min on a standard USB key\
+3 to 5 min on a Disk Ext HD\
+======================================\
+"\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		\
+		
+\f1\b set
+\f0\b0  \cf8 progress total steps\cf3  
+\f1\b to
+\f0\b0  7\
+		\
+		
+\f1\b set
+\f0\b0  \cf8 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Analysing Install macOS"\
+		
+\f1\b \cf7 delay
+\f0\b0 \cf3  2\
+		
+\f1\b set
+\f0\b0  \cf8 progress completed steps\cf3  
+\f1\b to
+\f0\b0  1\
+		\
+		
+\f1\b set
+\f0\b0  \cf8 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Analysing USB Install Media"\
+		
+\f1\b \cf7 delay
+\f0\b0 \cf3  2\
+		
+\f1\b set
+\f0\b0  \cf8 progress completed steps\cf3  
+\f1\b to
+\f0\b0  2\
+		\
+		
+\f1\b set
+\f0\b0  \cf8 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Install USB Media OK"\
+		
+\f1\b \cf7 delay
+\f0\b0 \cf3  2\
+		
+\f1\b set
+\f0\b0  \cf8 progress completed steps\cf3  
+\f1\b to
+\f0\b0  3\
+		\
+		
+\f1\b set
+\f0\b0  \cf8 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Install in Progress "\
+		
+\f1\b \cf7 delay
+\f0\b0 \cf3  1\
+		
+\f1\b set
+\f0\b0  \cf8 progress completed steps\cf3  
+\f1\b to
+\f0\b0  4\
+		\
+		
+\f1\b set
+\f0\b0  \cf8 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Install in Progress Wait! "\
+		
+\f1\b \cf7 delay
+\f0\b0 \cf3  1\
+		
+\f1\b set
+\f0\b0  \cf8 progress completed steps\cf3  
+\f1\b to
+\f0\b0  5\
+		\
+		
+\f1\b set
+\f0\b0  \cf8 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Installing macOS  wait . . . ."\
+		
+\f1\b \cf7 delay
+\f0\b0 \cf3  1\
+		\cf2 --display dialog cmd\cf3 \
+		
+\f1\b set
+\f0\b0  \cf4 cmd\cf3  
+\f1\b to
+\f0\b0  "sudo \\"" & \cf4 OSXInstaller\cf3  & "Contents/Resources/createinstallmedia\\" --volume /Volumes/Install-Media --nointeraction "\
+		
+\f1\b \cf6 do shell script
+\f0\b0 \cf3  \cf4 cmd\cf3  
+\f1\b with
+\f0\b0  \cf6 administrator privileges\cf3 \
+		
+\f1\b set
+\f0\b0  \cf8 progress completed steps\cf3  
+\f1\b to
+\f0\b0  6\
+		\
+		
+\f1\b set
+\f0\b0  \cf8 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Install in Progress 90%"\
+		
+\f1\b \cf7 delay
+\f0\b0 \cf3  2\
+		
+\f1\b set
+\f0\b0  \cf8 progress completed steps\cf3  
+\f1\b to
+\f0\b0  7\
+		
+\f1\b set
+\f0\b0  \cf8 progress additional description\cf3  
+\f1\b to
+\f0\b0  "\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li785\fi-786\pardirnatural\partightenfactor0
+\cf3 Create Install Media Completed 
+\f3 \uc0\u10148 
+\f0  
+\f3 \uc0\u10148 
+\f0  
+\f3 \uc0\u10148 
+\f0  100%\
+Create Install Media Completed.\
+OpenCore Installer! "\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		
+\f1\b \cf7 delay
+\f0\b0 \cf3  3\
+		
+\f1\b set
+\f0\b0  \cf4 theFile\cf3  
+\f1\b to
+\f0\b0  ((
+\f1\b \cf6 path to
+\f0\b0 \cf3  
+\f1\b me
+\f0\b0 ) 
+\f1\b as
+\f0\b0  
+\f2\i \cf7 string
+\f0\i0 \cf3 ) & "Contents:Resources:Installer:OpenCore USB.pkg"\
+		
+\f1\b tell
+\f0\b0  
+\f2\i \cf7 application
+\f0\i0 \cf3  "Finder" 
+\f1\b to
+\f0\b0  
+\f1\b \cf7 open
+\f0\b0 \cf3  \cf4 theFile\cf3 \
+		\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li1571\fi-1572\pardirnatural\partightenfactor0
+\cf3 	
+\f1\b else
+\f0\b0  
+\f1\b if
+\f0\b0  \cf4 theAction\cf3  = "macOS 10.12" 
+\f1\b then
+\f0\b0 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		\
+		\cf2 --If 10.9 to 10.12\cf3 \
+		
+\f1\b \cf6 display dialog
+\f0\b0 \cf3  "\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li785\fi-786\pardirnatural\partightenfactor0
+\cf3 macOS 10.12\
+Choose the location of your Install macOS.app\
+" \cf6 with icon\cf3  
+\f2\i \cf5 note
+\f0\i0 \cf3  \cf6 buttons\cf3  \{"Quit", "Continue"\} \cf6 cancel button\cf3  "Quit" \cf6 default button\cf3  \{"Continue"\}\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		\
+		
+\f1\b set
+\f0\b0  \cf4 InstallOSX\cf3  
+\f1\b to
+\f0\b0  
+\f1\b \cf6 choose file
+\f0\b0 \cf3  \cf6 of type\cf3  \{"XLSX", "APPL"\} \cf6 default location\cf3  (
+\f1\b \cf6 path to
+\f0\b0 \cf3  
+\f2\i \cf5 applications folder
+\f0\i0 \cf3 ) \cf6 with prompt\cf3  "Choose your Install macOS.app"\
+		
+\f1\b set
+\f0\b0  \cf4 OSXInstaller\cf3  
+\f1\b to
+\f0\b0  \cf8 POSIX path\cf3  
+\f1\b of
+\f0\b0  \cf4 InstallOSX\cf3 \
+		\
+		
+\f1\b \cf7 delay
+\f0\b0 \cf3  2\
+		\
+		
+\f1\b set
+\f0\b0  \cf8 progress description\cf3  
+\f1\b to
+\f0\b0  "Create Install Media\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li785\fi-786\pardirnatural\partightenfactor0
+\cf3 ======================================\
+Installation time 15 to 20 min on a standard USB key\
+3 to 5 min on a Disk Ext HD\
+======================================\
+"\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		\
+		
+\f1\b set
+\f0\b0  \cf8 progress total steps\cf3  
+\f1\b to
+\f0\b0  7\
+		\
+		
+\f1\b set
+\f0\b0  \cf8 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Analysing Install macOS"\
+		
+\f1\b \cf7 delay
+\f0\b0 \cf3  2\
+		
+\f1\b set
+\f0\b0  \cf8 progress completed steps\cf3  
+\f1\b to
+\f0\b0  1\
+		\
+		
+\f1\b set
+\f0\b0  \cf8 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Analysing USB Install Media"\
+		
+\f1\b \cf7 delay
+\f0\b0 \cf3  2\
+		
+\f1\b set
+\f0\b0  \cf8 progress completed steps\cf3  
+\f1\b to
+\f0\b0  2\
+		\
+		
+\f1\b set
+\f0\b0  \cf8 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Install USB Media OK"\
+		
+\f1\b \cf7 delay
+\f0\b0 \cf3  2\
+		
+\f1\b set
+\f0\b0  \cf8 progress completed steps\cf3  
+\f1\b to
+\f0\b0  3\
+		\
+		
+\f1\b set
+\f0\b0  \cf8 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Install in Progress "\
+		
+\f1\b \cf7 delay
+\f0\b0 \cf3  1\
+		
+\f1\b set
+\f0\b0  \cf8 progress completed steps\cf3  
+\f1\b to
+\f0\b0  4\
+		\
+		
+\f1\b set
+\f0\b0  \cf8 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Install in Progress Wait! "\
+		
+\f1\b \cf7 delay
+\f0\b0 \cf3  1\
+		
+\f1\b set
+\f0\b0  \cf8 progress completed steps\cf3  
+\f1\b to
+\f0\b0  5\
+		\
+		
+\f1\b set
+\f0\b0  \cf8 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Installing macOS  wait . . . ."\
+		
+\f1\b \cf7 delay
+\f0\b0 \cf3  1\
+		\cf2 --display dialog cmd\cf3 \
+		
+\f1\b set
+\f0\b0  \cf4 cmd\cf3  
+\f1\b to
+\f0\b0  "sudo \\"" & \cf4 OSXInstaller\cf3  & "Contents/Resources/createinstallmedia\\" --volume /Volumes/Install-Media --applicationpath \\"" & \cf4 OSXInstaller\cf3  & "\\" --nointeraction "\
+		
+\f1\b \cf6 do shell script
+\f0\b0 \cf3  \cf4 cmd\cf3  
+\f1\b with
+\f0\b0  \cf6 administrator privileges\cf3 \
+		
+\f1\b set
+\f0\b0  \cf8 progress completed steps\cf3  
+\f1\b to
+\f0\b0  6\
+		\
+		
+\f1\b set
+\f0\b0  \cf8 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Install in Progress 90%"\
+		
+\f1\b \cf7 delay
+\f0\b0 \cf3  2\
+		
+\f1\b set
+\f0\b0  \cf8 progress completed steps\cf3  
+\f1\b to
+\f0\b0  7\
+		
+\f1\b set
+\f0\b0  \cf8 progress additional description\cf3  
+\f1\b to
+\f0\b0  "\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li785\fi-786\pardirnatural\partightenfactor0
+\cf3 Create Install Media Completed 
+\f3 \uc0\u10148 
+\f0  
+\f3 \uc0\u10148 
+\f0  
+\f3 \uc0\u10148 
+\f0  100%\
+Create Install Media Completed.\
+OpenCore Installer! "\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		
+\f1\b \cf7 delay
+\f0\b0 \cf3  3\
+		
+\f1\b set
+\f0\b0  \cf4 theFile\cf3  
+\f1\b to
+\f0\b0  ((
+\f1\b \cf6 path to
+\f0\b0 \cf3  
+\f1\b me
+\f0\b0 ) 
+\f1\b as
+\f0\b0  
+\f2\i \cf7 string
+\f0\i0 \cf3 ) & "Contents:Resources:Installer:OpenCore USB.pkg"\
+		
+\f1\b tell
+\f0\b0  
+\f2\i \cf7 application
+\f0\i0 \cf3  "Finder" 
+\f1\b to
+\f0\b0  
+\f1\b \cf7 open
+\f0\b0 \cf3  \cf4 theFile\cf3 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li1571\fi-1572\pardirnatural\partightenfactor0
+\cf3 	
+\f1\b end
+\f0\b0  
+\f1\b if
+\f0\b0 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li785\fi-786\pardirnatural\partightenfactor0
+
+\f1\b \cf3 end
+\f0\b0  
+\f1\b if}

@@ -7,10 +7,6 @@
 ##### NOTE: 02 Feb 2021 After Testing macOS Big Sur 11 (20D64) I notice no issue.
 
 
-### Beta testing ☞ [HP-Probook-EliteBook-Package-Creator-OC-0.6.7](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V2)
-- Update 03 Feb 2021 Update OpenCore, VBoxHfs.efi, OpenCore Configurator HP-Probook-EliteBook-Package-Creator-OC-0.6.7
-
-
 #### Any issue without the Log or all relevant information will be deleted. This does not work on a VM
 
 - Credit Tester: asdesoso, RegieMac, Axon, jeremy 94, Paul, sajtos888, djams.

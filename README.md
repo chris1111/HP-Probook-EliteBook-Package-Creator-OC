@@ -16,7 +16,6 @@
 - Credit Tester: asdesoso, RegieMac, Axon, jeremy 94, Paul, sajtos888, djams.
 =======
 - Credit Tester: asdesoso, RegieMac, Axon, jeremy 94, djams, Paul, sajtos888
->>>>>>> f069a96705aba69410e85e62a39cd77ce43b7285
 - Credit: Old Project Tester: Screenz, mus68, MueKo, 
 platinumsteel, doodoo94, jeremy19, arno608rw, Mtkhan13
 - Credit: RehabMan for all DSDT patch

@@ -2,7 +2,7 @@
 ![87810976-e0452c00-c82b-11ea-86b6-df352e1e9fa8 copie](https://user-images.githubusercontent.com/6248794/106787233-76507080-661d-11eb-82a6-46438b3814f3.png)
 
 
-#### Latest Update: 04 Feb 2021 Update OC 0.6.7
+#### Latest Update: 07 Feb 2021 Update OC 0.6.7 add RDM.app
 
 ##### NOTE: 02 Feb 2021 After Testing macOS Big Sur 11 (20D64) I notice no issue.
 

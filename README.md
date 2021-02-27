@@ -43,7 +43,7 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 #### How to use ☞ [OpenCore](https://dortania.github.io/OpenCore-Desktop-Guide/)
 
 ### To use this program you will have to boot on a fresh installation with the 
-- Create Install Media HP Laptop tools « IMPORTANT » without any file aml (DSDT.aml), (SSDT.aml) in  /EFI / OC / ACPI 
+- Create Install Media HP Laptop tools « IMPORTANT » without adding file aml (DSDT.aml), (SSDT.aml) in  /EFI / OC / ACPI. Oonly with the two files that are present SSDT-IGPU.aml.
 
 - This program only uses OC and kexts injection, there is no kext to modify in the system and no kext will install in macOS system.
 ### Support Laptop

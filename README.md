@@ -47,7 +47,7 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 
 - This program only uses OC and kexts injection, there is no kext to modify in the system and no kext will install in macOS system.
 ### Support Laptop
-- 7 series laptop HP Probook, EliteBook. Support macOS Sierra 10.12 to macOS Big Sur 11
+- [☞ 7 series laptop HP Probook](https://ark.intel.com/content/www/us/en/ark/products/series/98460/intel-7-series-chipsets.html#@Mobile) , EliteBook. Support macOS Sierra 10.12 to macOS Big Sur 11
 - HP Probook 4x40s, 4x0 G0, 6x70b, 6x70B-AMD, 6x70B-NVIDIA,  Elitebook 8x70p, 2x70p, 9x70m
 
 - ———————————————————————————————

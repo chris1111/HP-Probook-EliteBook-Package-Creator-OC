@@ -2,10 +2,10 @@
 ![87810976-e0452c00-c82b-11ea-86b6-df352e1e9fa8 copie](https://user-images.githubusercontent.com/6248794/106787233-76507080-661d-11eb-82a6-46438b3814f3.png)
 
 
-#### Latest Update:10 April 2021 Update OC 0.6.9 Update OpenCore Configurator 
-- New theme Teleport
+#### Latest Update: 17 May 2021 OC 0.7.0 Update OpenCore Configurator 
+- New theme OnLight
 
-##### NOTE: 10 April 2021 After Testing macOS Big Sur 11 (20D91) with OC 0.6.9 I notice no issue.
+##### NOTE: 17 May 2021 After Testing macOS Big Sur 11.3.1 (20E241) with OC 0.7.0 I notice no issue.
 
 
 #### Any issue without the Log or all relevant information will be deleted. This does not work on a VM

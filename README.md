@@ -4,6 +4,7 @@
 
 #### Latest Update: 17 May 2021 OC 0.7.0 Update OpenCore Configurator 
 - New theme OnLight ⬇︎
+
 ![17115952 2](https://user-images.githubusercontent.com/6248794/118488522-d01b0900-b6e9-11eb-9f26-9b43a6d7bda3.png)
 
 ##### NOTE: 17 May 2021 After Testing macOS Big Sur 11.3.1 (20E241) with OC 0.7.0 I notice no issue.

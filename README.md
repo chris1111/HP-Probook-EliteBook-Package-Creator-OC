@@ -22,7 +22,7 @@ platinumsteel, doodoo94, jeremy19, arno608rw, Mtkhan13
 - Credit: rehabman for patchmatic
 - Credit: Apple for Pkgbuild
 - Credit: [OpenCore team for OpenCore](https://github.com/acidanthera/OpenCorePkg)
-- Credit: [Intel HD 4000 macOS Monterey OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)
+- Credit: [Intel HD 4000 macOS Monterey ➤ OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)
 - Credit: [Packager chris1111](https://github.com/chris1111)
 - ———————————————————————————————
 

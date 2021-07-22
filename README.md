@@ -1,11 +1,8 @@
-# HP-Probook-EliteBook-Package-Creator-OC
+HP-Probook-EliteBook-Package-Creator-OC
 ![106787233-76507080-661d-11eb-82a6-46438b3814f3](https://user-images.githubusercontent.com/6248794/126697624-0cf2eacc-b4ef-462b-a251-e709b9004bdd.png)
 
 
 #### Latest Update: 22 July 2021 add Support macOS Monterey 12 Intel HD 4000
-- View Video Monterey Post Install ⬇︎
-
-[![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/jQW35JIuZ6k)
 
 ### Download Latest Release 22 July 2021 (V1): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V1)
 
@@ -113,22 +110,27 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 - 4- Reboot again on the SSD ➦ (Wait for the last line of verbose mode and your screen will open)
 - ———————————————————————————————
 
-### Post Installer 
+### Post Installer ⬇︎
 ![Capture 4](https://user-images.githubusercontent.com/6248794/87813175-63b44c80-c82f-11ea-8607-f3ad6b1dd167.png)
 
 
-### Follow all steps in the 2 Video ⇩
+### Follow all steps in the 2 Video ⬇︎
 ## See new Option menu in the OC Package, HFSPlus or VboxHFS this is not show in video!
 ![USB](https://user-images.githubusercontent.com/6248794/90392185-67b8d180-e05c-11ea-983b-dc5f463e4f2e.gif)
 
-### New Video Download Release V1: 22 July 2021  ⇩
+### New Video Download Release V1: 22 July 2021  ⬇︎
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/KYJJVEjyZw4)
-### Video USB Install ⇩
+### Video USB Install 
 
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/42qO8zuUzPE)
 ## See new Option menu in the Post install Package, HFSPlus or VboxHFS this is not show in video!
 ![USB](https://user-images.githubusercontent.com/6248794/90356254-df670c00-e01c-11ea-874d-80f30e1a4bff.gif)
-### Video Post Install ⇩
+
+### View Video Monterey Post Install ⬇︎
+
+[![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/jQW35JIuZ6k)
+
+### Video Post Install Big Sur ⬇︎
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/cCdffBkRWrM)
 
 

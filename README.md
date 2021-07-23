@@ -2,7 +2,8 @@ HP-Probook-EliteBook-Package-Creator-OC
 ![106787233-76507080-661d-11eb-82a6-46438b3814f3](https://user-images.githubusercontent.com/6248794/126697624-0cf2eacc-b4ef-462b-a251-e709b9004bdd.png)
 
 
-#### Latest Update: 22 July 2021 add Support macOS Monterey 12 Intel HD 4000
+#### Latest Update: 23 July 2021 add Support Bluethooth /Catalina/BigSur/Monterey
+- Latest Update: 22 July 2021 add Support macOS Monterey 12 Intel HD 4000
 
 ### Download Latest Release 22 July 2021 (V1): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V1)
 

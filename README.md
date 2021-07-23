@@ -86,10 +86,6 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 #### High Screen (1600x900) Fix Boot USB Installer black screen ➡︎ [Fix Boot USB Installer (1600x900) black screen](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/issues/2#issuecomment-679373248)
 - ———————————————————————————————
 
-## macOS Catalina Wifi Bluetooth Fix
- - You have to change kexts in OpenCore ➤ [Wifi Bluetooth Kext](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/files/5291954/Archive.zip) 
-- ———————————————————————————————
-
 
 ### Package Creator
 ![Capture 1](https://user-images.githubusercontent.com/6248794/87812623-7da15f80-c82e-11ea-9b7c-72e0194b7d19.png)

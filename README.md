@@ -2,12 +2,13 @@ HP-Probook-EliteBook-Package-Creator-OC
 ![106787233-76507080-661d-11eb-82a6-46438b3814f3](https://user-images.githubusercontent.com/6248794/126697624-0cf2eacc-b4ef-462b-a251-e709b9004bdd.png)
 
 
-#### Latest Update: 27 July 2021 add fonction SIP Check for patch HD 4000
+#### Latest Update: 28 July 2021 OC 0.7.2, fix pasword enable, fix nvram reset
 
 ## List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
 
+- Update: 27 July 2021 add fonction SIP Check for patch HD 4000
 - Update: 27 July 2021 update kext HD 4000, add choice menue for Bluethooth
 - Update: 27 July 2021 fix initialisition choice HFSPlus and VBOX
 - Update: 25 July 2021 fix create Install Media HP Laptop OC.app on Monterey 12

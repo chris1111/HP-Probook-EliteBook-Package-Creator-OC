@@ -123,15 +123,15 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 ### Post Installer- ⬇︎
 ![Capture 4](https://user-images.githubusercontent.com/6248794/87813175-63b44c80-c82f-11ea-8607-f3ad6b1dd167.png)
 
-### Follow Video about SIP macOS Monterey patch HD 4000 ⬇︎
-- Make sur SIP is disable: csrutil disable, csrutil authenticated-root disable
-https://user-images.githubusercontent.com/6248794/127250767-3ba823a1-2ee2-4398-a53d-3ac9fa6c78f2.mov
 
 
-
-### Follow all steps in the 2 Video- ⬇︎
+### Follow all steps in the Video- ⬇︎
 ## See new Option menu in the OC Package, HFSPlus or VboxHFS this is not show in video!
 ![USB](https://user-images.githubusercontent.com/6248794/90392185-67b8d180-e05c-11ea-983b-dc5f463e4f2e.gif)
+
+### Follow Video about SIP macOS Monterey patch HD 4000 ⬇︎
+- Make sur SIP is disable: csrutil disable, csrutil authenticated-root disable
+[![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://user-images.githubusercontent.com/6248794/127250767-3ba823a1-2ee2-4398-a53d-3ac9fa6c78f2.mov)
 
 ### New Video Download Release V1: 22 July 2021- ⬇︎
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/KYJJVEjyZw4)

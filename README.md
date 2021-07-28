@@ -152,3 +152,6 @@ https://user-images.githubusercontent.com/6248794/127252279-31cfba80-b9f3-4a90-b
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/cCdffBkRWrM)
 
 
+- Download ➤ [WIFI Speed Test.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/6895432/WIFI.Speed.Test.zip)
+
+

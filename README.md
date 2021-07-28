@@ -2,12 +2,13 @@ HP-Probook-EliteBook-Package-Creator-OC
 ![106787233-76507080-661d-11eb-82a6-46438b3814f3](https://user-images.githubusercontent.com/6248794/126697624-0cf2eacc-b4ef-462b-a251-e709b9004bdd.png)
 
 
-#### Latest  Update: 27 July 2021 update kext HD 4000, add choice menue for Bluethooth
+#### Latest Update: 27 July 2021 add fonction SIP Check for patch HD 4000
 
 ## List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
 
+- Update: 27 July 2021 update kext HD 4000, add choice menue for Bluethooth
 - Update: 27 July 2021 fix initialisition choice HFSPlus and VBOX
 - Update: 25 July 2021 fix create Install Media HP Laptop OC.app on Monterey 12
 - Update 25 July 2021 Add description Monterey 12, more clean mount EFI
@@ -121,6 +122,11 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 
 ### Post Installer- ⬇︎
 ![Capture 4](https://user-images.githubusercontent.com/6248794/87813175-63b44c80-c82f-11ea-8607-f3ad6b1dd167.png)
+
+### Follow Video about SIP macOS Monterey patch HD 4000 ⬇︎
+- Make sur SIP is disable: csrutil disable, csrutil authenticated-root disable
+https://user-images.githubusercontent.com/6248794/127250767-3ba823a1-2ee2-4398-a53d-3ac9fa6c78f2.mov
+
 
 
 ### Follow all steps in the 2 Video- ⬇︎

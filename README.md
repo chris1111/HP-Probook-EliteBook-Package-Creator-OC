@@ -132,7 +132,7 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 ### Follow Video about SIP macOS Monterey patch HD 4000 ⬇︎
 - Make sur SIP is disable: csrutil disable, csrutil authenticated-root disable
 
-https://user-images.githubusercontent.com/6248794/127252091-8818ed90-2801-41f1-aaa9-7bb3775e91e1.mov
+https://user-images.githubusercontent.com/6248794/127252279-31cfba80-b9f3-4a90-b3ed-15c5839cf26e.mov
 
 
 ### New Video Download Release V1: 22 July 2021- ⬇︎

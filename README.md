@@ -62,7 +62,6 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 - Disable FastBoot
 - ———————————————————————————————
 
-#### How to use ☞ [OpenCore](https://dortania.github.io/OpenCore-Desktop-Guide/)
 
 ### To use this program you will have to boot on a fresh installation with the 
 - Create Install Media HP Laptop tools « IMPORTANT » without adding file aml (DSDT.aml), (SSDT.aml) in  /EFI / OC / ACPI. Only with the two files that are present SSDT-IGPU.aml, SSDT-HMF.aml.
@@ -153,5 +152,7 @@ https://user-images.githubusercontent.com/6248794/127252279-31cfba80-b9f3-4a90-b
 
 
 - Download ➤ [WIFI Speed Test.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/6895432/WIFI.Speed.Test.zip)
+
+#### Learn How to use ☞ [OpenCore](https://dortania.github.io/OpenCore-Install-Guide/)
 
 

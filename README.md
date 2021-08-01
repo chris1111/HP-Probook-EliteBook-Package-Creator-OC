@@ -111,8 +111,6 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 
 - Troubleshooting ➤ [High Screen Laptop 1600x900](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/issues/2#issuecomment-679373248)
 
-
-- https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/issues/2#issuecomment-679373248
 ## macOS Big Sur Installation Steps
 - 1- Boot on Install macOS Big Sur ➦ (Wait for the last line of verbose mode and your screen will open)
 - 2- Boot on macOS Installer (25 minutes Install time)

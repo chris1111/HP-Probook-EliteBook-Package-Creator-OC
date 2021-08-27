@@ -2,12 +2,14 @@ HP-Probook-EliteBook-Package-Creator-OC
 ![106787233-76507080-661d-11eb-82a6-46438b3814f3](https://user-images.githubusercontent.com/6248794/126697624-0cf2eacc-b4ef-462b-a251-e709b9004bdd.png)
 
 
-#### Latest Update: 28 July 2021 OC 0.7.2, fix pasword enable, fix nvram reset
+#### Latest Update 27 August 2021 enable SSDT-IGPU.aml for USB Installer
+
 
 ## List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
 
+- Update: 28 July 2021 OC 0.7.2, fix pasword enable, fix nvram reset
 - Update: 27 July 2021 add fonction SIP Check for patch HD 4000
 - Update: 27 July 2021 update kext HD 4000, add choice menue for Bluethooth
 - Update: 27 July 2021 fix initialisition choice HFSPlus and VBOX
@@ -20,7 +22,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 </details>
 
 
-### Download Latest Release 22 July 2021 (V1): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V1)
+### Download Latest Release 27 August 2021 (V1): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V1)
 
 
 ##### NOTE: 17 May 2021 After Testing macOS Big Sur 11.3.1 (20E241) with OC 0.7.0 I notice no issue.

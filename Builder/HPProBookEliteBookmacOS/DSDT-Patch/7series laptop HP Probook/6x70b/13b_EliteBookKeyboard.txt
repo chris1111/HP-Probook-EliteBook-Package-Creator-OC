@@ -1,0 +1,18 @@
+#     Enable functions keys
+#     Override DSDT oemId (for Clover, since it patches with "Apple ")
+into method label _DSM parent_label PS2K remove_entry;
+into device label PS2K insert
+begin
+Method (_DSM, 4, NotSerialized)\n
+{\n
+    If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }\n
+    Return (Package()\n
+    {\n
+        // Note: Function key part seems to not be necessary
+        // "AAPL,has-embedded-fn-keys", Buffer() { 0x01, 0x00, 0x00, 0x00 },\n
+        "RM,oem-id", "HPQOEM",\n
+        "RM,oem-table-id", "161C",\n
+    })\n
+}\n
+end;
+

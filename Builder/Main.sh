@@ -1,6 +1,6 @@
 #!/bin/bash
 # HP ProBook EliteBook Packager
-# (c) Copyright 2018 chris1111
+# (c) Copyright 2018, 2021 chris1111
 PARENTDIR=$(dirname "$0")
 cd "$PARENTDIR"
 # Vars

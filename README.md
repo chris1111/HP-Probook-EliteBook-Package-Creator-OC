@@ -2,7 +2,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 ![106787233-76507080-661d-11eb-82a6-46438b3814f3](https://user-images.githubusercontent.com/6248794/126697624-0cf2eacc-b4ef-462b-a251-e709b9004bdd.png)
 
 
-#### Latest Update 29 August 2021 disable SMCSuperIO
+#### Latest Update 01 Sept 2021 Xcode Build project
 
 ## List Update: ⬇︎
 <details> 

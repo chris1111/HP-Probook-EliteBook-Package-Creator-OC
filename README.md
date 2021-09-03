@@ -30,21 +30,20 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 #### Any issue without the Log or all relevant information will be deleted. This does not work on a VM
 
-- Credit Tester: asdesoso, RegieMac, Axon, jeremy 94, djams, Paul, sajtos888
-- Credit: Old Project Tester: Screenz, mus68, MueKo, 
+## Credit: 
+- Tester: asdesoso, RegieMac, Axon, jeremy 94, djams, Paul, sajtos888
+- Old Project Tester: Screenz, mus68, MueKo, 
 platinumsteel, doodoo94, jeremy19, arno608rw, Mtkhan13
-- Credit: RehabMan for all DSDT patch
+- RehabMan for all DSDT patch, patchmatic
 - kexts inside OpenCore Credit: rehabman, vit9696, Mieze, lvs1974 
-- Credit: Intel for IASL
-- Credit: rehabman for patchmatic
-- Credit: Apple for Pkgbuild
-- Credit: [OpenCore team for OpenCore](https://github.com/acidanthera/OpenCorePkg)
-- Credit: HD 4000 Monterey 12 [Base on Jacklude](https://github.com/jacklukem) work
-- Credit: HD 4000 Monterey 12 [educovas](https://github.com/educovas) EduCovas for fixed google fonts
-- Credit: HD 4000 Monterey 12 [Dhinak](https://github.com/DhinakG) for found using beta 6 Metal binaries
-- Credit: HD 4000 Monterey 12 [khronokernel](https://github.com/khronokernel) for fixing google fonts (WebKit)
-
-- Credit: [Packager chris1111](https://github.com/chris1111)
+- Intel for IASL
+- Apple for Pkgbuild
+- [OpenCore team for OpenCore](https://github.com/acidanthera/OpenCorePkg)
+- HD 4000 Monterey 12 [Base on Jacklude](https://github.com/jacklukem) work
+- HD 4000 Monterey 12 [educovas](https://github.com/educovas) EduCovas for fixed google fonts
+- HD 4000 Monterey 12 [Dhinak](https://github.com/DhinakG) for found using beta 6 Metal binaries
+- HD 4000 Monterey 12 [khronokernel](https://github.com/khronokernel) for fixing google fonts (WebKit)
+- [Packager chris1111](https://github.com/chris1111)
 - ———————————————————————————————
 
 * What you need
@@ -158,5 +157,3 @@ https://user-images.githubusercontent.com/6248794/127252279-31cfba80-b9f3-4a90-b
 - Download ➤ [WIFI Speed Test.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/6895432/WIFI.Speed.Test.zip)
 
 #### Learn How to use ☞ [OpenCore](https://dortania.github.io/OpenCore-Install-Guide/)
-
-

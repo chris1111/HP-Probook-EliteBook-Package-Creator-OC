@@ -19,7 +19,7 @@ Sleep 1
 ./HPProBookEliteBookmacOS/HP-ProBook-EliteBook-Package-Creator.sh
 Sleep 1
 
-# Select Restore
+# Done
 response=$(osascript -e 'tell app "System Events" to display dialog "HP ProBook EliteBook Packager
 Done!\n" buttons {"Done"} default button 1 with title "'"$apptitle"' '"$version"'" with icon POSIX file "'"$iconfile"'" giving up after 10 ')
 

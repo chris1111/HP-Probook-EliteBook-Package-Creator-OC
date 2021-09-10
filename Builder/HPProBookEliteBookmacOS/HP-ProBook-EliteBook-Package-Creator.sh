@@ -169,4 +169,5 @@ productbuild --distribution "/$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PAC
 Sleep 2
 ./Build/PackageMaker/Icon/icon.py ./Build/PackageMaker/Icon/Icon.icns /$HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-ProBook-EliteBook-macOS.pkg
 
-Cp -Rp ./Gatekeeper.command /$HOME/Desktop/HP-ProBook-EliteBook-Packager
+cp -Rp ./Gatekeeper.command /$HOME/Desktop/HP-ProBook-EliteBook-Packager
+cp -Rp ./Support.pdf /$HOME/Desktop/HP-ProBook-EliteBook-Packager

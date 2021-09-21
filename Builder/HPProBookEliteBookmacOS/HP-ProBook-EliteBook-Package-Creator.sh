@@ -38,7 +38,7 @@ pkgbuild --root ./DSDT-Patch/"7series laptop HP Probook"/6x70B_NVIDIA --identifi
 
 pkgbuild --root ./DSDT-Patch/"Intel HD 3k 4k Low High"/HD4000Low --identifier com.chris1111.hpprobookelitebookmacos.HD4000Low.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/hd4000low.pkg
 
-pkgbuild --root ./DSDT-Patch/"Intel HD 3k 4k Low High"/HD4000High --identifier com.chris1111.hpprobookelitebookmacos.HD4000High.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/hd4000high.pkg
+pkgbuild --root ./DSDT-Patch/"Intel HD 3k 4k Low High"/HD4000High --scripts ./script/HD4000High --identifier com.chris1111.hpprobookelitebookmacos.HD4000High.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/hd4000high.pkg
 
 pkgbuild --root ./DSDT-Patch/HDMI/HDMILow --identifier com.chris1111.hpprobookelitebookmacos.HDMILow.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/hdmilow.pkg
 

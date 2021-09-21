@@ -7,6 +7,10 @@ cd "$PARENTDIR"
 # shell script Notifications
 osascript -e 'display notification "Installer HP-ProBook-EliteBook-macOS" with title "Create"  sound name "default"'
 
+rm -rf ./PRE/.gitkeep
+rm -rf ./OpenCore/.gitkeep
+rm -rf ./POST/.gitkeep
+rm -rf ./Patcher/.gitkeep
 rm -rf /$HOME/Desktop/HP-ProBook-EliteBook-macOS 
 rm -rf /$HOME/Desktop/HP-ProBook-EliteBook-macOS.pkg
 rm -rf /tmp/PackageDIR

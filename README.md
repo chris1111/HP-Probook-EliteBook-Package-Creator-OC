@@ -2,13 +2,14 @@ HP-Probook-EliteBook-Package-Creator-OC
 ![106787233-76507080-661d-11eb-82a6-46438b3814f3](https://user-images.githubusercontent.com/6248794/126697624-0cf2eacc-b4ef-462b-a251-e709b9004bdd.png)
 
 
-#### Latest Update 21 Sept 2021 fix Displayport High Screen 1600x900 Intel HD 4000 
+#### Latest Update 23 Sept 2021 fix Displayport High Screen 1600x900 Intel HD 4000 
 
 
 ## List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
 
+- Update 21 Sept 2021 fix Displayport High Screen 1600x900 Intel HD 4000 
 - Update 09 Sept revert MacBook Pro 13.1
 - Update 08 Sept 2021 Use MacBook Pro 14.3
 - Update 01 Sept 2021 Xcode Build project

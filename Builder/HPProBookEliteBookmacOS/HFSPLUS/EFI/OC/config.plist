@@ -16,7 +16,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT Mandatary for Big Sur and Catalina</string>
+				<string>SSDT Slider Brightness</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -622,7 +622,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
@@ -659,7 +659,7 @@
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PickerVariant</key>
-			<string>chris1111\5KMacBadge</string>
+			<string>chris1111\SSDMinimal</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -868,9 +868,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro13,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C17RC9ZEGVC1</string>
+			<string>C17SGXZYGVC1</string>
 			<key>SystemUUID</key>
-			<string>CF2D900C-C752-4C2F-8BAC-CFAD9A466731</string>
+			<string>855ED57B-C002-4453-B620-61571CA82F8D</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -879,7 +879,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C17609270GUHMHKJC</string>
+			<string>C176396004NHMHK1H</string>
 			<key>ProcessorType</key>
 			<integer>1537</integer>
 			<key>ROM</key>
@@ -891,66 +891,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro13,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C17RC9ZEGVC1</string>
+			<string>C17SGXZYGVC1</string>
 			<key>SystemUUID</key>
-			<string>CF2D900C-C752-4C2F-8BAC-CFAD9A466731</string>
-		</dict>
-		<key>SMBIOS</key>
-		<dict>
-			<key>BIOSReleaseDate</key>
-			<string>06/13/2021</string>
-			<key>BIOSVendor</key>
-			<string></string>
-			<key>BIOSVersion</key>
-			<string>429.140.8.0.0</string>
-			<key>BoardAssetTag</key>
-			<string>Base Board Asset Tag</string>
-			<key>BoardLocationInChassis</key>
-			<string>Part Component</string>
-			<key>BoardManufacturer</key>
-			<string></string>
-			<key>BoardProduct</key>
-			<string>Mac-473D31EABEB93F9B</string>
-			<key>BoardSerialNumber</key>
-			<string>C17609270GUHMHKJC</string>
-			<key>BoardType</key>
-			<integer>10</integer>
-			<key>BoardVersion</key>
-			<string>MacBookPro13,1</string>
-			<key>ChassisAssetTag</key>
-			<string>Asset Tag#</string>
-			<key>ChassisManufacturer</key>
-			<string></string>
-			<key>ChassisSerialNumber</key>
-			<string>C17RC9ZEGVC1</string>
-			<key>ChassisType</key>
-			<integer>9</integer>
-			<key>ChassisVersion</key>
-			<string>Mac-473D31EABEB93F9B</string>
-			<key>FirmwareFeatures</key>
-			<data>N+EP/AAAAAA=</data>
-			<key>FirmwareFeaturesMask</key>
-			<data>P/8f/wAAAAA=</data>
-			<key>PlatformFeature</key>
-			<integer>26</integer>
-			<key>ProcessorType</key>
-			<integer>1537</integer>
-			<key>SmcVersion</key>
-			<data></data>
-			<key>SystemFamily</key>
-			<string>MacBook Pro</string>
-			<key>SystemManufacturer</key>
-			<string></string>
-			<key>SystemProductName</key>
-			<string>MacBookPro13,1</string>
-			<key>SystemSKUNumber</key>
-			<string>System SKU#</string>
-			<key>SystemSerialNumber</key>
-			<string>C17RC9ZEGVC1</string>
-			<key>SystemUUID</key>
-			<string>CF2D900C-C752-4C2F-8BAC-CFAD9A466731</string>
-			<key>SystemVersion</key>
-			<string>1.0</string>
+			<string>855ED57B-C002-4453-B620-61571CA82F8D</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1022,12 +965,66 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>CrScreenshotDxe.efi</string>
-			<string>AppleAPFS.efi</string>
-			<string>HfsPlus.efi</string>
-			<string>OpenCanopy.efi</string>
-			<string>OpenRuntime.efi</string>
-			<string>HPFanReset.efi</string>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>HfsPlus.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>AppleAPFS.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>HPFanReset.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>OpenRuntime.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>OpenCanopy.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>CrScreenshotDxe.efi</string>
+			</dict>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -1126,6 +1123,8 @@
 			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
+			<key>ForceOcWriteFlash</key>
+			<false/>
 			<key>ForgeUefiSupport</key>
 			<false/>
 			<key>IgnoreInvalidFlexRatio</key>

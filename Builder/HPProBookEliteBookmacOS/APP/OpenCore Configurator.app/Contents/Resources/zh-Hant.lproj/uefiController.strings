@@ -8,11 +8,20 @@
 /* Class = "NSButtonCell"; title = "EnableJumpstart"; ObjectID = "133-jD-qYy"; */
 "133-jD-qYy.title" = "EnableJumpstart";
 
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "2Hl-aN-yVu"; */
+"2Hl-aN-yVu.headerCell.title" = "Enabled";
+
 /* Class = "NSTextFieldCell"; title = "TimerResolution"; ObjectID = "3Ql-TM-Oiv"; */
 "3Ql-TM-Oiv.title" = "TimerResolution";
 
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "4ew-tO-Ops"; */
+"4ew-tO-Ops.headerCell.title" = "注釋";
+
 /* Class = "NSTabViewItem"; label = "Audio"; ObjectID = "5Gm-fv-IpR"; */
 "5Gm-fv-IpR.label" = "開機音訊";
+
+/* Class = "NSMenuItem"; title = "AUTO"; ObjectID = "5js-Fa-8pC"; */
+"5js-Fa-8pC.title" = "AUTO";
 
 /* Class = "NSButtonCell"; title = "JumpstartHotPlug"; ObjectID = "6B4-NA-lHR"; */
 "6B4-NA-lHR.title" = "JumpstartHotPlug";
@@ -50,17 +59,26 @@
 /* Class = "NSTabViewItem"; label = "APFS"; ObjectID = "F1Q-I5-6w7"; */
 "F1Q-I5-6w7.label" = "嵌入式APFS";
 
+/* Class = "NSMenuItem"; title = "BIG SUR"; ObjectID = "HqP-Ib-Lhy"; */
+"HqP-Ib-Lhy.title" = "BIG SUR";
+
 /* Class = "NSTabViewItem"; label = "ProtocolOverrides"; ObjectID = "Ife-ug-MJ5"; */
 "Ife-ug-MJ5.label" = "協議覆蓋";
 
 /* Class = "NSTextFieldCell"; title = "KeySubsequentDelay"; ObjectID = "JWy-Kv-Tq6"; */
 "JWy-Kv-Tq6.title" = "KeySubsequentDelay";
 
+/* Class = "NSTableColumn"; headerCell.title = "Arguments"; ObjectID = "Kuw-7J-hNc"; */
+"Kuw-7J-hNc.headerCell.title" = "Arguments";
+
 /* Class = "NSTextFieldCell"; title = "AudioCodec"; ObjectID = "L2f-gE-rBP"; */
 "L2f-gE-rBP.title" = "AudioCodec";
 
 /* Class = "NSTableColumn"; headerCell.title = "Type"; ObjectID = "McE-CL-fQD"; */
 "McE-CL-fQD.headerCell.title" = "類型";
+
+/* Class = "NSMenuItem"; title = "CATALINA"; ObjectID = "Mpd-UJ-Jb6"; */
+"Mpd-UJ-Jb6.title" = "CATALINA";
 
 /* Class = "NSTextFieldCell"; title = "SetupDelay"; ObjectID = "N4u-Hw-eXM"; */
 "N4u-Hw-eXM.title" = "SetupDelay";
@@ -86,6 +104,9 @@
 /* Class = "NSButtonCell"; title = "GlobalConnect"; ObjectID = "SDU-Ok-pEv"; */
 "SDU-Ok-pEv.title" = "GlobalConnect";
 
+/* Class = "NSMenuItem"; title = "MOJAVE"; ObjectID = "UXS-3y-OTk"; */
+"UXS-3y-OTk.title" = "MOJAVE";
+
 /* Class = "NSTabViewItem"; label = "Drivers"; ObjectID = "V9Z-z9-Ejd"; */
 "V9Z-z9-Ejd.label" = "UEFI驅動";
 
@@ -107,11 +128,23 @@
 /* Class = "NSButtonCell"; title = "KeySupport"; ObjectID = "cia-MM-Epa"; */
 "cia-MM-Epa.title" = "KeySupport";
 
+/* Class = "NSMenuItem"; title = "HIGH SIERRA"; ObjectID = "ckI-Ly-WbZ"; */
+"ckI-Ly-WbZ.title" = "HIGH SIERRA";
+
+/* Class = "NSTableColumn"; headerCell.title = "Path"; ObjectID = "dim-bs-Whu"; */
+"dim-bs-Whu.headerCell.title" = "Path";
+
+/* Class = "NSButtonCell"; title = "GraphicsInputMirroring"; ObjectID = "eIT-Av-sL1"; */
+"eIT-Av-sL1.title" = "GraphicsInputMirroring";
+
 /* Class = "NSButtonCell"; title = "HideVerbose"; ObjectID = "egr-8J-RIS"; */
 "egr-8J-RIS.title" = "HideVerbose";
 
 /* Class = "NSTextFieldCell"; title = "MinimumVolume"; ObjectID = "ehu-K3-gbY"; */
 "ehu-K3-gbY.title" = "MinimumVolume";
+
+/* Class = "NSMenuItem"; title = "DEFAULT"; ObjectID = "fZq-zJ-tYW"; */
+"fZq-zJ-tYW.title" = "DEFAULT";
 
 /* Class = "NSTabViewItem"; label = "Output"; ObjectID = "gJG-UT-7D3"; */
 "gJG-UT-7D3.label" = "顯示輸出";
@@ -154,3 +187,6 @@
 
 /* Class = "NSButtonCell"; title = "CustomDelays"; ObjectID = "xPB-Sk-c8h"; */
 "xPB-Sk-c8h.title" = "CustomDelays";
+
+/* Class = "NSMenuItem"; title = "ANY"; ObjectID = "y2o-nE-s3F"; */
+"y2o-nE-s3F.title" = "ANY";

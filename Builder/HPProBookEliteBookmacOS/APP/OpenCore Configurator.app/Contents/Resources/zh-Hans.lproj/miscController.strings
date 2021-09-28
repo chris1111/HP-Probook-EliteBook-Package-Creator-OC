@@ -95,14 +95,14 @@
 /* Class = "NSButtonCell"; title = "Select All"; ObjectID = "Gaf-gn-k6J"; */
 "Gaf-gn-k6J.title" = "全选";
 
-/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_FS_EXT"; ObjectID = "H6a-QA-xQu"; */
-"H6a-QA-xQu.title" = "允许扫描EXT(Linux)文件系统.";
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_FS_LINUX_ROOT"; ObjectID = "H6a-QA-xQu"; */
+"H6a-QA-xQu.title" = "允许扫描LINUX根目录";
 
 /* Class = "NSButtonCell"; title = "Enable serial port logging"; ObjectID = "HjZ-gH-Q0b"; */
 "HjZ-gH-Q0b.title" = "启用串行端口日志记录";
 
-/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_PCI"; ObjectID = "I0K-dq-ofU"; */
-"I0K-dq-ofU.title" = "允许扫描PCI设备";
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_FIREWIRE"; ObjectID = "I0K-dq-ofU"; */
+"I0K-dq-ofU.title" = "允许扫描FireWire设备";
 
 /* Class = "NSButtonCell"; title = "AllowNvramReset"; ObjectID = "Jpe-QB-x2r"; */
 "Jpe-QB-x2r.title" = "AllowNvramReset\n启用重置Nvram功能";
@@ -117,7 +117,10 @@
 "NFd-Yp-DAy.title" = "设置某些图标类别的内置图标以匹配主题样式";
 
 /* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "NXw-uw-Jsu"; */
-"NXw-uw-Jsu.headerCell.title" = "启用";
+"NXw-uw-Jsu.headerCell.title" = "已启用";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_SDCARD"; ObjectID = "Ovd-o6-lEO"; */
+"Ovd-o6-lEO.title" = "允许扫描读卡器设备";
 
 /* Class = "NSButtonCell"; title = "Unselect All"; ObjectID = "PDr-JO-EKf"; */
 "PDr-JO-EKf.title" = "取消全选";
@@ -161,8 +164,8 @@
 /* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_FS_NTFS"; ObjectID = "WsC-yj-V3g"; */
 "WsC-yj-V3g.title" = "允许扫描NTFS文件系统.";
 
-/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_SCSI"; ObjectID = "X1h-DD-gjM"; */
-"X1h-DD-gjM.title" = "允许扫描SCSI设备";
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_SATA"; ObjectID = "X1h-DD-gjM"; */
+"X1h-DD-gjM.title" = "允许扫描SATA设备";
 
 /* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "XRf-Yz-PVv"; */
 "XRf-Yz-PVv.headerCell.title" = "名称";
@@ -173,8 +176,8 @@
 /* Class = "NSButtonCell"; title = "Show Picker"; ObjectID = "YKi-Mp-w6e"; */
 "YKi-Mp-w6e.title" = "Show Picker\n显示引导菜单";
 
-/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_NVME"; ObjectID = "YQh-9A-q5Q"; */
-"YQh-9A-q5Q.title" = "允许扫描NVMe设备";
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_SASEX"; ObjectID = "YQh-9A-q5Q"; */
+"YQh-9A-q5Q.title" = "允许扫描SAS和Mac NVMe设备";
 
 /* Class = "NSTabViewItem"; label = "Debug"; ObjectID = "Yod-ne-FH8"; */
 "Yod-ne-FH8.label" = "Debug";
@@ -182,8 +185,8 @@
 /* Class = "NSButtonCell"; title = "Enable basic console (onscreen) logging"; ObjectID = "ZZP-5O-C0h"; */
 "ZZP-5O-C0h.title" = "启用基本控制台(屏幕上)日志记录";
 
-/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_SATA"; ObjectID = "aQY-Kx-ZCy"; */
-"aQY-Kx-ZCy.title" = "允许扫描SATA设备";
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_FS_LINUX_DATA"; ObjectID = "aQY-Kx-ZCy"; */
+"aQY-Kx-ZCy.title" = "允许扫描LINUX数据分区";
 
 /* Class = "NSTextFieldCell"; title = "Scan Policy"; ObjectID = "aUx-rK-UTX"; */
 "aUx-rK-UTX.title" = "Scan Policy";
@@ -209,8 +212,8 @@
 /* Class = "NSButtonCell"; title = "Provides predefined label images for boot entries without custom entries"; ObjectID = "dl8-kF-ipf"; */
 "dl8-kF-ipf.title" = "为引导项提供预定义的标签图像,而无需自定义项";
 
-/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_USB"; ObjectID = "eFc-bE-Fl5"; */
-"eFc-bE-Fl5.title" = "允许扫描USB设备";
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_NVME"; ObjectID = "eFc-bE-Fl5"; */
+"eFc-bE-Fl5.title" = "允许扫描NVMe设备";
 
 /* Class = "NSTextFieldCell"; title = "Picker Attributes"; ObjectID = "eaZ-uU-2Tt"; */
 "eaZ-uU-2Tt.title" = "Picker Attributes\nGUI界面设置属性";
@@ -227,8 +230,8 @@
 /* Class = "NSButtonCell"; title = "SerialInit"; ObjectID = "hRO-hk-wy8"; */
 "hRO-hk-wy8.title" = "SerialInit";
 
-/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_ATAPI"; ObjectID = "i2m-65-2vq"; */
-"i2m-65-2vq.title" = "允许扫描CD/DVD设备";
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_SCSI"; ObjectID = "i2m-65-2vq"; */
+"i2m-65-2vq.title" = "允许扫描SCSI设备";
 
 /* Class = "NSTextFieldCell"; title = "LauncherOption"; ObjectID = "i5B-oK-z1D"; */
 "i5B-oK-z1D.title" = "LauncherOption\n(启动器选项)";
@@ -251,8 +254,8 @@
 /* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_FS_APFS"; ObjectID = "mpH-5M-L70"; */
 "mpH-5M-L70.title" = "允许扫描APFS文件系统";
 
-/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_FIREWIRE"; ObjectID = "nmh-33-tbM"; */
-"nmh-33-tbM.title" = "允许扫描FireWire设备";
+/* Class = "NSButtonCell"; title = " OC_SCAN_ALLOW_DEVICE_ATAPI"; ObjectID = "nmh-33-tbM"; */
+"nmh-33-tbM.title" = " 允许扫描CD/DVD设备";
 
 /* Class = "NSButtonCell"; title = "AllowToggleSip"; ObjectID = "nsS-VU-gur"; */
 "nsS-VU-gur.title" = "AllowToggleSip\n允许切换SIP状态";
@@ -278,8 +281,8 @@
 /* Class = "NSButtonCell"; title = "Enable pointer control in the picker when available"; ObjectID = "r8W-nu-W4X"; */
 "r8W-nu-W4X.title" = "启用启动菜单中的指针控制(如果可用)";
 
-/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_SDCARD"; ObjectID = "sti-pn-v4l"; */
-"sti-pn-v4l.title" = "允许扫描读卡器设备";
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_USB"; ObjectID = "sti-pn-v4l"; */
+"sti-pn-v4l.title" = "允许扫描USB设备";
 
 /* Class = "NSButtonCell"; title = "AppleDebug"; ObjectID = "tBp-D4-d9x"; */
 "tBp-D4-d9x.title" = "AppleDebug";
@@ -332,8 +335,11 @@
 /* Class = "NSTableColumn"; headerCell.title = "Flavour"; ObjectID = "zSZ-kM-AsF"; */
 "zSZ-kM-AsF.headerCell.title" = "Flavour(风格)";
 
-/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_SASEX"; ObjectID = "zj4-Hs-Xjk"; */
-"zj4-Hs-Xjk.title" = "允许扫描SAS和Mac NVMe设备";
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_PCI"; ObjectID = "zbW-hh-GhP"; */
+"zbW-hh-GhP.title" = "允许扫描PCI设备";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_FS_XBOOTLDR"; ObjectID = "zj4-Hs-Xjk"; */
+"zj4-Hs-Xjk.title" = "允许扫描XBOOTLDR启动文件";
 
 /* Class = "NSButtonCell"; title = "DEBUG_ERROR in DEBUG, NOOPT, RELEASE"; ObjectID = "zlC-gM-dIj"; */
 "zlC-gM-dIj.title" = "DEBUG,NOOPT和RELEASE中的DEBUG_ERROR";

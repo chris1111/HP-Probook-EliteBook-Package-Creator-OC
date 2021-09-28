@@ -8,8 +8,14 @@
 /* Class = "NSButtonCell"; title = "EnableJumpstart"; ObjectID = "133-jD-qYy"; */
 "133-jD-qYy.title" = "EnableJumpstart";
 
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "2Hl-aN-yVu"; */
+"2Hl-aN-yVu.headerCell.title" = "Enabled";
+
 /* Class = "NSTextFieldCell"; title = "TimerResolution"; ObjectID = "3Ql-TM-Oiv"; */
 "3Ql-TM-Oiv.title" = "TimerResolution";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "4ew-tO-Ops"; */
+"4ew-tO-Ops.headerCell.title" = "Comment";
 
 /* Class = "NSTabViewItem"; label = "Audio"; ObjectID = "5Gm-fv-IpR"; */
 "5Gm-fv-IpR.label" = "Audio";
@@ -61,6 +67,9 @@
 
 /* Class = "NSTextFieldCell"; title = "KeySubsequentDelay"; ObjectID = "JWy-Kv-Tq6"; */
 "JWy-Kv-Tq6.title" = "KeySubsequentDelay";
+
+/* Class = "NSTableColumn"; headerCell.title = "Arguments"; ObjectID = "Kuw-7J-hNc"; */
+"Kuw-7J-hNc.headerCell.title" = "Arguments";
 
 /* Class = "NSTextFieldCell"; title = "AudioCodec"; ObjectID = "L2f-gE-rBP"; */
 "L2f-gE-rBP.title" = "AudioCodec";
@@ -121,6 +130,9 @@
 
 /* Class = "NSMenuItem"; title = "HIGH SIERRA"; ObjectID = "ckI-Ly-WbZ"; */
 "ckI-Ly-WbZ.title" = "HIGH SIERRA";
+
+/* Class = "NSTableColumn"; headerCell.title = "Path"; ObjectID = "dim-bs-Whu"; */
+"dim-bs-Whu.headerCell.title" = "Path";
 
 /* Class = "NSButtonCell"; title = "GraphicsInputMirroring"; ObjectID = "eIT-Av-sL1"; */
 "eIT-Av-sL1.title" = "GraphicsInputMirroring";

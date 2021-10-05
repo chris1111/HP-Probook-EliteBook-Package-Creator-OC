@@ -8,21 +8,37 @@ HP-Probook-EliteBook-Package-Creator-OC
 ## List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
+
 - Update 27 Sept 2021 OpenCore 0.7.4
+
 - Update 23 Sept 2021 fix Displayport High Screen 1600x900 Intel HD 4000 
+
 - Update 21 Sept 2021 fix Displayport High Screen 1600x900 Intel HD 4000 
+
 - Update 09 Sept revert MacBook Pro 13.1
+
 - Update 08 Sept 2021 Use MacBook Pro 14.3
+
 - Update 01 Sept 2021 Xcode Build project
+
 - Update 27 August 2021 enable SSDT-IGPU.aml for USB Installer
+
 - Update: 28 July 2021 OC 0.7.2, fix pasword enable, fix nvram reset
+
 - Update: 27 July 2021 add fonction SIP Check for patch HD 4000
+
 - Update: 27 July 2021 update kext HD 4000, add choice menue for Bluethooth
+
 - Update: 27 July 2021 fix initialisition choice HFSPlus and VBOX
+
 - Update: 25 July 2021 fix create Install Media HP Laptop OC.app on Monterey 12
+
 - Update 25 July 2021 Add description Monterey 12, more clean mount EFI
+
 - Update: 25 July 2021 Fix Bluethooth , Fix Install OpenCore USB installer
+
 - Update: 23 July 2021 add Support Bluethooth /Catalina/BigSur/Monterey
+
 - Latest Update: 22 July 2021 add Support macOS Monterey 12 Intel HD 4000
 
 </details>

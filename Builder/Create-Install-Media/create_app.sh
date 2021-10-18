@@ -78,11 +78,18 @@ cp -rp ./Scripts/main.rtf "$APP_NAME"/Contents/Resources/Scripts
 # Copy Info.plist make LSUIElement=true
 cp -rp Info.plist "$APP_NAME"/Contents
 
-# move app to /tmp
-mv ./"Install Media HP Laptop OC.app" $HOME/Desktop/HP-ProBook-EliteBook-Packager/"Media HP Laptop OC.app"
+# Zip app
 Sleep 1
-# Change icons
-./icon.py ./HP-Icon.icns $HOME/Desktop/HP-ProBook-EliteBook-Packager/"Media HP Laptop OC.app"
+zip -r "$APP_NAME".zip "$APP_NAME"
+Sleep 1
+rm -rf "$APP_NAME"
+unzip "$APP_NAME".zip
+Sleep 1
+rm -rf "$APP_NAME".zip
+echo " "
+
+# move app /desktop
+mv ./"Install Media HP Laptop OC.app" $HOME/Desktop/HP-ProBook-EliteBook-Packager/"Media HP Laptop OC.app"
 
 Sleep 1
 rm -rf ./Installer/"OpenCore USB.pkg"

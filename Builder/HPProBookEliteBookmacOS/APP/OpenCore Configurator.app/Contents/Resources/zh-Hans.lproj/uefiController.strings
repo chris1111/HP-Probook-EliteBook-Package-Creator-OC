@@ -9,13 +9,13 @@
 "133-jD-qYy.title" = "EnableJumpstart";
 
 /* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "2Hl-aN-yVu"; */
-"2Hl-aN-yVu.headerCell.title" = "启用";
+"2Hl-aN-yVu.headerCell.title" = "是否启用\nEnabled";
 
 /* Class = "NSTextFieldCell"; title = "TimerResolution"; ObjectID = "3Ql-TM-Oiv"; */
 "3Ql-TM-Oiv.title" = "TimerResolution";
 
 /* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "4ew-tO-Ops"; */
-"4ew-tO-Ops.headerCell.title" = "注释";
+"4ew-tO-Ops.headerCell.title" = "注释\nComment";
 
 /* Class = "NSTabViewItem"; label = "Audio"; ObjectID = "5Gm-fv-IpR"; */
 "5Gm-fv-IpR.label" = "开机音频";
@@ -27,7 +27,7 @@
 "6B4-NA-lHR.title" = "JumpstartHotPlug";
 
 /* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "6k6-uj-n97"; */
-"6k6-uj-n97.headerCell.title" = "注释";
+"6k6-uj-n97.headerCell.title" = "注释\nComment";
 
 /* Class = "NSTextFieldCell"; title = "MinVersion"; ObjectID = "7Ns-yB-e5j"; */
 "7Ns-yB-e5j.title" = "MinVersion";
@@ -42,7 +42,7 @@
 "Bng-Xc-8Qm.title" = "KeyInitialDelay";
 
 /* Class = "NSButtonCell"; title = "Scan/Browse"; ObjectID = "CLg-lY-N26"; */
-"CLg-lY-N26.title" = "浏览";
+"CLg-lY-N26.title" = "快照/浏览";
 
 /* Class = "NSTextFieldCell"; title = "KeySupportMode"; ObjectID = "EeU-wj-caf"; */
 "EeU-wj-caf.title" = "KeySupportMode";
@@ -69,13 +69,13 @@
 "JWy-Kv-Tq6.title" = "KeySubsequentDelay";
 
 /* Class = "NSTableColumn"; headerCell.title = "Arguments"; ObjectID = "Kuw-7J-hNc"; */
-"Kuw-7J-hNc.headerCell.title" = "参数";
+"Kuw-7J-hNc.headerCell.title" = "参数\nArguments";
 
 /* Class = "NSTextFieldCell"; title = "AudioCodec"; ObjectID = "L2f-gE-rBP"; */
 "L2f-gE-rBP.title" = "AudioCodec";
 
 /* Class = "NSTableColumn"; headerCell.title = "Type"; ObjectID = "McE-CL-fQD"; */
-"McE-CL-fQD.headerCell.title" = "类型";
+"McE-CL-fQD.headerCell.title" = "类型\nType";
 
 /* Class = "NSMenuItem"; title = "CATALINA"; ObjectID = "Mpd-UJ-Jb6"; */
 "Mpd-UJ-Jb6.title" = "Catalina 10.15.x";
@@ -122,6 +122,9 @@
 /* Class = "NSTextFieldCell"; title = "PointerSupportMode"; ObjectID = "anR-lZ-CjV"; */
 "anR-lZ-CjV.title" = "PointerSupportMode";
 
+/* Class = "NSTextFieldCell"; title = "ResizeGpuBars"; ObjectID = "ate-vk-6K8"; */
+"ate-vk-6K8.title" = "ResizeGpuBars";
+
 /* Class = "NSButtonCell"; title = "ResetTrafficClass"; ObjectID = "cgf-ad-vIe"; */
 "cgf-ad-vIe.title" = "ResetTrafficClass";
 
@@ -132,7 +135,7 @@
 "ckI-Ly-WbZ.title" = "HighSierra 10.13.x";
 
 /* Class = "NSTableColumn"; headerCell.title = "Path"; ObjectID = "dim-bs-Whu"; */
-"dim-bs-Whu.headerCell.title" = "路径";
+"dim-bs-Whu.headerCell.title" = "路径\nPath";
 
 /* Class = "NSButtonCell"; title = "GraphicsInputMirroring"; ObjectID = "eIT-Av-sL1"; */
 "eIT-Av-sL1.title" = "GraphicsInputMirroring";
@@ -165,10 +168,10 @@
 "kM6-tO-pns.title" = "AudioOut";
 
 /* Class = "NSTableColumn"; headerCell.title = "Address"; ObjectID = "ldi-uY-9wO"; */
-"ldi-uY-9wO.headerCell.title" = "地址";
+"ldi-uY-9wO.headerCell.title" = "地址\nAddress";
 
 /* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "n2P-We-NTM"; */
-"n2P-We-NTM.headerCell.title" = "启用";
+"n2P-We-NTM.headerCell.title" = "是否启用\nEnabled";
 
 /* Class = "NSButtonCell"; title = "AudioSupport"; ObjectID = "oT1-Q2-rhc"; */
 "oT1-Q2-rhc.title" = "AudioSupport";
@@ -177,7 +180,7 @@
 "tiX-oG-c7h.label" = "Apple快捷键相关";
 
 /* Class = "NSTableColumn"; headerCell.title = "Size"; ObjectID = "ufL-Er-oh9"; */
-"ufL-Er-oh9.headerCell.title" = "大小";
+"ufL-Er-oh9.headerCell.title" = "容量\nSize";
 
 /* Class = "NSTextFieldCell"; title = "PointerSpeedDiv"; ObjectID = "wcl-OF-wk6"; */
 "wcl-OF-wk6.title" = "PointerSpeedDiv";

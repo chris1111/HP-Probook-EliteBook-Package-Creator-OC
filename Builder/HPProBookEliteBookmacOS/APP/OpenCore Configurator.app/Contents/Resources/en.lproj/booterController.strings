@@ -53,5 +53,8 @@
 /* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "ndf-NP-2rM"; */
 "ndf-NP-2rM.headerCell.title" = "Comment";
 
+/* Class = "NSTextFieldCell"; title = "ResizeAppleGpuBars"; ObjectID = "vF3-yh-AxN"; */
+"vF3-yh-AxN.title" = "ResizeAppleGpuBars";
+
 /* Class = "NSTableColumn"; headerCell.title = "Limit"; ObjectID = "xEr-hF-nBr"; */
 "xEr-hF-nBr.headerCell.title" = "Limit";

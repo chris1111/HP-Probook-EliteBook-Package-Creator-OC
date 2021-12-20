@@ -59,6 +59,9 @@
 /* Class = "NSTabViewItem"; label = "APFS"; ObjectID = "F1Q-I5-6w7"; */
 "F1Q-I5-6w7.label" = "APFS";
 
+/* Class = "NSTextFieldCell"; title = "UIScale"; ObjectID = "GlL-l6-Vr1"; */
+"GlL-l6-Vr1.title" = "UIScale";
+
 /* Class = "NSMenuItem"; title = "BIG SUR"; ObjectID = "HqP-Ib-Lhy"; */
 "HqP-Ib-Lhy.title" = "BIG SUR";
 
@@ -121,6 +124,9 @@
 
 /* Class = "NSTextFieldCell"; title = "PointerSupportMode"; ObjectID = "anR-lZ-CjV"; */
 "anR-lZ-CjV.title" = "PointerSupportMode";
+
+/* Class = "NSTextFieldCell"; title = "ResizeGpuBars"; ObjectID = "ate-vk-6K8"; */
+"ate-vk-6K8.title" = "ResizeGpuBars";
 
 /* Class = "NSButtonCell"; title = "ResetTrafficClass"; ObjectID = "cgf-ad-vIe"; */
 "cgf-ad-vIe.title" = "ResetTrafficClass";

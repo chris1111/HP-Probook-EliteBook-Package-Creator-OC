@@ -3,13 +3,13 @@
 "0hR-wG-mgt.title" = "DEBUG,NOOPT中的DEBUG信息";
 
 /* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "1NZ-HO-WUF"; */
-"1NZ-HO-WUF.headerCell.title" = "说明";
+"1NZ-HO-WUF.headerCell.title" = "注释\nComment";
 
 /* Class = "NSTableColumn"; headerCell.title = "Auxiliary"; ObjectID = "1fY-U6-4KQ"; */
-"1fY-U6-4KQ.headerCell.title" = "辅助";
+"1fY-U6-4KQ.headerCell.title" = "辅助\nAuxiliary";
 
 /* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "22Z-wl-E30"; */
-"22Z-wl-E30.headerCell.title" = "名称";
+"22Z-wl-E30.headerCell.title" = "名称\nName";
 
 /* Class = "NSButtonCell"; title = "Enable logging to Data Hub"; ObjectID = "2Qh-mc-sJw"; */
 "2Qh-mc-sJw.title" = "启用记录到Data Hub";
@@ -18,13 +18,13 @@
 "2dj-hB-QBF.title" = "取消全选";
 
 /* Class = "NSTableColumn"; headerCell.title = "Flavour"; ObjectID = "390-oq-BkL"; */
-"390-oq-BkL.headerCell.title" = "Flavour(风格)";
+"390-oq-BkL.headerCell.title" = "风格\nFlavour";
 
 /* Class = "NSButtonCell"; title = "Select All"; ObjectID = "3K9-EU-jse"; */
 "3K9-EU-jse.title" = "全选";
 
 /* Class = "NSTableColumn"; headerCell.title = "TextMode"; ObjectID = "3a7-m4-eNo"; */
-"3a7-m4-eNo.headerCell.title" = "文本模式";
+"3a7-m4-eNo.headerCell.title" = "文本模式\nTextMode";
 
 /* Class = "NSTabViewItem"; label = "Boot"; ObjectID = "3fm-9G-OpP"; */
 "3fm-9G-OpP.label" = "Boot";
@@ -45,7 +45,7 @@
 "7BP-eo-vIZ.title" = "HideAuxiliary\n隐藏辅助条目";
 
 /* Class = "NSTableColumn"; headerCell.title = "RealPath"; ObjectID = "7JW-1n-ZBx"; */
-"7JW-1n-ZBx.headerCell.title" = "真实路径";
+"7JW-1n-ZBx.headerCell.title" = "实际路径\nRealPath";
 
 /* Class = "NSButtonCell"; title = "Expose OpenCore version in boot picker menu title."; ObjectID = "7NC-lm-XEM"; */
 "7NC-lm-XEM.title" = "在启动菜单标题中显示OpenCore版本.";
@@ -117,7 +117,7 @@
 "NFd-Yp-DAy.title" = "设置某些图标类别的内置图标以匹配主题样式";
 
 /* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "NXw-uw-Jsu"; */
-"NXw-uw-Jsu.headerCell.title" = "已启用";
+"NXw-uw-Jsu.headerCell.title" = "是否启用\nEnabled";
 
 /* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_SDCARD"; ObjectID = "Ovd-o6-lEO"; */
 "Ovd-o6-lEO.title" = "允许扫描读卡器设备";
@@ -138,7 +138,7 @@
 "SLo-CJ-cas.title" = "将OEM信息公开为一组UEFI变量.";
 
 /* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "SPw-C4-qwL"; */
-"SPw-C4-qwL.headerCell.title" = "启用";
+"SPw-C4-qwL.headerCell.title" = "是否启用\nEnabled";
 
 /* Class = "NSButtonCell"; title = "Unselect All"; ObjectID = "SZj-0R-9Uu"; */
 "SZj-0R-9Uu.title" = "取消全选";
@@ -147,7 +147,7 @@
 "TDv-Al-hb0.title" = "PollAppleHotKeys\n启用模拟苹果热键";
 
 /* Class = "NSTableColumn"; headerCell.title = "Arguments"; ObjectID = "ThF-JP-r8K"; */
-"ThF-JP-r8K.headerCell.title" = "参数";
+"ThF-JP-r8K.headerCell.title" = "参数\nArguments";
 
 /* Class = "NSTextFieldCell"; title = "Hibernate Mode"; ObjectID = "TmR-t7-bmq"; */
 "TmR-t7-bmq.title" = "Hibernate Mode\n休眠模式";
@@ -168,10 +168,10 @@
 "X1h-DD-gjM.title" = "允许扫描SATA设备";
 
 /* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "XRf-Yz-PVv"; */
-"XRf-Yz-PVv.headerCell.title" = "名称";
+"XRf-Yz-PVv.headerCell.title" = "名称\nName";
 
 /* Class = "NSTableColumn"; headerCell.title = "Path*"; ObjectID = "XSQ-pS-WUn"; */
-"XSQ-pS-WUn.headerCell.title" = "路径*";
+"XSQ-pS-WUn.headerCell.title" = "路径*\nPath";
 
 /* Class = "NSButtonCell"; title = "Show Picker"; ObjectID = "YKi-Mp-w6e"; */
 "YKi-Mp-w6e.title" = "Show Picker\n显示引导菜单";
@@ -207,7 +207,7 @@
 "dam-Nc-xFX.title" = "Display Level";
 
 /* Class = "NSTableColumn"; headerCell.title = "TextMode"; ObjectID = "deu-Ec-YkZ"; */
-"deu-Ec-YkZ.headerCell.title" = "文本模式";
+"deu-Ec-YkZ.headerCell.title" = "文本模式\nTextMode";
 
 /* Class = "NSButtonCell"; title = "Provides predefined label images for boot entries without custom entries"; ObjectID = "dl8-kF-ipf"; */
 "dl8-kF-ipf.title" = "为引导项提供预定义的标签图像,而无需自定义项";
@@ -240,7 +240,7 @@
 "i6P-Lb-eX2.title" = "下载/更新 EFI工具";
 
 /* Class = "NSTableColumn"; headerCell.title = "Path*"; ObjectID = "jPS-Bu-Ar4"; */
-"jPS-Bu-Ar4.headerCell.title" = "路径*";
+"jPS-Bu-Ar4.headerCell.title" = "路径*\nPath";
 
 /* Class = "NSButtonCell"; title = "EnablePassword"; ObjectID = "lLV-4d-gWP"; */
 "lLV-4d-gWP.title" = "EnablePassword\n启用密码保护";
@@ -294,7 +294,7 @@
 "tLD-8o-zGU.title" = "为引导项提供自定义图标";
 
 /* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "uSO-ne-MBg"; */
-"uSO-ne-MBg.headerCell.title" = "说明";
+"uSO-ne-MBg.headerCell.title" = "注释\nComment";
 
 /* Class = "NSButtonCell"; title = "Enable logging, otherwise all log is discarded"; ObjectID = "uWH-Lw-aeI"; */
 "uWH-Lw-aeI.title" = "启用日志记录,否则所有日志将被丢弃";
@@ -306,7 +306,7 @@
 "uyb-X6-nFt.label" = "BlessOverride-设置自定义启动项绝对路径";
 
 /* Class = "NSTableColumn"; headerCell.title = "Arguments"; ObjectID = "wFf-6v-O3P"; */
-"wFf-6v-O3P.headerCell.title" = "参数";
+"wFf-6v-O3P.headerCell.title" = "参数\nArguments";
 
 /* Class = "NSButtonCell"; title = "Enable display of additional timing and debug information, in Builtin picker in DEBUG and NOOPT builds only."; ObjectID = "xjK-fm-3ud"; */
 "xjK-fm-3ud.title" = "启用显示其他时间和调试信息的功能,仅在DEBUG和NOOPT构建的内置选取器中有用.";
@@ -318,7 +318,7 @@
 "yNo-gi-9zr.title" = "扫描已知设备类型";
 
 /* Class = "NSTableColumn"; headerCell.title = "Auxiliary"; ObjectID = "yTI-cV-qsU"; */
-"yTI-cV-qsU.headerCell.title" = "辅助";
+"yTI-cV-qsU.headerCell.title" = "辅助\nAuxiliary";
 
 /* Class = "NSButtonCell"; title = "ApplePanic"; ObjectID = "yaU-Lw-vco"; */
 "yaU-Lw-vco.title" = "ApplePanic";
@@ -333,7 +333,7 @@
 "zCH-tB-ca6.title" = "允许扫描HFS文件系统";
 
 /* Class = "NSTableColumn"; headerCell.title = "Flavour"; ObjectID = "zSZ-kM-AsF"; */
-"zSZ-kM-AsF.headerCell.title" = "Flavour(风格)";
+"zSZ-kM-AsF.headerCell.title" = "风格\nFlavour";
 
 /* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_PCI"; ObjectID = "zbW-hh-GhP"; */
 "zbW-hh-GhP.title" = "允许扫描PCI设备";

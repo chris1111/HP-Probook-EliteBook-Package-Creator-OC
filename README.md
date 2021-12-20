@@ -52,10 +52,6 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 #### Download Latest Release 27 August 2021 (V1): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V1)
 
-
-##### NOTE: 17 May 2021 After Testing macOS Big Sur 11.3.1 (20E241) with OC 0.7.0 I notice no issue.
-
-
 #### Any issue without the Log or all relevant information will be deleted. This does not work on a VM
 
 ## Credit: 

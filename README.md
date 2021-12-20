@@ -110,10 +110,10 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 
 ## Card reader Fix for macOS Big Sur 11 only
 - Bios setup ☞ Port Option: Uncheck 1394 Port
-- SIP security disable by booting with installer macOS or in recovery boot, open terminal then type: 
-- csrutil disable
-- Reboot to the SSD then Install [Kext☞ HSSDBlockStorage.kext, JMB38X.kext](https://drive.google.com/file/d/1nBwUaRkyXYLlJBbbEBP0DPxODYif9k1X/view?usp=sharing) with ☞ [Kext-Droplet-Big Sur](https://github.com/chris1111/Kext-Droplet-Big-Sur)
-- Before reboot, you have to allow JMicron on Security allow software
+- SIP security disable
+
+- Reboot to the SSD then Install [JMicron-Card-Reader installer](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/raw/master/JMicron%20Card%20Reader.zip) Folowed Guide.pdf
+- Before reboot, you have to allow JMicron update extensions
 #### View Spoiler ⇩ Card Reader works
 <details> 
 <summary>View list  </summary>

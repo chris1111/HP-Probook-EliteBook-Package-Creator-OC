@@ -112,7 +112,7 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 - Bios setup ☞ Port Option: Uncheck 1394 Port
 - SIP security disable
 
-- Reboot to the SSD then Install [JMicron-Card-Reader installer](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/raw/master/JMicron%20Card%20Reader.zip) Folowed Guide.pdf
+- Reboot to the SSD then Install [JMicron-Card-Reader installer](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/raw/master/JMicron-Card-Reader.zip) Folowed Guide.pdf
 - Before reboot, you have to allow JMicron update extensions
 #### View Spoiler ⇩ Card Reader works
 <details> 

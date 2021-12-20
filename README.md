@@ -52,7 +52,8 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 #### Download Latest Release 27 August 2021 (V1): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V1)
 
-#### Any issue without the Log or all relevant information will be deleted. This does not work on a VM
+#### Any issue without the Log or all relevant information will be deleted. 
+- This does not work on a VM
 
 ## Credit: 
 - Tester: asdesoso, RegieMac, Axon, jeremy 94, djams, Paul, sajtos888

@@ -75,7 +75,7 @@ pkgbuild --root ./Bluetooth/Monterey --scripts ./script/BluetoothMonterey --iden
 
 pkgbuild --root ./HWMonitor --identifier com.chris1111.hpprobookelitebookmacos.HWMonitor.pkg --version 1.0 --install-location /Applications /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/hwmonitor.pkg
 
-pkgbuild --root ./APP --identifier com.chris1111.hpprobookelitebookmacos.App.pkg --version 1.0 --install-location /Applications /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/app.pkg
+pkgbuild --root ./APP --scripts ./script/App --identifier com.chris1111.hpprobookelitebookmacos.App.pkg --version 1.0 --install-location /Private/tmp /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/app.pkg
 
 pkgbuild --root ./VBOX --scripts ./script/VBOX --identifier com.chris1111.hpprobookelitebookmacos.VBOX.pkg --version 1.0 --install-location /Private/tmp /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/VBOX.pkg
 

@@ -1,0 +1,42 @@
+#!/bin/bash
+
+if [ -d "${3}/Applications/Command Line EFI Mounteur.app" ]; then
+    rm -rf "${3}/Applications/Command Line EFI Mounteur.app"
+fi
+
+if [ -d "${3}/Applications/Drop EFI.app" ]; then
+    rm -rf "${3}/Applications/Drop EFI.app"
+fi
+
+if [ -d "${3}/Applications/IORegistryExplorer.app" ]; then
+    rm -rf "${3}/Applications/IORegistryExplorer.app"
+fi
+
+
+if [ -d "${3}/Applications/MaciASL.app" ]; then
+    rm -rf "${3}/Applications/MaciASL.app"
+fi
+
+if [ -d "${3}/Applications/OpenCore Configurator.app" ]; then
+    rm -rf "${3}/Applications/OpenCore Configurator.app"
+fi
+
+
+if [ -d "${3}/Applications/RDM.app" ]; then
+    rm -rf "${3}/Applications/RDM.app"
+fi
+
+
+ditto -x -k --sequesterRsrc --rsrc /Private/tmp/"Command Line EFI Mounter.zip" /Applications
+ditto -x -k --sequesterRsrc --rsrc /Private/tmp/"Drop EFI.zip" /Applications
+ditto -x -k --sequesterRsrc --rsrc /Private/tmp/"IORegistryExplorer.zip" /Applications
+ditto -x -k --sequesterRsrc --rsrc /Private/tmp/"MaciASL.zip" /Applications
+ditto -x -k --sequesterRsrc --rsrc /Private/tmp/"RDM.zip" /Applications
+ditto -x -k --sequesterRsrc --rsrc /Private/tmp/"OpenCore Configurator.zip" /Applications
+Sleep 2
+rm -rf /Private/tmp/"Command Line EFI Mounter.zip"
+rm -rf /Private/tmp/"Drop EFI.zip"
+rm -rf /Private/tmp/"IORegistryExplorer.zip"
+rm -rf /Private/tmp/"MaciASL.zip"
+rm -rf /Private/tmp/"RDM.zip"
+rm -rf /Private/tmp/"OpenCore Configurator.zip"

@@ -187,3 +187,5 @@ rm -rf /$HOME/Desktop/HP-ProBook-EliteBook-Packager/Package
 
 cp -Rp ./Gatekeeper.command /$HOME/Desktop/HP-ProBook-EliteBook-Packager
 cp -Rp ./"Support Donate.html" /$HOME/Desktop/HP-ProBook-EliteBook-Packager
+Sleep 1
+./Build/PackageMaker/Icon/seticon -d ./Build/PackageMaker/Icon/Support.icns /$HOME/Desktop/HP-ProBook-EliteBook-Packager/"Support Donate.html"

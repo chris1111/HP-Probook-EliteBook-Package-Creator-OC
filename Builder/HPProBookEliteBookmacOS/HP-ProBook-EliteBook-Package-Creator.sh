@@ -153,23 +153,16 @@ pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/post.pk
 
 pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/PatchHD4000.pkg /tmp/PackageDIR/PatchHD4000.pkg
 
-
 Sleep 3
 # Copy resources and distribution
-ditto -x -k --sequesterRsrc --rsrc ./Resources/Distribution.zip /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE
-mv /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/Distribution /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/Distribution.xml
-ditto -x -k --sequesterRsrc --rsrc ./Resources/Resources.zip /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE
-
+ditto -x -k --sequesterRsrc --rsrc ./Resources/Distribution.zip /Private/tmp/PackageDIR
+ditto -x -k --sequesterRsrc --rsrc ./Resources/Resources.zip /Private/tmp/PackageDIR
 echo "
 = = = = = = = = = = = = = = = = = = = = = = = = =
-Create the final Packages with Productbuild "
+Create the final Packages with pkgutil "
 Sleep 3
-# Create the final Packages with Productbuild
-productbuild --distribution "/$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/Distribution.xml"  \
---package-path "/$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/" \
---resources "/$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/Resources" \
-"/$HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-ProBook-EliteBook-macOS.pkg"
-
+# Flatten the Packages with pkgutil
+pkgutil --flatten /Private/tmp/PackageDIR "/$HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-ProBook-EliteBook-macOS.pkg"
 Sleep 2
 # Change package Icon with seticon
 ./Build/PackageMaker/Icon/seticon -d ./Build/PackageMaker/Icon/Icon.icns /$HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-ProBook-EliteBook-macOS.pkg

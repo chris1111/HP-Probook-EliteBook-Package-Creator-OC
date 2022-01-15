@@ -34,19 +34,18 @@ pkgutil --expand ./InstallerHP/BUILD-PACKAGE/efifolder.pkg /tmp/Package-DIR/efif
 pkgutil --expand ./InstallerHP/BUILD-PACKAGE/vbox.pkg /tmp/Package-DIR/vbox.pkg
 pkgutil --expand ./InstallerHP/BUILD-PACKAGE/hfsplus.pkg /tmp/Package-DIR/hfsplus.pkg
 Sleep 3
+
 # Copy resources and distribution
-cp -rp ./Distribution ./InstallerHP/BUILD-PACKAGE/Distribution.xml
-cp -rp ./Resources ./InstallerHP/BUILD-PACKAGE
+cp -rp ./Distribution /tmp/Package-DIR
+cp -rp ./Resources /tmp/Package-DIR
 
 echo "
 = = = = = = = = = = = = = = = = = = = = = = = = =
-Create the final Packages with Productbuild "
-Sleep 3
-# Create the final Packages with Productbuild
-productbuild --distribution "./InstallerHP/BUILD-PACKAGE/Distribution.xml"  \
---package-path "./InstallerHP/BUILD-PACKAGE/" \
---resources "./InstallerHP/BUILD-PACKAGE/Resources" \
-"./Installer/OpenCore USB.pkg"
+Create the final Packages with pkgutil "
+Sleep 1
+# Flatten the Packages with pkgutil
+pkgutil --flatten /Private/tmp/Package-DIR ./Installer/"OpenCore USB.pkg"
+Sleep 1
 rm -rf ./InstallerHP
 
 

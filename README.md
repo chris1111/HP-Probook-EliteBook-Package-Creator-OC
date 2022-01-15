@@ -1,6 +1,7 @@
 HP-Probook-EliteBook-Package-Creator-OC
 ![All Probook](https://user-images.githubusercontent.com/6248794/149630159-70386943-75b8-45f6-8c56-0efc83432bf3.png)
 
+Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
 #### Latest  Update 14 Jan 2022  ☞ OpenCore 0.7.8 ☞ OC Configurator V-2-56.0.0
 

@@ -186,4 +186,4 @@ rm -rf /$HOME/Desktop/HP-ProBook-EliteBook-Packager/Package
 ./Build/PackageMaker/Icon/seticon -d ./Build/PackageMaker/Icon/Icon.icns /$HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-ProBook-EliteBook-macOS.pkg
 
 cp -Rp ./Gatekeeper.command /$HOME/Desktop/HP-ProBook-EliteBook-Packager
-cp -Rp ./Support.pdf /$HOME/Desktop/HP-ProBook-EliteBook-Packager
+cp -Rp ./"Support Donate.html" /$HOME/Desktop/HP-ProBook-EliteBook-Packager

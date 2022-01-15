@@ -3,6 +3,7 @@
     <title>OpenCore USB</title>
     <options customize="allow" allow-external-scripts="true"/>
     <domains enable_anywhere="true"/>
+    <background file="background" alignment="center" scaling="tofit"/>
     <background-darkAqua file="background" alignment="center" scaling="tofit"/>
     <welcome file="Welcome.rtf"/>
     <readme file="ReadMe.rtf"/>

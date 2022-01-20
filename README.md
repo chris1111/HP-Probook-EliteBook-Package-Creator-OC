@@ -3,7 +3,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-#### Latest  Update 14 Jan 2022  ☞ OpenCore 0.7.8 ☞ OC Configurator V-2-56.0.0
+#### Latest  Update 15 Jan 2022  ☞ OpenCore 0.7.8 ☞ OC Configurator V-2-56.0.0
 - NOTE: the program can be used in Monterey 12.2 beta 2 ( 21D5039d) but the creation must be done in an earlier version of macOS for the moment.
 
 ## List Update: ⬇︎
@@ -54,7 +54,9 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 </details>
 
 
-#### Download Latest Release 27 August 2021 (V1): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V1)
+#### Download Latest Release 15 Jan 2022 (V1): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V1)
+
+Troubleshooting Monterey 12.2 beta 2 ( 21D5039d): Use this Release ➤  [HPProbook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/download/V1/HPProbook-EliteBook-Package-Creator-OC.zip)
 
 #### Any issue without the Log or all relevant information will be deleted. 
 - This does not work on a VM

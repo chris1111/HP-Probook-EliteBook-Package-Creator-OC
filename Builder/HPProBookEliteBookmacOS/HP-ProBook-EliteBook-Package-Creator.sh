@@ -173,6 +173,8 @@ productbuild --distribution "/$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PAC
 --resources "/$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/Resources" \
 "/$HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-ProBook-EliteBook-macOS.pkg"
 Sleep 2
+cp -Rp ./Gatekeeper.command /$HOME/Desktop/HP-ProBook-EliteBook-Packager
+cp -Rp ./"Support Donate.html" /$HOME/Desktop/HP-ProBook-EliteBook-Packager
 # Change package Icon with seticon
 ./Build/PackageMaker/Icon/seticon -d ./Build/PackageMaker/Icon/Icon.icns /$HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-ProBook-EliteBook-macOS.pkg
 Sleep 1

@@ -172,20 +172,8 @@ productbuild --distribution "/$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PAC
 --package-path "/$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/" \
 --resources "/$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/Resources" \
 "/$HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-ProBook-EliteBook-macOS.pkg"
-
 Sleep 2
-# Expend / Flatten the Packages with pkgutil
-pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-ProBook-EliteBook-macOS.pkg /$HOME/Desktop/HP-ProBook-EliteBook-Packager/Package
-Sleep 2
-rm -rf /$HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-ProBook-EliteBook-macOS.pkg
-Sleep 1
-pkgutil --flatten /$HOME/Desktop/HP-ProBook-EliteBook-Packager/Package /$HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-ProBook-EliteBook-macOS.pkg
-Sleep 1
-rm -rf /$HOME/Desktop/HP-ProBook-EliteBook-Packager/Package
 # Change package Icon with seticon
 ./Build/PackageMaker/Icon/seticon -d ./Build/PackageMaker/Icon/Icon.icns /$HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-ProBook-EliteBook-macOS.pkg
-
-cp -Rp ./Gatekeeper.command /$HOME/Desktop/HP-ProBook-EliteBook-Packager
-cp -Rp ./"Support Donate.html" /$HOME/Desktop/HP-ProBook-EliteBook-Packager
 Sleep 1
 ./Build/PackageMaker/Icon/seticon -d ./Build/PackageMaker/Icon/Support.icns /$HOME/Desktop/HP-ProBook-EliteBook-Packager/"Support Donate.html"

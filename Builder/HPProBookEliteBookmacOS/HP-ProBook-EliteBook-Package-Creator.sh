@@ -14,13 +14,11 @@ rm -rf ./Patcher/.gitkeep
 rm -rf /$HOME/Desktop/HP-ProBook-EliteBook-macOS
 rm -rf /$HOME/Desktop/HP-ProBook-EliteBook-macOS.pkg
 rm -rf /tmp/PackageDIR
-rm -rf /tmp/Package
-
 Sleep 1
 mkdir -p /$HOME/Desktop/HP-ProBook-EliteBook-macOS
 mkdir -p /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE
 mkdir -p /tmp/PackageDIR
-mkdir -p /tmp/Package
+
 
 # Create the Packages with pkgbuild
 pkgbuild --root ./Patcher --scripts ./script/PRE --identifier com.chris1111.hpprobookelitebookmacos.Patcher.pkg --version 1 --install-location / /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/Patcher.pkg

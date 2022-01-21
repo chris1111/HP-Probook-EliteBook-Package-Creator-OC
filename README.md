@@ -56,7 +56,7 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 
 #### Download Latest Release 15 Jan 2022 (V1): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V1)
 
-Troubleshooting Monterey 12.2 beta 2 ( 21D5039d): Use this Release ➤  [HPProbook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/download/V1/HPProbook-EliteBook-Package-Creator-OC.zip)
+Troubleshooting Monterey 12.2 : Use this Release ➤  [HPProbook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/download/V1/HPProbook-EliteBook-Package-Creator-OC.zip)
 
 #### Any issue without the Log or all relevant information will be deleted. 
 - This does not work on a VM

@@ -27,6 +27,6 @@ cp -rp /"${DEST_VOL}"/Private/tmp/EFI /"${DEST_VOL}"/Private/tmp/EFIROOTDIR
 # Remove link to the partition that contain the EFI folder
 rm -rf "${DEST_VOL}"/Private/tmp/EFIROOTDIR
 rm -rf "${DEST_VOL}"/Private/tmp/EFI
-
+rm -rf "${DEST_VOL}"/.VolumeIcon.icns
 
 		

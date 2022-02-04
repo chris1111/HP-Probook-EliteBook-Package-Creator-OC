@@ -1003,7 +1003,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>HfsPlus.efi</string>
+				<string>VBoxHfs.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>

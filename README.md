@@ -3,13 +3,17 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-#### Latest Update 21 Jan 2022  Fix Distribution.xml Background light and dark appearance.
+#### Latest Update 04 Fev 2022 Enable OpenCore APFS, Update default theme Flavours-B
+Remove .VolumeIcon.icns on macOS Installer USB to use default theme Icon.
+
 
 ## List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
   
-
+  
+- Update 21 Jan 2022  Fix Distribution.xml Background light and dark appearance.
+  
 - Update 21 Jan 2022  Change Distribution.xml No Background light appearance.
   
 - Update 21 Jan 2022  ☞ OpenCore 0.7.8 ☞ OC Configurator V-2-56.0.0

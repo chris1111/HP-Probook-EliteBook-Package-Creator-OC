@@ -3,14 +3,17 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-#### Latest Update 04 Fev 2022 Enable OpenCore APFS, Update default theme Flavours-B
-Remove .VolumeIcon.icns on macOS Installer USB to use default theme Icon.
+#### Latest Update 18 Fev 2022  Fix issue boot loop after post Install
+Update program Patch HD 4000
+
+
 
 
 ## List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
   
+- Update 04 Fev 2022 Enable OpenCore APFS, Update default theme Flavours-B, Remove .VolumeIcon.icns on macOS Installer USB to use default theme Icon.
   
 - Update 21 Jan 2022  Fix Distribution.xml Background light and dark appearance.
   

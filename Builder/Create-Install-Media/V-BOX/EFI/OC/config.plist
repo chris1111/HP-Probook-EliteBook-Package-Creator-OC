@@ -8,7 +8,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT Mandatary for Big Sur and Catalina</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -32,7 +32,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>DSDT.aml</string>
+				<string></string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
@@ -193,13 +193,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>SMCSuperIO.kext</string>
+				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCSuperIO</string>
+				<string>Contents/MacOS/VirtualSMC</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -229,60 +229,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>Intel7Series-Injector.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>RealtekRTL8111.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/RealtekRTL8111</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>VirtualSMC.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VirtualSMC</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -301,13 +247,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>SMCBatteryManager.kext</string>
+				<string>Intel7Series-Injector.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCBatteryManager</string>
+				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -337,6 +283,42 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>RealtekRTL8111.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/RealtekRTL8111</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>SMCBatteryManager.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCBatteryManager</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -344,6 +326,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCProcessor</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>SMCSuperIO.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCSuperIO</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -815,7 +815,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 -lilubetaall applbkl=1 alcid=12 amfi_get_out_of_my_way=1 -no_compat_check</string>
+				<string>-v keepsyms=1 applbkl=1 alcid=12</string>
 				<key>csr-active-config</key>
 				<data>7w8AAA==</data>
 				<key>prev-lang:kbd</key>
@@ -879,9 +879,9 @@
 			<key>ARTFrequency</key>
 			<integer>0</integer>
 			<key>BoardProduct</key>
-			<string>Mac-E43C1C25D4880AD6</string>
+			<string>Mac-827FB448E656EC26</string>
 			<key>BoardRevision</key>
-			<data></data>
+			<data>AQ==</data>
 			<key>DevicePathsSupported</key>
 			<integer>0</integer>
 			<key>FSBFrequency</key>
@@ -891,19 +891,19 @@
 			<key>PlatformName</key>
 			<string></string>
 			<key>SmcBranch</key>
-			<data>ajUyAAAAAAA=</data>
+			<data></data>
 			<key>SmcPlatform</key>
-			<data>ajUyAAAAAAA=</data>
+			<data>ajEzMgAAAAA=</data>
 			<key>SmcRevision</key>
-			<data>AigPAAAH</data>
+			<data></data>
 			<key>StartupPowerEvents</key>
 			<integer>0</integer>
 			<key>SystemProductName</key>
-			<string>MacBookPro12,1</string>
+			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02P501DH1DP</string>
+			<string>C02W6GZSJHCC</string>
 			<key>SystemUUID</key>
-			<string>8BE67526-2D9B-4078-A657-BF911A6ABA41</string>
+			<string>86430CC4-694F-481E-9496-892CEF2CDAFF</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -912,9 +912,9 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C025049024NGDVVAD</string>
+			<string>C02805300GUJH4RJC</string>
 			<key>ProcessorType</key>
-			<integer>1542</integer>
+			<integer>1793</integer>
 			<key>ROM</key>
 			<data>VuKkCNvx</data>
 			<key>SpoofVendor</key>
@@ -922,20 +922,20 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro12,1</string>
+			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02P501DH1DP</string>
+			<string>C02W6GZSJHCC</string>
 			<key>SystemUUID</key>
-			<string>8BE67526-2D9B-4078-A657-BF911A6ABA41</string>
+			<string>86430CC4-694F-481E-9496-892CEF2CDAFF</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
-			<string>10/27/2021</string>
+			<string>01/06/2022</string>
 			<key>BIOSVendor</key>
 			<string></string>
 			<key>BIOSVersion</key>
-			<string>428.60.3.0.0</string>
+			<string>1715.81.2.0.0</string>
 			<key>BoardAssetTag</key>
 			<string>Base Board Asset Tag</string>
 			<key>BoardLocationInChassis</key>
@@ -943,31 +943,31 @@
 			<key>BoardManufacturer</key>
 			<string></string>
 			<key>BoardProduct</key>
-			<string>Mac-E43C1C25D4880AD6</string>
+			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>C025049024NGDVVAD</string>
+			<string>C02805300GUJH4RJC</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
-			<string>MacBookPro12,1</string>
+			<string>MacBookPro15,2</string>
 			<key>ChassisAssetTag</key>
 			<string>Asset Tag#</string>
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02P501DH1DP</string>
+			<string>C02W6GZSJHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
-			<string>Mac-E43C1C25D4880AD6</string>
+			<string>Mac-827FB448E656EC26</string>
 			<key>FirmwareFeatures</key>
-			<data>dvUP/QgAAAA=</data>
+			<data>JvSP/QgAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
-			<data>f/8f/wgAAAA=</data>
+			<data>P/+f/wgAAAA=</data>
 			<key>PlatformFeature</key>
-			<integer>2</integer>
+			<integer>50</integer>
 			<key>ProcessorType</key>
-			<integer>1542</integer>
+			<integer>1793</integer>
 			<key>SmcVersion</key>
 			<data></data>
 			<key>SystemFamily</key>
@@ -975,13 +975,13 @@
 			<key>SystemManufacturer</key>
 			<string></string>
 			<key>SystemProductName</key>
-			<string>MacBookPro12,1</string>
+			<string>MacBookPro15,2</string>
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02P501DH1DP</string>
+			<string>C02W6GZSJHCC</string>
 			<key>SystemUUID</key>
-			<string>8BE67526-2D9B-4078-A657-BF911A6ABA41</string>
+			<string>86430CC4-694F-481E-9496-892CEF2CDAFF</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1001,7 +1001,7 @@
 		<key>APFS</key>
 		<dict>
 			<key>EnableJumpstart</key>
-			<true/>
+			<false/>
 			<key>GlobalConnect</key>
 			<false/>
 			<key>HideVerbose</key>
@@ -1074,6 +1074,16 @@
 				<true/>
 				<key>Path</key>
 				<string>VBoxHfs.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>AppleAPFS.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>

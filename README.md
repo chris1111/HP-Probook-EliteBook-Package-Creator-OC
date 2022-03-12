@@ -3,7 +3,8 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-Latest Update 09 Mar 2022 Remove unnecessary boot args, change SMBIOS
+Latest Update 12 Mar 2022 Disable RTC ➤ Quirks OpenCore
+
  
 
 
@@ -11,6 +12,8 @@ Latest Update 09 Mar 2022 Remove unnecessary boot args, change SMBIOS
 <details> 
   <summary>View list Update</summary>
 
+- Update 09 Mar 2022 Remove unnecessary boot args, change SMBIOS
+ 
 - Update 08 Mar 2022 OC 0.8.0
 
 - Update 18 Fev 2022  Fix issue boot loop after post Install

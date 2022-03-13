@@ -3,12 +3,14 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-Latest Update 12 Mar 2022 Revert back
+Latest Update 12 Mar 2022 Fix Sleep/wake 6x70b, enable HD 4000 Usb install Media on Big Sur and bellow.
 
 
 ## List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
+  
+- Update 12 Mar 2022 Revert back 
  
 - Update 12 Mar 2022 Disable RTC ➤ Quirks OpenCore
  

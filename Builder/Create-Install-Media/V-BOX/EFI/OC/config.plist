@@ -147,10 +147,38 @@
 			<false/>
 		</dict>
 	</dict>
-	<key>DeviceProperties</key>
+		<key>DeviceProperties</key>
 	<dict>
 		<key>Add</key>
-		<dict/>
+		<dict>
+			<key>PciRoot(0)/Pci(0x02,0)</key>
+			<dict>
+				<key></key>
+				<data></data>
+				<key>AAPL,ig-platform-id</key>
+				<data>AwBmAQ==</data>
+				<key>framebuffer-con1-flags</key>
+				<data>BgAAAA==</data>
+				<key>framebuffer-con1-type</key>
+				<data>AAgAAA==</data>
+				<key>framebuffer-con2-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-con2-flags</key>
+				<data>BgAAAA==</data>
+				<key>framebuffer-con2-type</key>
+				<data>AAgAAA==</data>
+				<key>framebuffer-con3-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-con3-flags</key>
+				<data>BgAAAA==</data>
+				<key>framebuffer-con3-type</key>
+				<data>AAgAAA==</data>
+				<key>framebuffer-patch-enable</key>
+				<integer>1</integer>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+			</dict>
+		</dict>
 		<key>Delete</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>

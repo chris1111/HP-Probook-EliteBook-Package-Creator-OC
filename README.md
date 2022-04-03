@@ -3,7 +3,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-Latest 13 Mar 2022 SMCSuperIO after VirtualSMC
+Latest Update 03 April 2022 Fix somes Wifi card, remove SMCSuperIO.kext
 
 
 ## List Update: ⬇︎

@@ -5,7 +5,7 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 
 Latest Update 03 April 2022 Fix somes Wifi card, remove SMCSuperIO.kext
 
-### Fix macOS Monterey 12.2 or later ➤ [Fix macOS 12.2 +.pdf](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/files/8412772/Fix.macOS.12.2.%2B.pdf)
+### Fix macOS Monterey 12.2 or later ➤ [Fix macOS 12.2 +.pdf](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Fix%20macOS%2012.2%20%2B.pdf)
 
 
 ## List Update: ⬇︎

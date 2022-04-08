@@ -3,13 +3,18 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-Latest Update 05 April 2022 Default theme Flavours-AppleDisk
+Latest Update 08 April 2022 Use AirportBrcmFixup-2.1.3
+- remove  AirportBrcmFixup boot args and applbkl=1 boot args
+
 
 
 
 ## List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
+
+
+- Update 05 April 2022 Default theme Flavours-AppleDisk
 
 - Update 04 April 2022 Fix macOS Monterey 12.2 or later
 

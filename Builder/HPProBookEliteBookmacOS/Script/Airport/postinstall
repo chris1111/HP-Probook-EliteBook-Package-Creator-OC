@@ -31,9 +31,5 @@ Sleep 2
 echo "Add AirportBrcmFixup.kext in /Volumes/ESP/EFI/OC/config.plist"
 
 
-Sleep 2
-/usr/libexec/PlistBuddy -c "Set :NVRAM:Add:7C436110-AB2A-4BBB-A880-FE41995C9F82:boot-args -v keepsyms=1 applbkl=1 alcid=12 brcmfx-delay=15000 brcmfx-driver=3" /Volumes/ESP/EFI/OC/config.plist
-
-echo "Add Boot args in /Volumes/ESP/EFI/OC/config.plist"
 
 

@@ -20,15 +20,15 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>DSDT.aml</string>
+				<string>SSDT-EC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>Mandatory full patch Probook Elitebook</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-HMF.aml</string>
+				<string>DSDT.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -63,7 +63,68 @@
 			</dict>
 		</array>
 		<key>Patch</key>
-		<array/>
+		<array>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>change SAT0 to SATA</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>U0FUMA==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>U0FUQQ==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RFNEVA==</data>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>change EC0 to EC</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>RUMwXw==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>RUNfXw==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RFNEVA==</data>
+			</dict>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>FadtEnableReset</key>
@@ -214,42 +275,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>Intel7Series-Injector.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>RealtekRTL8111.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/RealtekRTL8111</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -257,6 +282,42 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VirtualSMC</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>SMCProcessor.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCProcessor</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>WhateverGreen.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/WhateverGreen</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -293,42 +354,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCBatteryManager</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>IntelMausi.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IntelMausi</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>SMCProcessor.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCProcessor</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -412,13 +437,49 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>WhateverGreen.kext</string>
+				<string>IntelMausi.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/WhateverGreen</string>
+				<string>Contents/MacOS/IntelMausi</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>Intel7Series-Injector.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>RealtekRTL8111.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/RealtekRTL8111</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -619,6 +680,8 @@
 			<false/>
 			<key>ExternalDiskIcons</key>
 			<true/>
+			<key>ForceAquantiaEthernet</key>
+			<false/>
 			<key>ForceSecureBootScheme</key>
 			<false/>
 			<key>IncreasePciBarSize</key>
@@ -699,8 +762,6 @@
 			<integer>2147483650</integer>
 			<key>LogModules</key>
 			<string>*</string>
-			<key>SerialInit</key>
-			<false/>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
@@ -759,6 +820,35 @@
 			<string>Disabled</string>
 			<key>Vault</key>
 			<string>Optional</string>
+		</dict>
+		<key>Serial</key>
+		<dict>
+			<key>BaudRate</key>
+			<integer>115200</integer>
+			<key>ClockRate</key>
+			<integer>1843200</integer>
+			<key>DetectCable</key>
+			<false/>
+			<key>ExtendedTxFifoSize</key>
+			<integer>64</integer>
+			<key>FifoControl</key>
+			<integer>7</integer>
+			<key>Init</key>
+			<false/>
+			<key>LineControl</key>
+			<integer>3</integer>
+			<key>PciDeviceInfo</key>
+			<data>/w==</data>
+			<key>RegisterAccessWidth</key>
+			<integer>8</integer>
+			<key>RegisterBase</key>
+			<integer>1016</integer>
+			<key>RegisterStride</key>
+			<integer>1</integer>
+			<key>UseHardwareFlowControl</key>
+			<false/>
+			<key>UseMmio</key>
+			<false/>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -886,9 +976,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro12,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02QR0GRH1DP</string>
+			<string>C02QM2ZUH1DP</string>
 			<key>SystemUUID</key>
-			<string>86A7C645-A024-4006-88C8-193147BE1E88</string>
+			<string>7ABF321A-E7F4-4B5F-8DC7-129A50F46569</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -897,7 +987,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02548501GUGDVV1M</string>
+			<string>C02544300J9GDVV1F</string>
 			<key>ProcessorType</key>
 			<integer>1542</integer>
 			<key>ROM</key>
@@ -909,9 +999,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro12,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02QR0GRH1DP</string>
+			<string>C02QM2ZUH1DP</string>
 			<key>SystemUUID</key>
-			<string>86A7C645-A024-4006-88C8-193147BE1E88</string>
+			<string>7ABF321A-E7F4-4B5F-8DC7-129A50F46569</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -930,7 +1020,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-E43C1C25D4880AD6</string>
 			<key>BoardSerialNumber</key>
-			<string>C02548501GUGDVV1M</string>
+			<string>C02544300J9GDVV1F</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -940,7 +1030,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02QR0GRH1DP</string>
+			<string>C02QM2ZUH1DP</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -964,9 +1054,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02QR0GRH1DP</string>
+			<string>C02QM2ZUH1DP</string>
 			<key>SystemUUID</key>
-			<string>86A7C645-A024-4006-88C8-193147BE1E88</string>
+			<string>7ABF321A-E7F4-4B5F-8DC7-129A50F46569</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -986,7 +1076,7 @@
 		<key>APFS</key>
 		<dict>
 			<key>EnableJumpstart</key>
-			<false/>
+			<true/>
 			<key>GlobalConnect</key>
 			<false/>
 			<key>HideVerbose</key>
@@ -1059,16 +1149,6 @@
 				<true/>
 				<key>Path</key>
 				<string>HfsPlus.efi</string>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>AppleAPFS.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>

@@ -18,17 +18,17 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
-				<string>DSDT.aml</string>
+				<string>SSDT-EC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
-				<string>SSDT-HMF.aml</string>
+				<string>DSDT.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -357,24 +357,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>SMCSuperIO.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCSuperIO</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -654,6 +636,8 @@
 			<false/>
 			<key>ExternalDiskIcons</key>
 			<true/>
+			<key>ForceAquantiaEthernet</key>
+			<false/>
 			<key>ForceSecureBootScheme</key>
 			<false/>
 			<key>IncreasePciBarSize</key>
@@ -734,8 +718,6 @@
 			<integer>2147483650</integer>
 			<key>LogModules</key>
 			<string>*</string>
-			<key>SerialInit</key>
-			<false/>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
@@ -794,6 +776,35 @@
 			<string>Disabled</string>
 			<key>Vault</key>
 			<string>Optional</string>
+		</dict>
+		<key>Serial</key>
+		<dict>
+			<key>BaudRate</key>
+			<integer>115200</integer>
+			<key>ClockRate</key>
+			<integer>1843200</integer>
+			<key>DetectCable</key>
+			<false/>
+			<key>ExtendedTxFifoSize</key>
+			<integer>64</integer>
+			<key>FifoControl</key>
+			<integer>7</integer>
+			<key>Init</key>
+			<false/>
+			<key>LineControl</key>
+			<integer>3</integer>
+			<key>PciDeviceInfo</key>
+			<data>/w==</data>
+			<key>RegisterAccessWidth</key>
+			<integer>8</integer>
+			<key>RegisterBase</key>
+			<integer>1016</integer>
+			<key>RegisterStride</key>
+			<integer>1</integer>
+			<key>UseHardwareFlowControl</key>
+			<false/>
+			<key>UseMmio</key>
+			<false/>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -921,9 +932,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro12,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02QNWZSH1DP</string>
+			<string>C02P6SZJH1DP</string>
 			<key>SystemUUID</key>
-			<string>F67EF234-0FD7-4164-BB59-6D56D06C4A26</string>
+			<string>A287A23B-130A-4B6D-B67F-2903FD8E1924</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -932,7 +943,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02545403GUGDVVJC</string>
+			<string>C02505501CDGDVVUE</string>
 			<key>ProcessorType</key>
 			<integer>1542</integer>
 			<key>ROM</key>
@@ -944,9 +955,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro12,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02QNWZSH1DP</string>
+			<string>C02P6SZJH1DP</string>
 			<key>SystemUUID</key>
-			<string>F67EF234-0FD7-4164-BB59-6D56D06C4A26</string>
+			<string>A287A23B-130A-4B6D-B67F-2903FD8E1924</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -965,7 +976,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-E43C1C25D4880AD6</string>
 			<key>BoardSerialNumber</key>
-			<string>C02545403GUGDVVJC</string>
+			<string>C02505501CDGDVVUE</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -975,7 +986,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02QNWZSH1DP</string>
+			<string>C02P6SZJH1DP</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -999,9 +1010,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02QNWZSH1DP</string>
+			<string>C02P6SZJH1DP</string>
 			<key>SystemUUID</key>
-			<string>F67EF234-0FD7-4164-BB59-6D56D06C4A26</string>
+			<string>A287A23B-130A-4B6D-B67F-2903FD8E1924</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1021,7 +1032,7 @@
 		<key>APFS</key>
 		<dict>
 			<key>EnableJumpstart</key>
-			<false/>
+			<true/>
 			<key>GlobalConnect</key>
 			<false/>
 			<key>HideVerbose</key>
@@ -1094,16 +1105,6 @@
 				<true/>
 				<key>Path</key>
 				<string>VBoxHfs.efi</string>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>AppleAPFS.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>

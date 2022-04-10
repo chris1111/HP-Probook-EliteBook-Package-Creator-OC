@@ -3,8 +3,8 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-Latest Update 08 April 2022 Use AirportBrcmFixup-2.1.3
-- remove  AirportBrcmFixup boot args and applbkl=1 boot args
+Latest Update 10 April 2022 update OC 0.8.0-2022-04-08
+- Update many future
 
 
 
@@ -13,6 +13,8 @@ Latest Update 08 April 2022 Use AirportBrcmFixup-2.1.3
 <details> 
   <summary>View list Update</summary>
 
+
+- Update 08 April 2022 Use AirportBrcmFixup-2.1.3, remove  AirportBrcmFixup boot args and applbkl=1 boot args
 
 - Update 05 April 2022 Default theme Flavours-AppleDisk
 

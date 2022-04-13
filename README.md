@@ -3,9 +3,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-Latest Update 10 April 2022 update OC 0.8.0-2022-04-08
-- Update many future
-
+Latest Update 12 April 2022 Rollback VoodooPS2Controller
 
 
 
@@ -14,8 +12,9 @@ Latest Update 10 April 2022 update OC 0.8.0-2022-04-08
   <summary>View list Update</summary>
 
 
-- Update 08 April 2022 Use AirportBrcmFixup-2.1.3, remove  AirportBrcmFixup boot args and applbkl=1 boot args
+- Update 10 April 2022 update OC 0.8.0-2022-04-08, Update many future
 
+- Update 08 April 2022 Use AirportBrcmFixup-2.1.3, remove  AirportBrcmFixup boot args and applbkl=1 boot args
 - Update 05 April 2022 Default theme Flavours-AppleDisk
 
 - Update 04 April 2022 Fix macOS Monterey 12.2 or later

@@ -88,7 +88,7 @@ rm -rf "$APP_NAME".zip
 echo " "
 
 # move app /desktop
-mv ./"Install Media HP Laptop OC.app" $HOME/Desktop/HP-ProBook-EliteBook-Packager/"Media HP Laptop OC.app"
+mv ./"Install Media HP Laptop OC.app" $HOME/Desktop/HP-ProBook-EliteBook-Packager/"Install Media HP Laptop OC.app"
 
 Sleep 1
 rm -rf ./Installer/"OpenCore USB.pkg"

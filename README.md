@@ -145,8 +145,9 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 - Fan Patch
 - ———————————————————————————————
 ## Recommand WIFI
-- Wifi mini PCI Broadcom BCM943224HMS
-- Wifi mini PCI AzureWave Broadcom BCM94352HMB
+- Wifi mini PCI Wifi mini PCI [AzureWave WLAN+BT BCM94352HMB](https://www.aliexpress.com/item/4000385703330.html)
+- Wifi mini PCI Wifi mini PCI [Broadcom BCM943224HMS](https://www.ebay.com/itm/253022938877?hash=item3ae957a6fd:g:8JYAAMXQVT9TFoF4) (Not working latest Monterey 12.3.1)
+
 
 ## Card reader Fix for macOS Big Sur 11 only
 - Bios setup ☞ Port Option: Uncheck 1394 Port

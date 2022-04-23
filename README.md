@@ -148,7 +148,7 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 ## Recommand WIFI
 - Wifi mini PCI Wifi mini PCI [AzureWave WLAN+BT BCM94352HMB](https://www.ebay.fr/itm/Azurewave-AW-CE123H-Broadcom-BCM94352-802-11ac-WiFi-card-Bluetooth-4-0-for-MAC-/272248789669) ebay
 - Wifi mini PCI Wifi mini PCI [AzureWave WLAN+BT BCM94352HMB](https://www.aliexpress.com/item/4000385703330.html) aliexpress
-- Wifi mini PCI Wifi mini PCI [Broadcom BCM943224HMS](https://www.ebay.com/itm/253022938877?hash=item3ae957a6fd:g:8JYAAMXQVT9TFoF4) (Not working latest Monterey 12.3.1)
+- Wifi mini PCI Wifi mini PCI [Broadcom BCM943224HMS](https://www.ebay.com/itm/253022938877?hash=item3ae957a6fd:g:8JYAAMXQVT9TFoF4) (Not working for Monterey 12.1+)
 
 - ———————————————————————————————
 ## Card reader Fix for macOS Big Sur 11 only

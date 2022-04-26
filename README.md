@@ -109,8 +109,8 @@ platinumsteel, doodoo94, jeremy19, arno608rw, Mtkhan13
 - HD 4000 Monterey 12 [Dhinak](https://github.com/DhinakG) for found using beta 6 Metal binaries
 - HD 4000 Monterey 12 [khronokernel](https://github.com/khronokernel) for fixing google fonts (WebKit)
 - [Packager chris1111](https://github.com/chris1111)
-- ———————————————————————————————
 
+----------------------------------------------------------------------------
 * What you need
 
    - Disable the security SIP and Gatekeeper on your Mac
@@ -126,7 +126,8 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 - Disable LAN/WLAN Switching
 - UEFI Hybrid with CSM
 - Disable FastBoot
-- ———————————————————————————————
+----------------------------------------------------------------------------
+
 
 
 ### To use this program you will have to boot on a fresh installation with the 
@@ -150,7 +151,8 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 - Wifi mini PCI Wifi mini PCI [AzureWave WLAN+BT BCM94352HMB](https://www.aliexpress.com/item/4000385703330.html) aliexpress
 - Wifi mini PCI Wifi mini PCI [Broadcom BCM943224HMS](https://www.ebay.com/itm/253022938877?hash=item3ae957a6fd:g:8JYAAMXQVT9TFoF4) (Not working for Monterey 12.1+)
 
-- ———————————————————————————————
+----------------------------------------------------------------------------
+
 ## Card reader Fix for macOS Big Sur 11 only
 - Bios setup ☞ Port Option: Uncheck 1394 Port
 - SIP security disable
@@ -164,10 +166,14 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 ![Screen Shot ](https://user-images.githubusercontent.com/6248794/87852436-f4426980-c8cf-11ea-913f-72c6093eb32a.png)	
 
 </details>
-- ———————————————————————————————
+
+----------------------------------------------------------------------------
+
 
 #### High Screen (1600x900) Fix Boot USB Installer black screen ➡︎ [Fix Boot USB Installer (1600x900) black screen](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/issues/2#issuecomment-679373248)
-- ———————————————————————————————
+
+----------------------------------------------------------------------------
+
 
 
 ### Package Creator
@@ -185,7 +191,8 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 - 2- Boot on macOS Installer (25 minutes Install time)
 - 3- Boot on Preboot (Wait 5 + minutes for the last line of verbose mode (Forcing CS_RUNTIME)  and the system will reboot)
 - 4- Reboot again on the SSD ➦ (Wait for the last line of verbose mode and your screen will open)
-- ———————————————————————————————
+----------------------------------------------------------------------------
+
 
 ### Post Installer- ⬇︎
 ![Capture 4](https://user-images.githubusercontent.com/6248794/87813175-63b44c80-c82f-11ea-8607-f3ad6b1dd167.png)

@@ -118,9 +118,12 @@ platinumsteel, doodoo94, jeremy19, arno608rw, Mtkhan13
    - Blank USB key 16 gig for Install macOS
    - Install macOS xxx.app (From Mac App Store)
    
-### Bios Version:
+### Bios Version 7 series:
 - Known working bios version is F61, F62, F64 F66 [(F73 ➤ Confirmed 2570p)](https://www.insanelymac.com/forum/topic/344428-pre-release-macos-big-sur/?page=91&tab=comments#comment-2734611) [(F74 ➤ Confirmed 8470p)](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/commit/e6eb41e137c220f3f08b4a8776a8f2516a59e133)
 Important Try do not take another Bios version! it would not be dramatic but it's the known bios that works very well
+
+### Bios Version 8 series:
+- Bios : Recommend  1.48
 
 ### Bios setup: To start, set BIOS to defaults.
 - Disable LAN/WLAN Switching

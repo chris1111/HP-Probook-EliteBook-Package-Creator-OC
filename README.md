@@ -4,7 +4,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
 ###  Latest Update 18 May 2022 add support 8 series HP Laptop
-
+[](https://user-images.githubusercontent.com/6248794/169172551-4c7d10eb-38af-4c10-b835-be88e04ad74d.mov)
 
 
 #### List Update: ⬇︎

@@ -3,14 +3,15 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-Latest Update 12 April 2022 Rollback VoodooPS2Controller
+###  Latest Update 18 May 2022 add support 8 series HP Laptop
 
 
 
-## List Update: ⬇︎
+#### List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
 
+- Update 12 April 2022 Rollback VoodooPS2Controller
 
 - Update 10 April 2022 update OC 0.8.0-2022-04-08, Update many future
 
@@ -121,11 +122,11 @@ platinumsteel, doodoo94, jeremy19, arno608rw, Mtkhan13
 - Known working bios version is F61, F62, F64 F66 [(F73 ➤ Confirmed 2570p)](https://www.insanelymac.com/forum/topic/344428-pre-release-macos-big-sur/?page=91&tab=comments#comment-2734611) [(F74 ➤ Confirmed 8470p)](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/commit/e6eb41e137c220f3f08b4a8776a8f2516a59e133)
 Important Try do not take another Bios version! it would not be dramatic but it's the known bios that works very well
 
-### Bios setup:
-- Default setup
+### Bios setup: To start, set BIOS to defaults.
 - Disable LAN/WLAN Switching
 - UEFI Hybrid with CSM
 - Disable FastBoot
+- IGPU graphics memory set to 64mb for 8 series if available on Device Configurations
 ----------------------------------------------------------------------------
 
 
@@ -135,14 +136,24 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 
 - This program only uses OC and kexts injection, there is no kext to modify in the system and no kext will install in macOS system.
 ### Support Laptop
-- [☞ 7 series laptop HP Probook EliteBook * Ivy Bridge * ](https://ark.intel.com/content/www/us/en/ark/products/codename/29902/ivy-bridge.html#@Mobile) . Support macOS Sierra 10.12 to macOS Monterey 12
+
+- 8 series laptop: 
+HP Probook 3x0 G1, Probook 4x0 G1/G2, Probook 6x0 G1, Elitebook 8x0 G1, ZBook G1, Folio 1040 G1
+———————————————————————————————
+
+- 7 series laptop: HP Probook EliteBook * Ivy Bridge * ](https://ark.intel.com/content/www/us/en/ark/products/codename/29902/ivy-bridge.html#@Mobile) . Support macOS Sierra 10.12 to macOS Monterey 12
 - HP Probook 4x40s, 4x0 G0, 6x70b, 6x70B-AMD, 6x70B-NVIDIA,  Elitebook 8x70p, 2x70p, 9x70m
 
 - ———————————————————————————————
 ### DSDT PATCH:
-- Integrality of the complete system
+- Integrality of the complete system for 7/8 series
+7 series:
 - Intel HD 4000 Patch (Low screen, High Screen)
 - HDMI Patch, (Low screen, High Screen)
+- Fan Patch
+8 series:
+- Patch Intel HD 4600/4400 (High Screen 1080p)
+- Patch HDMI, (High Screen 1080p)
 - Fan Patch
 - ———————————————————————————————
 
@@ -153,7 +164,7 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 
 ----------------------------------------------------------------------------
 
-## Card reader Fix for macOS Big Sur 11 only
+## Card reader Fix 7 series for macOS Big Sur 11 only
 - Bios setup ☞ Port Option: Uncheck 1394 Port
 - SIP security disable
 
@@ -170,7 +181,7 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 ----------------------------------------------------------------------------
 
 
-#### High Screen (1600x900) Fix Boot USB Installer black screen ➡︎ [Fix Boot USB Installer (1600x900) black screen](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/issues/2#issuecomment-679373248)
+#### 7 series High Screen (1600x900) Fix Boot USB Installer black screen ➡︎ [Fix Boot USB Installer (1600x900) black screen](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/issues/2#issuecomment-679373248)
 
 ----------------------------------------------------------------------------
 

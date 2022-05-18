@@ -1,0 +1,32 @@
+#!/bin/bash
+# Script config DeviceProperties Displayport High Screen
+# chris1111 
+
+echo "==============================================="
+echo "Post Post-Install Script"
+echo "==============================================="
+
+#echo "DEBUG: $ 1 = Full path to the installation package the installer app is processing: " $1
+#echo "DEBUG: $ 2 = Full path to the installation destination: " $2
+#echo "DEBUG: $ 3 = Installation volume (mountpoint) to receive the payload: " $3
+#echo "DEBUG: $ 4 = Root directory for the system: " $4
+
+echo "preinstall: Path to installer....... $1"
+echo "preinstall: Path to destination..... $2"
+echo "preinstall: Path to dest volume..... $3"
+echo "preinstall: Root of system folder... $4"
+
+#############################################################################
+DEST_VOL="${3}"
+EFI_ROOT_DIR="${DEST_VOL}"/Private/tmp/EFIROOTDIR
+
+/usr/libexec/PlistBuddy -c 'Delete :DeviceProperties' /Private/tmp/EFI/OC/config.plist
+Sleep 1
+/usr/libexec/PlistBuddy -c 'Delete :ACPI' /Private/tmp/EFI/OC/config.plist
+Sleep 1
+/usr/libexec/PlistBuddy -c "Merge './config.plist' " /Private/tmp/EFI/OC/config.plist
+Sleep 1
+echo "Add 8x0-G1"
+mkdir -p /"$3"/Private/tmp/EFIROOTDIR/EFI/OC/ACPI
+Sleep 1
+cp -rp ./SSDT-8x0G1h.aml /"$3"/Private/tmp/EFIROOTDIR/EFI/OC/ACPI

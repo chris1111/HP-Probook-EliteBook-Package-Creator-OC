@@ -25,14 +25,16 @@ osascript -e 'display notification "Installer HP-ProBook-USB-Installer" with tit
 
 
 # Create the Packages with pkgbuild
-pkgbuild --root ./EFIFOLDER --scripts ./Script/ScriptsESP --identifier org.opencoreUsb.EFIFOLDER.pkg --version 1 --install-location /Private/tmp ./InstallerHP/BUILD-PACKAGE/efifolder.pkg
-pkgbuild --root ./V-BOX --scripts ./Script/ScriptsESPVBOX --identifier org.opencoreUsb.VBOX.pkg --version 1 --install-location /Private/tmp ./InstallerHP/BUILD-PACKAGE/vbox.pkg
-pkgbuild --root ./HFS-+ --scripts ./Script/ScriptsESPHFS --identifier org.opencoreUsb.HFSPLUS.pkg --version 1 --install-location /Private/tmp ./InstallerHP/BUILD-PACKAGE/hfsplus.pkg
+pkgbuild --root ./EFIFOLDER --scripts ./Script/ScriptsESP --identifier org.opencoreUsb.EFIFOLDER.pkg --version 1 --install-location /Private/tmp/EFIROOTDIR ./InstallerHP/BUILD-PACKAGE/efifolder.pkg
+pkgbuild --root ./V-BOX --scripts ./Script/ScriptsESPVBOX --identifier org.opencoreUsb.VBOX.pkg --version 1 --install-location /Private/tmp/EFIROOTDIR ./InstallerHP/BUILD-PACKAGE/vbox.pkg
+pkgbuild --root ./HFS-+ --scripts ./Script/ScriptsESPHFS --identifier org.opencoreUsb.HFSPLUS.pkg --version 1 --install-location /Private/tmp/EFIROOTDIR ./InstallerHP/BUILD-PACKAGE/hfsplus.pkg
+pkgbuild --root ./8-series-Haswell --scripts ./Script/Scripts8-series-Haswell --identifier org.opencoreUsb.8-series-Haswell.pkg --version 1 --install-location /Private/tmp/EFIROOTDIR ./InstallerHP/BUILD-PACKAGE/8-series-Haswell.pkg
 Sleep 2
 # Expend the Packages with pkgutil
 pkgutil --expand ./InstallerHP/BUILD-PACKAGE/efifolder.pkg /tmp/Package-DIR/efifolder.pkg
 pkgutil --expand ./InstallerHP/BUILD-PACKAGE/vbox.pkg /tmp/Package-DIR/vbox.pkg
 pkgutil --expand ./InstallerHP/BUILD-PACKAGE/hfsplus.pkg /tmp/Package-DIR/hfsplus.pkg
+pkgutil --expand ./InstallerHP/BUILD-PACKAGE/8-series-Haswell.pkg /tmp/Package-DIR/8-series-Haswell.pkg
 Sleep 3
 
 # Copy resources and distribution

@@ -12,7 +12,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-IGPU.aml</string>
+				<string>SSDT-EC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -20,15 +20,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-EC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>DSDT.aml</string>
+				<string>SSDT-PNLF.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -150,35 +142,7 @@
 	<key>DeviceProperties</key>
 	<dict>
 		<key>Add</key>
-		<dict>
-			<key>PciRoot(0)/Pci(0x02,0)</key>
-			<dict>
-				<key></key>
-				<data></data>
-				<key>AAPL,ig-platform-id</key>
-				<data>AwBmAQ==</data>
-				<key>framebuffer-con1-flags</key>
-				<data>BgAAAA==</data>
-				<key>framebuffer-con1-type</key>
-				<data>AAgAAA==</data>
-				<key>framebuffer-con2-enable</key>
-				<integer>1</integer>
-				<key>framebuffer-con2-flags</key>
-				<data>BgAAAA==</data>
-				<key>framebuffer-con2-type</key>
-				<data>AAgAAA==</data>
-				<key>framebuffer-con3-enable</key>
-				<integer>1</integer>
-				<key>framebuffer-con3-flags</key>
-				<data>BgAAAA==</data>
-				<key>framebuffer-con3-type</key>
-				<data>AAgAAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<integer>1</integer>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
-			</dict>
-		</dict>
+		<dict/>
 		<key>Delete</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
@@ -231,13 +195,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>AirportBrcmFixup.kext</string>
+				<string>SMCProcessor.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AirportBrcmFixup</string>
+				<string>Contents/MacOS/SMCProcessor</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -256,24 +220,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AppleALC</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>Intel7Series-Injector.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -328,24 +274,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCBatteryManager</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>SMCProcessor.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCProcessor</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -626,6 +554,8 @@
 			<false/>
 			<key>CustomSMBIOSGuid</key>
 			<false/>
+			<key>CustomPciSerialDevice</key>
+			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
 			<key>DisableLinkeditJettison</key>
@@ -779,31 +709,36 @@
 		</dict>
 		<key>Serial</key>
 		<dict>
-			<key>BaudRate</key>
-			<integer>115200</integer>
-			<key>ClockRate</key>
-			<integer>1843200</integer>
-			<key>DetectCable</key>
-			<false/>
-			<key>ExtendedTxFifoSize</key>
-			<integer>64</integer>
-			<key>FifoControl</key>
-			<integer>7</integer>
+			<key>Custom</key>
+			<dict>
+				<key>BaudRate</key>
+				<integer>115200</integer>
+				<key>ClockRate</key>
+				<integer>1843200</integer>
+				<key>DetectCable</key>
+				<false/>
+				<key>ExtendedTxFifoSize</key>
+				<integer>64</integer>
+				<key>FifoControl</key>
+				<integer>7</integer>
+				<key>LineControl</key>
+				<integer>7</integer>
+				<key>PciDeviceInfo</key>
+				<data>/w==</data>
+				<key>RegisterAccessWidth</key>
+				<integer>8</integer>
+				<key>RegisterBase</key>
+				<integer>1016</integer>
+				<key>RegisterStride</key>
+				<integer>1</integer>
+				<key>UseHardwareFlowControl</key>
+				<false/>
+				<key>UseMmio</key>
+				<false/>
+			</dict>
 			<key>Init</key>
 			<false/>
-			<key>LineControl</key>
-			<integer>3</integer>
-			<key>PciDeviceInfo</key>
-			<data>/w==</data>
-			<key>RegisterAccessWidth</key>
-			<integer>8</integer>
-			<key>RegisterBase</key>
-			<integer>1016</integer>
-			<key>RegisterStride</key>
-			<integer>1</integer>
-			<key>UseHardwareFlowControl</key>
-			<false/>
-			<key>UseMmio</key>
+			<key>Override</key>
 			<false/>
 		</dict>
 		<key>Tools</key>

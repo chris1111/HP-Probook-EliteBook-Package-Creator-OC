@@ -1,0 +1,673 @@
+#Maintained by: pokenguyen for: HP Probook 3x0
+# 00_Optimize.txt
+
+# Optimize (get rid of stuff that is WMI/BIOS related)
+
+# remove large chunk of symbols used only by device WMID and device WMID itself
+into all code_regex Name\s*\(WSIP,[\s\S]*Name\s*\(ETYP,\s*Buffer\s*\(.*\)\s*\{\}\) remove_matched;
+into device label WMID remove_entry;
+
+# remove references to device WMID
+into_all all code_regex .*WMID.*\(.*\) removeall_matched;
+into method label _TMP parent_label PCHZ code_regex Store\s*\(DerefOf\s*\(Index\s*\(DerefOf\s*\(Index\s*\(\\_SB\.WMID\.TSTV,[\s\S]*\} remove_matched;
+
+into method label _WAK code_regex Store\s*\(\\_GPE\.MMTB[\s\S]*REG6\)[^\)]*\) remove_matched;
+into method label _INI code_regex Store\s*\(\\_GPE\.MMTB[\s\S]*REG6\)[^\)]*\) remove_matched;
+
+# remove all OEM _DSM methods
+into_all method label _DSM remove_entry;
+into definitionblock code_regex External\s+\(_SB_\.PCI0\.PEG0,\sUnknownObj\) remove_matched;
+into definitionblock code_regex External\s+\(_SB_\.PCI0\.PEG0\.PEGP,\sUnknownObj\) remove_matched;
+# remove ThermalZone
+into scope label \_TZ remove_entry;
+into_all method code_regex Notify\s*\(\\_TZ.* removeall_matched;
+into_all method code_regex \\_TZ.[^*\n]* removeall_matched;
+#Maintained by: RehabMan for: HP Probook 4x30s/4x40s
+# 01_Compilation.txt
+
+# Fix compilation errors
+
+# Fix _T_x compiler reserved warnings (not necessary to fix)
+#into_all all code_regex _T_0 replaceall_matched begin T_0 end;
+#into_all all code_regex _T_1 replaceall_matched begin T_1 end;
+#into_all all code_regex _T_2 replaceall_matched begin T_2 end;
+#into_all all code_regex _T_3 replaceall_matched begin T_3 end;
+#into_all all code_regex _T_4 replaceall_matched begin T_4 end;
+#into_all all code_regex _T_5 replaceall_matched begin T_5 end;
+#into_all all code_regex _T_6 replaceall_matched begin T_6 end;
+
+# Another way to fix the _T_x compiler reserved warnings (still not necessary)
+#into method label TRUP code_regex Name\s+\(_T_0,\s+Zero\) remove_matched;
+#into method label TRUP code_regex Store\s+\(PRDT,\s+_T_0\) remove_matched;
+#into method label TRUP code_regex \(_T_0 replaceall_matched begin (PRDT end;
+#into method label VHIV code_regex Name\s+\(_T_0,\s+Zero\) remove_matched;
+#into method label VHIV code_regex Store\s+\(Arg2,\s+_T_0\) remove_matched;
+#into method label VHIV code_regex \(_T_0 replaceall_matched begin (Arg2 end;
+#into method label \_SB.PCI0.LPCB.PS2M._HID code_regex Name\s+\(_T_0,\s+Zero\) remove_matched;
+#into method label \_SB.PCI0.LPCB.PS2M._HID code_regex Store\s+\(PRDT,\s+_T_0\) remove_matched;
+#into method label \_SB.PCI0.LPCB.PS2M._HID code_regex \(_T_0 replaceall_matched begin (PRDT end;
+#into method label WQBI code_regex Name\s+\(_T_0,\s+Zero\) remove_matched;
+#into method label WQBI code_regex Store\s+\(Arg0,\s+_T_0\) remove_matched;
+#into method label WQBI code_regex \(_T_0 replaceall_matched begin (Arg0 end;
+#into method label WQBC code_regex Name\s+\(_T_0,\s+Zero\) remove_matched;
+#into method label WQBC code_regex Store\s+\(Local6,\s+_T_0\) remove_matched;
+#into method label WQBC code_regex \(_T_0 replaceall_matched begin (Local6 end;
+#into method label WQBC code_regex Name\s+\(_T_1,\s+Zero\) remove_matched;
+#into method label WQBC code_regex Store\s+\(DerefOf\s+\(Index\s+\(ST99,\s+0x00\)\),\s+_T_1\) replace_matched begin Store (DerefOf (Index (ST99, 0x00)), Local2) end;
+#into method label WQBC code_regex \(_T_1 replaceall_matched begin (Local2 end;
+#nto method label WMBA code_regex Name\s+\(_T_0,\s+Zero\) remove_matched;
+#into method label WMBA code_regex Store\s+\(Local6,\s+_T_0\) remove_matched;
+#into method label WMBA code_regex \(_T_0 replaceall_matched begin (Local6 end;
+
+
+# Fix parse errors
+into device label GFX0 code_regex If\s\(CondRefOf\s\(FPED\)\)\s*\n\s*\{\s*\n\s*FPED\s\(\)\s*\n\s*\} remove_matched;
+into definitionblock code_regex External\s+\(_SB_\.ISCT,\sUnknownObj\) remove_matched;
+
+# Fix line 2169 2181 compilations errors (these are specfiic to 4530s)
+into_all all code_regex DWordMemory\s\(ResourceProducer,\sPosDecode,\sMinFixed,\sMaxFixed,\sCacheable,\sReadWrite,\n\s+0x00000000,\s+//\sGranularity\n\s+0x00000000,\s+//\sRange\sMinimum\n\s+0x00000000,\s+//\sRange\sMaximum\n\s+0x00000000,\s+//\sTranslation\sOffset\n\s+0x00000000,\s+//\sLength replace_matched
+begin
+DWordMemory (ResourceProducer, PosDecode, MinFixed, MaxFixed, Cacheable, ReadWrite,\n
+    0x00000000,         // Granularity\n
+    0x00000000,         // Range Minimum\n
+    0x00000000,         // Range Maximum\n
+    0x00000000,         // Translation Offset\n
+    0x00000001,         // Length\n
+end;
+into_all all code_regex DWordMemory\s\(ResourceProducer,\sPosDecode,\sMinFixed,\sMaxFixed,\sCacheable,\sReadWrite,\n\s+0x00000000,\s+//\sGranularity\n\s+0x00000000,\s+//\sRange\sMinimum\n\s+0xFEDFFFFF,\s+//\sRange\sMaximum\n\s+0x00000000,\s+//\sTranslation\sOffset\n\s+0x00000000,\s+//\sLength replace_matched
+begin
+DWordMemory (ResourceProducer, PosDecode, MinFixed, MaxFixed, Cacheable, ReadWrite,\n
+    0x00000000,         // Granularity\n
+    0x00000000,         // Range Minimum\n
+    0xFEDFFFFF,         // Range Maximum\n
+    0x00000000,         // Translation Offset\n
+    0xFEE00000,         // Length\n
+end;
+
+# Fix 3 compilation warnings 
+#rehabman: These are warnings and not sure if it a good idea to "fix" them...
+#into_all all code_regex \\_SB\.F4EV,.0x0500 replaceall_matched begin F4EV, 0xFFFF end;
+#into_all all code_regex \\_SB\.BEVT,.0x10 replaceall_matched begin BEVT, 0xFFFF end;
+
+# Fix NBTT compilation warning 
+#rehabman: These are also warnings, and not necessary to patch
+#into_all all code_regex Name\s\(NBTT,\sPackage\s\(0x08\) replaceall_matched
+#begin
+#Name (NBTT, Package()
+#end;
+
+# ProBook 4x40s specific
+into all code_regex Name\s+\(BB2S,\s+\"\s+\"\.\.\.\) replace_matched
+begin
+Name (BB2S, "                                                                                                                                                                                                                                                                                               ")
+end;
+#Maintained by: RehabMan for: HP Probook 4x30s/4x40s
+# 02_DSDTPatch.txt
+
+#    Replace all instances of AC with ADP1
+into_all all code_regex \.AC, replaceall_matched begin .ADP1, end;
+into_all all code_regex \(AC, replaceall_matched begin (ADP1, end;
+into all label AC set_label begin ADP1 end;
+
+
+#   Power fix - uses AppleACPIBatteryManager.kext  instead VoodooBattery
+into device label ADP1 code_regex Name\s+\(_PRW,[\s\S]*\}\) remove_matched;
+into device label ADP1 insert
+begin
+Name (_PRW, Package() { 0x18, 0x03 })
+end;
+
+
+#     Enable functions keys
+#     Override DSDT oemId (for Clover, since it patches with "Apple ")
+into method label _DSM parent_label PS2K remove_entry;
+into device label PS2K insert
+begin
+Method (_DSM, 4, NotSerialized)\n
+{\n
+    If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }\n
+    Return (Package()\n
+    {\n
+        // Note: Function key part seems to not be necessary
+        // "AAPL,has-embedded-fn-keys", Buffer() { 0x01, 0x00, 0x00, 0x00 },\n
+        "RM,oem-id", "HPQOEM",\n
+    })\n
+}\n
+end;
+
+
+#   Inject Audio info
+into method label _DSM parent_label HDEF remove_entry;
+into device label HDEF insert
+begin
+Method (_DSM, 4, NotSerialized)\n
+{\n
+    If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }\n
+    Return (Package()\n
+    {\n
+        "hda-gfx", Buffer() { "onboard-1" },\n
+        "layout-id", Buffer() { 0x0C, 0x00, 0x00, 0x00 },\n
+        "PinConfigurations", Buffer() { },\n
+        //"MaximumBootBeepVolume", 77,\n
+    })\n
+}\n
+end;
+
+
+#     IRQ fix
+into device name_hid PNP0000 code_regex IRQNoFlags\s\(\)\n\s+\{(\d+)\} remove_matched;
+into device name_hid PNP0100 code_regex IRQNoFlags\s\(\)\n\s+\{(\d+)\} remove_matched;
+into device name_hid PNP0B00 code_regex IRQNoFlags\s\(\)\n\s+\{(\d+)\} remove_matched;
+into device name_hid PNP0103 code_regex IRQNoFlags\s\(\)\n\s+\{.*\} removeall_matched;
+into device name_hid PNP0103 code_regex Name\s\(([^,]+),\sResourceTemplate\s\(\)\n\s+\{((?:.|\n)*)\}\) replace_matched
+begin
+Name (%1, ResourceTemplate()\n
+{\n
+    IRQNoFlags() { 0, 8, 11, 15 }\n
+%2
+})\n
+end;
+
+
+#    Rename all instances of GFX0 to IGPU
+into_all all code_regex GFX0 replaceall_matched begin IGPU end;
+into_all all label GFX0 set_label begin IGPU end;
+into_all all label \_SB.PCI0.GFX0 set_label begin \_SB.PCI0.IGPU end;
+
+
+#   Brightness control fix
+into device label PNLF remove_entry;
+into scope label \_SB insert
+begin
+Device (PNLF)\n
+{\n
+	Name (_HID, EisaId ("APP0002"))\n
+	Name (_CID, "backlight")\n
+	Name (_UID, 10)\n
+	Name (_STA, 0x0B)\n
+}\n
+end;
+
+
+#   RTC fix
+into device name_hid PNP0B00 code_regex (IO\s\((?:\s*[^,]+,\s*(?:\/\/\s.*)?\s*\n)+\s*)(\dx\d+)(,\s*(?:\/\/\s.*)?\s*\n\s*\)) replace_matched begin %10x02%3 end;
+
+
+#  Shutdown fix
+into method label _PTS code_regex_not If\s\(LEqual\s\(Arg0,\s0x05\)\) code_regex ^((?:.|\n)*)$ replace_matched
+begin
+    If (LEqual (Arg0, 0x05)) {}\n
+    Else\n
+    {\n
+%1
+    }\n
+end;
+
+
+#   SMBUS fix
+into device label BUS0 parent_adr 0x001F0003 remove_entry;
+into device name_adr 0x001F0003 insert
+begin
+Device (BUS0)\n
+{\n
+    Name (_CID, "smbus")\n
+    Name (_ADR, Zero)\n
+    Device (DVL0)\n
+    {\n
+        Name (_ADR, 0x57)\n
+        Name (_CID, "diagsvault")\n
+        Method (_DSM, 4, NotSerialized)\n
+        {\n
+            If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }\n
+            Return (Package() { "address", 0x57 })\n
+        }\n
+    }\n
+}\n
+end;
+
+#    USB sleep fix injects Macbook 8,1 device IDs
+into method label _DSM parent_adr 0x001D0001 remove_entry;
+into device name_adr 0x001D0001 insert
+begin
+Method (_DSM, 4, NotSerialized)\n
+{\n
+    If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }\n
+    Return (Package()\n
+    {\n
+        "device-id", Buffer() { 0x27, 0x1c, 0x00, 0x00 },\n
+        "name", Buffer() { "pci8086,1c27" },\n
+    })\n
+}\n
+end;
+
+into method label _DSM parent_adr 0x001D0002 remove_entry;
+into device name_adr 0x001D0002 insert
+begin
+Method (_DSM, 4, NotSerialized)\n
+{\n
+    If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }\n
+    Return (Package()\n
+    {\n
+        "device-id", Buffer() { 0x2c, 0x1c, 0x00, 0x00 },\n
+        "name", Buffer() { "pci8086,1c2c" },\n
+    })\n
+}\n
+end;
+
+into method label _DSM parent_adr 0x001D0003 remove_entry;
+into device name_adr 0x001D0003 insert
+begin
+Method (_DSM, 4, NotSerialized)\n
+{\n
+    If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }\n
+    Return (Package()\n
+    {\n
+        "device-id", Buffer() { 0x27, 0x1c, 0x00, 0x00 },\n
+        "name", Buffer() { "pci8086,1c27" },\n
+    })\n
+}\n
+end;
+
+into method label _DSM parent_adr 0x001D0004 remove_entry;
+into device name_adr 0x001D0004 insert
+begin
+Method (_DSM, 4, NotSerialized)\n
+{\n
+    If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }\n
+    Return (Package()\n
+    {\n
+        "device-id", Buffer() { 0x2c, 0x1c, 0x00, 0x00 },\n
+        "name", Buffer() { "pci8086,1c2c" },\n
+    })\n
+}\n
+end;
+
+into method label _DSM parent_adr 0x001A0001 remove_entry;
+into device name_adr 0x001A0001 insert
+begin
+Method (_DSM, 4, NotSerialized)\n
+{\n
+    If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }\n
+    Return(Package()\n
+    {\n
+        "device-id", Buffer() { 0x27, 0x1c, 0x00, 0x00 },\n
+        "name", Buffer() { "pci8086,1c27" },\n
+    })\n
+}\n
+end;
+
+into method label _DSM parent_adr 0x001A0002 remove_entry;
+into device name_adr 0x001A0002 insert
+begin
+Method (_DSM, 4, NotSerialized)\n
+{\n
+    If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }\n
+    Store (Package()\n
+    {\n
+        "device-id", Buffer() { 0x2c, 0x1c, 0x00, 0x00 },\n
+        "name", Buffer() { "pci8086,1c2c" },\n
+    })\n
+}\n
+end;
+
+into method label _DSM parent_adr 0x001A0003 remove_entry;
+into device name_adr 0x001A0003 insert
+begin
+Method (_DSM, 4, NotSerialized)\n
+{\n
+    If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }\n
+    Return (Package()\n
+    {\n
+        "device-id", Buffer() { 0x27, 0x1c, 0x00, 0x00 },\n
+        "name", Buffer() { "pci8086,1c27" },\n
+    })\n
+}\n
+end;
+
+
+#     HPET fix to avoid AppleIntelCPUPowerManagement panic
+into method label _STA parent_hid PNP0103 remove_entry;
+into device name_hid PNP0103 code_regex Name\s\(_STA\,\s+0x0F\) remove_matched;
+into device name_hid PNP0103 insert
+begin
+Name (_STA, 0x0F)\n
+end;
+
+into method label _CRS parent_hid PNP0103 remove_entry;
+into device name_hid PNP0103 insert
+begin
+Method (_CRS, 0, NotSerialized) { Return (BUF0) }\n
+end;
+
+
+#     Fix _WAK method to deal with bug in AppleACPIPlatform v1.8 (in 10.8.5+)
+into method label _WAK code_regex ([\s\S]*) replace_matched
+begin
+If (LOr(LLess(Arg0,1),LGreater(Arg0,5))) { Store(3,Arg0) }\n
+%1
+end;
+
+
+#     Add missing IMEI device
+into device label IMEI parent_label PCI0 remove_entry;
+into device label PCI0 insert
+begin
+Device (IMEI)\n
+{\n
+    Name (_ADR, 0x00160000)\n
+}\n
+end;
+
+# Fix method PPNT, called from AC adapter device (AC/ADP1) (ProBooks)
+into method label PPNT parent_label EC0 replace_content begin // nothing end;
+
+# Fix method PNOT, called from AC adapter device (AC/ADP1) (EliteBooks?)
+into method label PNOT replace_content begin // nothing end;
+
+# These are not really battery related, but similar problems...
+
+# Fix method PCNT, called from HWAK which is called from _WAK
+into method label PCNT replace_content begin // nothing end;
+
+# CFGD is an External in an SSDT being dropped...
+into method label _WAK code_regex (If\s+\(And\s+\(CFGD,\s+0x01000000\)\)[\s\S]*\((0x01|One),\s+0x48\)\n.*\n.*\}) replace_matched
+begin
+If (CondRefOf(CFGD))\n
+{\n
+%1\n
+}\n
+end;
+
+#Maintained by: RehabMan for: HP Probook 4x30s/4x40s
+# 02b_EHCI_4x40s.txt
+
+# USB property injection for 4x40s (HM76)
+
+#   Insert Apple USB properties into EHC1
+into method label _DSM parent_adr 0x001D0000 remove_entry;
+into device name_adr 0x001D0000 insert
+begin
+Method (_DSM, 4, NotSerialized)\n
+{\n
+    If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }\n
+    Return (Package()\n
+    {\n
+        "AAPL,clock-id", Buffer() { 0x01 },\n
+        "subsystem-id", Buffer() { 0x70, 0x72, 0x00, 0x00 },\n
+        "subsystem-vendor-id", Buffer() { 0x86, 0x80, 0x00, 0x00 },\n
+        "AAPL,current-available", 2100,\n
+        "AAPL,current-extra", 2200,\n
+        "AAPL,current-extra-in-sleep", 1600,\n
+        "AAPL,device-internal", 0x02,\n
+        "AAPL,max-port-current-in-sleep", 2100,\n
+    })\n
+}\n
+end;
+
+# Insert Apple USB properties into EHC2
+into method label _DSM parent_adr 0x001A0000 remove_entry;
+into device name_adr 0x001A0000 insert
+begin
+Method (_DSM, 4, NotSerialized)\n
+{\n
+    If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }\n
+    Return (Package()\n
+    {\n
+        "AAPL,clock-id", Buffer() { 0x01 },\n
+        "subsystem-id", Buffer() { 0x70, 0x72, 0x00, 0x00 },\n
+        "subsystem-vendor-id", Buffer() { 0x86, 0x80, 0x00, 0x00 },\n
+        "AAPL,current-available", 2100,\n
+        "AAPL,current-extra", 2200,\n
+        "AAPL,current-extra-in-sleep", 1600,\n
+        "AAPL,device-internal", 0x02,\n
+        "AAPL,max-port-current-in-sleep", 2100,\n
+    })\n
+}\n
+end;
+
+# Insert Apple USB properties into USB 3.0 XHC
+into method label _DSM parent_adr 0x00140000 remove_entry;
+into device name_adr 0x00140000 insert
+begin
+Method (_DSM, 4, NotSerialized)\n
+{\n
+    If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }\n
+    Return (Package()\n
+    {\n
+        "subsystem-id", Buffer() { 0x70, 0x72, 0x00, 0x00 },\n
+        "subsystem-vendor-id", Buffer() { 0x86, 0x80, 0x00, 0x00 },\n
+        "AAPL,current-available", 2100,\n
+        "AAPL,current-extra", 2200,\n
+        "AAPL,current-extra-in-sleep", 1600,\n
+        "AAPL,device-internal", 0x02,\n
+        "AAPL,max-port-current-in-sleep", 2100,\n
+    })\n
+}\n
+end;
+
+#Maintained by: RehabMan for: Laptop Patches
+#battery_HP-Envy-17t.txt
+
+# created by RehabMan 2013-10-16
+# for gygabyte666
+
+# works for:
+#  HP Envy 17t-j000
+#  HP Envy 15-j063cl
+#  HP Envy 15-j040el
+
+into method label B1B2 remove_entry;
+into definitionblock code_regex . insert
+begin
+Method (B1B2, 2, NotSerialized) { Return (Or (Arg0, ShiftLeft (Arg1, 8))) }\n
+end;
+
+into method label B1B4 remove_entry;
+into definitionblock code_regex . insert
+begin
+Method (B1B4, 4, NotSerialized)\n
+{\n
+    Store(Arg3, Local0)\n
+    Or(Arg2, ShiftLeft(Local0, 8), Local0)\n
+    Or(Arg1, ShiftLeft(Local0, 8), Local0)\n
+    Or(Arg0, ShiftLeft(Local0, 8), Local0)\n
+    Return(Local0)\n
+}\n
+end;
+
+# utility methods to read/write buffers from/to EC
+into method label RE1B parent_label H_EC remove_entry;
+into method label RECB parent_label H_EC remove_entry;
+into device label H_EC insert
+begin
+Method (RE1B, 1, NotSerialized)\n
+{\n
+    OperationRegion(ERAM, EmbeddedControl, Arg0, 1)\n
+    Field(ERAM, ByteAcc, NoLock, Preserve) { BYTE, 8 }\n
+    Return(BYTE)\n
+}\n
+Method (RECB, 2, Serialized)\n
+{\n
+    ShiftRight(Arg1, 3, Arg1)\n
+    Name(TEMP, Buffer(Arg1) { })\n
+    Add(Arg0, Arg1, Arg1)\n
+    Store(0, Local0)\n
+    While (LLess(Arg0, Arg1))\n
+    {\n
+        Store(RE1B(Arg0), Index(TEMP, Local0))\n
+        Increment(Arg0)\n
+        Increment(Local0)\n
+    }\n
+    Return(TEMP)\n
+}\n
+end;
+
+#
+# Note: Offsets below into EC are based on the following data in the native DSDT
+#
+#                    OperationRegion (ECF2, EmbeddedControl, Zero, 0xFF)
+#                    Field (ECF2, ByteAcc, Lock, Preserve)
+#                    {
+#                        MBVR,   8,
+#                                Offset (0x06),
+#                        KBLL,   8,
+#                                Offset (0x10),
+#                        BDN0,   56,//10
+#                                Offset (0x18),
+#                        BME0,   8,
+#                                Offset (0x1C),
+#                        DAY0,   8,//1c
+#                        HUR0,   8,//1d
+#                        MIN0,   8,//1e
+#                        SEC0,   8,//1f
+#                        BMNC,   8,//20
+#                        BMN0,   120,//21
+#                        BCT0,   128,//30
+#
+# If the native DSDT has any such data re-organized such that the fields
+# being read with RECB are at a different offset, the offsets below
+# (first param to WECB/RECB) would need to be changed for the DSDT.
+#
+# This is something to watch out for when adapting this patch to another 
+# computer and maybe even after updating to a new BIOS.
+#
+
+
+# deal with 56-bit BDN0
+into device label H_EC code_regex (BDN0,)\s+(56) replace_matched begin BDNX,%2,//%1%2 end;
+into device label H_EC insert begin Method (RDN0, 0, Serialized) { Return(RECB(0x10,56)) } end;
+into method label GBTI code_regex \(BDN0, replaceall_matched begin (RDN0(), end;
+
+# deal with 120-bit BMN0
+into device label H_EC code_regex (BMN0,)\s+(120) replace_matched begin BMNX,%2,//%1%2 end;
+into device label H_EC insert begin Method (RMN0, 0, Serialized) { Return(RECB(0x21,120)) } end;
+into method label GBTI code_regex \(BMN0, replaceall_matched begin (RDN0(), end;
+
+# deal with 128-bit BCT0
+into device label H_EC code_regex (BCT0,)\s+(128) replace_matched begin BCTX,%2,//%1%2 end;
+into device label H_EC insert begin Method (RCT0, 0, Serialized) { Return(RECB(0x30,128)) } end;
+into method label GBTI code_regex \(BCT0, replaceall_matched begin (RCT0(), end;
+
+# not battery related, but in case you want to read the fan
+into device label H_EC code_regex FANR,\s+16 replace_matched begin FNR0,8,FNR1,8 end;
+into method label FRSP parent_label TZ00 code_regex \(\\_SB\.PCI0\.LPCB\.H_EC\.FANR, replace_matched begin (B1B2(\\_SB.PCI0.LPCB.H_EC.FNR0,\\_SB.PCI0.LPCB.H_EC.FNR1), end;
+
+# 16-bit registers
+into device label H_EC code_regex BDC0,\s+16 replace_matched begin DC00,8,DC01,8 end;
+into device label H_EC code_regex BDC1,\s+16 replace_matched begin DC10,8,DC11,8 end;
+into device label H_EC code_regex BFC0,\s+16 replace_matched begin FC00,8,FC01,8 end;
+into device label H_EC code_regex BFC1,\s+16 replace_matched begin FC10,8,FC11,8 end;
+into device label H_EC code_regex BDV0,\s+16 replace_matched begin DV00,8,DV01,8 end;
+into device label H_EC code_regex BDV1,\s+16 replace_matched begin DV10,8,DV11,8 end;
+into device label H_EC code_regex BPR0,\s+16 replace_matched begin PR00,8,PR01,8 end;
+into device label H_EC code_regex BPR1,\s+16 replace_matched begin PR10,8,PR11,8 end;
+into device label H_EC code_regex BRC0,\s+16 replace_matched begin RC00,8,RC01,8 end;
+into device label H_EC code_regex BRC1,\s+16 replace_matched begin RC10,8,RC11,8 end;
+into device label H_EC code_regex BCC0,\s+16 replace_matched begin CC00,8,CC01,8 end;
+into device label H_EC code_regex BCC1,\s+16 replace_matched begin CC10,8,CC11,8 end;
+into device label H_EC code_regex CV01,\s+16 replace_matched begin CV10,8,CV11,8 end;
+into device label H_EC code_regex CV02,\s+16 replace_matched begin CV20,8,CV21,8 end;
+into device label H_EC code_regex CV03,\s+16 replace_matched begin CV30,8,CV31,8 end;
+into device label H_EC code_regex CV04,\s+16 replace_matched begin CV40,8,CV41,8 end;
+into device label H_EC code_regex CV11,\s+16 replace_matched begin CV50,8,CV51,8 end;
+into device label H_EC code_regex CV12,\s+16 replace_matched begin CV60,8,CV61,8 end;
+into device label H_EC code_regex CV13,\s+16 replace_matched begin CV70,8,CV71,8 end;
+into device label H_EC code_regex CV14,\s+16 replace_matched begin CV80,8,CV81,8 end;
+into device label H_EC code_regex HPBA,\s+16 replace_matched begin PBA0,8,PBA1,8 end;
+into device label H_EC code_regex HPBB,\s+16 replace_matched begin PBB0,8,PBB1,8 end;
+into device label H_EC code_regex BMD0,\s+16 replace_matched begin MD00,8,MD01,8 end;
+into device label H_EC code_regex BMD1,\s+16 replace_matched begin MD10,8,MD11,8 end;
+into device label H_EC code_regex BPV0,\s+16 replace_matched begin PV00,8,PV01,8 end;
+into device label H_EC code_regex BPV1,\s+16 replace_matched begin PV10,8,PV11,8 end;
+into device label H_EC code_regex BSN0,\s+16 replace_matched begin SN00,8,SN01,8 end;
+into device label H_EC code_regex BSN1,\s+16 replace_matched begin SN10,8,SN11,8 end;
+into device label H_EC code_regex BCV0,\s+16 replace_matched begin BV00,8,BV01,8 end;
+into device label H_EC code_regex BCV1,\s+16 replace_matched begin BV10,8,BV11,8 end;
+into device label H_EC code_regex CRG0,\s+16 replace_matched begin RG00,8,RG01,8 end;
+into device label H_EC code_regex CRG1,\s+16 replace_matched begin RG10,8,RG11,8 end;
+into device label H_EC code_regex CBT0,\s+16 replace_matched begin BT00,8,BT01,8 end;
+into device label H_EC code_regex CBT1,\s+16 replace_matched begin BT10,8,BT11,8 end;
+
+# 32-bit registers
+into device label H_EC code_regex BTY0,\s+32 replace_matched begin TY00,8,TY01,8,TY02,8,TY03,8 end;
+into device label H_EC code_regex BTY1,\s+32 replace_matched begin TY10,8,TY11,8,TY12,8,TY13,8 end;
+
+# fix 16-bit methods
+into method label GBTI code_regex \(BDC0, replaceall_matched begin (B1B2(DC00,DC01), end;
+into method label GBTI code_regex \(BDC1, replaceall_matched begin (B1B2(DC10,DC11), end;
+into method label GBTI code_regex \(BFC0, replaceall_matched begin (B1B2(FC00,FC01), end;
+into method label GBTI code_regex \(BFC1, replaceall_matched begin (B1B2(FC10,FC11), end;
+into method label BTIF code_regex \(BFC0, replaceall_matched begin (B1B2(FC00,FC01), end;
+into method label BTIF code_regex \(BFC1, replaceall_matched begin (B1B2(FC10,FC11), end;
+into method label ITLB code_regex \(BFC1, replaceall_matched begin (B1B2(FC10,FC11), end;
+into method label ITLB code_regex \sBFC0, replaceall_matched begin B1B2(FC00,FC01), end;
+into method label _Q09 code_regex \(BRC0, replaceall_matched begin (B1B2(RC00,RC01), end;
+into method label _Q09 code_regex \sBFC0\) replaceall_matched begin B1B2(FC00,FC01)) end;
+into method label GBTI code_regex \(BDV0, replaceall_matched begin (B1B2(DV00,DV01), end;
+into method label GBTI code_regex \(BDV1, replaceall_matched begin (B1B2(DV10,DV11), end;
+into method label BTIF code_regex \(BDV0, replaceall_matched begin (B1B2(DV00,DV01), end;
+into method label BTIF code_regex \(BDV1, replaceall_matched begin (B1B2(DV10,DV11), end;
+into method label GBTI code_regex \(BPR0, replaceall_matched begin (B1B2(PR00,PR01), end;
+into method label GBTI code_regex \(BPR1, replaceall_matched begin (B1B2(PR10,PR11), end;
+into method label BTST code_regex \sBPR0, replaceall_matched begin B1B2(PR00,PR01), end;
+into method label BTST code_regex \sBPR1, replaceall_matched begin B1B2(PR10,PR11), end;
+into method label BTST code_regex \(BPR0, replaceall_matched begin (B1B2(PR00,PR01), end;
+into method label BTST code_regex \(BPR1, replaceall_matched begin (B1B2(PR10,PR11), end;
+into method label BTST code_regex \(BRC0, replaceall_matched begin (B1B2(RC00,RC01), end;
+into method label BTST code_regex \(BRC1, replaceall_matched begin (B1B2(RC10,RC11), end;
+into method label GBTI code_regex \(BRC0, replaceall_matched begin (B1B2(RC00,RC01), end;
+into method label GBTI code_regex \(BRC1, replaceall_matched begin (B1B2(RC10,RC11), end;
+into method label _Q09 code_regex \(BRC0, replaceall_matched begin (B1B2(RC00,RC01), end;
+into method label GBTI code_regex \(BCC0, replaceall_matched begin (B1B2(CC00,CC01), end;
+into method label GBTI code_regex \(BCC1, replaceall_matched begin (B1B2(CC10,CC11), end;
+into method label GBTI code_regex \(CV01, replaceall_matched begin (B1B2(CV10,CV11), end;
+into method label GBTI code_regex \(CV02, replaceall_matched begin (B1B2(CV20,CV21), end;
+into method label GBTI code_regex \(CV03, replaceall_matched begin (B1B2(CV30,CV31), end;
+into method label GBTI code_regex \(CV04, replaceall_matched begin (B1B2(CV40,CV41), end;
+into method label GBTI code_regex \(CV11, replaceall_matched begin (B1B2(CV50,CV51), end;
+into method label GBTI code_regex \(CV12, replaceall_matched begin (B1B2(CV60,CV61), end;
+into method label GBTI code_regex \(CV13, replaceall_matched begin (B1B2(CV70,CV71), end;
+into method label GBTI code_regex \(CV14, replaceall_matched begin (B1B2(CV80,CV81), end;
+into method label BTIF code_regex \(BMD0, replaceall_matched begin (B1B2(MD00,MD01), end;
+into method label BTIF code_regex \(BMD1, replaceall_matched begin (B1B2(MD10,MD11), end;
+into method label GBTI code_regex \sBMD0\) replaceall_matched begin B1B2(MD00,MD01)) end;
+into method label GBTI code_regex \(BMD0, replaceall_matched begin (B1B2(MD00,MD01), end;
+into method label GBTI code_regex \sBMD1\) replaceall_matched begin B1B2(MD10,MD11)) end;
+into method label GBTI code_regex \(BMD1, replaceall_matched begin (B1B2(MD10,MD11), end;
+into method label BTST code_regex \(BPV0, replaceall_matched begin (B1B2(PV00,PV01), end;
+into method label BTST code_regex \(BPV1, replaceall_matched begin (B1B2(PV10,PV11), end;
+into method label GBTI code_regex \(BPV0, replaceall_matched begin (B1B2(PV00,PV01), end;
+into method label GBTI code_regex \(BPV1, replaceall_matched begin (B1B2(PV10,PV11), end;
+into method label BTIF code_regex \(BSN0, replaceall_matched begin (B1B2(SN00,SN01), end;
+into method label BTIF code_regex \(BSN1, replaceall_matched begin (B1B2(SN10,SN11), end;
+into method label GBTI code_regex \(BSN0, replaceall_matched begin (B1B2(SN00,SN01), end;
+into method label GBTI code_regex \(BSN1, replaceall_matched begin (B1B2(SN10,SN11), end;
+into method label GBTI code_regex \(BCV0, replaceall_matched begin (B1B2(BV00,BV01), end;
+into method label GBTI code_regex \(BCV1, replaceall_matched begin (B1B2(BV10,BV11), end;
+into method label GBTI code_regex \(CRG0, replaceall_matched begin (B1B2(RG00,RG01), end;
+into method label GBTI code_regex \(CRG1, replaceall_matched begin (B1B2(RG10,RG11), end;
+into method label GBTI code_regex \(CBT0, replaceall_matched begin (B1B2(BT00,BT01), end;
+into method label GBTI code_regex \(CBT1, replaceall_matched begin (B1B2(BT10,BT11), end;
+
+# fix 32-bit methods
+into method label GBTI code_regex \(BTY0, replaceall_matched begin (B1B4(TY00,TY01,TY02,TY03), end;
+into method label GBTI code_regex \(BTY1, replaceall_matched begin (B1B4(TY10,TY11,TY12,TY13), end;
+
+# set _PRW methods to return 0
+
+into method label _PRW parent_adr 0x001D0000 code_regex Return[^(]*\([^(]*\(([^,]*)[^)]*[^,]* replace_matched
+begin
+Return (Package(){%1,0})
+end;
+into method label _PRW parent_adr 0x001A0000 code_regex Return[^(]*\([^(]*\(([^,]*)[^)]*[^,]* replace_matched
+begin
+Return (Package(){%1,0})
+end;
+into method label _PRW parent_adr 0x00140000 code_regex Return[^(]*\([^(]*\(([^,]*)[^)]*[^,]* replace_matched
+begin
+Return (Package(){%1,0})
+end;
+into method label _PRW parent_adr 0x00190000 code_regex Return[^(]*\([^(]*\(([^,]*)[^)]*[^,]* replace_matched
+begin
+Return (Package(){%1,0})
+end;

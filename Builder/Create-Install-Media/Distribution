@@ -12,18 +12,27 @@
         <line choice="choice6">
             <line choice="choice7"/>
             <line choice="choice8"/>
+            <line choice="choice4">
+                <line choice="choice5"/>
+            </line>
         </line>
     </choices-outline>
     <choice id="choice6" title="OpenCore">
         <pkg-ref id="org.opencoreUsb.EFIFOLDER.pkg"/>
-    </choice>
+   </choice>
     <choice id="choice7" title="VBoxHfs" description="Install VBoxHfs.efi in OpenCore" start_selected="false" selected="!choices['choice8'].selected">
         <pkg-ref id="org.opencoreUsb.VBOX.pkg"/>
     </choice>
     <choice id="choice8" title="HFSPlus" description="Install HfsPlus.efi in OpenCore" start_selected="true" selected="!choices['choice7'].selected">
         <pkg-ref id="org.opencoreUsb.HFSPLUS.pkg"/>
     </choice>
-    <pkg-ref id="org.opencoreUsb.EFIFOLDER.pkg" installKBytes="4808" version="1.0" auth="Root">#efifolder.pkg</pkg-ref>
-    <pkg-ref id="org.opencoreUsb.VBOX.pkg" installKBytes="60" version="1.0" auth="Root">#vbox.pkg</pkg-ref>
-    <pkg-ref id="org.opencoreUsb.HFSPLUS.pkg" installKBytes="0" version="1.0" auth="Root">#hfsplus.pkg</pkg-ref>
+    <choice id="choice4" title="8 Series Haswell" description="Install config in OpenCore" start_selected="false"/>
+    <choice id="choice5" title="8 Series support config" description="Install config in OpenCore" start_selected="false">
+        <pkg-ref id="org.opencoreUsb.opencoreUsb.8-series-Haswell.pkg"/>
+    </choice>
+    <pkg-ref id="org.opencoreUsb.EFIFOLDER.pkg" installKBytes="55132" version="1.0" auth="Root">#efifolder.pkg</pkg-ref>
+    <pkg-ref id="org.opencoreUsb.VBOX.pkg" installKBytes="80" version="1.0" auth="Root">#vbox.pkg</pkg-ref>
+    <pkg-ref id="org.opencoreUsb.HFSPLUS.pkg" installKBytes="92" version="1.0" auth="Root">#hfsplus.pkg</pkg-ref>
+    <pkg-ref id="org.opencoreUsb.opencoreUsb.8-series-Haswell.pkg" installKBytes="48" version="1.0" auth="Root">#8-series-Haswell.pkg</pkg-ref>
+    <background-darkAqua file="background" alignment="center" scaling="tofit"/>
 </installer-script>

@@ -25,6 +25,20 @@ pkgbuild --root ./Patcher --scripts ./script/PRE --identifier com.chris1111.hppr
 
 pkgbuild --root ./EFI-DSDT --identifier com.chris1111.hpprobookelitebookmacos.EFI-DSDT.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/efidsdt.pkg
 
+pkgbuild --root ./DSDT-Patch/8series-laptop/3x0-G1 --scripts ./script/CONFIG-8S/3x0-G1 --identifier com.chris1111.hpprobookelitebookmacos.3x0-G1.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/3x0-G1.pkg
+
+pkgbuild --root ./DSDT-Patch/8series-laptop/4x0-G1 --scripts ./script/CONFIG-8S/4x0-G1 --identifier com.chris1111.hpprobookelitebookmacos.4x0-G1.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/4x0-G1.pkg
+
+pkgbuild --root ./DSDT-Patch/8series-laptop/4x0-G2 --scripts ./script/CONFIG-8S/4x0-G2 --identifier com.chris1111.hpprobookelitebookmacos.4x0-G2.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/4x0-G2.pkg
+
+pkgbuild --root ./DSDT-Patch/8series-laptop/6x0-G1 --scripts ./script/CONFIG-8S/6x0-G1 --identifier com.chris1111.hpprobookelitebookmacos.6x0-G1.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/6x0-G1.pkg
+
+pkgbuild --root ./DSDT-Patch/8series-laptop/8x0-G1 --scripts ./script/CONFIG-8S/8x0-G1 --identifier com.chris1111.hpprobookelitebookmacos.8x0-G1.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/8x0-G1.pkg
+
+pkgbuild --root ./DSDT-Patch/8series-laptop/ZBook-G1 --scripts ./script/CONFIG-8S/ZBook-G1 --identifier com.chris1111.hpprobookelitebookmacos.ZBook-G1.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/ZBook-G1.pkg
+
+pkgbuild --root ./DSDT-Patch/8series-laptop/Folio1040-G1 --scripts ./script/CONFIG-8S/Folio1040-G1 --identifier com.chris1111.hpprobookelitebookmacos.Folio1040-G1.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/Folio1040-G1.pkg
+
 pkgbuild --root ./DSDT-Patch/"7series laptop HP Probook"/"4x0 G0" --identifier com.chris1111.hpprobookelitebookmacos.4x0G0.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/4x0G0.pkg
 
 pkgbuild --root ./DSDT-Patch/"7series laptop HP Probook"/4x40 --identifier com.chris1111.hpprobookelitebookmacos.4x40.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/4x40.pkg
@@ -93,6 +107,20 @@ Sleep 2
 pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/efidsdt.pkg /tmp/PackageDIR/efidsdt.pkg
 
 pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/patcher.pkg /tmp/PackageDIR/patcher.pkg
+
+pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/3x0-G1.pkg /tmp/PackageDIR/3x0-G1.pkg
+
+pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/4x0-G1.pkg /tmp/PackageDIR/4x0-G1.pkg
+
+pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/4x0-G2.pkg /tmp/PackageDIR/4x0-G2.pkg
+
+pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/6x0-G1.pkg /tmp/PackageDIR/6x0-G1.pkg
+
+pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/8x0-G1.pkg /tmp/PackageDIR/8x0-G1.pkg
+
+pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/ZBook-G1.pkg /tmp/PackageDIR/ZBook-G1.pkg
+
+pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/Folio1040-G1.pkg /tmp/PackageDIR/Folio1040-G1.pkg
 
 pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/4x0G0.pkg /tmp/PackageDIR/4x0G0.pkg
 
@@ -177,3 +205,4 @@ cp -Rp ./"Support Donate.html" /$HOME/Desktop/HP-ProBook-EliteBook-Packager
 ./Build/PackageMaker/Icon/seticon -d ./Build/PackageMaker/Icon/Icon.icns /$HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-ProBook-EliteBook-macOS.pkg
 Sleep 1
 ./Build/PackageMaker/Icon/seticon -d ./Build/PackageMaker/Icon/Support.icns /$HOME/Desktop/HP-ProBook-EliteBook-Packager/"Support Donate.html"
+./Build/PackageMaker/Icon/seticon -d ./Build/PackageMaker/Icon/FileVaultIcon.icns /$HOME/Desktop/HP-ProBook-EliteBook-Packager/Gatekeeper.command

@@ -43,5 +43,5 @@ Sleep 1
 
 Sleep 1
 
-echo "Add DeviceProperties Displayport High Screen"; 
+echo "Add DeviceProperties Displayport High Screen" 
 fi

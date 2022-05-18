@@ -19,8 +19,6 @@ echo "preinstall: Root of system folder... $4"
 DEST_VOL="$3"
 EFI_ROOT_DIR=$(cd "${DEST_VOL}"/Private/tmp/EFIROOTDIR; pwd -P)
 Sleep 1
-cp -rp /"${DEST_VOL}"/Private/tmp/EFI /"${DEST_VOL}"/Private/tmp/EFIROOTDIR
-
 
 rm -rf /"$3"/Private/tmp/EFIROOTDIR/EFI/OC/Drivers/VBoxHfs.efi
 rm -rf /"$3"/Private/tmp/EFIROOTDIR/EFI/OC/config.plist

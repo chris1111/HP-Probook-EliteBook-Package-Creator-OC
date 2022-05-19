@@ -25,6 +25,8 @@ pkgbuild --root ./Patcher --scripts ./script/PRE --identifier com.chris1111.hppr
 
 pkgbuild --root ./EFI-DSDT --identifier com.chris1111.hpprobookelitebookmacos.EFI-DSDT.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/efidsdt.pkg
 
+pkgbuild --root ./Kexts --scripts ./script/KEXTS-8S --identifier com.chris1111.hpprobookelitebookmacos.kexts.pkg --version 1.0 --install-location /Private/tmp/EFIROOTDIR/EFI/OC/Kexts /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/kexts.pkg
+
 pkgbuild --root ./DSDT-Patch/8series-laptop/3x0-G1 --scripts ./script/CONFIG-8S/3x0-G1 --identifier com.chris1111.hpprobookelitebookmacos.3x0-G1.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/3x0-G1.pkg
 
 pkgbuild --root ./DSDT-Patch/8series-laptop/4x0-G1 --scripts ./script/CONFIG-8S/4x0-G1 --identifier com.chris1111.hpprobookelitebookmacos.4x0-G1.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/4x0-G1.pkg
@@ -107,6 +109,8 @@ Sleep 2
 pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/efidsdt.pkg /tmp/PackageDIR/efidsdt.pkg
 
 pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/patcher.pkg /tmp/PackageDIR/patcher.pkg
+
+pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/kexts.pkg /tmp/PackageDIR/kexts.pkg
 
 pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/3x0-G1.pkg /tmp/PackageDIR/3x0-G1.pkg
 

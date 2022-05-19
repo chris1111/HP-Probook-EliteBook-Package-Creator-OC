@@ -27,7 +27,8 @@
         <pkg-ref id="org.opencoreUsb.HFSPLUS.pkg"/>
     </choice>
     <choice id="choice4" title="8 Series Haswell" description="Install config in OpenCore" start_selected="false"/>
-    <choice id="choice5" title="8 Series support config" description="Install config in OpenCore" start_selected="false">
+    <choice id="choice5" title="8 Series support config" description="Install config haswell in OpenCore. Select this option only if you have 8-series laptop: 
+HP Probook 3x0 G1, Probook 4x0 G1/G2, Probook 6x0 G1, Elitebook 8x0 G1, ZBook G1, Folio 1040 G1" start_selected="false">
         <pkg-ref id="org.opencoreUsb.opencoreUsb.8-series-Haswell.pkg"/>
     </choice>
     <pkg-ref id="org.opencoreUsb.EFIFOLDER.pkg" installKBytes="55132" version="1.0" auth="Root">#efifolder.pkg</pkg-ref>

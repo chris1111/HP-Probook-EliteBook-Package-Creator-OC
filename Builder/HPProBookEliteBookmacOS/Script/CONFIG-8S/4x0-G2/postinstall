@@ -20,9 +20,21 @@ echo "preinstall: Root of system folder... $4"
 DEST_VOL="${3}"
 EFI_ROOT_DIR="${DEST_VOL}"/Private/tmp/EFIROOTDIR
 
+/usr/libexec/PlistBuddy -c 'Delete :ACPI' /Private/tmp/EFI/OC/config.plist
+Sleep 1
+/usr/libexec/PlistBuddy -c 'Delete :Booter' /Private/tmp/EFI/OC/config.plist
+Sleep 1
 /usr/libexec/PlistBuddy -c 'Delete :DeviceProperties' /Private/tmp/EFI/OC/config.plist
 Sleep 1
-/usr/libexec/PlistBuddy -c 'Delete :ACPI' /Private/tmp/EFI/OC/config.plist
+/usr/libexec/PlistBuddy -c 'Delete :Kernel' /Private/tmp/EFI/OC/config.plist
+Sleep 1
+/usr/libexec/PlistBuddy -c 'Delete :Misc' /Private/tmp/EFI/OC/config.plist
+Sleep 1
+/usr/libexec/PlistBuddy -c 'Delete :NVRAM' /Private/tmp/EFI/OC/config.plist
+Sleep 1
+/usr/libexec/PlistBuddy -c 'Delete :PlatformInfo' /Private/tmp/EFI/OC/config.plist
+Sleep 1
+/usr/libexec/PlistBuddy -c 'Delete :UEFI' /Private/tmp/EFI/OC/config.plist
 Sleep 1
 /usr/libexec/PlistBuddy -c "Merge './config.plist' " /Private/tmp/EFI/OC/config.plist
 Sleep 1

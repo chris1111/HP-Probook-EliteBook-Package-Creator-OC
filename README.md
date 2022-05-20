@@ -5,6 +5,8 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 
 ###  Latest Update 19 May 2022 Fix 7 series, add support 8 series HP Laptop
 
+### Small Video of the new choice ⇩
+
 #### Choice 8 series OpenCore USB:
 https://user-images.githubusercontent.com/6248794/169624050-818f97bc-c0b3-48b4-9805-a32ea8d0f979.mov
 

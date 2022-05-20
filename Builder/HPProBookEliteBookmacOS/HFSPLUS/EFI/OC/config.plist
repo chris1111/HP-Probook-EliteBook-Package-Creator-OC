@@ -8,14 +8,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT Slider Brightness</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PNLF.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
@@ -29,6 +21,14 @@
 				<true/>
 				<key>Path</key>
 				<string>DSDT.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PNLF-IVY.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -641,6 +641,8 @@
 			<false/>
 			<key>CustomSMBIOSGuid</key>
 			<false/>
+			<key>CustomPciSerialDevice</key>
+			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
 			<key>DisableLinkeditJettison</key>
@@ -794,31 +796,36 @@
 		</dict>
 		<key>Serial</key>
 		<dict>
-			<key>BaudRate</key>
-			<integer>115200</integer>
-			<key>ClockRate</key>
-			<integer>1843200</integer>
-			<key>DetectCable</key>
-			<false/>
-			<key>ExtendedTxFifoSize</key>
-			<integer>64</integer>
-			<key>FifoControl</key>
-			<integer>7</integer>
+			<key>Custom</key>
+			<dict>
+				<key>BaudRate</key>
+				<integer>115200</integer>
+				<key>ClockRate</key>
+				<integer>1843200</integer>
+				<key>DetectCable</key>
+				<false/>
+				<key>ExtendedTxFifoSize</key>
+				<integer>64</integer>
+				<key>FifoControl</key>
+				<integer>7</integer>
+				<key>LineControl</key>
+				<integer>7</integer>
+				<key>PciDeviceInfo</key>
+				<data>/w==</data>
+				<key>RegisterAccessWidth</key>
+				<integer>8</integer>
+				<key>RegisterBase</key>
+				<integer>1016</integer>
+				<key>RegisterStride</key>
+				<integer>1</integer>
+				<key>UseHardwareFlowControl</key>
+				<false/>
+				<key>UseMmio</key>
+				<false/>
+			</dict>
 			<key>Init</key>
 			<false/>
-			<key>LineControl</key>
-			<integer>3</integer>
-			<key>PciDeviceInfo</key>
-			<data>/w==</data>
-			<key>RegisterAccessWidth</key>
-			<integer>8</integer>
-			<key>RegisterBase</key>
-			<integer>1016</integer>
-			<key>RegisterStride</key>
-			<integer>1</integer>
-			<key>UseHardwareFlowControl</key>
-			<false/>
-			<key>UseMmio</key>
+			<key>Override</key>
 			<false/>
 		</dict>
 		<key>Tools</key>

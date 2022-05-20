@@ -11,6 +11,9 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 #### Choice 7 series for Monterey 12:
 https://user-images.githubusercontent.com/6248794/169596487-941d1845-7552-4148-9e1f-047c36fc6ab2.mov
 
+#### Choice 7 series for Big Sur 11:
+https://user-images.githubusercontent.com/6248794/169597351-f70b53d6-14ed-4cb1-829c-787a3bbced14.mov
+
 
 #### List Update: ⬇︎
 <details> 

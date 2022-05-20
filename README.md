@@ -4,7 +4,12 @@ HP-Probook-EliteBook-Package-Creator-OC
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
 ###  Latest Update 19 May 2022 Fix 7 series, add support 8 series HP Laptop
+
+#### Choice 8 series for Monterey 12:
 [](https://user-images.githubusercontent.com/6248794/169172551-4c7d10eb-38af-4c10-b835-be88e04ad74d.mov)
+
+#### Choice 7 series for Monterey 12:
+https://user-images.githubusercontent.com/6248794/169596487-941d1845-7552-4148-9e1f-047c36fc6ab2.mov
 
 
 #### List Update: ⬇︎

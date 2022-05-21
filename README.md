@@ -6,6 +6,8 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 ###  Latest Update 19 May 2022 Fix 7 series, add support 8 series HP Laptop
 
 ### Small Video of the new choice ⇩
+<details> 
+  <summary>View Video</summary>
 
 #### Choice 8 series OpenCore USB:
 https://user-images.githubusercontent.com/6248794/169624050-818f97bc-c0b3-48b4-9805-a32ea8d0f979.mov
@@ -19,6 +21,8 @@ https://user-images.githubusercontent.com/6248794/169596487-941d1845-7552-4148-9
 #### Choice 7 series for Big Sur 11:
 https://user-images.githubusercontent.com/6248794/169597351-f70b53d6-14ed-4cb1-829c-787a3bbced14.mov
 
+
+</details>
 
 #### List Update: ⬇︎
 <details> 

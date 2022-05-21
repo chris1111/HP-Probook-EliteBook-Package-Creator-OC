@@ -230,7 +230,11 @@ HP Probook 3x0 G1, Probook 4x0 G1/G2, Probook 6x0 G1, Elitebook 8x0 G1, ZBook G1
 
 
 
-### Follow all steps in the Video- ⬇︎
+### Follow all steps in Video ⬇︎
+
+<details> 
+  <summary>View Video</summary>
+
 ## See new Option menu in the OC Package, HFSPlus or VboxHFS this is not show in video!
 ![USB](https://user-images.githubusercontent.com/6248794/90392185-67b8d180-e05c-11ea-983b-dc5f463e4f2e.gif)
 
@@ -260,6 +264,7 @@ https://user-images.githubusercontent.com/6248794/127252279-31cfba80-b9f3-4a90-b
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/jic4HLh8Hyg)
 
 
-- Download ➤ [WIFI Speed Test.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/6895432/WIFI.Speed.Test.zip)
+</details>
 
-#### Learn How to use ☞ [OpenCore](https://dortania.github.io/OpenCore-Install-Guide/)
+
+#### How to use ☞ [OpenCore](https://dortania.github.io/OpenCore-Install-Guide/)

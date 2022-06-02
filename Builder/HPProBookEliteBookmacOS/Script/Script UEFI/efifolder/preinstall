@@ -24,6 +24,15 @@ mkdir -p /"$3"/Private/tmp
 # Mount ESP partition
 # ---------------------------------------------
 
+if [[ $(mount | awk '$3 == "/Volumes/EFI" {print $3}') != "" ]]; then
+ hdiutil Unmount "/Volumes/EFI"
+fi
+
+if [[ $(mount | awk '$3 == "/Volumes/ESP" {print $3}') != "" ]]; then
+ hdiutil Unmount "/Volumes/ESP"
+fi
+
+
 ./MountESP "$DEST_VOL" "$EFI_ROOT_DIR"
 
 

@@ -3,7 +3,8 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-###  Latest Update 19 May 2022 Fix 7 series, add support 8 series HP Laptop
+### Latest Update 02 June 2022 Add iasl61 MyPatcher for 8 series laptop
+
 
 ### Small Video of the new choice ⇩
 <details> 
@@ -27,7 +28,10 @@ https://user-images.githubusercontent.com/6248794/169597351-f70b53d6-14ed-4cb1-8
 #### List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
+  
 
+- Update 19 May 2022 Fix 7 series, add support 8 series HP Laptop
+  
 - Update 12 April 2022 Rollback VoodooPS2Controller
 
 - Update 10 April 2022 update OC 0.8.0-2022-04-08, Update many future

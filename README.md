@@ -3,7 +3,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-### Latest Update 03 June 2022 Fix kexts 3x0G1
+### Latest Update 04 June 2022 Use SSDT-PLUG
 
 
 
@@ -30,6 +30,8 @@ https://user-images.githubusercontent.com/6248794/169597351-f70b53d6-14ed-4cb1-8
 <details> 
   <summary>View list Update</summary>
 
+
+- Update 03 June 2022 Fix kexts 3x0G1
   
 - Update 03 June 2022 New way VoodooPS2Controller 8 series
   

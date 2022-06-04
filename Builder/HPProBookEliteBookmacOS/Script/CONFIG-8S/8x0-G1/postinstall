@@ -39,6 +39,3 @@ Sleep 1
 /usr/libexec/PlistBuddy -c "Merge './config.plist' " /Private/tmp/EFI/OC/config.plist
 Sleep 1
 echo "Add 8x0-G1"
-mkdir -p /"$3"/Private/tmp/EFIROOTDIR/EFI/OC/ACPI
-Sleep 1
-cp -rp ./SSDT-8x0G1h.aml /"$3"/Private/tmp/EFIROOTDIR/EFI/OC/ACPI

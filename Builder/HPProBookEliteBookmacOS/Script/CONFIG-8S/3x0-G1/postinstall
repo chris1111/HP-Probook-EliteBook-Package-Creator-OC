@@ -43,7 +43,3 @@ echo "Add 3x0-G1"
 mkdir -p /"$3"/Private/tmp/EFIROOTDIR/EFI/OC/ACPI
 Sleep 1
 cp -rp ./SSDT-3x0G1.aml /"$3"/Private/tmp/EFIROOTDIR/EFI/OC/ACPI
-
-rm -rf /"$3"/Private/tmp/EFIROOTDIR/EFI/OC/Kexts
-Sleep 1 
-mv /"$3"/Private/tmp/EFIROOTDIR/EFI/OC/Kexts-8 /"$3"/Private/tmp/EFIROOTDIR/EFI/OC/Kexts

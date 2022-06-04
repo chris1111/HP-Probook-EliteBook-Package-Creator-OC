@@ -122,7 +122,7 @@ https://user-images.githubusercontent.com/6248794/169597351-f70b53d6-14ed-4cb1-8
 - Old Project Tester: Screenz, mus68, MueKo, 
 platinumsteel, doodoo94, jeremy19, arno608rw, Mtkhan13
 - RehabMan for all DSDT patch, patchmatic
-- kexts inside OpenCore Credit: rehabman, vit9696, Mieze, lvs1974 
+- kexts inside OpenCore Credit: rehabman, vit9696, Mieze, lvs1974, FireWolf
 - Intel for IASL
 - Apple for Pkgbuild
 - [OpenCore team for OpenCore](https://github.com/acidanthera/OpenCorePkg)

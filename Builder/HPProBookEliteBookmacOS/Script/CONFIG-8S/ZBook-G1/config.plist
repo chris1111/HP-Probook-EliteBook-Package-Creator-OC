@@ -371,20 +371,14 @@
 				<data>BgAmCg==</data>
 				<key>device-id</key>
 				<data>EgQAAA==</data>
-				<key>enable-max-pixel-clock-override</key>
-				<data>AQAAAA==</data>
-				<key>force-online</key>
-				<data>AQAAAA==</data>
 				<key>framebuffer-con1-0a260006-alldata</key>
 				<data>AQUSAAAEAACHAAAAAgQSAAAEAACHAAAAAwYDAAAEAACHAAAA</data>
 				<key>framebuffer-con1-enable</key>
 				<integer>1</integer>
 				<key>framebuffer-con1-type</key>
 				<data>AAgAAA==</data>
-				<key>framebuffer-con3-0a260006-alldata</key>
-				<data>AwYDAAAEAAAHAQAA</data>
-				<key>framebuffer-con3-enable</key>
-				<integer>1</integer>
+				<key>framebuffer-cursormem</key>
+				<data>AACQAA==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AAAAAw==</data>
 				<key>framebuffer-patch-enable</key>
@@ -392,7 +386,7 @@
 				<key>framebuffer-portcount</key>
 				<integer>4</integer>
 				<key>framebuffer-stolenmem</key>
-				<data>AAAAIA==</data>
+				<data>AAAABA==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
 			</dict>

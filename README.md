@@ -265,6 +265,11 @@ https://user-images.githubusercontent.com/6248794/127252279-31cfba80-b9f3-4a90-b
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/42qO8zuUzPE)
 ## See new Option menu in the Post install Package, HFSPlus or VboxHFS this is not show in video!
 ![USB](https://user-images.githubusercontent.com/6248794/90356254-df670c00-e01c-11ea-874d-80f30e1a4bff.gif)
+  
+### Latest Video Monterey Post Install-8 series ⬇︎
+
+[![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)]([ ](https://www.youtube.com/watch?v=fGEmtNCQ5UU))
+  
 
 ### Video Monterey Post Install- ⬇︎
 

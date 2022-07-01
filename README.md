@@ -3,7 +3,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-### Latest Update 16 June 2022 OpenCore 0.8.2
+### Latest Update 30 June 2022 fix DSDT compillation for all 8 series
 
 
 
@@ -30,6 +30,8 @@ https://user-images.githubusercontent.com/6248794/169597351-f70b53d6-14ed-4cb1-8
 <details> 
   <summary>View list Update</summary>
 
+
+- Update 16 June 2022 OpenCore 0.8.2
 
 - Update 06 June 2022 Disable AMD GPU for all 8 series
 

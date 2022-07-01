@@ -3,7 +3,8 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-### Latest Update 30 June 2022 fix DSDT compillation for all 8 series
+### Latest Update OpenCore Configurator V-2.61.1.0
+
 
 
 ### Small Video of the new choice ⇩
@@ -28,7 +29,9 @@ https://user-images.githubusercontent.com/6248794/169597351-f70b53d6-14ed-4cb1-8
 #### List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
+  
 
+- Update 30 June 2022 fix DSDT compillation for all 8 series
 
 - Update 16 June 2022 OpenCore 0.8.2
 

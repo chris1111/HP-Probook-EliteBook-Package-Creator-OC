@@ -6,7 +6,6 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 ### Latest Update 30 June 2022 fix DSDT compillation for all 8 series
 
 
-
 ### Small Video of the new choice ⇩
 <details> 
   <summary>View Video</summary>

@@ -290,5 +290,7 @@ https://user-images.githubusercontent.com/6248794/127252279-31cfba80-b9f3-4a90-b
 
 </details>
 
+#### Build Project Xcode: ➤ [Wiki Page](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/wiki/Build-Project )
+
 
 #### How to use ☞ [OpenCore](https://dortania.github.io/OpenCore-Install-Guide/)

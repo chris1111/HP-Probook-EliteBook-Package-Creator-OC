@@ -29,13 +29,13 @@ fi
 
 tar xf /Private/tmp/Apps/IORegistryExplorer.zip --directory /Applications
 
-tar xf /Private/tmp/Apps/“Command Line EFI Mounter.zip" --directory /Applications
+tar xf /Private/tmp/Apps/CommandLineEFIMounter.zip --directory /Applications
 
-tar xf /Private/tmp/Apps/“Drop EFI.zip" --directory /Applications
+tar xf /Private/tmp/Apps/DropEFI.zip --directory /Applications
 
 tar xf /Private/tmp/Apps/MaciASL.zip --directory /Applications
 
-tar xf /Private/tmp/Apps/“OpenCore Configurator.zip" --directory /Applications
+tar xf /Private/tmp/Apps/OpenCoreConfigurator.zip --directory /Applications
 
 tar xf /Private/tmp/Apps/RDM.zip --directory /Applications
 

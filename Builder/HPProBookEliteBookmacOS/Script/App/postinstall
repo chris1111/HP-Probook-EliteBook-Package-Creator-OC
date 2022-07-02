@@ -27,16 +27,21 @@ if [ -d "${3}/Applications/RDM.app" ]; then
 fi
 
 
-ditto -x -k --sequesterRsrc --rsrc /Private/tmp/"Command Line EFI Mounter.zip" /Applications
-ditto -x -k --sequesterRsrc --rsrc /Private/tmp/"Drop EFI.zip" /Applications
-ditto -x -k --sequesterRsrc --rsrc /Private/tmp/"IORegistryExplorer.zip" /Applications
-ditto -x -k --sequesterRsrc --rsrc /Private/tmp/"MaciASL.zip" /Applications
-ditto -x -k --sequesterRsrc --rsrc /Private/tmp/"RDM.zip" /Applications
-ditto -x -k --sequesterRsrc --rsrc /Private/tmp/"OpenCore Configurator.zip" /Applications
-Sleep 2
-rm -rf /Private/tmp/"Command Line EFI Mounter.zip"
-rm -rf /Private/tmp/"Drop EFI.zip"
-rm -rf /Private/tmp/"IORegistryExplorer.zip"
-rm -rf /Private/tmp/"MaciASL.zip"
-rm -rf /Private/tmp/"RDM.zip"
-rm -rf /Private/tmp/"OpenCore Configurator.zip"
+tar xf /Private/tmp/Apps/IORegistryExplorer.zip --directory /Applications
+
+tar xf /Private/tmp/Apps/“Command Line EFI Mounter.zip" --directory /Applications
+
+tar xf /Private/tmp/Apps/“Drop EFI.zip" --directory /Applications
+
+tar xf /Private/tmp/Apps/MaciASL.zip --directory /Applications
+
+tar xf /Private/tmp/Apps/“OpenCore Configurator.zip" --directory /Applications
+
+tar xf /Private/tmp/Apps/RDM.zip --directory /Applications
+
+rm -rf /Private/tmp/Apps/"Command Line EFI Mounter.zip"
+rm -rf /Private/tmp/Apps/"Drop EFI.zip"
+rm -rf /Private/tmp/Apps/"IORegistryExplorer.zip"
+rm -rf /Private/tmp/Apps/"MaciASL.zip"
+rm -rf /Private/tmp/Apps/"RDM.zip"
+rm -rf /Private/tmp/Apps/"OpenCore Configurator.zip"

@@ -39,9 +39,6 @@ tar xf /Private/tmp/Apps/“OpenCore Configurator.zip" --directory /Applications
 
 tar xf /Private/tmp/Apps/RDM.zip --directory /Applications
 
-rm -rf /Private/tmp/Apps/"Command Line EFI Mounter.zip"
-rm -rf /Private/tmp/Apps/"Drop EFI.zip"
-rm -rf /Private/tmp/Apps/"IORegistryExplorer.zip"
-rm -rf /Private/tmp/Apps/"MaciASL.zip"
-rm -rf /Private/tmp/Apps/"RDM.zip"
-rm -rf /Private/tmp/Apps/"OpenCore Configurator.zip"
+Sleep 1
+rm -rf /Private/tmp/Apps
+

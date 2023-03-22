@@ -297,6 +297,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chris1111.HP-ProBook-EliteBook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -315,6 +316,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chris1111.HP-ProBook-EliteBook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

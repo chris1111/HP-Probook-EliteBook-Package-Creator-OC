@@ -3,7 +3,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-### Latest Update 01 Jully 2022 Use tar command for installing Apps
+### Latest Update 21 March 2023 Update all kexts.
 
 
 

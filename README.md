@@ -3,7 +3,8 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-### Latest Update 21 March 2023 Update all kexts.
+### Latest Update 24 March 2023 Fix card reader mounting after wakeup 8 series laptop.
+- New Drop EFI for mounting EFI partition. Add Video
 
 
 
@@ -29,7 +30,9 @@ https://user-images.githubusercontent.com/6248794/169597351-f70b53d6-14ed-4cb1-8
 #### List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
-  
+
+
+- Update 21 March 2023 Update all kexts.
   
 - Update 01 Jully 2022 OpenCore Configurator V-2.61.1.0
 
@@ -287,6 +290,8 @@ https://user-images.githubusercontent.com/6248794/127252279-31cfba80-b9f3-4a90-b
 
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/jic4HLh8Hyg)
 
+### Video New Drop EFI update 24 March 2023 ⬇︎
+https://user-images.githubusercontent.com/6248794/227659606-71e6248c-5ab0-4991-9004-f8c102b1de4f.mov
 
 </details>
 

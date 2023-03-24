@@ -31,7 +31,7 @@ tar xf /Private/tmp/Apps/IORegistryExplorer.zip --directory /Applications
 
 tar xf /Private/tmp/Apps/CommandLineEFIMounter.zip --directory /Applications
 
-tar xf /Private/tmp/Apps/DropEFI.zip --directory /Applications
+tar xf /Private/tmp/Apps/"Drop EFI.zip" --directory /Applications
 
 tar xf /Private/tmp/Apps/MaciASL.zip --directory /Applications
 
@@ -39,6 +39,14 @@ tar xf /Private/tmp/Apps/OpenCoreConfigurator.zip --directory /Applications
 
 tar xf /Private/tmp/Apps/RDM.zip --directory /Applications
 
+cp -rf /Private/tmp/Apps/DropEFI.Agents.plist /Library/LaunchAgents
+chown -R root:wheel /Library/LaunchAgents/DropEFI.Agents.plist
+sleep 1
+chmod -R 555 /Library/LaunchAgents/DropEFI.Agents.plist
+# Load the new LaunchAgents.
+/bin/launchctl load /Library/LaunchAgents/DropEFI.Agents.plist
 Sleep 1
 rm -rf /Private/tmp/Apps
+Sleep 1
+Open /Applications/"Drop EFI.app"
 

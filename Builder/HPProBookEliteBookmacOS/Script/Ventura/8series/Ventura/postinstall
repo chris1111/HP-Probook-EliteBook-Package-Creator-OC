@@ -1,0 +1,33 @@
+#!/bin/bash
+#
+# By chris1111
+# Script config Ventura
+#
+echo "==============================================="
+echo "EFIFolder Pre-Install Script"
+echo "==============================================="
+
+#echo "DEBUG: $ 1 = Full path to the installation package the installer app is processing: " $1
+#echo "DEBUG: $ 2 = Full path to the installation destination: " $2
+#echo "DEBUG: $ 3 = Installation volume (mountpoint) to receive the payload: " $3
+#echo "DEBUG: $ 4 = Root directory for the system: " $4
+
+echo "preinstall: Path to installer....... $1"
+echo "preinstall: Path to destination..... $2"
+echo "preinstall: Path to dest volume..... $3"
+echo "preinstall: Root of system folder... $4"
+
+
+#############################################################################
+DEST_VOL="${3}"
+EFI_ROOT_DIR="${DEST_VOL}"/Private/tmp/EFIROOTDIR
+
+
+
+/usr/libexec/PlistBuddy -c "Set :NVRAM:Add:7C436110-AB2A-4BBB-A880-FE41995C9F82:boot-args -v -rtsxnopm alcid=13 -wegnoegpu agdpmod=vit9696 amfi_get_out_of_my_way=1" /Volumes/ESP/EFI/OC/config.plist
+Sleep 2
+echo "Add boot-args amfi_get_out_of_my_way=1 in /Volumes/ESP/EFI/OC/config.plist"
+
+
+
+

@@ -3,6 +3,8 @@
 # (c) Copyright 2018, 2021 chris1111
 PARENTDIR=$(dirname "$0")
 cd "$PARENTDIR"
+# VARS
+APP_NAME="OpenCore-Patcher-GUI.app.zip"
 
 # shell script Notifications
 osascript -e 'display notification "Installer HP-ProBook-EliteBook-macOS" with title "Create"  sound name "default"'
@@ -102,6 +104,11 @@ pkgbuild --root ./POST --scripts ./script/POST --identifier com.chris1111.hpprob
 
 pkgbuild --root ./PatchHD4000 --scripts ./script/PatchHD4000 --identifier com.chris1111.hpprobookelitebookmacos.PatchHD4000.pkg --version 1.0 --install-location /Private/tmp /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/PatchHD4000.pkg
 
+pkgbuild --root ./Ventura --identifier com.chris1111.hpprobookelitebookmacos.Ventura.pkg --version 1.0 --install-location /Private/tmp /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/Ventura.pkg
+
+pkgbuild --root ./Ventura/V7series --scripts ./script/Ventura/7series/Ventura --identifier com.chris1111.hpprobookelitebookmacos.V7series.pkg --version 1.0 --install-location /Private/tmp /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/V7series.pkg
+
+pkgbuild --root ./Ventura/V8series --scripts ./script/Ventura/8series/Ventura --identifier com.chris1111.hpprobookelitebookmacos.V8series.pkg --version 1.0 --install-location /Private/tmp /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/V8series.pkg
 
 
 Sleep 2
@@ -186,6 +193,11 @@ pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/post.pk
 
 pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/PatchHD4000.pkg /tmp/PackageDIR/PatchHD4000.pkg
 
+pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/Ventura.pkg /tmp/PackageDIR/Ventura.pkg
+
+pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/V7series.pkg /tmp/PackageDIR/V7series.pkg
+
+pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/V8series.pkg /tmp/PackageDIR/V8series.pkg
 
 Sleep 3
 # Copy resources and distribution
@@ -210,3 +222,23 @@ cp -Rp ./"Support Donate.html" /$HOME/Desktop/HP-ProBook-EliteBook-Packager
 Sleep 1
 ./Build/PackageMaker/Icon/seticon -d ./Build/PackageMaker/Icon/Support.icns /$HOME/Desktop/HP-ProBook-EliteBook-Packager/"Support Donate.html"
 ./Build/PackageMaker/Icon/seticon -d ./Build/PackageMaker/Icon/FileVaultIcon.icns /$HOME/Desktop/HP-ProBook-EliteBook-Packager/Gatekeeper.command
+
+# shell script Notifications
+osascript -e 'display notification "OCLP support Ventura Intel HD 4X 6X
+Wait. . ." with title "Download"  sound name "default"'
+
+echo "
+= = = = = = = = = = = = = = = = = = = = = = = = =
+Download OCLP support Ventura Intel HD 4X 6X "
+
+curl -L https://github.com/dortania/OpenCore-Legacy-Patcher/releases/download/0.6.2/OpenCore-Patcher-GUI.app.zip -o /$HOME/Desktop/HP-ProBook-EliteBook-Packager/"$APP_NAME"
+
+cd /$HOME/Desktop/HP-ProBook-EliteBook-Packager
+
+unzip "$APP_NAME"
+Sleep 1
+rm -rf "$APP_NAME"
+
+echo "
+= = = = = = = = = = = = = = = = = = = = = = = = =
+Done! "

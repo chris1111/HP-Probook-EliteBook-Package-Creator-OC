@@ -8,6 +8,10 @@ if [ -d "${3}/Applications/Drop EFI.app" ]; then
     rm -rf "${3}/Applications/Drop EFI.app"
 fi
 
+if [ -d "${3}/Applications/Drop-EFI.app" ]; then
+    rm -rf "${3}/Applications/Drop-EFI.app"
+fi
+
 if [ -d "${3}/Applications/IORegistryExplorer.app" ]; then
     rm -rf "${3}/Applications/IORegistryExplorer.app"
 fi
@@ -31,7 +35,7 @@ tar xf /Private/tmp/Apps/IORegistryExplorer.zip --directory /Applications
 
 tar xf /Private/tmp/Apps/CommandLineEFIMounter.zip --directory /Applications
 
-tar xf /Private/tmp/Apps/"Drop EFI.zip" --directory /Applications
+tar xf /Private/tmp/Apps/"Drop-EFI.zip" --directory /Applications
 
 tar xf /Private/tmp/Apps/MaciASL.zip --directory /Applications
 
@@ -48,5 +52,5 @@ chmod -R 555 /Library/LaunchAgents/DropEFI.Agents.plist
 Sleep 1
 rm -rf /Private/tmp/Apps
 Sleep 1
-Open /Applications/"Drop EFI.app"
+Open /Applications/"Drop-EFI.app"
 

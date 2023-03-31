@@ -15,11 +15,15 @@
             <line choice="choice4">
                 <line choice="choice5"/>
             </line>
+            <line choice="choice10">
+                <line choice="choice11"/>
+                <line choice="choice12"/>
+            </line>
         </line>
     </choices-outline>
     <choice id="choice6" title="OpenCore">
         <pkg-ref id="org.opencoreUsb.EFIFOLDER.pkg"/>
-   </choice>
+     </choice>
     <choice id="choice7" title="VBoxHfs" description="Install VBoxHfs.efi in OpenCore" start_selected="false" selected="!choices['choice8'].selected">
         <pkg-ref id="org.opencoreUsb.VBOX.pkg"/>
     </choice>
@@ -27,13 +31,21 @@
         <pkg-ref id="org.opencoreUsb.HFSPLUS.pkg"/>
     </choice>
     <choice id="choice4" title="8 Series Haswell" description="Install config in OpenCore" start_selected="false"/>
-    <choice id="choice5" title="8 Series support config" description="Install config haswell in OpenCore. Select this option only if you have 8-series laptop: 
-HP Probook 3x0 G1, Probook 4x0 G1/G2, Probook 6x0 G1, Elitebook 8x0 G1, ZBook G1, Folio 1040 G1" start_selected="false">
+    <choice id="choice5" title="8 Series support config" description="Install config haswell in OpenCore. Select this option only if you have 8-series laptop:  HP Probook 3x0 G1, Probook 4x0 G1/G2, Probook 6x0 G1, Elitebook 8x0 G1, ZBook G1, Folio 1040 G1" start_selected="false">
         <pkg-ref id="org.opencoreUsb.opencoreUsb.8-series-Haswell.pkg"/>
     </choice>
-    <pkg-ref id="org.opencoreUsb.EFIFOLDER.pkg" installKBytes="55132" version="1.0" auth="Root">#efifolder.pkg</pkg-ref>
-    <pkg-ref id="org.opencoreUsb.VBOX.pkg" installKBytes="80" version="1.0" auth="Root">#vbox.pkg</pkg-ref>
-    <pkg-ref id="org.opencoreUsb.HFSPLUS.pkg" installKBytes="92" version="1.0" auth="Root">#hfsplus.pkg</pkg-ref>
-    <pkg-ref id="org.opencoreUsb.opencoreUsb.8-series-Haswell.pkg" installKBytes="48" version="1.0" auth="Root">#8-series-Haswell.pkg</pkg-ref>
+    <choice id="choice10" title="Ventura Support" start_selected="false"/>
+    <choice id="choice11" title="7 Series Laptop" start_selected="false">
+        <pkg-ref id="org.opencoreUsb.opencoreUsb.V7series.pkg"/>
+    </choice>
+    <choice id="choice12" title="8 Series Laptop" start_selected="false">
+        <pkg-ref id="org.opencoreUsb.opencoreUsb.V8series.pkg"/>
+    </choice>
+    <pkg-ref id="org.opencoreUsb.EFIFOLDER.pkg" installKBytes="28880" version="1.0" auth="Root">#efifolder.pkg</pkg-ref>
+    <pkg-ref id="org.opencoreUsb.VBOX.pkg" installKBytes="60" version="1.0" auth="Root">#vbox.pkg</pkg-ref>
+    <pkg-ref id="org.opencoreUsb.HFSPLUS.pkg" installKBytes="72" version="1.0" auth="Root">#hfsplus.pkg</pkg-ref>
+    <pkg-ref id="org.opencoreUsb.opencoreUsb.8-series-Haswell.pkg" installKBytes="72" version="1.0" auth="Root">#8-series-Haswell.pkg</pkg-ref>
+    <pkg-ref id="org.opencoreUsb.opencoreUsb.V7series.pkg" installKBytes="56" version="1.0" auth="Root">#V7series.pkg</pkg-ref>
+    <pkg-ref id="org.opencoreUsb.opencoreUsb.V8series.pkg" installKBytes="0" version="1.0" auth="Root">#V8series.pkg</pkg-ref>
     <background-darkAqua file="background" alignment="center" scaling="tofit"/>
 </installer-script>

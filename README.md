@@ -3,8 +3,9 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-### Latest Update 24 March 2023 Fix card reader mounting after wakeup 8 series laptop.
-- New Drop EFI for mounting EFI partition. Add Video
+### Latest Update 31 March 2023 Add support Ventura 13 for 7 series and 8 series laptop.
+- New Drop EFI for mounting and unmount EFI partition.
+- Multiple video for Ventura utilisation.
 
 
 
@@ -31,6 +32,7 @@ https://user-images.githubusercontent.com/6248794/169597351-f70b53d6-14ed-4cb1-8
 <details> 
   <summary>View list Update</summary>
 
+- Update 24 March 2023 Fix card reader mounting after wakeup 8 series laptop.
 
 - Update 21 March 2023 Update all kexts.
   

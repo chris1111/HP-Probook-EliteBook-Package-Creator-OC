@@ -29,12 +29,17 @@ pkgbuild --root ./EFIFOLDER --scripts ./Script/ScriptsESP --identifier org.openc
 pkgbuild --root ./V-BOX --scripts ./Script/ScriptsESPVBOX --identifier org.opencoreUsb.VBOX.pkg --version 1 --install-location /Private/tmp/EFIROOTDIR ./InstallerHP/BUILD-PACKAGE/vbox.pkg
 pkgbuild --root ./HFS-+ --scripts ./Script/ScriptsESPHFS --identifier org.opencoreUsb.HFSPLUS.pkg --version 1 --install-location /Private/tmp/EFIROOTDIR ./InstallerHP/BUILD-PACKAGE/hfsplus.pkg
 pkgbuild --root ./8-series-Haswell --scripts ./Script/Scripts8-series-Haswell --identifier org.opencoreUsb.8-series-Haswell.pkg --version 1 --install-location /Private/tmp/EFIROOTDIR ./InstallerHP/BUILD-PACKAGE/8-series-Haswell.pkg
+pkgbuild --root ./Ventura/V7series --scripts ./script/Ventura/7series/Ventura --identifier com.chris1111.hpprobookelitebookmacos.V7series.pkg --version 1.0 --install-location /Private/tmp/EFIROOTDIR ./InstallerHP/BUILD-PACKAGE/V7series.pkg
+pkgbuild --root ./Ventura/V8series --scripts ./script/Ventura/8series/Ventura --identifier com.chris1111.hpprobookelitebookmacos.V8series.pkg --version 1.0 --install-location /Private/tmp/EFIROOTDIR ./InstallerHP/BUILD-PACKAGE/V8series.pkg
+
 Sleep 2
 # Expend the Packages with pkgutil
 pkgutil --expand ./InstallerHP/BUILD-PACKAGE/efifolder.pkg /tmp/Package-DIR/efifolder.pkg
 pkgutil --expand ./InstallerHP/BUILD-PACKAGE/vbox.pkg /tmp/Package-DIR/vbox.pkg
 pkgutil --expand ./InstallerHP/BUILD-PACKAGE/hfsplus.pkg /tmp/Package-DIR/hfsplus.pkg
 pkgutil --expand ./InstallerHP/BUILD-PACKAGE/8-series-Haswell.pkg /tmp/Package-DIR/8-series-Haswell.pkg
+pkgutil --expand ./InstallerHP/BUILD-PACKAGE/V7series.pkg /tmp/Package-DIR/V7series.pkg
+pkgutil --expand ./InstallerHP/BUILD-PACKAGE/V8series.pkg /tmp/Package-DIR/V8series.pkg
 Sleep 3
 
 # Copy resources and distribution

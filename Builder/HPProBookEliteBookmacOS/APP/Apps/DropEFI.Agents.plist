@@ -8,7 +8,7 @@
 	<string>DropEFI.Agents.plist</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/Applications/Drop EFI.app/Contents/MacOS/Drop EFI</string>
+		<string>/Applications/Drop-EFI.app/Contents/MacOS/Drop-EFI</string>
 		<string>startup</string>
 	</array>
 	<key>RunAtLoad</key>

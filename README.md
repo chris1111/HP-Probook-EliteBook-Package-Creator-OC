@@ -6,27 +6,10 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 ### Latest Update 31 March 2023 Add support Ventura 13 for 7 series and 8 series laptop.
 - New Drop EFI for mounting and unmount EFI partition.
 - Multiple video for Ventura utilisation.
+- All Video and infos about ➦ [HP-Probook-EliteBook-Package-Creator-OC for macOS Ventura](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Ventura%20Support.md)
+ 
+- All Video and infos about ➦ [HP-Probook-EliteBook-Package-Creator-OC for macOS Monterey, macOS Big Sur](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Utilisation%20Video.md)
 
-
-
-### Small Video of the new choice ⇩
-<details> 
-  <summary>View Video</summary>
-
-#### Choice 8 series OpenCore USB:
-https://user-images.githubusercontent.com/6248794/169624050-818f97bc-c0b3-48b4-9805-a32ea8d0f979.mov
-
-#### Choice 8 series for Monterey 12:
-[](https://user-images.githubusercontent.com/6248794/169172551-4c7d10eb-38af-4c10-b835-be88e04ad74d.mov)
-
-#### Choice 7 series for Monterey 12:
-https://user-images.githubusercontent.com/6248794/169596487-941d1845-7552-4148-9e1f-047c36fc6ab2.mov
-
-#### Choice 7 series for Big Sur 11:
-https://user-images.githubusercontent.com/6248794/169597351-f70b53d6-14ed-4cb1-829c-787a3bbced14.mov
-
-
-</details>
 
 #### List Update: ⬇︎
 <details> 
@@ -132,6 +115,8 @@ https://user-images.githubusercontent.com/6248794/169597351-f70b53d6-14ed-4cb1-8
 </details>
 
 
+#### Download Latest Pre Release Update 31 March 2023 (V-3): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V-3)
+
 #### Download Latest Release Update 24 March 2023 (V-2): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V-2)
 
 
@@ -154,6 +139,8 @@ platinumsteel, doodoo94, jeremy19, arno608rw, Mtkhan13
 - HD 4000 Monterey 12 [educovas](https://github.com/educovas) EduCovas for fixed google fonts
 - HD 4000 Monterey 12 [Dhinak](https://github.com/DhinakG) for found using beta 6 Metal binaries
 - HD 4000 Monterey 12 [khronokernel](https://github.com/khronokernel) for fixing google fonts (WebKit)
+- HD 4000, HD 4600 Ventura 13 [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher/) for Support Ventura 13
+
 - [Packager chris1111](https://github.com/chris1111)
 
 ----------------------------------------------------------------------------
@@ -258,44 +245,6 @@ HP Probook 3x0 G1, Probook 4x0 G1/G2, Probook 6x0 G1, Elitebook 8x0 G1, ZBook G1
 ![Screen Shot ](https://user-images.githubusercontent.com/6248794/169633691-2a0c88a1-5c8a-4777-8669-103d73794295.png)
 
 
-
-### Follow all steps in Video ⬇︎
-
-<details> 
-  <summary>View Video</summary>
-
-## See new Option menu in the OC Package, HFSPlus or VboxHFS this is not show in video!
-![USB](https://user-images.githubusercontent.com/6248794/90392185-67b8d180-e05c-11ea-983b-dc5f463e4f2e.gif)
-
-### Follow Video about SIP macOS Monterey patch HD 4000 ⬇︎
-- Make sur SIP is disable: csrutil disable, csrutil authenticated-root disable
-
-https://user-images.githubusercontent.com/6248794/127252279-31cfba80-b9f3-4a90-b3ed-15c5839cf26e.mov
-
-
-### New Video Download Release V1: 22 July 2021- ⬇︎
-[![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/KYJJVEjyZw4)
-### Video USB Install 
-
-[![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/42qO8zuUzPE)
-## See new Option menu in the Post install Package, HFSPlus or VboxHFS this is not show in video!
-![USB](https://user-images.githubusercontent.com/6248794/90356254-df670c00-e01c-11ea-874d-80f30e1a4bff.gif)
-
-### Video Monterey Post Install- ⬇︎
-
-[![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/jQW35JIuZ6k)
-
-### Video Post Install Big Sur- ⬇︎
-[![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/cCdffBkRWrM)
-
-### Video Build with Xcode - ⬇︎ - How to ➤ [Build with Xcode](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/wiki/Build-Project)
-
-[![Modular Image Creation](https://user-images.githubusercontent.com/6248794/87856188-696f6800-c8eb-11ea-898c-396970e38e1b.png)](https://youtu.be/jic4HLh8Hyg)
-
-### Video New Drop EFI update 24 March 2023 ⬇︎
-https://user-images.githubusercontent.com/6248794/227659606-71e6248c-5ab0-4991-9004-f8c102b1de4f.mov
-
-</details>
 
 #### Build Project Xcode: ➤ [Wiki Page](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/wiki/Build-Project )
 

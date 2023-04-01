@@ -1,10 +1,15 @@
 ### Video Create Install Media - ⬇︎
 
-[![Modular Image Creation](https://user-images.githubusercontent.com/6248794/180882015-aa6209bd-a10d-4a1e-85cf-d9729b8e0efc.png)]()
+[![Modular Image Creation](https://user-images.githubusercontent.com/6248794/180882015-aa6209bd-a10d-4a1e-85cf-d9729b8e0efc.png)](https://youtu.be/gaxkglymYkE)
 
 ### Video Post Install - ⬇︎
 
-[![Modular Image Creation](https://user-images.githubusercontent.com/6248794/180882015-aa6209bd-a10d-4a1e-85cf-d9729b8e0efc.png)]()
+[![Modular Image Creation](https://user-images.githubusercontent.com/6248794/180882015-aa6209bd-a10d-4a1e-85cf-d9729b8e0efc.png)](https://youtu.be/tv_DT-SChkw)
+
+### Video Monitor Control for HotKey - ⬇︎
+
+[![Modular Image Creation](https://user-images.githubusercontent.com/6248794/180882015-aa6209bd-a10d-4a1e-85cf-d9729b8e0efc.png)](https://youtu.be/Zore9-8srYM)
+
 
 
 #### Prerequisite: `Xcode` installed
@@ -24,5 +29,5 @@ xcodebuild -project ./HP-ProBook-EliteBook.xcodeproj -alltargets -configuration 
 
 ### Video Build project - ⬇︎
 
-[![Modular Image Creation](https://user-images.githubusercontent.com/6248794/180882015-aa6209bd-a10d-4a1e-85cf-d9729b8e0efc.png)]()
+[![Modular Image Creation](https://user-images.githubusercontent.com/6248794/180882015-aa6209bd-a10d-4a1e-85cf-d9729b8e0efc.png)](https://youtu.be/rmnEuAZgiQo)
 

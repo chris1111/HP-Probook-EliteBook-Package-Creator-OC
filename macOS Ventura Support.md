@@ -12,6 +12,7 @@ First time OCLP you have to allow system extensions by cliking OK
 
 ![Screenshot 2023-04-01 at 3 13 31 PM](https://user-images.githubusercontent.com/6248794/229313967-07f3fbba-af1c-4187-9f2c-c12898466159.png)
 
+If the root Patch is not available in OCLP, dont worries, Reboot after Post Install HP Probook EliteBook then reopen OCLP
 
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/180882015-aa6209bd-a10d-4a1e-85cf-d9729b8e0efc.png)](https://youtu.be/tv_DT-SChkw)
 

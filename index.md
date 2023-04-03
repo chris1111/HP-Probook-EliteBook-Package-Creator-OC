@@ -239,9 +239,9 @@ HP Probook 3x0 G1, Probook 4x0 G1/G2, Probook 6x0 G1, Elitebook 8x0 G1, ZBook G1
 - Troubleshooting ➤ [High Screen Laptop 1600x900](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/issues/2#issuecomment-679373248)
 
 ## macOS Installation Steps
-- 1- Boot on Install macOS Big Sur ➦ (Wait for the last line of verbose mode and your screen will open)
+- 1- Boot on Install macOS ➦ (Wait for the last line of verbose mode and your screen will open)
 - 2- Boot on macOS Installer (25 minutes Install time)
-- 3- Boot on Preboot (Wait 5 + minutes for the last line of verbose mode (Forcing CS_RUNTIME)  and the system will reboot)
+- 3- Boot on macOS Installer (Wait 5 + minutes for the last line of verbose mode (Forcing CS_RUNTIME)  and the system will reboot)
 - 4- Reboot again on the SSD ➦ (Wait for the last line of verbose mode and your screen will open)
 ----------------------------------------------------------------------------
 

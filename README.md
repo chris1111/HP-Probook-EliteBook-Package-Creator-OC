@@ -7,7 +7,7 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 ### Latest Update 31 March 2023 Add support Ventura 13 for 7 series and 8 series laptop.
 - New Drop EFI for mounting and unmount EFI partition.
 - Multiple video for Ventura utilisation.
-- All Video and infos about ➦ [HP-Probook-EliteBook-Package-Creator-OC for macOS Ventura](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Ventura%20Support.md)
+- All Video and infos about ➦ [HP-Probook-EliteBook-Package-Creator-OC for macOS Ventura](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Ventura%20Support.md) Using macOS Ventura 13.2.1 ➥ (best compatibility for OCLP 0.6.2)
  
 - All Video and infos about ➦ [HP-Probook-EliteBook-Package-Creator-OC for macOS Monterey, macOS Big Sur](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Utilisation%20Video.md)
 

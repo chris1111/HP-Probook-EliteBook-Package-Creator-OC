@@ -20,7 +20,8 @@ If the root Patch is not available in OCLP, dont worries, Reboot after Post Inst
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/180882015-aa6209bd-a10d-4a1e-85cf-d9729b8e0efc.png)](https://youtu.be/tv_DT-SChkw)
 
 
-#### Prerequisite: `Xcode` installed
+#### Build Project
+Prerequisite: `Xcode` installed
  Command Line Tools (CLT) for Xcode (from `xcode-select --install` or [Developer Apple Command Line Tools](https://developer.apple.com/download/all/)
 
 ### Build project from command in macOS

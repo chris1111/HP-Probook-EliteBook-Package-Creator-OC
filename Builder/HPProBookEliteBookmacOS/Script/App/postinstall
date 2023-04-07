@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if [ -d "${3}/Applications/Beta Access Software Utility.app" ]; then
+    rm -rf "${3}/Applications/Beta Access Software Utility.app"
+fi
+
 if [ -d "${3}/Applications/Command Line EFI Mounteur.app" ]; then
     rm -rf "${3}/Applications/Command Line EFI Mounteur.app"
 fi
@@ -30,6 +34,8 @@ if [ -d "${3}/Applications/RDM.app" ]; then
     rm -rf "${3}/Applications/RDM.app"
 fi
 
+
+tar xf /Private/tmp/Apps/Beta-Access-SoftwareUtility.zip --directory /Applications
 
 tar xf /Private/tmp/Apps/IORegistryExplorer.zip --directory /Applications
 

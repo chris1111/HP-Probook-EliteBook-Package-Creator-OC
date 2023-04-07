@@ -64,7 +64,11 @@ cp -rp ./ChooseDiskUSB.app ./Installer
 Sleep 1
 rm -rf ./ChooseDiskUSB.app
 # Create the dir structure
+dir=$(cd $(dirname "$1"); pwd)
 /usr/bin/osacompile -o "$APP_NAME" "$SOURCE_SCRIPT"
+# Use Startup screen, LSUIElement
+defaults write "$dir/$APP_NAME"/Contents/Info LSUIElement -bool true
+defaults write "$dir/$APP_NAME"/Contents/Info OSAAppletShowStartupScreen -bool true
 # Copy Licenses to the right place
 cp License.rtf "$APP_NAME"/Contents/Resources
 # Copy applet.icns to the right place
@@ -88,10 +92,6 @@ cp -rp "$APP_NAME" $HOME/Desktop/HP-ProBook-EliteBook-Packager/"$APP_NAME"
 Sleep 1
 rm -rf "$APP_NAME".zip
 echo " "
-sleep 1
-# Use Startup screen, LSUIElement
-defaults write "$HOME/Desktop/HP-ProBook-EliteBook-Packager/Install Media HP Laptop OC.app"/Contents/Info LSUIElement -bool true
-defaults write "$HOME/Desktop/HP-ProBook-EliteBook-Packager/Install Media HP Laptop OC.app"/Contents/Info OSAAppletShowStartupScreen -bool true
 sleep 1
 rm -rf ./Installer/"OpenCore USB.pkg"
 rm -rf ./Installer/ChooseDiskUSB.app

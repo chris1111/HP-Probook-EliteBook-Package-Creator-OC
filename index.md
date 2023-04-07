@@ -8,8 +8,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-### Latest Update 31 March 2023 Add support Ventura 13 for 7 series and 8 series laptop.
-- New Drop EFI for mounting and unmount EFI partition.
+### Latest Update 06 April 2023 Add ChooseDiskUSB for Create Install Media.
 - Multiple video for Ventura utilisation.
 - All Video and infos about ➦ [HP-Probook-EliteBook-Package-Creator-OC for macOS Ventura](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Ventura%20Support.md) Using macOS Ventura 13.2.1 ➥ (best compatibility for OCLP 0.6.2)
  
@@ -19,6 +18,8 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 #### List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
+
+- Update 31 March 2023 Add support Ventura 13 for 7 series and 8 series laptop, New Drop EFI for mounting and unmount EFI partition, Multiple video for Ventura utilisation.
 
 - Update 24 March 2023 Fix card reader mounting after wakeup 8 series laptop.
 

@@ -1,4 +1,7 @@
 ### Video Create Install Media - ⬇︎
+Make sure to click ok on this Pop Up
+
+![Screenshot warning](https://user-images.githubusercontent.com/6248794/230518419-4190ca33-24bf-40cd-bb9a-2b5fd75b44d9.png)
 
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/180882015-aa6209bd-a10d-4a1e-85cf-d9729b8e0efc.png)](https://youtu.be/gaxkglymYkE)
 

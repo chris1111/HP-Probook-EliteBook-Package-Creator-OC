@@ -21,6 +21,10 @@ mkdir -p /$HOME/Desktop/HP-ProBook-EliteBook-macOS
 mkdir -p /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE
 mkdir -p /tmp/PackageDIR
 mkdir -p ./Ventura/V8series
+mkdir -p ./PRE
+mkdir -p ./OpenCore
+mkdir -p ./POST
+mkdir -p ./Patcher
 
 
 # Create the Packages with pkgbuild

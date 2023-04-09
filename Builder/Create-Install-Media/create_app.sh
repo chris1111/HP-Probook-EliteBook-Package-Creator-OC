@@ -10,8 +10,6 @@ echo "Create HP ProBook EliteBook Installer "
 echo "= = = = = = = = = = = = = = = = = = = = = = = = =  "
 Sleep 1
 # Declare some VARS
-APP_NAMES="ChooseDiskUSB.app"
-SOURCE_SCRIPTS="ChooseDiskUSB.applescript"
 APP_NAME="Install Media HP Laptop OC.app"
 SOURCE_SCRIPT="Create Install Media HP Laptop.applescript"
 rm -rf ./Installer/"OpenCore USB.pkg"
@@ -54,15 +52,7 @@ Sleep 1
 rm -rf ./InstallerHP
 echo "
 = = = = = = = = = = = = = = = = = = = = = = = = =
-Create the disk chooser App"
-# Create the dir structure
-/usr/bin/osacompile -o "$APP_NAMES" "$SOURCE_SCRIPTS"
-# Copy applet.icns to the right place
-cp -rp applet.icns "$APP_NAMES"/Contents/Resources
-Sleep 1
-cp -rp ./ChooseDiskUSB.app ./Installer
-Sleep 1
-rm -rf ./ChooseDiskUSB.app
+Create Install Media HP Laptop OC App"
 # Create the dir structure
 dir=$(cd $(dirname "$1"); pwd)
 /usr/bin/osacompile -o "$APP_NAME" "$SOURCE_SCRIPT"
@@ -94,7 +84,6 @@ rm -rf "$APP_NAME".zip
 echo " "
 sleep 1
 rm -rf ./Installer/"OpenCore USB.pkg"
-rm -rf ./Installer/ChooseDiskUSB.app
 rm -rf "$APP_NAME"
 echo "
 = = = = = = = = = = = = = = = = = = = = = = = = = 

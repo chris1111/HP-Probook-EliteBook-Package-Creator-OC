@@ -249,7 +249,9 @@ HP Probook 3x0 G1, Probook 4x0 G1/G2, Probook 6x0 G1, Elitebook 8x0 G1, ZBook G1
 ----------------------------------------------------------------------------
 
 
-### Post Installer- ⬇︎
+### Post Installer- ⬇︎ Readme first:
+![Readme](https://user-images.githubusercontent.com/6248794/230777388-9e48d92f-cdc5-4f36-bc76-4c8fba9f12c8.png)
+
 ![Screenshot installer](https://user-images.githubusercontent.com/6248794/229392816-1e2f223d-9cac-406c-a15c-4030f66ea121.png)
 
 

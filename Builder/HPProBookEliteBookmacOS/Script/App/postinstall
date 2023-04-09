@@ -4,8 +4,8 @@ if [ -d "${3}/Applications/Beta Access Software Utility.app" ]; then
     rm -rf "${3}/Applications/Beta Access Software Utility.app"
 fi
 
-if [ -d "${3}/Applications/Command Line EFI Mounteur.app" ]; then
-    rm -rf "${3}/Applications/Command Line EFI Mounteur.app"
+if [ -d "${3}/Applications/Command Line EFI Mounter.app" ]; then
+    rm -rf "${3}/Applications/Command Line EFI Mounter.app"
 fi
 
 if [ -d "${3}/Applications/Drop EFI.app" ]; then

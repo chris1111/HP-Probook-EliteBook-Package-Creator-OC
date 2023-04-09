@@ -67,7 +67,6 @@ pkgbuild --root ./DSDT-Patch/HDMI/HDMILow --identifier com.chris1111.hpprobookel
 
 pkgbuild --root ./DSDT-Patch/HDMI/1080p+HDMI --identifier com.chris1111.hpprobookelitebookmacos.1080p+HDMI.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/1080phdmi.pkg
 
-
 pkgbuild --root ./DSDT-Patch/Fan/FanQuiet --identifier com.chris1111.hpprobookelitebookmacos.FanQuiet.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/fanquiet.pkg
 
 pkgbuild --root ./DSDT-Patch/Fan/FanQuietMod --identifier com.chris1111.hpprobookelitebookmacos.FanQuietMod.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/fanquietmod.pkg

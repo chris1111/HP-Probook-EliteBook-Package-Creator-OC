@@ -20,6 +20,7 @@ Sleep 1
 mkdir -p /$HOME/Desktop/HP-ProBook-EliteBook-macOS
 mkdir -p /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE
 mkdir -p /tmp/PackageDIR
+mkdir -p ./Ventura/V8series
 
 
 # Create the Packages with pkgbuild

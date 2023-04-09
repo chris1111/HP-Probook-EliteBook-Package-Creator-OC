@@ -21,6 +21,7 @@ mkdir -p ./Installer
 mkdir -p ./InstallerHP
 mkdir -p ./InstallerHP/BUILD-PACKAGE
 mkdir -p /tmp/Package-DIR
+mkdir -p ./Ventura/V8series
 # shell script Notifications
 osascript -e 'display notification "Installer HP-ProBook-USB-Installer" with title "Create"  sound name "default"'
 # Create the Packages with pkgbuild

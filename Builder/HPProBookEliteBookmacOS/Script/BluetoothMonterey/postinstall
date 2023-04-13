@@ -29,6 +29,5 @@ Sleep 1
 
 Sleep 2
 
-echo "Add BlueToolFixup.kext in /Volumes/ESP/EFI/OC/config.plist"
-
+echo "Add BlueToolFixup.kext, BrcmFirmwareData.kext in /Volumes/ESP/EFI/OC/config.plist"
 

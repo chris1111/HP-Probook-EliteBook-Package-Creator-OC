@@ -49,14 +49,12 @@ tar xf /Private/tmp/Apps/OpenCoreConfigurator.zip --directory /Applications
 
 tar xf /Private/tmp/Apps/RDM.zip --directory /Applications
 
-cp -rf /Private/tmp/Apps/DropEFI.Agents.plist /Library/LaunchAgents
-chown -R root:wheel /Library/LaunchAgents/DropEFI.Agents.plist
-sleep 1
-chmod -R 555 /Library/LaunchAgents/DropEFI.Agents.plist
-# Load the new LaunchAgents.
-/bin/launchctl load /Library/LaunchAgents/DropEFI.Agents.plist
 Sleep 1
 rm -rf /Private/tmp/Apps
 Sleep 1
+
 Open /Applications/"Drop-EFI.app"
 
+osascript <<EOD
+  tell application "System Events"	get full name of current user	make new login item at end of login items with properties ¬		{path:"/Applications/Drop-EFI.app"}end tell
+EOD

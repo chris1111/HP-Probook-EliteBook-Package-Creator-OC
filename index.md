@@ -7,7 +7,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-### Latest Update 14 April 2023 Change the way Login Item DropEFI, add quit button.
+### Latest Update 15 April 2023 Typo correction: Ventura 13 button.
 
 - All Video and infos about ➦ [HP-Probook-EliteBook-Package-Creator-OC for macOS Ventura](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Ventura%20Support.md) 
  
@@ -17,6 +17,8 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 #### List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
+
+- Update 14 April 2023 Change the way Login Item DropEFI, add quit button.
 
 - Update 14 April 2023 Fix Bluetooth AzureWave WLAN+BT BCM94352HMB (Monterey, Ventura).
  

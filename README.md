@@ -215,7 +215,7 @@ HP Probook 3x0 G1, Probook 4x0 G1/G2, Probook 6x0 G1, Elitebook 8x0 G1, ZBook G1
 
 ----------------------------------------------------------------------------
 
-## Card reader Fix 7 series for macOS Big Sur 11 only
+## Card reader Fix 7 series for macOS Big Sur 11 and Higher only.
 - Bios setup ☞ Port Option: Uncheck 1394 Port
 - SIP security disable
 

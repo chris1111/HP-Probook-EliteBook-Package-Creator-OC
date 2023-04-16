@@ -15,8 +15,9 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 
 
 #### List Update: ⬇︎
-<details> 
-  <summary>View list Update</summary>
+<p>
+<details>
+<summary>View list Update</summary>
 
 - Update 14 April 2023 Change the way Login Item DropEFI, add quit button.
 
@@ -128,6 +129,7 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 - Latest Update: 22 July 2021 add Support macOS Monterey 12 Intel HD 4000
 
 </details>
+</p>
 
 
 #### Download Latest Release Update 11 April 2023 (V-3): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V-3)

@@ -24,6 +24,9 @@ If the root Patch is not available in OCLP, dont worries, Reboot after Post Inst
 
 Enable Facetime, Message and other app's ➤ [SIP Mod Ventura](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/wiki/SIP-Mod-Ventura) 
 
+Fix ➤ [brightness-keyboard-shortcut](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/wiki/Fix-brightness-keyboard-shortcut)
+
+
 #### Build Project
 Prerequisite: `Xcode` installed
  Command Line Tools (CLT) for Xcode (from `xcode-select --install` or [Developer Apple Command Line Tools](https://developer.apple.com/download/all/)

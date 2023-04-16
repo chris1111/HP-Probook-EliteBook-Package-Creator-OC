@@ -23,7 +23,7 @@ If the root Patch is not available in OCLP, dont worries, Reboot after Post Inst
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/180882015-aa6209bd-a10d-4a1e-85cf-d9729b8e0efc.png)](https://youtu.be/tv_DT-SChkw)
 
 
-Update-Ventura ➤ [brightness-keyboard-shortcut](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/wiki/Update-Ventura)
+Update-Ventura ➤ [Update-Ventura](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/wiki/Update-Ventura)
 
 
 Enable Facetime, Message and other app's ➤ [SIP Mod Ventura](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/wiki/SIP-Mod-Ventura) 

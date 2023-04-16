@@ -16,7 +16,7 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 
 #### List Update: ⬇︎
 
-* ➤ <details><summary>View list Update</summary>
+* <details><summary>View list Update</summary>
 
 ```
 

@@ -14,10 +14,11 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 - All Video and infos about ➦ [HP-Probook-EliteBook-Package-Creator-OC for macOS Monterey, macOS Big Sur](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Utilisation%20Video.md)
 
 
-#### List Update: ⬇︎
-<details> 
-  <summary>View list Update</summary>
+<details>
+  <summary>`View List Update`<code>&lt;summary&gt;</code> (<i>View List Update</i>)</summary>
 
+## **List** [Update](link)
+```java
 - Update 14 April 2023 Change the way Login Item DropEFI, add quit button.
 
 - Update 14 April 2023 Fix Bluetooth AzureWave WLAN+BT BCM94352HMB (Monterey, Ventura).
@@ -129,6 +130,10 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 
 - Latest Update: 22 July 2021 add Support macOS Monterey 12 Intel HD 4000
 
+
+```
+
+ 
 </details>
 
 

@@ -124,7 +124,7 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 
 - Update: 23 July 2021 add Support Bluethooth /Catalina/BigSur/Monterey
 
-- Latest Update: 22 July 2021 add Support macOS Monterey 12 Intel HD 4000
+- Update: 22 July 2021 add Support macOS Monterey 12 Intel HD 4000
 
 </details>
 

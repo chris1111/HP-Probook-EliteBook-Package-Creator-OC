@@ -15,19 +15,18 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 
 
 #### List Update: ⬇︎
-
-<details>
+<details> 
   <summary>View list Update</summary>
-
-```
 
 - Update 14 April 2023 Change the way Login Item DropEFI, add quit button.
 
 - Update 14 April 2023 Fix Bluetooth AzureWave WLAN+BT BCM94352HMB (Monterey, Ventura).
  
 - Update 11 April 2023 Use OCLP 0.6.3.
- 
+
 - Update 09 April 2023 Add VolumePackage for Create Install Media.
+
+- Update 07 April 2023 Add Beta Access Software Utility.app.
 
 - Update 06 April 2023 Add ChooseDiskUSB for Create Install Media
 
@@ -130,9 +129,7 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 
 - Latest Update: 22 July 2021 add Support macOS Monterey 12 Intel HD 4000
 
-```
 </details>
-
 
 
 #### Download Latest Release Update 11 April 2023 (V-3): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V-3)

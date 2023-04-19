@@ -1,6 +1,7 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 15 April 2023 Typo correction: Ventura 13 button.
 
 - Update 14 April 2023 Change the way Login Item DropEFI, add quit button.
 

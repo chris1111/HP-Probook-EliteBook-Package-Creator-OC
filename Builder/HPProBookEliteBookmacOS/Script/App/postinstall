@@ -20,7 +20,6 @@ if [ -d "${3}/Applications/IORegistryExplorer.app" ]; then
     rm -rf "${3}/Applications/IORegistryExplorer.app"
 fi
 
-
 if [ -d "${3}/Applications/MaciASL.app" ]; then
     rm -rf "${3}/Applications/MaciASL.app"
 fi
@@ -29,6 +28,9 @@ if [ -d "${3}/Applications/OpenCore Configurator.app" ]; then
     rm -rf "${3}/Applications/OpenCore Configurator.app"
 fi
 
+if [ -d "${3}/Applications/Sleep-Finder.app" ]; then
+    rm -rf "${3}/Applications/Sleep-Finder.app"
+fi
 
 if [ -d "${3}/Applications/RDM.app" ]; then
     rm -rf "${3}/Applications/RDM.app"
@@ -42,6 +44,8 @@ tar xf /Private/tmp/Apps/IORegistryExplorer.zip --directory /Applications
 tar xf /Private/tmp/Apps/CommandLineEFIMounter.zip --directory /Applications
 
 tar xf /Private/tmp/Apps/"Drop-EFI.zip" --directory /Applications
+
+tar xf /Private/tmp/Apps/"Sleep-Finder.zip" --directory /Applications
 
 tar xf /Private/tmp/Apps/MaciASL.zip --directory /Applications
 
@@ -58,3 +62,8 @@ Open /Applications/"Drop-EFI.app"
 osascript <<EOD
   tell application "System Events"	get full name of current user	make new login item at end of login items with properties ¬		{path:"/Applications/Drop-EFI.app"}end tell
 EOD
+
+osascript <<EOD
+  tell application "System Events"	get full name of current user	make new login item at end of login items with properties ¬		{path:"/Applications/Sleep-Finder.app"}end tell
+EOD
+

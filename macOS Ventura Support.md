@@ -15,9 +15,22 @@ First time OCLP you have to allow system extensions by cliking OK
 
 ![Screenshot 2023-04-01 at 3 13 31 PM](https://user-images.githubusercontent.com/6248794/229313967-07f3fbba-af1c-4187-9f2c-c12898466159.png)
 
-If the root Patch is not available in OCLP, dont worries, Reboot after Post Install HP Probook EliteBook then restart OCLP.app
+If the root Patch is not available in OCLP, dont worries!
+
+⬇︎
 
 ![images](https://user-images.githubusercontent.com/6248794/229367968-f108d159-aefd-46fe-8b8d-3f8b05abc684.png)
+
+Unplug the USB drive, then reboot to the SSD after Post Install HP Probook EliteBook then restart OCLP.app
+
+                      ⬇︎
+
+![Screenshot 1](https://user-images.githubusercontent.com/6248794/233813868-52c87cfe-56d3-4c57-9819-ce58a6ad2f25.png)
+
+                      ⬇︎
+
+![Screenshot 2](https://user-images.githubusercontent.com/6248794/233813885-c72c43f4-cb15-4a6f-81df-5b2549c1899d.png)
+
 
 
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/180882015-aa6209bd-a10d-4a1e-85cf-d9729b8e0efc.png)](https://youtu.be/tv_DT-SChkw)

@@ -153,5 +153,3 @@ HP Probook 3x0 G1, Probook 4x0 G1/G2, Probook 6x0 G1, Elitebook 8x0 G1, ZBook G1
 
 #### Build Project Xcode: ➤ [Wiki Page](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/wiki/Build-Project )
 
-
-#### How to use ☞ [OpenCore](https://dortania.github.io/OpenCore-Install-Guide/)

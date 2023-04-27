@@ -1,0 +1,271 @@
+<!-- Creator: chris1111: https://github.com/chris1111 -->
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <title>HP-Probook-EliteBook-Package-Creator-OC</title>
+   </head>
+   <body class="page">
+      <header class="navbar">
+         <div class="navbar-inner">
+                 <h1 class="logo">
+                     <img src="https://avatars.githubusercontent.com/u/6248794?s=96&v=4" width="50">
+                 </h1>
+             <label for="navbar-toggler" class="navbar-toggler">
+               <i class="fas fa-bars"></i>
+            </label>
+             <input type="checkbox" id="navbar-toggler" class="navbar-toggler-check">
+            <nav class="navbar-menu">
+                <div class="button button1">
+                    <p><button class="button button1"><div id="container">
+                        <label class="switch">
+                        <input type="checkbox" onclick="changeMode()">
+                        <span class="slider"></span>
+                        </label>
+                        </div></button></p>
+                    </div>
+               <a href="https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Ventura%20Support.md" class="navbar-link">Ventura 13 Support</a>
+               <a href="https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/README.md" class="navbar-link">Readme Index</a>
+               <a href="https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC" class="navbar-link">Github</a>
+               <a href="https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/issues" class="navbar-link">Issues</a>
+               <a href="https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/discussions" class="navbar-link">Discussion</a>
+               <a href="https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V-3" class="navbar-link">Download Release V3</a>
+               <a href="mailto:leblond1111@gmail.com" class="contact-link" onClick="document.getElementById('form').submit()">
+               <img src="PICS/Contact.png" alt="Send" /></a>
+               </nav>
+         </div>
+        </header>
+      <head>
+     <br>
+     <div align="center">
+     <h2 style="color: #596B92;">HP-Probook-EliteBook-Package-Creator-OC Projects</h2>
+     </div>
+     <br>
+     <head>
+          <title>HP-Probook-EliteBook-Package-Creator-OC</title>
+          <style>
+              /* css by chris1111 */
+              body {
+                  background: #2d313a;
+                  transition: all 0.3s ease-in-out;
+              }
+              
+              :root{
+                  font-family: "Open Sans", sans-serif;
+                  font-size: 16px;
+                  font-weight: 400;
+              }
+              
+              *{
+                  margin: 0;
+                  box-sizing: border-box;
+              }
+              
+              .page{
+                  min-height: 100vh;
+                  background-color: #2d313a;
+                  color: #000;
+              }
+              
+              .navbar{
+                  position: sticky;
+                  top: 0;
+                  background-color: #212529;
+                  color: #fff;
+              }
+              
+              .navbar-inner{
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                  height: 90px;
+                  max-width: 1440px;
+                  margin-inline: auto;
+                  padding-inline: 4%;
+              }
+              
+              .navbar-toggler,
+              .navbar-toggler-check{
+                  display: none;
+              }
+              
+              .navbar-menu{
+                  display: flex;
+                  flex-direction: row;
+                  gap: 1rem;
+              }
+              
+              .navbar-link{
+                  display: block;
+                  padding: .5rem 1.25rem;
+                  text-align: center;
+                  text-decoration: none;
+                  color: rgba(255, 255, 255, .5);
+                  transition: color .15s;
+              }
+              
+              .navbar-link:hover{
+                  color: #fff;
+              }
+              
+              .navbar-link-active{
+                  color: #fff;
+                  pointer-events: none;
+              }
+              
+              .logo{
+                  font-family: "Montserrat", sans-serif;
+                  font-size: 1.75rem;
+                  font-weight: 600;
+                  letter-spacing: 1px;
+                  
+              }
+              
+              .logo-link{
+                  text-decoration: none;
+                  color: inherit;
+              }
+              
+
+              .button {
+                background-color: #212529; /* Dark */
+                border: none;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+              }
+              
+              .button1 {
+                background-color: #212529;
+                color: Silver;
+              }
+              
+              
+              @media only screen and (max-width:1024px) {
+                  .navbar-menu{
+                      gap: .5rem;
+                  }
+                  
+                  .button{
+                      padding-inline: 1.5rem;
+                  }
+              }
+              
+              @media only screen and (max-width:768px) {
+                  :root{
+                      font-size: 15px;
+                  }
+                  
+                  .navbar-menu{
+                      position: absolute;
+                      top: -100vh;
+                      left: 0;
+                      width: 100%;
+                      flex-direction: column;
+                      padding: .5rem 4% 1rem;
+                      background-color: #212529;
+                      z-index: -1;
+                      transition: top .5s;
+                  }
+                  
+                  .navbar-toggler{
+                      display: block;
+                      font-size: 1.5rem;
+                  }
+                  
+                  .navbar-toggler-check:checked + .navbar-menu{
+                      top: 64px;
+                  }
+              }
+              /* Toggle Dark Light */
+              
+              @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+              body {
+                  margin: 0;
+                  padding: 0;
+                  font-family: "Open Sans", sans-serif;
+                  background: #2d313a;
+                  transition: .6s;
+              }
+              #container {
+                  position: sticky;
+                  cursor: pointer;
+                  top: 0;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+              }
+              .switch {
+                  position: relative;
+                  display: inline-block;
+                  width: 70px;
+                  height: 38px;
+                  border-radius: 50px;
+                  box-shadow: 0px 0px 4px 4px rgb(0,0,0);
+              }
+              .switch input {
+                  display: none;
+              }
+              .slider {
+                  position: absolute;
+                  cursor: pointer;
+                  top: 0;
+                  left: 0;
+                  right: 0;
+                  bottom: 0;
+                  background: linear-gradient(180deg,#777,#3a3a3a);
+                  border-radius: 34px;
+                  transition: 0.3s;
+              }
+              .slider:before {
+                  content: url(PICS/moon.circle.png);
+                  position: absolute;
+                  height: 30px;
+                  width: 30px;
+                  left: 5px;
+                  bottom: 4px;
+                  border-radius: 50%;
+                  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.5);
+                  transition: 0.3s;
+              }
+              input:checked + .slider {
+                  background: #D3D3D3;
+              }
+              input:checked + .slider:before {
+                  transform: translateX(30px);
+                  content: url(PICS/sun.circle.png);
+              }
+              .dark-mode {
+                  background: #DBDFE2;
+              }
+              
+              /* toggle */
+              
+              .dark-mode {
+                  background-color: #DBDFE2;
+                  color: #2d313a;
+              }
+              
+          </style>
+          <script>
+              function changeMode() {
+                 var element = document.body;
+                 element.classList.toggle("dark-mode");
+              }
+          </script>
+          <div align="center">
+          <img src="PICS/HP-Laptop.png" alt="Github Project" style="width:40%;">
+              <br><br><br><br><br><br><br><br>
+                  </strong><right><br><strong></strong><form style="" target="_top" method="post" action="https://www.paypal.com/cgi-bin/webscr"><input value="_donations" name="cmd" type="hidden" /><input value="leblond1111@gmail.com" name="business" type="hidden" /><input value="EN" name="lc" type="hidden" /><input value="HP-Probook-EliteBook-Package-Creator-OC" name="item_name" type="hidden" /><input value="0" name="no_note" type="hidden" /><input value="EUR" name="currency_code" type="hidden" /><input value="PP-DonationsBF:don13.png:NonHostedGuest" name="bn" type="hidden" /><input alt="PayPal - The simplest and most secure online payment solution!" name="submit" border="0" src="PICS/PayPal-Donate-Button.png" type="image" /><img style="width: 1px; height: 1px;" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" border="0" alt="" /></form><strong>
+          </form>
+</html>

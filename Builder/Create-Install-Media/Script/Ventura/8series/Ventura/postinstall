@@ -24,7 +24,7 @@ EFI_ROOT_DIR="${DEST_VOL}"/Private/tmp/EFIROOTDIR
 
 
 
-/usr/libexec/PlistBuddy -c "Set :NVRAM:Add:7C436110-AB2A-4BBB-A880-FE41995C9F82:boot-args -v keepsyms=1 alcid=12 -wegnoegpu agdpmod=vit9696 amfi_get_out_of_my_way=1" /Volumes/ESP/EFI/OC/config.plist
+/usr/libexec/PlistBuddy -c "Set :NVRAM:Add:7C436110-AB2A-4BBB-A880-FE41995C9F82:boot-args amfi_get_out_of_my_way=1 keepsyms=1 alcid=12 -wegnoegpu agdpmod=vit9696 -v" /Volumes/ESP/EFI/OC/config.plist
 Sleep 2
 echo "Add boot-args amfi_get_out_of_my_way=1 in /Volumes/ESP/EFI/OC/config.plist"
 

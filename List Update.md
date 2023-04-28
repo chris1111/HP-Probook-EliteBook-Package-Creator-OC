@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 23 April 2023 Enable HD 4000 DeviceProperties 7 series laptop Low Screen 1366x768
+
 - Update 22 April 2023 Use theme NaturalMacBook
 
 - Update 19 April 2023 Add Sleep Finder.app.

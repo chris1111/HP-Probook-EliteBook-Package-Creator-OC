@@ -902,7 +902,7 @@
 				<key>boot-args</key>
 				<string>-v keepsyms=1 alcid=13 -wegnoegpu agdpmod=vit9696</string>
 				<key>csr-active-config</key>
-				<data>7w8AAA==</data>
+				<data>AwgAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>ZW4tVVM6MA==</data>
 				<key>run-efi-updater</key>

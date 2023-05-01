@@ -5,7 +5,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-### Latest Update 28 April 2023 Fix Audio 8 series alcid=13
+### Latest Update 30 April 2023 Update boot-args and csr-active-config
 
 
 - All Video and infos about ➦ [HP-Probook-EliteBook-Package-Creator-OC for macOS Ventura](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Ventura%20Support.md) 

@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 28 April 2023 Fix Audio 8 series alcid=13
+
 - Update 28 April 2023 Change boot-args order
 
 - Update 28 April 2023 Update OpenCore 0.9.2

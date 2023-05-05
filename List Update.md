@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 30 April 2023 Update boot-args and csr-active-config
+
 - Update 28 April 2023 Fix Audio 8 series alcid=13
 
 - Update 28 April 2023 Change boot-args order

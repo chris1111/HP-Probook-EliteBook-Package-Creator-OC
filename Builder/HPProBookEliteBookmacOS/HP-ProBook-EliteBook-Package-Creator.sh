@@ -235,7 +235,7 @@ echo "
 = = = = = = = = = = = = = = = = = = = = = = = = =
 Download OCLP support Ventura Intel HD 4X 6X "
 
-curl -L https://github.com/dortania/OpenCore-Legacy-Patcher/releases/download/0.6.4/OpenCore-Patcher-GUI.app.zip -o /$HOME/Desktop/HP-ProBook-EliteBook-Packager/"$APP_NAME"
+curl -L https://github.com/dortania/OpenCore-Legacy-Patcher/releases/download/0.6.5/OpenCore-Patcher-GUI.app.zip -o /$HOME/Desktop/HP-ProBook-EliteBook-Packager/"$APP_NAME"
 
 cd /$HOME/Desktop/HP-ProBook-EliteBook-Packager
 

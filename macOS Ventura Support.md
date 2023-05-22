@@ -11,6 +11,11 @@ Make sure to click ok on this Pop Up
 
 
 ### Video Testing Post Install 8 series Probook 650 G1 - ⬇︎
+New Interface GUI OCLP Simply click to ```Post-Install Root Patch```
+
+![Post Root patch](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/assets/6248794/dc1935d6-c422-4051-b7ab-8c9d32c54fbe)
+
+
 First time OCLP you have to allow system extensions by cliking OK
 
 ![Screenshot 2023-04-01 at 3 13 31 PM](https://user-images.githubusercontent.com/6248794/229313967-07f3fbba-af1c-4187-9f2c-c12898466159.png)

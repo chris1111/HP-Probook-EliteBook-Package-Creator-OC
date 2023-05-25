@@ -44,8 +44,6 @@ Unplug the USB drive, then reboot to the SSD after Post Install HP Probook Elite
 Update-Ventura ➤ [Update-Ventura](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/wiki/Update-Ventura)
 
 
-Enable Facetime, Message and other app's ➤ [SIP Mod Ventura](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/wiki/SIP-Mod-Ventura) 
-
 Fix ➤ [brightness-keyboard-shortcut](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/wiki/Fix-brightness-keyboard-shortcut)
 
 

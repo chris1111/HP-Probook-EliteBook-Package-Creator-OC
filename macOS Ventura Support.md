@@ -46,6 +46,7 @@ Update-Ventura ➤ [Update-Ventura](https://github.com/chris1111/HP-Probook-Elit
 
 Fix ➤ [brightness-keyboard-shortcut](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/wiki/Fix-brightness-keyboard-shortcut)
 
+Tester for Ventura 13 ➤ [Testing Ventura](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/discussions/168)
 
 #### Build Project
 Prerequisite: `Xcode` installed

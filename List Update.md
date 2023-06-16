@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 02 June 2023 Update OCLP 0.6.7
+
 - Update 22 May 2023 Update OCLP 0.6.6
 
 - Update 22 May 2023 Update Config and Utility

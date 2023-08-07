@@ -1,3 +1,6 @@
+### HP-ProBook-EliteBook-macOS macOS Sonoma support 
+- All video will follow for the moment follow here the [Video Ventura support](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Ventura%20Support.md)
+
 8 seriers support HP Laptop
 - HP-ProBook-EliteBook-macOS Option
   

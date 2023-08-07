@@ -88,7 +88,11 @@ pkgbuild --root ./"Install ESP"/EFIFOLDERMAIN --scripts ./script/"Script UEFI"/"
 
 pkgbuild --root ./AirportBrcmFixup --scripts ./script/Airport --identifier com.chris1111.hpprobookelitebookmacos.AirportBrcmFixup.pkg --version 1.0 --install-location /Private/tmp /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/airportbrcmfixup.pkg
 
-pkgbuild --root ./DSDT-Patch/BCM4322x --identifier com.chris1111.hpprobookelitebookmacos.patchbcmdsdt.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/patchbcmdsdt.pkg
+pkgbuild --root ./DSDT-Patch/BCM94352HMB --identifier com.chris1111.hpprobookelitebookmacos.bcm94352hmb.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/BCM94352HMB.pkg
+
+pkgbuild --root ./DSDT-Patch/BCM943224HMS --identifier com.chris1111.hpprobookelitebookmacos.bcm943224hms.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/BCM943224HMS.pkg
+
+pkgbuild --root ./DSDT-Patch/BCM94360HMB --identifier com.chris1111.hpprobookelitebookmacos.bcm94360hmb.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/BCM94360HMB.pkg
 
 pkgbuild --root ./Bluetooth/Catalina --scripts ./script/BluetoothCatalina --identifier com.chris1111.hpprobookelitebookmacos.BluetoothCatalina.pkg --version 1.0 --install-location /Private/tmp /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/bluetoothCatalina.pkg
 
@@ -177,7 +181,11 @@ pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/efifold
 
 pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/airportbrcmfixup.pkg /tmp/PackageDIR/airportbrcmfixup.pkg
 
-pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/patchbcmdsdt.pkg /tmp/PackageDIR/patchbcmdsdt.pkg
+pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/BCM94352HMB.pkg /tmp/PackageDIR/BCM94352HMB.pkg
+
+pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/BCM943224HMS.pkg /tmp/PackageDIR/BCM943224HMS.pkg
+
+pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/BCM94360HMB.pkg /tmp/PackageDIR/BCM94360HMB.pkg
 
 pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/app.pkg /tmp/PackageDIR/app.pkg
 
@@ -233,9 +241,10 @@ Wait. . ." with title "Download"  sound name "default"'
 
 echo "
 = = = = = = = = = = = = = = = = = = = = = = = = =
-Download OCLP support Ventura Intel HD 4X 6X "
+Download OCLP support Sonoma 14 Ventura 13 Intel HD 4X 6X
+Support Wifi BCM43xx "
 
-curl -L https://github.com/dortania/OpenCore-Legacy-Patcher/releases/download/0.6.7/OpenCore-Patcher-GUI.app.zip -o /$HOME/Desktop/HP-ProBook-EliteBook-Packager/"$APP_NAME"
+curl -L https://github.com/chris1111/OCLP-Dev-repos/releases/download/0.6.9-Dev/OpenCore-Patcher.zip -o /$HOME/Desktop/HP-ProBook-EliteBook-Packager/"$APP_NAME"
 
 cd /$HOME/Desktop/HP-ProBook-EliteBook-Packager
 

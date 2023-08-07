@@ -34,7 +34,7 @@
     <choice id="choice5" title="8 Series support config" description="Install config haswell in OpenCore. Select this option only if you have 8-series laptop:  HP Probook 3x0 G1, Probook 4x0 G1/G2, Probook 6x0 G1, Elitebook 8x0 G1, ZBook G1, Folio 1040 G1" start_selected="false">
         <pkg-ref id="org.opencoreUsb.opencoreUsb.8-series-Haswell.pkg"/>
     </choice>
-    <choice id="choice10" title="Ventura Support" start_selected="false"/>
+    <choice id="choice10" title="Sonoma 14 Ventura 13 Support" description="Add Support Sonoma 14 Ventura 13 Select only one option!" start_selected="false"/>
     <choice id="choice11" title="7 Series Laptop" start_selected="false">
         <pkg-ref id="org.opencoreUsb.opencoreUsb.V7series.pkg"/>
     </choice>

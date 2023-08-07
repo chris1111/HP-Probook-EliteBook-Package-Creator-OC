@@ -729,6 +729,8 @@
 			<true/>
 			<key>HideAuxiliary</key>
 			<false/>
+			<key>InstanceIdentifier</key>
+			<string></string>
 			<key>LauncherOption</key>
 			<string>Disabled</string>
 			<key>LauncherPath</key>
@@ -740,7 +742,7 @@
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PickerVariant</key>
-			<string>chris1111\NaturalMacBook</string>
+			<string>chris1111\Flavours-OS</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -972,9 +974,9 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02735200GUHWVP1F</string>
+			<string>C02846701CDJH4RCB</string>
 			<key>ProcessorType</key>
-			<integer>1537</integer>
+			<integer>1793</integer>
 			<key>ROM</key>
 			<data>3oXqMOxi</data>
 			<key>SpoofVendor</key>
@@ -982,11 +984,11 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro14,1</string>
+			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02V9SYSHV29</string>
+			<string>C02XP0RHJHCC</string>
 			<key>SystemUUID</key>
-			<string>55BDE2BE-7329-4768-B0F8-2C4A2A5F2126</string>
+			<string>9F2CDC2F-219E-4892-95B5-CED00FDD5729</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1012,9 +1014,9 @@
 			<key>JumpstartHotPlug</key>
 			<false/>
 			<key>MinDate</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 			<key>MinVersion</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 		</dict>
 		<key>AppleInput</key>
 		<dict>

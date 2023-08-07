@@ -29,6 +29,5 @@ Sleep 1
 
 Sleep 2
 
-echo "Add BrcmBluetoothInjector.kext, BrcmFirmwareData.kext in /Volumes/ESP/EFI/OC/config.plist"
-
+echo "Add BlueToolFixup.kext, BrcmFirmwareData.kext, BrcmPatchRAM3.kext in /Volumes/ESP/EFI/OC/config.plist"
 

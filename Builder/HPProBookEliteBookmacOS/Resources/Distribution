@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-script minSpecVersion="1.000000" authoringTool="com.apple.Productbuild" authoringToolVersion="1.0.2" authoringToolBuild="101">
+    <title>HP-ProBook-EliteBook-macOS</title>
+    <options customize="allow" allow-external-scripts="no"/>
+    <domains enable_anywhere="true"/>
+    <background file="background" alignment="center" scaling="tofit"/>
+    <background-darkAqua file="background.png" alignment="center" scaling="tofit"/>
+    <welcome file="Welcome.rtf"/>
+    <readme file="ReadMe.rtf"/>
+    <license file="License.rtf"/>
+    <choices-outline>
+        <line choice="choice2">
+            <line choice="choice409">
+                <line choice="choice200">
+                    <line choice="choice201"/>
+                    <line choice="choice202"/>
+                    <line choice="choice203"/>
+                    <line choice="choice204"/>
+                    <line choice="choice205"/>
+                    <line choice="choice206"/>
+                    <line choice="choice207"/>
+                </line>
+                <line choice="choice587">
+                    <line choice="choice588"/>
+                    <line choice="choice589"/>
+                    <line choice="choice590"/>
+                    <line choice="choice591"/>
+                    <line choice="choice592"/>
+                </line>
+                <line choice="choice411">
+                    <line choice="choice412"/>
+                    <line choice="choice413"/>
+                    <line choice="choice414"/>
+                    <line choice="choice415"/>
+                    <line choice="choice416"/>
+                    <line choice="choice417"/>
+                    <line choice="choice418"/>
+                    <line choice="choice419"/>
+                </line>
+                <line choice="choice482">
+                    <line choice="choice487"/>
+                    <line choice="choice488"/>
+                </line>
+                <line choice="choice534">
+                    <line choice="choice535"/>
+                    <line choice="choice536"/>
+                </line>
+            </line>
+            <line choice="choice661">
+                <line choice="choice5927">
+                    <line choice="choice5931"/>
+                </line>
+            </line>
+            <line choice="choice5935">
+                <line choice="choice6008"/>
+                <line choice="choice6108"/>
+                <line choice="choice6208"/>
+            </line>
+            <line choice="choice6340">
+                <line choice="choice48"/>
+                <line choice="choice49"/>
+                <line choice="choice50"/>
+            </line>
+            <line choice="choice6009"/>
+            <line choice="choice6011"/>
+            <line choice="choice6338"/>
+            <line choice="choice6349"/>
+            <line choice="choice6339"/>
+            <line choice="choice6400"/>
+            <line choice="choice45">
+                <line choice="choice46"/>
+                <line choice="choice47"/>
+            </line>
+        </line>
+    </choices-outline>
+    <choice id="choice2" title="HP-ProBook-EliteBook-macOS" description="HP-ProBook-EliteBook-macOS" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Patcher.pkg"/>
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.EFI-DSDT.pkg"/>
+    </choice>
+    <choice id="choice409" title="HP Laptop Open Core" description="HP Laptop + Open Core_English Description&quot; = Mandatory choice ! Install Open Core to the select volumes, all kext in Open Core for your Laptop with also full patch DSDT.aml.   Open Core_Francais Description&quot; = Choix mandatoire! Install Open Core sur le volumes selectionner. Tout les kext dans  Open Core pour votre portable avec aussi DSDT.aml patch complet" start_selected="false"/>
+    <choice id="choice200" title="8 series + HD 4600/4400 - HP Probook 3x0 G1, Probook 4x0 G1/G2, Probook 6x0 G1,  Elitebook 8x0 G1, ZBook G1, Folio 1040 G1 macOS 10.12 ➣ macOS Ventura 13" description="8 series + HD 4600/4400 - HP Probook 3x0 G1, Probook 4x0 G1/G2, Probook 6x0 G1,  Elitebook 8x0 G1, ZBook G1, Folio 1040 G1 macOS 10.12 ➣ macOS Ventura 13" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Kexts.pkg"/>
+    </choice>
+    <choice id="choice201" title="ProBook 3x0-G1" description="Patch for ProBook 3x0-G1" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.3x0-G1.pkg"/>
+    </choice>
+    <choice id="choice202" title="ProBook 4x0-G1" description="Patch for ProBook 4x0-G1" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.4x0-G1.pkg"/>
+    </choice>
+    <choice id="choice203" title="ProBook 4x0-G2" description="Patch for ProBook 4x0-G2" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.4x0-G2.pkg"/>
+    </choice>
+    <choice id="choice204" title="ProBook 6x0 G1" description="Patch for ProBook 6x0-G1" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.6x0-G1.pkg"/>
+    </choice>
+    <choice id="choice205" title="Elitebook 8x0-G1" description="Patch for Elitebook 8x0-G1" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.8x0-G1.pkg"/>
+    </choice>
+    <choice id="choice206" title="ZBook-G1" description="Patch for ZBook-G1" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.ZBook-G1.pkg"/>
+    </choice>
+    <choice id="choice207" title="HP Folio1040-G1" description="Patch for HP Folio1040-G1" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Folio1040-G1.pkg"/>
+    </choice>
+    <choice id="choice587" title="Fan Patch 7/8 Series" description="Fan Patch" start_selected="false"/>
+    <choice id="choice588" title="FanQuiet" description="This fan patch provides enhanced fan control.  It does so by tricking the system into thinking that the laptop is arbitrarily cool, such  that it can override the default behavior and have complete control over the fan." start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.FanQuiet.pkg"/>
+    </choice>
+    <choice id="choice589" title="FanQuietMod" description="Please Note: 04b_FanQuietMod.txt is a work-in-progress Eventually, it will be much more than a simple change to the FTAB! # This fan patch provides enhanced fan control.  It does so by tricking the system into thinking that the laptop is arbitrarily cool, such  that it can override the default behavior and have complete control over the fan. # This version, 04b_FanQuietMod.txt, is best used when you desire the fan to be always on.  I'm using it to control my fan on my ProBook for which I have inserted a couple of 1N4001 diodes inline with the  red/orange wire feeding power to the fan.  This results in a fan system that is able to reach more low-RPM fan speeds than stock." start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.FanQuietMod.pkg"/>
+    </choice>
+    <choice id="choice590" title="FanSmooth" description="# Original by Don_Grappler # # A modification of &quot;04b_FanQuietMod.txt&quot; by RehabMan # ( https://github.com/RehabMan/HP-ProBook-4x30s-DSDT-Patch/ ) # For HP Probook 4x30s/4x40s  #  This fan patch provides enhanced fan control. It does so by tricking the system into thinking that the laptop is arbitrarily cool, such that it can override the default behavior and have complete control over the fan. # This particular version, 04c_FanSmooth.txt, keeps the differences  between available fan speeds as small as possible so that transitions  are not (or just barely) noticeable and thus less distracting. This  allows the fan to respond quicker to follow changes in temperature  without annoying jumps in its noise.  On a ProBook 4x30s it may be necessary to insert a couple of #1N4001  diodes inline with the red/orange wire feeding power to the fan. This results in a fan system that is able to reach more low-RPM fan speeds than stock." start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.FanSmooth.pkg"/>
+    </choice>
+    <choice id="choice591" title="FanPatch" description="This fan patch adds a very conservative modification to the normal BIOS fan control.  It does not attempt to trick the system into thinking that the laptop is arbitrarily cool.  Instead it simply avoids some of the annoying ways in which the default HP BIOS controls the fan.  Primarily that it ramps up the fan speed too agressively, and even when at relatively cool temperatures, it runs the fan at one speed above the lowest. " start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.FanPatch.pkg"/>
+    </choice>
+    <choice id="choice592" title="FanSpeed" description="This fan patch simply reports CPU Heatsink, Ambient, and Fan Speed. No manipulation of fan speed is done.  You get default BIOS behavior." start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.FanSpeed.pkg"/>
+    </choice>
+    <choice id="choice411" title="7 series macOS 10.12 ➣ macOS Ventura 13" description="7 series laptop HP Probook, EliteBook. Support macOS Sierra 10.12 to macOS Ventura 13" start_selected="false"/>
+    <choice id="choice412" title="ProBook 4x0 G0" description="Patch for ProBook 4x0 G0" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.4x0G0.pkg"/>
+    </choice>
+    <choice id="choice413" title="ProBook 4x40s" description="Patch for ProBook 4x40s" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.4x40.pkg"/>
+    </choice>
+    <choice id="choice414" title="ProBook 6x70b" description="Patch for ProBook 6x70b" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.6x70b.pkg"/>
+    </choice>
+    <choice id="choice415" title="Elitebook 2x70p" description="Patch for Elitebook 2x70p" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Elitebook2x70p.pkg"/>
+    </choice>
+    <choice id="choice416" title="Elitebook 8x70p" description="Patch for Elitebook 8x70p" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Elitebook8x70p.pkg"/>
+    </choice>
+    <choice id="choice417" title="Elitebook 9x70m" description="Patch for Elitebook 9x70m" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Elitebook9x70m.pkg"/>
+    </choice>
+    <choice id="choice418" title="ProBook 6x70B + AMD" description="Patch for ProBook 6x70B + AMD Note: the AMD Graphics card will not be usable, it will be disabled" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.6x70B_AMD.pkg"/>
+    </choice>
+    <choice id="choice419" title="ProBook 6x70B + NVIDIA" description="Patch for ProBook 6x70B + NVIDIA Note: the Nvidia Graphics card will not be usable, it will be disabled" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.6x70B_NVIDIA.pkg"/>
+    </choice>
+    <choice id="choice482" title="Intel HD 4000 for 7 Series" description="Intel HD 4000 Support macOS Sierra 10.12 to macOS Monterey 12" start_selected="false"/>
+    <choice id="choice487" title="Low screen 1366x768" description="Patch Intel HD 4000 Low screen 1366x768 " start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.HD4000Low.pkg"/>
+    </choice>
+    <choice id="choice488" title="High screen 1600x900" description="Patch Intel HD 4000 High screen 1600x900" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.HD4000High.pkg"/>
+    </choice>
+    <choice id="choice534" title="HDMI for 7 series" description="Patch HDMI" start_selected="false"/>
+    <choice id="choice535" title="HDMI Low screen" description="Patch HDMI Low screen" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.HDMILow.pkg"/>
+    </choice>
+    <choice id="choice536" title="HDMI High screen" description="Patch HDMI High screen" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.1080p+HDMI.pkg"/>
+    </choice>
+    <choice id="choice661" title="Open Core" description="HP Laptop + Open Core_English Description&quot; = Mandatory choice ! Install Open Core to the select volumes, all kext in Open Core for your Laptop with also full patch DSDT.aml. Open Core_Francais Description&quot; = Choix mandatoire! Install  Open Core sur le volumes selectionner. Tout les kext dans Open Core pour votre portable avec aussi DSDT.aml patch complet" start_visible="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.OpenCore.pkg"/>
+    </choice>
+    <choice id="choice5927" title="Open Core" description="HP Laptop + Open Core_English Description&quot; = Mandatory choice ! Install Open Core to the select volumes, all kext in Open Core for your Laptop with also full patch DSDT.aml.   Open Core_Francais Description&quot; = Choix mandatoire! Install  Open Core sur le volumes selectionner. Tout les kext dans Open Core pour votre portable avec aussi DSDT.aml patch complet" start_visible="false"/>
+    <choice id="choice5931" title="EFIFOLDERMAIN" start_visible="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.EFIFOLDERMAIN.pkg"/>
+    </choice>
+    <choice id="choice5935" title="Bluetooth Fix" description="Bluetooth Broadcom Integrate" start_selected="false"/>
+    <choice id="choice6008" title="Bluetooth Catalina" description="Bluetooth_English Description&quot; = Bluetooth integrated Broadcom 20702 -4.0 Install  EFI / OC / kexts /BlueToolFixup.kext, BrcmFirmwareData.kext, BrcmPatchRAM3.kext It is advisable to add the boot argument -btlfxallowanyaddr Select this with a laptop Choice&quot;; Bluetooth_Francais Description&quot; = Bluetooth integré Broadcom 20702 -4.0 Install dans EFI / OC / kexts /BlueToolFixup.kext, BrcmFirmwareData.kext, BrcmPatchRAM3.kext.kext Il est conseiller dajouter le boot argument -btlfxallowanyaddr Ce choix doit être choisie avec un choix de portable&quot;" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.BluetoothCatalina.pkg"/>
+    </choice>
+    <choice id="choice6108" title="Bluetooth Big Sur 11" description="Bluetooth_English Description&quot; = Bluetooth integrated Broadcom 20702 -4.0 Install  EFI / OC / kexts /BlueToolFixup.kext, BrcmFirmwareData.kext, BrcmPatchRAM3.kext It is advisable to add the boot argument -btlfxallowanyaddr Select this with a laptop Choice&quot;; Bluetooth_Francais Description&quot; = Bluetooth integré Broadcom 20702 -4.0 Install dans EFI / OC / kexts /BlueToolFixup.kext, BrcmFirmwareData.kext, BrcmPatchRAM3.kext Il est conseiller dajouter le boot argument -btlfxallowanyaddr Ce choix doit être choisie avec un choix de portable&quot;" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.BluetoothBigSur.pkg"/>
+    </choice>
+    <choice id="choice6208" title="Bluetooth Monterey Ventura Sonoma" description="Bluetooth_English Description&quot; = Bluetooth integrated Broadcom 20702 -4.0 Install  EFI / OC / kexts / BlueToolFixup.kext, BrcmFirmwareData.kext, BrcmPatchRAM3.kext It is advisable to add the boot argument -btlfxallowanyaddr Select this with a laptop Choice&quot;; Bluetooth_Francais Description&quot; = Bluetooth integré Broadcom 20702 -4.0 Install dans EFI / OC / kexts /BlueToolFixup.kext, BrcmFirmwareData.kext, BrcmPatchRAM3.kext Il est conseiller dajouter le boot argument -btlfxallowanyaddr Ce choix doit être choisie avec un choix de portable&quot;" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.BluetoothMonterey.pkg"/>
+    </choice>
+    <choice id="choice6340" title="AirportBrcmFixup" description="AirportBrcmFixup Fix WIFI_English Description= Fix for the Probook. Install EFI / OC / kexts /AirportBrcmFixup.kext Select this with a laptop Choice.
+
+AirportBrcmFixup Fix WIFI_Francais Description= pour le Probook. Installe dans  EFI / OC / kexts /AirportBrcmFixup.kext Ce choix doit être choisie avec un choix de portable." start_selected="true">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.AirportBrcmFixup.pkg"/>
+    </choice>
+    <choice id="choice48" title="BCM94352HMB" description="Fix WIFI_English Description= Fix for BCM94352HMB  Patch DSDT for BCM43xx Select this with a laptop Choice. Select only one Wifi option!
+
+WIFI_Francais Description= Fix pour BCM94352HMB Patch DSDT pour le Probook. Ce choix doit être choisie avec un choix de portable. Selectionner une seule option Wifi!" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.BCM94352HMB.pkg"/>
+    </choice>
+    <choice id="choice49" title="BCM943224HMS" description="Fix WIFI_English Description= Fix for BCM943224HMS  Patch DSDT for BCM43xx In the boot arguments you must add brcmfx-delay=15000 Select this with a laptop Choice. Select only one Wifi option!
+
+WIFI_Francais Description= Fix pour BCM943224HMS Patch DSDT pour le Probook. Dans les arguments de boot vous devez rajouter brcmfx-delay=15000 Ce choix doit être choisie avec un choix de portable. Selectionner une seule option Wifi!" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.BCM943224HMS.pkg"/>
+    </choice>
+    <choice id="choice50" title="BCM94360HMB" description="Fix WIFI_English Description= Fix for BCM94360HMB  Patch DSDT for BCM43xx Select this with a laptop Choice. Select only one Wifi option!
+
+WIFI_Francais Description= Fix pour BCM94360HMB Patch DSDT pour le Probook. Ce choix doit être choisie avec un choix de portable. Selectionner une seule option Wifi!" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.BCM94360HMB.pkg"/>
+    </choice>
+    <choice id="choice6009" title="HWMonitor" description="HWMonitorSMC2 Install ➤ Applications">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.HWMonitor.pkg"/>
+    </choice>
+    <choice id="choice6011" title="Applications" description="Applications Description&quot; = &quot;Install ➤ /Applications/ MaciASL.app, IORegistryExplorer.app, Command Line EFI Mounteur.app, Drop EFI.app, OpenCore Configurator&quot;; ">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.APP.pkg"/>
+    </choice>
+    <choice id="choice6338" title="POST" start_visible="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.POST.pkg"/>
+    </choice>
+    <choice id="choice6349" title="HFSPlus for 7/8 series" description="Install HfsPlus.efi in OpenCore" start_selected="true" selected="!choices['choice6339'].selected">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.HFSPLUS.pkg"/>
+    </choice>
+    <choice id="choice6339" title="VBoxHfs for 7 series" description="Install VBoxHfs.efi in OpenCore" start_selected="false" selected="!choices['choice6349'].selected">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.VBOX.pkg"/>
+    </choice>
+    <choice id="choice6400" title="PatchHD4000 for 7 series Monterey 12 support" description="Patch Intel HD 4000 Monterey 12 for 7 series laptop. Run Installer PatchHD400 ➤ /Desktop" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.PatchHD4000.pkg"/>
+    </choice>
+    <choice id="choice45" title="Sonoma 14 Ventura 13 Support" description="Add Support Sonoma 14 Ventura 13 Select only one option!" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Ventura.pkg"/>
+    </choice>
+    <choice id="choice46" title="7 series Laptop" description="Set CryptexFixup.kext + Add boot-args amfi=0x80 in config.plist in config.plist" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.V7series.pkg"/>
+    </choice>
+    <choice id="choice47" title="8 series Laptop" description="Add boot-args amfi=0x80 in config.plist" start_selected="false">
+        <pkg-ref id="com.chris1111.hpprobookelitebookmacos.V8series.pkg"/>
+    </choice>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Patcher.pkg" installKBytes="0" version="1" auth="Root">#patcher.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Patcher.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.EFI-DSDT.pkg" installKBytes="3376" version="1.0" auth="Root">#efidsdt.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.EFI-DSDT.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Kexts.pkg" installKBytes="4852" version="1.0" auth="Root" packageIdentifier="com.chris1111.hpprobookelitebookmacos.kexts.pkg">#kexts.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Kexts.pkg">
+        <bundle-version>
+            <bundle CFBundleShortVersionString="1.9.2" CFBundleVersion="1.9.2" id="org.rehabman.voodoo.driver.PS2Keyboard" path="VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext"/>
+            <bundle CFBundleShortVersionString="1.6.5" CFBundleVersion="1.6.5" id="as.vit9696.WhateverGreen" path="WhateverGreen.kext"/>
+            <bundle CFBundleShortVersionString="1.0.8" CFBundleVersion="1.0.8" id="as.acidanthera.mieze.IntelMausi" path="IntelMausi.kext"/>
+            <bundle CFBundleShortVersionString="1.0.4" CFBundleVersion="1.0.4" id="science.firewolf.rtsf" path="RealtekCardReaderFriend.kext"/>
+            <bundle CFBundleShortVersionString="1.6.5" CFBundleVersion="1.6.5" id="as.vit9696.Lilu" path="Lilu.kext"/>
+            <bundle CFBundleShortVersionString="1.9.2" CFBundleVersion="1.9.2" id="org.rehabman.voodoo.driver.PS2Trackpad" path="VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext"/>
+            <bundle CFBundleShortVersionString="1.3.2" CFBundleVersion="1.3.2" id="as.vit9696.VirtualSMC" path="VirtualSMC.kext"/>
+            <bundle CFBundleShortVersionString="0.9.7" CFBundleVersion="0.9.7" id="science.firewolf.rtsx" path="RealtekCardReader.kext"/>
+            <bundle CFBundleShortVersionString="1.8.1" CFBundleVersion="1.8.1" id="as.vit9696.AppleALC" path="AppleALC.kext"/>
+            <bundle CFBundleShortVersionString="1.3.2" CFBundleVersion="1.3.2" id="as.vit9696.SMCProcessor" path="SMCProcessor.kext"/>
+            <bundle CFBundleShortVersionString="1.9.2" CFBundleVersion="1.9.2" id="org.rehabman.voodoo.driver.PS2Mouse" path="VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext"/>
+            <bundle CFBundleShortVersionString="1.3.2" CFBundleVersion="1.3.2" id="ru.usrsse2.SMCBatteryManager" path="SMCBatteryManager.kext"/>
+            <bundle CFBundleShortVersionString="2.4.2" CFBundleVersion="2.4.2" id="com.insanelymac.RealtekRTL8111" path="RealtekRTL8111.kext"/>
+            <bundle CFBundleShortVersionString="1.9.2" CFBundleVersion="1.9.2" id="org.rehabman.voodoo.driver.PS2Controller" path="VoodooPS2Controller.kext"/>
+        </bundle-version>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.3x0-G1.pkg" installKBytes="44" version="1.0" auth="Root">#3x0-G1.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.3x0-G1.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.4x0-G1.pkg" installKBytes="40" version="1.0" auth="Root">#4x0-G1.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.4x0-G1.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.4x0-G2.pkg" installKBytes="44" version="1.0" auth="Root">#4x0-G2.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.4x0-G2.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.6x0-G1.pkg" installKBytes="40" version="1.0" auth="Root">#6x0-G1.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.6x0-G1.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.8x0-G1.pkg" installKBytes="40" version="1.0" auth="Root">#8x0-G1.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.8x0-G1.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.ZBook-G1.pkg" installKBytes="40" version="1.0" auth="Root">#ZBook-G1.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.ZBook-G1.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Folio1040-G1.pkg" installKBytes="40" version="1.0" auth="Root">#Folio1040-G1.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Folio1040-G1.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.FanQuiet.pkg" installKBytes="8" version="1.0" auth="Root">#fanquiet.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.FanQuiet.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.FanQuietMod.pkg" installKBytes="8" version="1.0" auth="Root">#fanquietmod.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.FanQuietMod.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.FanSmooth.pkg" installKBytes="8" version="1.0" auth="Root">#fansmooth.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.FanSmooth.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.FanPatch.pkg" installKBytes="4" version="1.0" auth="Root">#fanpatch.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.FanPatch.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.FanSpeed.pkg" installKBytes="4" version="1.0" auth="Root">#fanspeed.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.FanSpeed.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.4x0G0.pkg" installKBytes="36" version="1.0" auth="Root">#4x0G0.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.4x0G0.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.4x40.pkg" installKBytes="32" version="1.0" auth="Root">#4x40.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.4x40.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.6x70b.pkg" installKBytes="28" version="1.0" auth="Root">#6x70b.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.6x70b.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Elitebook2x70p.pkg" installKBytes="32" version="1.0" auth="Root">#elitebook2X70P.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Elitebook2x70p.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Elitebook8x70p.pkg" installKBytes="32" version="1.0" auth="Root">#elitebook8X70P.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Elitebook8x70p.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Elitebook9x70m.pkg" installKBytes="32" version="1.0" auth="Root">#elitebook9X70M.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Elitebook9x70m.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.6x70B_AMD.pkg" installKBytes="44" version="1.0" auth="Root">#6x70bamd.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.6x70B_AMD.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.6x70B_NVIDIA.pkg" installKBytes="44" version="1.0" auth="Root">#6x70bnvidia.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.6x70B_NVIDIA.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.HD4000Low.pkg" installKBytes="4" version="1.0" auth="Root">#hd4000low.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.HD4000Low.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.HD4000High.pkg" installKBytes="4" version="1.0" auth="Root">#hd4000high.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.HD4000High.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.HDMILow.pkg" installKBytes="4" version="1.0" auth="Root">#hdmilow.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.HDMILow.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.1080p+HDMI.pkg" installKBytes="4" version="1.0" auth="Root">#1080phdmi.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.1080p+HDMI.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.OpenCore.pkg" installKBytes="0" version="1.0" auth="Root">#opencore.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.OpenCore.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.EFIFOLDERMAIN.pkg" installKBytes="28852" version="1.0" auth="Root">#efifoldermain.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.EFIFOLDERMAIN.pkg">
+        <bundle-version>
+            <bundle CFBundleShortVersionString="1.9.2" CFBundleVersion="1.9.2" id="org.rehabman.voodoo.driver.PS2Keyboard" path="EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext"/>
+            <bundle CFBundleShortVersionString="1.6.5" CFBundleVersion="1.6.5" id="as.vit9696.WhateverGreen" path="EFI/OC/Kexts/WhateverGreen.kext"/>
+            <bundle CFBundleShortVersionString="1.0.8" CFBundleVersion="1.0.8" id="as.acidanthera.mieze.IntelMausi" path="EFI/OC/Kexts/IntelMausi.kext"/>
+            <bundle CFBundleShortVersionString="1.1" CFBundleVersion="1.1" id="com.chris1111.Intel7Series-Injector" path="EFI/OC/Kexts/Intel7Series-Injector.kext"/>
+            <bundle CFBundleShortVersionString="1.6.5" CFBundleVersion="1.6.5" id="as.vit9696.Lilu" path="EFI/OC/Kexts/Lilu.kext"/>
+            <bundle CFBundleShortVersionString="1.9.2" CFBundleVersion="1.9.2" id="org.rehabman.voodoo.driver.PS2Trackpad" path="EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext"/>
+            <bundle CFBundleShortVersionString="1.3.2" CFBundleVersion="1.3.2" id="as.vit9696.VirtualSMC" path="EFI/OC/Kexts/VirtualSMC.kext"/>
+            <bundle CFBundleShortVersionString="1.8.1" CFBundleVersion="1.8.1" id="as.vit9696.AppleALC" path="EFI/OC/Kexts/AppleALC.kext"/>
+            <bundle CFBundleShortVersionString="1.3.2" CFBundleVersion="1.3.2" id="as.vit9696.SMCProcessor" path="EFI/OC/Kexts/SMCProcessor.kext"/>
+            <bundle CFBundleShortVersionString="1.9.2" CFBundleVersion="1.9.2" id="org.rehabman.voodoo.driver.PS2Mouse" path="EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext"/>
+            <bundle CFBundleShortVersionString="2.4.2" CFBundleVersion="2.4.2" id="com.insanelymac.RealtekRTL8111" path="EFI/OC/Kexts/RealtekRTL8111.kext"/>
+            <bundle CFBundleShortVersionString="1.3.2" CFBundleVersion="1.3.2" id="ru.usrsse2.SMCBatteryManager" path="EFI/OC/Kexts/SMCBatteryManager.kext"/>
+            <bundle CFBundleShortVersionString="1.9.2" CFBundleVersion="1.9.2" id="org.rehabman.voodoo.driver.PS2Controller" path="EFI/OC/Kexts/VoodooPS2Controller.kext"/>
+        </bundle-version>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.BluetoothCatalina.pkg" installKBytes="2876" version="1.0" auth="Root">#bluetoothCatalina.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.BluetoothCatalina.pkg">
+        <bundle-version>
+            <bundle CFBundleShortVersionString="2.6.5" CFBundleVersion="2.6.5" id="as.acidanthera.BrcmFirmwareStore" path="EFIROOTDIR/EFI/OC/kexts/BrcmFirmwareData.kext"/>
+            <bundle CFBundleShortVersionString="2.6.5" CFBundleVersion="2.6.5" id="as.acidanthera.injector.BrcmBluetoothInjector" path="EFIROOTDIR/EFI/OC/kexts/BrcmBluetoothInjector.kext"/>
+            <bundle CFBundleShortVersionString="2.6.5" CFBundleVersion="2.6.5" id="as.acidanthera.BrcmPatchRAM3" path="EFIROOTDIR/EFI/OC/kexts/BrcmPatchRAM3.kext"/>
+        </bundle-version>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.BluetoothBigSur.pkg" installKBytes="2756" version="1.0" auth="Root">#bluetoothBigSur.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.BluetoothBigSur.pkg">
+        <bundle-version>
+            <bundle CFBundleShortVersionString="2.6.5" CFBundleVersion="2.6.5" id="as.acidanthera.injector.BrcmBluetoothInjector" path="EFIROOTDIR/EFI/OC/kexts/BrcmBluetoothInjector.kext"/>
+            <bundle CFBundleShortVersionString="2.6.5" CFBundleVersion="2.6.5" id="as.acidanthera.BrcmFirmwareStore" path="EFIROOTDIR/EFI/OC/kexts/BrcmFirmwareData.kext"/>
+        </bundle-version>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.BluetoothMonterey.pkg" installKBytes="44" version="1.0" auth="Root">#bluetoothMonterey.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.BluetoothMonterey.pkg">
+        <bundle-version>
+            <bundle CFBundleShortVersionString="2.6.5" CFBundleVersion="2.6.5" id="as.acidanthera.BlueToolFixup" path="EFIROOTDIR/EFI/OC/kexts/BlueToolFixup.kext"/>
+        </bundle-version>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.AirportBrcmFixup.pkg" installKBytes="68" version="1.0" auth="Root">#airportbrcmfixup.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.AirportBrcmFixup.pkg">
+        <bundle-version>
+            <bundle CFBundleShortVersionString="2.1.7" CFBundleVersion="2.1.7" id="as.lvs1974.AirportBrcmFixup" path="EFIROOTDIR/EFI/OC/kexts/AirportBrcmFixup.kext"/>
+            <bundle CFBundleShortVersionString="1.0" CFBundleVersion="1.0" id="as.lvs1974.AirportBrcm4360Injector" path="EFIROOTDIR/EFI/OC/kexts/AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcm4360_Injector.kext"/>
+            <bundle CFBundleShortVersionString="1.0" CFBundleVersion="1.0" id="as.lvs1974.AirportBrcmNICInjector" path="EFIROOTDIR/EFI/OC/kexts/AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext"/>
+        </bundle-version>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.BCM94352HMB.pkg" installKBytes="4" version="1.0" auth="Root">#bcm94352hmb.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.BCM943224HMS.pkg" installKBytes="4" version="1.0" auth="Root">#bcm943224hms.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.BCM94360HMB.pkg" installKBytes="4" version="1.0" auth="Root">#bcm94360hmb.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.HWMonitor.pkg" installKBytes="8700" version="1.0" auth="Root">#hwmonitor.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.HWMonitor.pkg">
+        <bundle-version>
+            <bundle CFBundleShortVersionString="1.15.1" CFBundleVersion="1.15.1" id="org.sparkle-project.Sparkle" path="HWMonitor.app/Contents/Frameworks/Sparkle.framework"/>
+            <bundle CFBundleShortVersionString="6.26-19-g25631550.1462" CFBundleVersion="1462" id="org.hwsensors.HWMonitor" path="HWMonitor.app"/>
+            <bundle CFBundleShortVersionString="2.0.1" CFBundleVersion="2.0.1" id="com.growl.growlframework" path="HWMonitor.app/Contents/Frameworks/Growl.framework"/>
+            <bundle CFBundleShortVersionString="1.15.1" CFBundleVersion="1.15.1" id="org.sparkle-project.Sparkle.Autoupdate" path="HWMonitor.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app"/>
+        </bundle-version>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.APP.pkg" installKBytes="21580" version="1.0" auth="Root" packageIdentifier="com.chris1111.hpprobookelitebookmacos.App.pkg">#app.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.APP.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.POST.pkg" installKBytes="0" version="1.0" auth="Root">#post.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.POST.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.HFSPLUS.pkg" installKBytes="72" version="1.0" auth="Root">#hfsplus.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.HFSPLUS.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.VBOX.pkg" installKBytes="60" version="1.0" auth="Root">#vbox.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.VBOX.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.PatchHD4000.pkg" installKBytes="32732" version="1.0" auth="Root">#PatchHD4000.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.PatchHD4000.pkg">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.Ventura.pkg" installKBytes="4" version="1.0" auth="Root">#ventura.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.V7series.pkg" installKBytes="0" version="1.0" auth="Root">#V7series.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.hpprobookelitebookmacos.V8series.pkg" installKBytes="0" version="1.0" auth="Root">#V8series.pkg</pkg-ref>
+</installer-script>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>22F66</string>
+	<string>22G74</string>
 	<key>CFBundleExecutable</key>
 	<string>BrcmFirmwareData</string>
 	<key>CFBundleIdentifier</key>

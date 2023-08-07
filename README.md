@@ -1,6 +1,6 @@
 HP-Probook-EliteBook-Package-Creator-OC
 
-<img src="PICS/HP-Laptop.png" alt="Github Project" style="width:80%;">  
+<img src="PICS/HP-Laptop.png" alt="Github Project" style="width:100%;">  
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 

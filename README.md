@@ -99,7 +99,7 @@ HP Probook 3x0 G1, Probook 4x0 G1/G2, Probook 6x0 G1, Elitebook 8x0 G1, ZBook G1
 ## Recommand WIFI
 - Wifi mini PCI Wifi mini PCI [AzureWave WLAN+BT BCM94352HMB](https://www.ebay.fr/itm/Azurewave-AW-CE123H-Broadcom-BCM94352-802-11ac-WiFi-card-Bluetooth-4-0-for-MAC-/272248789669) ebay
 - Wifi mini PCI Wifi mini PCI [AzureWave WLAN+BT BCM94352HMB](https://www.aliexpress.com/item/4000385703330.html) aliexpress
-- Wifi mini PCI Wifi mini PCI [Azurewave BCM94360HMB](https://www.aliexpress.com/item/32860779782.html?gatewayAdapt=Msite2Pc) ➤ [You need 3 x IPEX MHF4 IPEX Gen4 UFL to IPEX-1 Connector Jack Male Pin For BCM94360HMB](https://www.ebay.ca/itm/262716190873) ➤ [also needed for center cable  Mini Pcie Wifi Internal Antenna Universal Laptop Wifi Bluetooth](https://www.aliexpress.com/item/4000478543477.html?pdp_npi=2%40dis%21CAD%21C%244.83%21C%243.43%21%21%21%21%21%402101c5b216916131891916383ee69e%2112000028175186553%21btf&_t=pvid:e8c09303-f9d5-4a82-85e1-aa93566ed773&spm=a2g0o.ppclist.product.mainProduct)  
+- Wifi mini PCI Wifi mini PCI (Native) [Azurewave BCM94360HMB](https://www.aliexpress.com/item/32860779782.html?gatewayAdapt=Msite2Pc) ➤ [You need 3 x IPEX MHF4 IPEX Gen4 UFL to IPEX-1 Connector Jack Male Pin For BCM94360HMB](https://www.ebay.ca/itm/262716190873) ➤ [also needed for center cable  Mini Pcie Wifi Internal Antenna Universal Laptop Wifi Bluetooth](https://www.aliexpress.com/item/4000478543477.html?pdp_npi=2%40dis%21CAD%21C%244.83%21C%243.43%21%21%21%21%21%402101c5b216916131891916383ee69e%2112000028175186553%21btf&_t=pvid:e8c09303-f9d5-4a82-85e1-aa93566ed773&spm=a2g0o.ppclist.product.mainProduct)  
 
   
 - Wifi mini PCI Wifi mini PCI [Broadcom BCM943224HMS](https://www.ebay.com/itm/253022938877?hash=item3ae957a6fd:g:8JYAAMXQVT9TFoF4) 

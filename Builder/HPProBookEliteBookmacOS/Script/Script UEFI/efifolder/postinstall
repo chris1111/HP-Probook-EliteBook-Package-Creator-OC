@@ -26,9 +26,4 @@ cp -rp /"${DEST_VOL}"/Private/tmp/EFI /"${DEST_VOL}"/Private/tmp/EFIROOTDIR
 Sleep 1
 ./MYPatcher
 
-# Remove link to the partition that contain the EFI folder
-rm -rf "${DEST_VOL}"/Private/tmp/EFIROOTDIR
-rm -rf "${DEST_VOL}"/Private/tmp/EFI
-
-
 		

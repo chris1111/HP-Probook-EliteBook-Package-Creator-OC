@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 06 August 2023 Add macOS Sonoma Support
+
 - Update 16 June 2023 Update Bluetooth Kexts
 
 - Update 15 June 2023 Update OC 0.9.4 Update All Kexts

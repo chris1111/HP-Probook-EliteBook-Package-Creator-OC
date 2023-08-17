@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 10 August 2023 Fix Audio 4x40
+
 - Update 06 August 2023 Add macOS Sonoma Support
 
 - Update 16 June 2023 Update Bluetooth Kexts

@@ -62,13 +62,10 @@ HP Laptop Support Option
 ![Screenshot 7series Support](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/assets/6248794/a19ca9b5-33e7-4e7f-96af-7da5a2f1f37b)
 
 OCLP Option
-- Make sure you are connecting to Ethernet cable before starting OCLP
 
 ![Screenshot 1](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/assets/6248794/3f8baeff-4c35-40d9-8065-97cf2f3b5fdc)
 
 ![Screenshot 2](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/assets/6248794/8c615d62-f257-4402-9ac9-397670696ce9)
-
-![Screenshot 3](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/assets/6248794/d1988139-fcfe-4079-a21a-5bd09f644047)
 
 ![Screenshot 4](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/assets/6248794/9a227750-46c9-4cc0-a21e-47f793161421)
 

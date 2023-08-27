@@ -4,7 +4,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-### Latest Update 21 August 2023 Fix Bluetooth Catalina
+### Latest Update 26 August 2023 MaxKernel Wifi Sonoma
 
 
 - All infos about ➦ [HP-Probook-EliteBook-Package-Creator-OC for macOS Sonoma](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Sonoma%20Support.md) 

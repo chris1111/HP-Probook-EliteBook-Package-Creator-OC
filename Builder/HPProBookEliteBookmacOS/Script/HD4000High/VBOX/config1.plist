@@ -423,7 +423,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IOSkywalkFamily</string>
 				<key>MaxKernel</key>
-				<string>23.0.0</string>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>23.0.0</string>
 				<key>PlistPath</key>
@@ -441,7 +441,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IO80211FamilyLegacy</string>
 				<key>MaxKernel</key>
-				<string>23.0.0</string>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>23.0.0</string>
 				<key>PlistPath</key>
@@ -459,7 +459,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirPortBrcmNIC</string>
 				<key>MaxKernel</key>
-				<string>23.0.0</string>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>23.0.0</string>
 				<key>PlistPath</key>

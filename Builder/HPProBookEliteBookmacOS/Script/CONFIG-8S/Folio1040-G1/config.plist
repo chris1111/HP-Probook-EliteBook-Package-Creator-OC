@@ -1115,7 +1115,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v -rtsxnopm alcid=13 -wegnoegpu agdpmod=vit9696 -lilubetaall</string>
+				<string>-v alcid=13 -wegnoegpu agdpmod=vit9696 -lilubetaall</string>
 				<key>csr-active-config</key>
 				<data>AwgAAA==</data>
 				<key>prev-lang:kbd</key>

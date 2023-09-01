@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 26 August 2023 Fix Safari Monterey HD 4000
+
 - Update 26 August 2023 MaxKernel Wifi Sonoma
 
 - Update 21 August 2023 Fix Bluetooth Catalina

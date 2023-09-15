@@ -36,10 +36,6 @@ if [ -d "${3}/Applications/RDM.app" ]; then
     rm -rf "${3}/Applications/RDM.app"
 fi
 
-if [ -d "${3}/Applications/Legacy OpenCore Packager.app" ]; then
-    rm -rf "${3}/Applications/Legacy OpenCore Packager.app"
-fi
-
 
 tar xf /Private/tmp/Apps/Beta-Access-SoftwareUtility.zip --directory /Applications
 
@@ -56,8 +52,6 @@ tar xf /Private/tmp/Apps/MaciASL.zip --directory /Applications
 tar xf /Private/tmp/Apps/OpenCoreConfigurator.zip --directory /Applications
 
 tar xf /Private/tmp/Apps/RDM.zip --directory /Applications
-
-tar xf /Private/tmp/Apps/LegacyOpenCorePackager.zip --directory /Applications
 
 Sleep 1
 rm -rf /Private/tmp/Apps

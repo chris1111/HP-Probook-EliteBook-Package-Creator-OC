@@ -546,7 +546,7 @@
 				<key>Identifier</key>
 				<string>com.apple.iokit.IOSkywalkFamily</string>
 				<key>MaxKernel</key>
-				<string>23.0.0</string>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>23.0.0</string>
 				<key>Strategy</key>

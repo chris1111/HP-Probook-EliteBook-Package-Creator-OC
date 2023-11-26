@@ -1,6 +1,10 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 26 Nov 2023 Use OCLP 1.3.0
+
+- Update 07 October 2023 Use OCLP 1.1.0
+
 - Update 28 Sept 2023 Fix Broadcom Wifi Sonoma 14.1
 
 - Update 05 Sept 2023 Fix patch HD4000

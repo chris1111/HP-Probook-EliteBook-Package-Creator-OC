@@ -69,6 +69,10 @@ OCLP Option
 
 ![Screenshot 4](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/assets/6248794/9a227750-46c9-4cc0-a21e-47f793161421)
 
+Update macOS Sonoma
+- You need to Revert Root Patches before then Reboot
+![Revert Root Patches](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/assets/6248794/fb995233-c6f9-4840-b038-6a945e7b4b2a)
+
 
 
 

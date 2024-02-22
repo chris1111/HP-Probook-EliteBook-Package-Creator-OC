@@ -4,7 +4,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-### Latest Update 11 Feb 2024 Add Support macOS Sonoma 14.4
+### Latest Update 21 Feb 2024 Exit in cancel Xcode build
 
 
 - All infos about ➦ [HP-Probook-EliteBook-Package-Creator-OC for macOS Sonoma](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Sonoma%20Support.md) 

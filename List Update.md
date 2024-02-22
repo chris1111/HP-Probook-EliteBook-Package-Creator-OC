@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 11 Feb 2024 Add Support macOS Sonoma 14.4
+
 - Update 09 Feb 2024 Adapt config 3X0 G1, 4X0 G1
 
 - Update 09 Feb 2024 OpenCore 0.9.9 2024-02-06

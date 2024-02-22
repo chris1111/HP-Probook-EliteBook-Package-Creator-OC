@@ -34,7 +34,7 @@ property pathToResources : "NSString"
 
 
             on applicationShouldTerminate:sender
-                -- Insert code here to do any housekeeping before your application quits
+                do shell script ("killall HP-ProBook-EliteBook")
                 return current application's NSTerminateNow
             end applicationShouldTerminate:
             

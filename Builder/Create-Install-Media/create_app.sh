@@ -5,6 +5,10 @@
 # Dependencies: osacompile
 PARENTDIR=$(dirname "$0")
 cd "$PARENTDIR"
+osascript <<EOD
+  display alert "Create
+Install Media HP Laptop OC.app" buttons ("OK") giving up after 2
+EOD
 echo "= = = = = = = = = = = = = = = = = = = = = = = = =  "
 echo "Create HP ProBook EliteBook Installer "
 echo "= = = = = = = = = = = = = = = = = = = = = = = = =  "

@@ -9,6 +9,11 @@ APP_NAME="OpenCore-Patcher-GUI.app.zip"
 # shell script Notifications
 osascript -e 'display notification "Installer HP-ProBook-EliteBook-macOS" with title "Create"  sound name "default"'
 
+osascript <<EOD
+  display alert "Create
+HP-ProBook-EliteBook-macOS.pkg" buttons ("OK") giving up after 2
+EOD
+
 rm -rf ./PRE/.gitkeep
 rm -rf ./OpenCore/.gitkeep
 rm -rf ./POST/.gitkeep
@@ -238,6 +243,11 @@ Sleep 1
 # shell script Notifications
 osascript -e 'display notification "OCLP support Ventura Intel HD 4X 6X
 Wait. . ." with title "Download"  sound name "default"'
+
+osascript <<EOD
+  display alert "Download OCLP
+Wait . . ." buttons ("OK") giving up after 2
+EOD
 
 echo "
 = = = = = = = = = = = = = = = = = = = = = = = = =

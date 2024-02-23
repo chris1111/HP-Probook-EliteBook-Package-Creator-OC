@@ -22,10 +22,12 @@ script AppDelegate
 		display alert "Build Start!" buttons ("OK") giving up after 1
 		delay 1
 		set firstScript to pathToResources & "/Builder/Main.sh"
-		do shell script firstScript
+		tell application "Terminal"
+			activate
+			do script (open firstScript)
+		end tell
 		do shell script "sleep 1"
 		spinner's stopAnimation:me
-		delay 1
 	end Build:
 	on cancel:sender
 		quit
@@ -35,7 +37,7 @@ script AppDelegate
 	on applicationShouldTerminateAfterLastWindowClosed:sender
 		return true
 	end applicationShouldTerminateAfterLastWindowClosed:
-		
+	
 	on applicationShouldTerminate:sender
 		do shell script ("killall HP-ProBook-EliteBook")
 		return current application's NSTerminateNow

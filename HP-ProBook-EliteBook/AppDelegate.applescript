@@ -26,7 +26,6 @@ script AppDelegate
 		do shell script "sleep 1"
 		spinner's stopAnimation:me
 		delay 1
-		do shell script ("killall HP-ProBook-EliteBook")
 	end Build:
 	on cancel:sender
 		quit

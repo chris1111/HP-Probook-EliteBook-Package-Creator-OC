@@ -1,6 +1,6 @@
 #!/bin/bash
 # script for Installer HP-ProBook-EliteBook-macOS
-# (c) Copyright 2018, 2021 chris1111
+# (c) Copyright 2018, 2024 chris1111
 PARENTDIR=$(dirname "$0")
 cd "$PARENTDIR"
 # VARS

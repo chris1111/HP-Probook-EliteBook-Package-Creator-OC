@@ -1,7 +1,7 @@
 #!/bin/bash
 # HP ProBook EliteBook Packager
 # This will create a Apple Bundle App Create Install Media HP Laptop 
-# Install Media HP Laptop OC Copyright (c) 2020, 2023 chris1111 All rights reserved.
+# Install Media HP Laptop OC Copyright (c) 2020, 2024 chris1111 All rights reserved.
 # No right on OpenCore Bootloader
 #
 # Permission to use, copy, modify, and/or distribute this software for any

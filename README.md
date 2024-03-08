@@ -4,7 +4,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-### Latest Update 23 February 2024 Use Terminal from the app for building the Project
+### Latest Update 08 Mar 2024 Use OCLP 1.4.1
 
 
 - All infos about ➦ [HP-Probook-EliteBook-Package-Creator-OC for macOS Sonoma](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Sonoma%20Support.md) 

@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 23 February 2024 Use Terminal from the app for building the Project
+
 - Update 22 February 2024 Change Icons Xcode build
 
 - Update 21 Feb 2024 Exit in cancel Xcode build

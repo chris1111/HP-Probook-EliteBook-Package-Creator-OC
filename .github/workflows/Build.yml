@@ -16,11 +16,13 @@ jobs:
     - name: Debug Build
       run: |
         xcodebuild -alltargets -configuration Debug | xcpretty && exit ${PIPESTATUS[0]}
-
+        chmod +x ./build/Debug/HP-ProBook-EliteBook.app/Contents/MacOS/HP-ProBook-EliteBook
+        
     - name: Release Build
       run: |
         xcodebuild -alltargets -configuration Release | xcpretty && exit ${PIPESTATUS[0]}
-
+        chmod +x ./build/Debug/HP-ProBook-EliteBook.app/Contents/MacOS/HP-ProBook-EliteBook
+        
     - name: Upload to Artifacts
       uses: actions/upload-artifact@v4
       with:

@@ -24,6 +24,6 @@ jobs:
     - name: Upload to Artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: ${{ github.event.repository.name }}
+        name: HP-ProBook-EliteBook
         path: build/*/*.zip
         if-no-files-found: error

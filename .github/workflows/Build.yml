@@ -21,7 +21,7 @@ jobs:
     - name: Release Build
       run: |
         xcodebuild -alltargets -configuration Release
-        chmod +x ./build/Debug/HP-ProBook-EliteBook.app/Contents/MacOS/HP-ProBook-EliteBook
+        chmod +x ./build/Release/HP-ProBook-EliteBook.app/Contents/MacOS/HP-ProBook-EliteBook
         
     - name: Upload to Artifacts
       uses: actions/upload-artifact@v4

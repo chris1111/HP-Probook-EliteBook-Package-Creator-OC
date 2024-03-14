@@ -25,5 +25,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: HP-ProBook-EliteBook
-        path: build/*/*.zip
+        path: build/Release
         if-no-files-found: error

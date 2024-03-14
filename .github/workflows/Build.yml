@@ -33,5 +33,5 @@ jobs:
         with:
           name: HP-Probook-EliteBook-Package-Creator-OC${{ env.GIT_SHA }}
           path: |
-            Release.zip
+            ./build/Release.zip
                     

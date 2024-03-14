@@ -1,4 +1,0 @@
-xcodebuild -project ./HP-ProBook-EliteBook.xcodeproj -alltargets -configuration Release
-Sleep 2
-exit 0
-

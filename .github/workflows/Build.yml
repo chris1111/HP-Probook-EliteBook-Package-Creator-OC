@@ -16,11 +16,13 @@ jobs:
     - name: Debug Build
       run: |
         xcodebuild -alltargets -configuration Debug
-        chmod +x ./build/Debug/HP-ProBook-EliteBook.app/Contents/MacOS/HP-ProBook-EliteBook
         
     - name: Release Build
       run: |
         xcodebuild -alltargets -configuration Release
+
+    - name: Allow executing
+      run: |
         chmod +x ./build/Release/HP-ProBook-EliteBook.app/Contents/MacOS/HP-ProBook-EliteBook
         
     - name: Upload to Artifacts

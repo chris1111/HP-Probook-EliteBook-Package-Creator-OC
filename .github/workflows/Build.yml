@@ -1,37 +1,29 @@
-name: HP-Probook-EliteBook-Package-Creator-OC
+name: CI
 
-on:
-  push:
-  pull_request:
-  workflow_dispatch:
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
-  build-macos:
-    name: Build HP-Probook-EliteBook-Package-Creator-OC
+
+  build:
+
     runs-on: macos-latest
+
     steps:
-      - uses: actions/checkout@v3
 
-      - name: Manage Version
-        run: |
-          git fetch --prune --unshallow --tags
-          echo "CUR_TAG=$(git tag -l | tail -1)" >> $GITHUB_ENV
-          echo "GIT_SHA=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+    - uses: actions/checkout@v4
 
 
-      - name: Build HP-Probook-EliteBook-Package-Creator-OC
-        run: |
-          chmod +x ./Build
-          ./Build "" HP-Probook-EliteBook-Package-Creator-OC
-      - name: Prepare Release
-        run: |
-          (cd "/build" || exit 1)
-          releaseItems=(Release.zip)
-          for releaseItem in "${releaseItems[@]}"; do cp -Rf "${releaseItem}" ./ || exit 1; done
-      - name: Upload to Artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: HP-Probook-EliteBook-Package-Creator-OC${{ env.GIT_SHA }}
-          path: |
-            Release.zip
-                    
+    - name: Debug Build
+      run: |
+        xcodebuild -alltargets -configuration Debug | xcpretty && exit ${PIPESTATUS[0]}
+
+    - name: Release Build
+      run: |
+        xcodebuild -alltargets -configuration Release | xcpretty && exit ${PIPESTATUS[0]}
+
+    - name: Upload to Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ github.event.repository.name }}
+        path: build/*/*.zip
+        if-no-files-found: error

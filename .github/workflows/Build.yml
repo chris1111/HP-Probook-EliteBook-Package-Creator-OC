@@ -1,0 +1,37 @@
+name: HP-Probook-EliteBook-Package-Creator-OC
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build-macos:
+    name: Build HP-Probook-EliteBook-Package-Creator-OC
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Manage Version
+        run: |
+          git fetch --prune --unshallow --tags
+          echo "CUR_TAG=$(git tag -l | tail -1)" >> $GITHUB_ENV
+          echo "GIT_SHA=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+
+
+      - name: Build HP-Probook-EliteBook-Package-Creator-OC
+        run: |
+          chmod +x ./make
+          ./make "" HP-Probook-EliteBook-Package-Creator-OC
+      - name: Prepare Release
+        run: |
+          (cd "/" || exit 1)
+          releaseItems=(build.zip)
+          for releaseItem in "${releaseItems[@]}"; do cp -Rf "${releaseItem}" ./ || exit 1; done
+      - name: Upload to Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: HP-Probook-EliteBook-Package-Creator-OC${{ env.GIT_SHA }}
+          path: |
+            build.zip
+                    

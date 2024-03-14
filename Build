@@ -1,8 +1,8 @@
 PARENTDIR=$(dirname "$0")
 cd "$PARENTDIR"
-APP_NAME="build"
+APP_NAME="Release"
 
 xcodebuild -project ./HP-ProBook-EliteBook.xcodeproj -alltargets -configuration Release
 
-zip -r "$APP_NAME".zip "$APP_NAME"
+zip -r ./build/"$APP_NAME".zip ./build/"$APP_NAME"
 

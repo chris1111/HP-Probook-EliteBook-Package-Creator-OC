@@ -1,6 +1,0 @@
-PARENTDIR=$(dirname "$0")
-cd "$PARENTDIR"
-APP_NAME="Release"
-
-xcodebuild -project ./HP-ProBook-EliteBook.xcodeproj -alltargets -configuration Release
-

@@ -12,6 +12,12 @@ jobs:
 
     - uses: actions/checkout@v4
 
+
+    - name: Debug Build
+      run: |
+        xcodebuild -alltargets -configuration Debug
+        chmod +x ./build/Debug/HP-ProBook-EliteBook.app/Contents/MacOS/HP-ProBook-EliteBook
+        
     - name: Release Build
       run: |
         xcodebuild -alltargets -configuration Release

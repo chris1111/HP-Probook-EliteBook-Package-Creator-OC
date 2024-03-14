@@ -21,7 +21,7 @@ jobs:
 
       - name: Build HP-Probook-EliteBook-Package-Creator-OC
         run: |
-          chmod +x ./make
+          chmod +x ./makefile
           ./make "" HP-Probook-EliteBook-Package-Creator-OC
       - name: Prepare Release
         run: |

@@ -23,7 +23,8 @@ jobs:
 
     - name: Allow executing
       run: |
-        chmod +x ./build/Release/HP-ProBook-EliteBook.app/Contents/MacOS/HP-ProBook-EliteBook
+        chmod 755 ./build/Release/HP-ProBook-EliteBook.app/Contents/MacOS/HP-ProBook-EliteBook
+        Sleep 2
         
     - name: Upload to Artifacts
       uses: actions/upload-artifact@v4

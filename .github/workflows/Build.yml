@@ -25,13 +25,13 @@ jobs:
           ./Build "" HP-Probook-EliteBook-Package-Creator-OC
       - name: Prepare Release
         run: |
-          (cd "/build" || exit 1)
-          releaseItems=(Release.zip)
+          (cd "/build/Release/" || exit 1)
+          releaseItems=(Release/HP-ProBook-EliteBook.app)
           for releaseItem in "${releaseItems[@]}"; do cp -Rf "${releaseItem}" ./ || exit 1; done
       - name: Upload to Artifacts
         uses: actions/upload-artifact@v3
         with:
           name: HP-Probook-EliteBook-Package-Creator-OC${{ env.GIT_SHA }}
           path: |
-            ./build/Release.zip
+            HP-ProBook-EliteBook.app
                     

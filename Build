@@ -3,6 +3,4 @@ cd "$PARENTDIR"
 APP_NAME="Release"
 
 xcodebuild -project ./HP-ProBook-EliteBook.xcodeproj -alltargets -configuration Release
-Sleep 2
-zip -r ./build/"$APP_NAME".zip ./build/"$APP_NAME"
 

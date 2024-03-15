@@ -11,20 +11,10 @@ jobs:
     steps:
 
     - uses: actions/checkout@v4
-
-
-    - name: Debug Build
+       
+    - name: make
       run: |
-        xcodebuild -project ./HP-ProBook-EliteBook.xcodeproj -alltargets -configuration Debug
-        
-    - name: Release Build
-      run: |
-        xcodebuild -project ./HP-ProBook-EliteBook.xcodeproj -alltargets -configuration Release
-        
-    - name: Allow executing
-      run: |
-        chmod 755 ./build/Release/HP-ProBook-EliteBook.app/Contents/MacOS/HP-ProBook-EliteBook
-        chmod 755 ./build/Debug/HP-ProBook-EliteBook.app/Contents/MacOS/HP-ProBook-EliteBook
+        make build
         Sleep 2
         
     - name: Upload to Artifacts

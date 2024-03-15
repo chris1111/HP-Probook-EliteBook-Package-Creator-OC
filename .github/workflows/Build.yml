@@ -20,11 +20,8 @@ jobs:
       run: |
         xcodebuild -project ./HP-ProBook-EliteBook.xcodeproj -alltargets -configuration Release
         
-    - name: Allow executing
+    - name: Release ZIP
       run: |
-        chmod 755 ./build/Release/HP-ProBook-EliteBook.app/Contents/MacOS/HP-ProBook-EliteBook
-        chmod 755 ./build/Debug/HP-ProBook-EliteBook.app/Contents/MacOS/HP-ProBook-EliteBook
-        Sleep 2
         zip -r ./build/Release/HP-ProBook-EliteBook.zip ./build/Release/HP-ProBook-EliteBook.app
         
     - name: Upload to Artifacts

@@ -33,20 +33,20 @@ script AppDelegate
 		quit
 	end cancel:
 	
-	--- QUIT APP WHEN WINDOW IS CLOSED ---
-	on applicationShouldTerminateAfterLastWindowClosed:sender
-		return true
-	end applicationShouldTerminateAfterLastWindowClosed:
-	
-	on applicationShouldTerminate:sender
-		do shell script ("killall HP-ProBook-EliteBook")
-		return current application's NSTerminateNow
-	end applicationShouldTerminate:
-	
-	on applicationWillFinishLaunching:aNotification
-		set pathToResources to (current application's class "NSBundle"'s mainBundle()'s resourcePath()) as string
-	end applicationWillFinishLaunching:
-	
-	
-	
-end script
+    --- QUIT APP WHEN WINDOW IS CLOSED ---
+        on applicationShouldTerminateAfterLastWindowClosed:sender
+            return true
+        end applicationShouldTerminateAfterLastWindowClosed:
+        
+        on applicationShouldTerminate:notification
+            return current application's NSTerminateNow
+        end applicationShouldTerminate:
+        
+        
+        on applicationWillFinishLaunching:aNotification
+            set pathToResources to (current application's class "NSBundle"'s mainBundle()'s resourcePath()) as string
+        end applicationWillFinishLaunching:
+        
+        
+        
+    end script

@@ -254,7 +254,7 @@ echo "
 Download OCLP support Sonoma 14 Ventura 13 Intel HD 4X 6X
 Support Wifi BCM43xx "
 
-curl -L https://github.com/chris1111/OCLP-Dev-repos/releases/download/1.4.1/OpenCore-Patcher.zip -o /$HOME/Desktop/HP-ProBook-EliteBook-Packager/"$APP_NAME"
+curl -L https://github.com/chris1111/OCLP-Dev-repos/releases/download/1.4.3/OpenCore-Patcher.zip -o /$HOME/Desktop/HP-ProBook-EliteBook-Packager/"$APP_NAME"
 
 cd /$HOME/Desktop/HP-ProBook-EliteBook-Packager
 

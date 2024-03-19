@@ -23,7 +23,7 @@ script AppDelegate
 		delay 1
 		set firstScript to pathToResources & "/Builder/Main.sh"
 		tell application "Terminal"
-			activate
+			run
 			do script (open firstScript)
 		end tell
 		do shell script "sleep 1"
@@ -33,20 +33,20 @@ script AppDelegate
 		quit
 	end cancel:
 	
-    --- QUIT APP WHEN WINDOW IS CLOSED ---
-        on applicationShouldTerminateAfterLastWindowClosed:sender
-            return true
-        end applicationShouldTerminateAfterLastWindowClosed:
-        
-        on applicationShouldTerminate:notification
-            return current application's NSTerminateNow
-        end applicationShouldTerminate:
-        
-        
-        on applicationWillFinishLaunching:aNotification
-            set pathToResources to (current application's class "NSBundle"'s mainBundle()'s resourcePath()) as string
-        end applicationWillFinishLaunching:
-        
-        
-        
-    end script
+	--- QUIT APP WHEN WINDOW IS CLOSED ---
+	on applicationShouldTerminateAfterLastWindowClosed:sender
+		return true
+	end applicationShouldTerminateAfterLastWindowClosed:
+	
+	on applicationShouldTerminate:notification
+		return current application's NSTerminateNow
+	end applicationShouldTerminate:
+	
+	
+	on applicationWillFinishLaunching:aNotification
+		set pathToResources to (current application's class "NSBundle"'s mainBundle()'s resourcePath()) as string
+	end applicationWillFinishLaunching:
+	
+	
+	
+end script

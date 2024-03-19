@@ -17,7 +17,6 @@ echo "======================================================" >> "$install_log"
 echo "HP ProBook EliteBook Packager log - $( date )" >> "$install_log"
 echo "=====================================================" >> "$install_log"
 
-
 # Desacactivate Term
 osascript <<EOD
   tell application "Finder"
@@ -64,8 +63,6 @@ osascript <<EOD
   end tell
 EOD
 
-
-
 Sleep 1
 osascript <<EOD
 delay 3
@@ -79,5 +76,6 @@ echo "======================================================" >> "$install_log"
 cp $install_log $HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-Probook-EliteBook_Log.txt
 Sleep 1 
 rm -rf $install_log
+Open -R $HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-Probook-EliteBook_Log.txt
 
 exit 0

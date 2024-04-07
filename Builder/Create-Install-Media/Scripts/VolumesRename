@@ -1,6 +1,0 @@
-#!/bin/bash
-
-# Rename volume if exist by chris1111
-if [[ $(mount | awk '$3 == "/Volumes/Install-Media" {print $3}') != "" ]]; then
- sudo /usr/sbin/diskutil rename "/Volumes/Install-Media" "Install_Media"
-fi

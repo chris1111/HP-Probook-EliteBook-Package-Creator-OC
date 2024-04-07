@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 19 Mar 2024 Use OCLP 1.4.3 Fix HD 3000, HD 4000 Sonoma 14.4
+
 - Update 08 Mar 2024 Use OCLP 1.4.1
 
 - Update 23 February 2024 Use Terminal from the app for building the Project

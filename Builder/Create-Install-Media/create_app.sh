@@ -84,8 +84,7 @@ cp -rp applet.icns "$APP_NAME"/Contents/Resources
 cp -rp description.rtfd "$APP_NAME"/Contents/Resources
 # Copy Installer to the right place
 cp -rp Installer "$APP_NAME"/Contents/Resources
-# Copy VolumesRename, main.rtf to the right place
-cp -rp Scripts/VolumesRename "$APP_NAME"/Contents/Resources/Scripts
+# Copy main.rtf to the right place
 cp -rp Scripts/main.rtf "$APP_NAME"/Contents/Resources/Scripts
 # Zip app
 Sleep 1

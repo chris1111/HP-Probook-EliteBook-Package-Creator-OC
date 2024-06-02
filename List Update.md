@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 07 April 2024 No need to rename the disk anymore. The user will have to confirm their choices.
+
 - Update 19 Mar 2024 Use OCLP 1.4.3 Fix HD 3000, HD 4000 Sonoma 14.4
 
 - Update 08 Mar 2024 Use OCLP 1.4.1

@@ -4,7 +4,7 @@
 PARENTDIR=$(dirname "$0")
 cd "$PARENTDIR"
 # VARS
-APP_NAME="OpenCore-Patcher-GUI.app.zip"
+APP_NAME="OpenCore-Patcher.zip"
 
 # shell script Notifications
 osascript -e 'display notification "Installer HP-ProBook-EliteBook-macOS" with title "Create"  sound name "default"'
@@ -254,7 +254,7 @@ echo "
 Download OCLP support Sonoma 14 Ventura 13 Intel HD 4X 6X
 Support Wifi BCM43xx "
 
-curl -L https://github.com/chris1111/OCLP-Dev-repos/releases/download/1.4.3/OpenCore-Patcher.zip -o /$HOME/Desktop/HP-ProBook-EliteBook-Packager/"$APP_NAME"
+curl -L https://github.com/chris1111/OCLP-Dev-repos/releases/download/1.6.0/OpenCore-Patcher.zip -o /$HOME/Desktop/HP-ProBook-EliteBook-Packager/"$APP_NAME"
 
 cd /$HOME/Desktop/HP-ProBook-EliteBook-Packager
 

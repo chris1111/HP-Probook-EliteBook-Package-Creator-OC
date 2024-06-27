@@ -19,9 +19,9 @@ echo "preinstall: Root of system folder... $4"
 DEST_VOL="${3}"
 EFI_ROOT_DIR="${DEST_VOL}"/Private/tmp/EFIROOTDIR
 
-echo "Fix Audio 4x40"
+echo "Fix Audio AppleALC"
 if [ -d "${3}/Private/tmp/EFI-DSDT/PackageDIR" ]; then
-     echo "File exist Fix Audio 4x40"
+     echo "File exist Fix Audio AppleALC"
      /usr/libexec/PlistBuddy -c "Set :NVRAM:Add:7C436110-AB2A-4BBB-A880-FE41995C9F82:boot-args keepsyms=1 alcid=13 -v" /Private/tmp/EFIROOTDIR/EFI/OC/config.plist
      Sleep 2
      /usr/libexec/PlistBuddy -c "Merge './Plist-Buddy-Audio' ACPI:Add" /Private/tmp/EFIROOTDIR/EFI/OC/config.plist

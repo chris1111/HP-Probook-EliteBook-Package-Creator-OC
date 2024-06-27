@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 21 Jun 2024 Update CryptexFixup-V1.0.3
+
 - Update 02 Jun 2024 Update OCLP-V-1.5.0
 
 - Update 07 April 2024 No need to rename the disk anymore. The user will have to confirm their choices.

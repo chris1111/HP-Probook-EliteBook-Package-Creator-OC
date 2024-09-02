@@ -4,8 +4,9 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-### Latest Update 27 Jun 2024 More Audio fix
+### Latest Update 02 Sept 2024 Add Sequoia 15 support
 
+- All infos about ➦ [HP-Probook-EliteBook-Package-Creator-OC for macOS Sequoia](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Sequoia%20Support.md)
 
 - All infos about ➦ [HP-Probook-EliteBook-Package-Creator-OC for macOS Sonoma](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Sonoma%20Support.md) 
 
@@ -44,7 +45,7 @@ platinumsteel, doodoo94, jeremy19, arno608rw, Mtkhan13
 - HD 4000 Monterey 12 [educovas](https://github.com/educovas) EduCovas for fixed google fonts
 - HD 4000 Monterey 12 [Dhinak](https://github.com/DhinakG) for found using beta 6 Metal binaries
 - HD 4000 Monterey 12 [khronokernel](https://github.com/khronokernel) for fixing google fonts (WebKit)
-- HD 4000, HD 4600 Sonoma 14 Ventura 13 [Moraea](https://github.com/moraea/non-metal-frameworks), [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher/) for Support Sonoma 14 Ventura 13 
+- HD 4000, HD 4600 Sequoia 15 Sonoma 14 Ventura 13 [Moraea](https://github.com/moraea/non-metal-frameworks), [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher/) for Support Sonoma 14 Ventura 13 
 
 - [Packager chris1111](https://github.com/chris1111)
 

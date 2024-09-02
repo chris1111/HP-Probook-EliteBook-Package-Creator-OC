@@ -5,6 +5,7 @@
 ![Screenshot 2024](https://github.com/user-attachments/assets/bb75924b-e4c1-4cf7-b1dc-e179315ce9de)
 
 ### Follow every step in this Video ⇩
+[![Modular Image Creation](https://github.com/user-attachments/assets/68f65560-03ae-4dfe-908f-554e30e2906b)](https://youtu.be/FC0IZKOUOb4)
 
 8 seriers support HP Laptop
 - HP-ProBook-EliteBook-macOS Option
@@ -68,16 +69,23 @@ HP Laptop Support Option
 
 OCLP Option
 
-![Screenshot 1](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/assets/6248794/3f8baeff-4c35-40d9-8065-97cf2f3b5fdc)
+![Screenshot -0](https://github.com/user-attachments/assets/034c2d6c-0993-44d1-90b0-5bcb68e09177)
 
-![Screenshot 2](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/assets/6248794/8c615d62-f257-4402-9ac9-397670696ce9)
+![Screenshot -1](https://github.com/user-attachments/assets/8d9cc31a-0f9e-4c61-a1a6-20f53ed5aa4f)
 
-![Screenshot 4](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/assets/6248794/9a227750-46c9-4cc0-a21e-47f793161421)
+![Screenshot -2](https://github.com/user-attachments/assets/5450471e-734c-456e-9fe7-cfc44acc7e05)
 
-Update macOS Sonoma
+![Screenshot 2 1](https://github.com/user-attachments/assets/fb44a23f-a863-4c86-bfa3-e313231dbf9d)
+
+![Screenshot -3](https://github.com/user-attachments/assets/61e4335f-3b75-45e5-88d9-fccb34b70a94)
+
+
+
+
+Update macOS Sequoia
 - You need to Revert Root Patches before then Reboot
-![Revert Root Patches](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/assets/6248794/fb995233-c6f9-4840-b038-6a945e7b4b2a)
 
+![Screenshot -4](https://github.com/user-attachments/assets/973dc56e-a4ed-4f5e-856b-cbd0de3a3689)
 
 
 

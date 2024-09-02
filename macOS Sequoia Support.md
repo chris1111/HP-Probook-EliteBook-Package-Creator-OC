@@ -4,7 +4,7 @@
 ### macOS Sequoia you need to Disable Gatekeeper first ⇩ Run `Install-Disable-Gatekeeper-Sequoia`
 ![Screenshot 2024](https://github.com/user-attachments/assets/bb75924b-e4c1-4cf7-b1dc-e179315ce9de)
 
-### Follow every step in this Video ⇩
+### Follow every step in this Video ⇩ `Install-Disable-Gatekeeper-Sequoia`
 [![Modular Image Creation](https://github.com/user-attachments/assets/68f65560-03ae-4dfe-908f-554e30e2906b)](https://youtu.be/FC0IZKOUOb4)
 
 8 seriers support HP Laptop

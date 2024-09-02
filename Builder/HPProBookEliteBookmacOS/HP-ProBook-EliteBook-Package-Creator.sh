@@ -4,7 +4,7 @@
 PARENTDIR=$(dirname "$0")
 cd "$PARENTDIR"
 # VARS
-APP_NAME="OpenCore-Patcher.zip"
+APP_NAME="OpenCore-Patcher.pkg.zip"
 
 # shell script Notifications
 osascript -e 'display notification "Installer HP-ProBook-EliteBook-macOS" with title "Create"  sound name "default"'
@@ -233,6 +233,7 @@ productbuild --distribution "/$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PAC
 "/$HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-ProBook-EliteBook-macOS.pkg"
 Sleep 2
 cp -Rp ./Gatekeeper.command /$HOME/Desktop/HP-ProBook-EliteBook-Packager
+cp -Rp ./Install-Disable-Gatekeeper-Sequoia.scptd /$HOME/Desktop/HP-ProBook-EliteBook-Packager
 cp -Rp ./"Support Donate.html" /$HOME/Desktop/HP-ProBook-EliteBook-Packager
 # Change package Icon with seticon
 ./Build/PackageMaker/Icon/seticon -d ./Build/PackageMaker/Icon/Icon.icns /$HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-ProBook-EliteBook-macOS.pkg
@@ -251,10 +252,10 @@ EOD
 
 echo "
 = = = = = = = = = = = = = = = = = = = = = = = = =
-Download OCLP support Sonoma 14 Ventura 13 Intel HD 4X 6X
+Download OCLP support Sequoia 15 Sonoma 14 Ventura 13 Intel HD 4X 6X
 Support Wifi BCM43xx "
 
-curl -L https://github.com/chris1111/OCLP-Dev-repos/releases/download/1.5.0/OpenCore-Patcher.zip -o /$HOME/Desktop/HP-ProBook-EliteBook-Packager/"$APP_NAME"
+curl -L https://github.com/chris1111/OCLP-Dev-repos/releases/download/1.6.0/OpenCore-Patcher.pkg.zip -o /$HOME/Desktop/HP-ProBook-EliteBook-Packager/"$APP_NAME"
 
 cd /$HOME/Desktop/HP-ProBook-EliteBook-Packager
 

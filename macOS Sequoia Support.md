@@ -70,6 +70,7 @@ HP Laptop Support Option
 ![Screenshot 7series Support](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/assets/6248794/a19ca9b5-33e7-4e7f-96af-7da5a2f1f37b)
 
 OCLP Option
+- Make sur your Ethernet wire is connected to the laptop
 
 ![Screenshot -0](https://github.com/user-attachments/assets/034c2d6c-0993-44d1-90b0-5bcb68e09177)
 

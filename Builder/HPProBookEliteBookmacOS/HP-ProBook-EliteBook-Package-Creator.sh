@@ -262,7 +262,8 @@ cd /$HOME/Desktop/HP-ProBook-EliteBook-Packager
 unzip "$APP_NAME"
 Sleep 1
 rm -rf "$APP_NAME"
-
+Sleep 1
+rm -rf __MACOSX
 echo "
 = = = = = = = = = = = = = = = = = = = = = = = = =
 Done! "

@@ -4,7 +4,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-### Latest Update 02 Sept 2024 Add Sequoia 15 support
+### Latest Update 15 Sept 2024 Add Release V4
 
 - All infos about ➦ [HP-Probook-EliteBook-Package-Creator-OC for macOS Sequoia](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Sequoia%20Support.md)
 
@@ -18,7 +18,12 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 View ➤ [List Update](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/List%20Update.md)
 
 
-#### Download Latest Release Update 11 April 2023 (V-3): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V-3)
+#### Download Latest Release Update 15 Sept 2024 (V-4): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V-4)
+- Included support Monterey 12, Ventura 13, Sonoma 14, Sequoia 15
+
+----------------------------------------------------------------------------
+
+#### Download Release Update 11 April 2023 (V-3): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V-3)
 - Included support Monterey 12, Ventura 13, Sonoma 14
 
 ----------------------------------------------------------------------------

@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 02 Sept 2024 Add Sequoia 15 support
+
 - Update 21 Jun 2024 Update CryptexFixup-V1.0.3
 
 - Update 02 Jun 2024 Update OCLP-V-1.5.0

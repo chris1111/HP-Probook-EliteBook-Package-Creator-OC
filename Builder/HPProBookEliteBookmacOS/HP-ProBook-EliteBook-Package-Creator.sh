@@ -231,9 +231,10 @@ productbuild --distribution "/$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PAC
 --package-path "/$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/" \
 --resources "/$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/Resources" \
 "/$HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-ProBook-EliteBook-macOS.pkg"
+# Make Gatekeeper Executable
+for file in ./GateKeeper.command; do cat "$file" >> /$HOME/Desktop/HP-ProBook-EliteBook-Packager/GateKeeper.command; done
+chmod 755 /$HOME/Desktop/HP-ProBook-EliteBook-Packager/GateKeeper.command
 Sleep 2
-cp -Rp ./Gatekeeper.command /$HOME/Desktop/HP-ProBook-EliteBook-Packager
-cp -Rp ./Install-Disable-Gatekeeper-Sequoia.scptd /$HOME/Desktop/HP-ProBook-EliteBook-Packager
 cp -Rp ./"Support Donate.html" /$HOME/Desktop/HP-ProBook-EliteBook-Packager
 # Change package Icon with seticon
 ./Build/PackageMaker/Icon/seticon -d ./Build/PackageMaker/Icon/Icon.icns /$HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-ProBook-EliteBook-macOS.pkg

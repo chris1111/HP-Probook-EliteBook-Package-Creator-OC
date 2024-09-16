@@ -27,4 +27,5 @@ mv Packager.txt Packager.command && chmod 755 Packager.command && Open Packager.
 
 ```
 Follow this Video ⬇︎ Video is cut to avoiding time
+
 [![Modular Image Creation](https://github.com/user-attachments/assets/68f65560-03ae-4dfe-908f-554e30e2906b)](https://youtu.be/L48N5Hgurnk)

@@ -20,7 +20,7 @@ View ➤ [List Update](https://github.com/chris1111/HP-Probook-EliteBook-Package
 
 #### Download Latest Release Update 15 Sept 2024 (V-4): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V-4)
 - Included support Monterey 12, Ventura 13, Sonoma 14, Sequoia 15
-
+- View How to using latest release ➥ [Latest Release](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Latest-Release.md)
 ----------------------------------------------------------------------------
 
 #### Download Release Update 11 April 2023 (V-3): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V-3)

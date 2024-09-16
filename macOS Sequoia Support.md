@@ -4,10 +4,11 @@
 - All video will follow for the moment follow here the [Video Ventura support](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Ventura%20Support.md)
 
 ### macOS Sequoia you need to Disable Gatekeeper first ⇩ Run `Install-Disable-Gatekeeper-Sequoia`
-![Screenshot 2024](https://github.com/user-attachments/assets/bb75924b-e4c1-4cf7-b1dc-e179315ce9de)
+![Gate](https://github.com/user-attachments/assets/64589cc8-6fb9-4753-9866-69986bc3d42c)
+
 
 ### Follow every step in this Video ⇩ `Install-Disable-Gatekeeper-Sequoia`
-[![Modular Image Creation](https://github.com/user-attachments/assets/68f65560-03ae-4dfe-908f-554e30e2906b)](https://youtu.be/FC0IZKOUOb4)
+[![Modular Image Creation](https://github.com/user-attachments/assets/68f65560-03ae-4dfe-908f-554e30e2906b)](https://youtu.be/T60KmexbW6M)
 
 8 seriers support HP Laptop
 - HP-ProBook-EliteBook-macOS Option

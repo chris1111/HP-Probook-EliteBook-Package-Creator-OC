@@ -10,16 +10,19 @@ echo "Disable GateKeeper"
 echo "From macOS $macOSVersion"
 if [[ $macOSVersion = 15.* ]]; then    
   printf -- '%s\n' "This Mac is running macOS Sequoia." 
+  printf -- '%s\n' "Insert Your Password To Procceed."
   sudo spctl --global-disable
   echo ""
   echo "GateKeeper Disable"
 elif [[ $macOSVersion = 14.* ]]; then 
   printf -- '%s\n' "This Mac is running macOS Sonoma." 
+  printf -- '%s\n' "Insert Your Password To Procceed."
   sudo spctl --master-disable
   echo ""
   echo "GateKeeper Disable"
 else
   printf -- '%s\n' "This Mac is running a macOS earlier than Sonoma."
+  printf -- '%s\n' "Insert Your Password To Procceed."
   sudo spctl --master-disable
   echo ""
   echo "GateKeeper Disable"

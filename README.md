@@ -4,7 +4,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-### Latest Update 15 Sept 2024 Add Release V4
+### Latest Update 02 Oct 2024 Use OCLP V-2.0.2
 
 - All infos about ➦ [HP-Probook-EliteBook-Package-Creator-OC for macOS Sequoia](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Sequoia%20Support.md)
 

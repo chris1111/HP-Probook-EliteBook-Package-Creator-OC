@@ -4,7 +4,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-### Latest Update 02 Oct 2024 Use OCLP V-2.0.2
+### Latest Update 10 Oct 2024 Only one Bluetooth choice for all macOS
 
 - All infos about ➦ [HP-Probook-EliteBook-Package-Creator-OC for macOS Sequoia](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Sequoia%20Support.md)
 

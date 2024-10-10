@@ -99,10 +99,6 @@ pkgbuild --root ./DSDT-Patch/BCM943224HMS --identifier com.chris1111.hpprobookel
 
 pkgbuild --root ./DSDT-Patch/BCM94360HMB --identifier com.chris1111.hpprobookelitebookmacos.bcm94360hmb.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/BCM94360HMB.pkg
 
-pkgbuild --root ./Bluetooth/Catalina --scripts ./script/BluetoothCatalina --identifier com.chris1111.hpprobookelitebookmacos.BluetoothCatalina.pkg --version 1.0 --install-location /Private/tmp /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/bluetoothCatalina.pkg
-
-pkgbuild --root ./Bluetooth/BigSur --scripts ./script/BluetoothBigSur --identifier com.chris1111.hpprobookelitebookmacos.BluetoothBigSur.pkg --version 1.0 --install-location /Private/tmp /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/bluetoothBigSur.pkg
-
 pkgbuild --root ./Bluetooth/Monterey --scripts ./script/BluetoothMonterey --identifier com.chris1111.hpprobookelitebookmacos.BluetoothMonterey.pkg --version 1.0 --install-location /Private/tmp /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/bluetoothMonterey.pkg
 
 pkgbuild --root ./HWMonitor --identifier com.chris1111.hpprobookelitebookmacos.HWMonitor.pkg --version 1.0 --install-location /Applications /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/hwmonitor.pkg
@@ -193,10 +189,6 @@ pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/BCM9432
 pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/BCM94360HMB.pkg /tmp/PackageDIR/BCM94360HMB.pkg
 
 pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/app.pkg /tmp/PackageDIR/app.pkg
-
-pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/bluetoothCatalina.pkg /tmp/PackageDIR/bluetoothCatalina.pkg
-
-pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/bluetoothBigSur.pkg /tmp/PackageDIR/bluetoothBigSur.pkg
 
 pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/bluetoothMonterey.pkg /tmp/PackageDIR/bluetoothMonterey.pkg
 

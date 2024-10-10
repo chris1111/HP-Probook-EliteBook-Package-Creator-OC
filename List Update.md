@@ -1,6 +1,7 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 02 Oct 2024 Use OCLP V-2.0.2
 - Update 15 Sept 2024 Add Release V4
 - Update 02 Sept 2024 Add Sequoia 15 support
 

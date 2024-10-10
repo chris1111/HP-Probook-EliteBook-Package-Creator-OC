@@ -29,5 +29,8 @@ Sleep 1
 
 Sleep 2
 
-echo "Add BlueToolFixup.kext, BrcmFirmwareData.kext, BrcmPatchRAM3.kext in /Volumes/ESP/EFI/OC/config.plist"
+/usr/libexec/PlistBuddy -c "Merge './Plist-Buddy-Dongle' NVRAM:Add:7C436110-AB2A-4BBB-A880-FE41995C9F82" /Volumes/ESP/EFI/OC/config.plist
+
+echo "Add BlueToolFixup.kext, BrcmFirmwareData.kext, BrcmPatchRAM3.kext, BrcmBluetoothInjector.kext in /Volumes/ESP/EFI/OC/config.plist"
+echo "Add bluetoothExternalDongleFailed, bluetoothInternalControllerInfo in /Volumes/ESP/EFI/OC/config.plist"
 

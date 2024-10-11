@@ -1,13 +1,5 @@
 #!/bin/bash
 
-if [ -d "${3}/Applications/Beta Access Software Utility.app" ]; then
-    rm -rf "${3}/Applications/Beta Access Software Utility.app"
-fi
-
-if [ -d "${3}/Applications/Command Line EFI Mounter.app" ]; then
-    rm -rf "${3}/Applications/Command Line EFI Mounter.app"
-fi
-
 if [ -d "${3}/Applications/Drop EFI.app" ]; then
     rm -rf "${3}/Applications/Drop EFI.app"
 fi
@@ -37,11 +29,8 @@ if [ -d "${3}/Applications/RDM.app" ]; then
 fi
 
 
-tar xf /Private/tmp/Apps/Beta-Access-SoftwareUtility.zip --directory /Applications
 
 tar xf /Private/tmp/Apps/IORegistryExplorer.zip --directory /Applications
-
-tar xf /Private/tmp/Apps/CommandLineEFIMounter.zip --directory /Applications
 
 tar xf /Private/tmp/Apps/"Drop-EFI.zip" --directory /Applications
 

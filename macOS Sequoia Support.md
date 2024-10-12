@@ -1,5 +1,5 @@
-### HP-ProBook-EliteBook-macOS macOS Sequoia support [(Programe only compile from source)](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/wiki/Build-Project)
-- No release macOS Sequoia support yet!
+### HP-ProBook-EliteBook-macOS: macOS Sequoia support [(Programe only compile from source)](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/wiki/Build-Project)
+- Release  for macOS Sequoia [HP-ProBook-EliteBook-macOS-V4](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V-4)
   
 - All video will follow for the moment follow here the [Video Ventura support](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Ventura%20Support.md)
 

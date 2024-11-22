@@ -1,6 +1,7 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 17 Oct 2024 Update OpenCore 1.0.3
 - Update 11 Oct 2024 Remove two useless Apps
 - Update 10 Oct 2024 Only one Bluetooth choice for all macOS
 - Update 02 Oct 2024 Use OCLP V-2.0.2

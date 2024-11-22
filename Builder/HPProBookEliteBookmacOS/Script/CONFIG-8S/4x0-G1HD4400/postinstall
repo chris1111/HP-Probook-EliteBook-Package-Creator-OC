@@ -38,4 +38,4 @@ Sleep 1
 Sleep 1
 /usr/libexec/PlistBuddy -c "Merge './config.plist' " /Private/tmp/EFI/OC/config.plist
 Sleep 1
-echo "Add 4x0-G1"
+echo "Add 4x0-G1 HD 4400"

@@ -41,7 +41,9 @@ pkgbuild --root ./Kexts --scripts ./script/KEXTS-8S --identifier com.chris1111.h
 
 pkgbuild --root ./DSDT-Patch/8series-laptop/3x0-G1 --scripts ./script/CONFIG-8S/3x0-G1 --identifier com.chris1111.hpprobookelitebookmacos.3x0-G1.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/3x0-G1.pkg
 
-pkgbuild --root ./DSDT-Patch/8series-laptop/4x0-G1 --scripts ./script/CONFIG-8S/4x0-G1 --identifier com.chris1111.hpprobookelitebookmacos.4x0-G1.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/4x0-G1.pkg
+pkgbuild --root ./DSDT-Patch/8series-laptop/4x0-G1HD4400 --scripts ./script/CONFIG-8S/4x0-G1HD4400 --identifier com.chris1111.hpprobookelitebookmacos.4x0-G1HD4400.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/4x0-G1HD4400.pkg
+
+pkgbuild --root ./DSDT-Patch/8series-laptop/4x0-G1HD4600 --scripts ./script/CONFIG-8S/4x0-G1HD4600 --identifier com.chris1111.hpprobookelitebookmacos.4x0-G1HD4600.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/4x0-G1HD4600.pkg
 
 pkgbuild --root ./DSDT-Patch/8series-laptop/4x0-G2 --scripts ./script/CONFIG-8S/4x0-G2 --identifier com.chris1111.hpprobookelitebookmacos.4x0-G2.pkg --version 1.0 --install-location /tmp/EFI-DSDT /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/4x0-G2.pkg
 
@@ -130,7 +132,9 @@ pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/kexts.p
 
 pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/3x0-G1.pkg /tmp/PackageDIR/3x0-G1.pkg
 
-pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/4x0-G1.pkg /tmp/PackageDIR/4x0-G1.pkg
+pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/4x0-G1HD4400.pkg /tmp/PackageDIR/4x0-G1HD4400.pkg
+
+pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/4x0-G1HD4600.pkg /tmp/PackageDIR/4x0-G1HD4600.pkg
 
 pkgutil --expand /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/4x0-G2.pkg /tmp/PackageDIR/4x0-G2.pkg
 

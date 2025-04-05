@@ -1,5 +1,7 @@
 HP-Probook-EliteBook-Package-Creator-OC
 
+[![pages-build-deployment](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/actions/workflows/pages/pages-build-deployment)
+
 <img src="PICS/HP-Laptop.png" alt="Github Project" style="width:100%;">  
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)

@@ -84,6 +84,8 @@ cp -rp applet.icns "$APP_NAME"/Contents/Resources
 cp -rp description.rtfd "$APP_NAME"/Contents/Resources
 # Copy Installer to the right place
 cp -rp Installer "$APP_NAME"/Contents/Resources
+# Copy Assets to the right place
+cp -rp Assets.car "$APP_NAME"/Contents/Resources
 # Copy main.rtf to the right place
 cp -rp Scripts/main.rtf "$APP_NAME"/Contents/Resources/Scripts
 # Zip app

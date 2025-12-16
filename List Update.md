@@ -1,6 +1,7 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 04 April 2025 Update OCLP 2.3.2
 - Update 02 April 2025 Update OCLP 2.4.0
 - Update 16 Mar 2025 Update OpenCore 1.0.5
 - Update 06 Mar 2025 Use OCLP 2.3.0

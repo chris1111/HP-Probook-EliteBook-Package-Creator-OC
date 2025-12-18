@@ -3,184 +3,181 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8308A1E426DFE2BE0011800A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8308A1E326DFE2BE0011800A /* Assets.xcassets */; };
-		839DEF1726DEC62400A1AEC3 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839DEF1626DEC62400A1AEC3 /* AppleScriptObjC.framework */; };
-		839DEF1A26DEC62400A1AEC3 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 839DEF1926DEC62400A1AEC3 /* AppDelegate.applescript */; };
-		839DEF1F26DEC62500A1AEC3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 839DEF1D26DEC62500A1AEC3 /* MainMenu.xib */; };
-		839DEF2226DEC62500A1AEC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 839DEF2126DEC62500A1AEC3 /* main.m */; };
-		839DEF2A26DEC9E800A1AEC3 /* Builder in Resources */ = {isa = PBXBuildFile; fileRef = 839DEF2926DEC9E800A1AEC3 /* Builder */; };
+		8335DAEA2EF23E8000D6938F /* Create-Install-Media in Resources */ = {isa = PBXBuildFile; fileRef = 8335DAE92EF23E8000D6938F /* Create-Install-Media */; };
+		8335DAEC2EF23E9200D6938F /* HPProBookEliteBookmacOS in Resources */ = {isa = PBXBuildFile; fileRef = 8335DAEB2EF23E9200D6938F /* HPProBookEliteBookmacOS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8308A1E326DFE2BE0011800A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		839DEF1326DEC62400A1AEC3 /* HP-ProBook-EliteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HP-ProBook-EliteBook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		839DEF1626DEC62400A1AEC3 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
-		839DEF1926DEC62400A1AEC3 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
-		839DEF1E26DEC62500A1AEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		839DEF2026DEC62500A1AEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		839DEF2126DEC62500A1AEC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		839DEF2926DEC9E800A1AEC3 /* Builder */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Builder; sourceTree = "<group>"; };
+		83211BEF2EF38E8B007DBF97 /* HP-ProBook-EliteBook */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "HP-ProBook-EliteBook"; sourceTree = "<group>"; };
+		8335DAE92EF23E8000D6938F /* Create-Install-Media */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Create-Install-Media"; path = "Package/Create-Install-Media"; sourceTree = "<group>"; };
+		8335DAEB2EF23E9200D6938F /* HPProBookEliteBookmacOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HPProBookEliteBookmacOS; path = Package/HPProBookEliteBookmacOS; sourceTree = "<group>"; };
+		833F39392E46DCA100FBB87A /* HP-ProBook-EliteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HP-ProBook-EliteBook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		833F39882E46E38C00FBB87A /* Exceptions for "HP-ProBook-EliteBook" folder in "HP-ProBook-EliteBook" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 833F39382E46DCA100FBB87A /* HP-ProBook-EliteBook */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8335D8322EF23E2A00D6938F /* Create-Install-Media */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Create-Install-Media";
+			sourceTree = "<group>";
+		};
+		8335DAE82EF23E2A00D6938F /* HPProBookEliteBookmacOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HPProBookEliteBookmacOS;
+			sourceTree = "<group>";
+		};
+		833F393B2E46DCA100FBB87A /* HP-ProBook-EliteBook */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				833F39882E46E38C00FBB87A /* Exceptions for "HP-ProBook-EliteBook" folder in "HP-ProBook-EliteBook" target */,
+			);
+			path = "HP-ProBook-EliteBook";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		839DEF1026DEC62400A1AEC3 /* Frameworks */ = {
+		833F39362E46DCA100FBB87A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				839DEF1726DEC62400A1AEC3 /* AppleScriptObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		839DEF0A26DEC62400A1AEC3 = {
+		8335D5F62EF23DBE00D6938F /* Package */ = {
 			isa = PBXGroup;
 			children = (
-				839DEF1826DEC62400A1AEC3 /* HP-ProBook-EliteBook */,
-				839DEF1526DEC62400A1AEC3 /* Frameworks */,
-				839DEF1426DEC62400A1AEC3 /* Products */,
+				83211BEF2EF38E8B007DBF97 /* HP-ProBook-EliteBook */,
+				8335D8322EF23E2A00D6938F /* Create-Install-Media */,
+				8335DAE82EF23E2A00D6938F /* HPProBookEliteBookmacOS */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		833F39302E46DCA100FBB87A = {
+			isa = PBXGroup;
+			children = (
+				8335DAEB2EF23E9200D6938F /* HPProBookEliteBookmacOS */,
+				8335DAE92EF23E8000D6938F /* Create-Install-Media */,
+				8335D5F62EF23DBE00D6938F /* Package */,
+				833F393B2E46DCA100FBB87A /* HP-ProBook-EliteBook */,
+				833F393A2E46DCA100FBB87A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		839DEF1426DEC62400A1AEC3 /* Products */ = {
+		833F393A2E46DCA100FBB87A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				839DEF1326DEC62400A1AEC3 /* HP-ProBook-EliteBook.app */,
+				833F39392E46DCA100FBB87A /* HP-ProBook-EliteBook.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		839DEF1526DEC62400A1AEC3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				839DEF1626DEC62400A1AEC3 /* AppleScriptObjC.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		839DEF1826DEC62400A1AEC3 /* HP-ProBook-EliteBook */ = {
-			isa = PBXGroup;
-			children = (
-				839DEF2826DEC9C900A1AEC3 /* Package */,
-				839DEF1926DEC62400A1AEC3 /* AppDelegate.applescript */,
-				8308A1E326DFE2BE0011800A /* Assets.xcassets */,
-				839DEF1D26DEC62500A1AEC3 /* MainMenu.xib */,
-				839DEF2026DEC62500A1AEC3 /* Info.plist */,
-				839DEF2126DEC62500A1AEC3 /* main.m */,
-			);
-			path = "HP-ProBook-EliteBook";
-			sourceTree = "<group>";
-		};
-		839DEF2826DEC9C900A1AEC3 /* Package */ = {
-			isa = PBXGroup;
-			children = (
-				839DEF2926DEC9E800A1AEC3 /* Builder */,
-			);
-			name = Package;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		839DEF1226DEC62400A1AEC3 /* HP-ProBook-EliteBook */ = {
+		833F39382E46DCA100FBB87A /* HP-ProBook-EliteBook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 839DEF2526DEC62500A1AEC3 /* Build configuration list for PBXNativeTarget "HP-ProBook-EliteBook" */;
+			buildConfigurationList = 833F39492E46DCA300FBB87A /* Build configuration list for PBXNativeTarget "HP-ProBook-EliteBook" */;
 			buildPhases = (
-				839DEF0F26DEC62400A1AEC3 /* Sources */,
-				839DEF1026DEC62400A1AEC3 /* Frameworks */,
-				839DEF1126DEC62400A1AEC3 /* Resources */,
+				833F39352E46DCA100FBB87A /* Sources */,
+				833F39362E46DCA100FBB87A /* Frameworks */,
+				833F39372E46DCA100FBB87A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				833F393B2E46DCA100FBB87A /* HP-ProBook-EliteBook */,
+			);
 			name = "HP-ProBook-EliteBook";
-			productName = "HP-ProBook-EliteBook";
-			productReference = 839DEF1326DEC62400A1AEC3 /* HP-ProBook-EliteBook.app */;
+			packageProductDependencies = (
+			);
+			productName = "Kext-Drop";
+			productReference = 833F39392E46DCA100FBB87A /* HP-ProBook-EliteBook.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		839DEF0B26DEC62400A1AEC3 /* Project object */ = {
+		833F39312E46DCA100FBB87A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1250;
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					839DEF1226DEC62400A1AEC3 = {
-						CreatedOnToolsVersion = 12.5.1;
+					833F39382E46DCA100FBB87A = {
+						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 839DEF0E26DEC62400A1AEC3 /* Build configuration list for PBXProject "HP-ProBook-EliteBook" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 833F39342E46DCA100FBB87A /* Build configuration list for PBXProject "HP-ProBook-EliteBook" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 839DEF0A26DEC62400A1AEC3;
-			productRefGroup = 839DEF1426DEC62400A1AEC3 /* Products */;
+			mainGroup = 833F39302E46DCA100FBB87A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 833F393A2E46DCA100FBB87A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				839DEF1226DEC62400A1AEC3 /* HP-ProBook-EliteBook */,
+				833F39382E46DCA100FBB87A /* HP-ProBook-EliteBook */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		839DEF1126DEC62400A1AEC3 /* Resources */ = {
+		833F39372E46DCA100FBB87A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				839DEF2A26DEC9E800A1AEC3 /* Builder in Resources */,
-				8308A1E426DFE2BE0011800A /* Assets.xcassets in Resources */,
-				839DEF1F26DEC62500A1AEC3 /* MainMenu.xib in Resources */,
+				8335DAEC2EF23E9200D6938F /* HPProBookEliteBookmacOS in Resources */,
+				8335DAEA2EF23E8000D6938F /* Create-Install-Media in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		839DEF0F26DEC62400A1AEC3 /* Sources */ = {
+		833F39352E46DCA100FBB87A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				839DEF2226DEC62500A1AEC3 /* main.m in Sources */,
-				839DEF1A26DEC62400A1AEC3 /* AppDelegate.applescript in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		839DEF1D26DEC62500A1AEC3 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				839DEF1E26DEC62500A1AEC3 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		839DEF2326DEC62500A1AEC3 /* Debug */ = {
+		833F39472E46DCA300FBB87A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -210,7 +207,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -224,7 +222,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -232,14 +231,14 @@
 			};
 			name = Debug;
 		};
-		839DEF2426DEC62500A1AEC3 /* Release */ = {
+		833F39482E46DCA300FBB87A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -269,7 +268,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -277,75 +277,98 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		839DEF2626DEC62500A1AEC3 /* Debug */ = {
+		833F394A2E46DCA300FBB87A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "HP-ProBook-EliteBook/HP-ProBook-EliteBook.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = Builder;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "HP-ProBook-EliteBook/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HP-ProBook-EliteBook";
+				INFOPLIST_KEY_LSUIElement = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright  © 2025 chris1111, All Right Reserved.";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chris1111.HP-ProBook-EliteBook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Debug;
 		};
-		839DEF2726DEC62500A1AEC3 /* Release */ = {
+		833F394B2E46DCA300FBB87A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "HP-ProBook-EliteBook/HP-ProBook-EliteBook.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = Builder;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "HP-ProBook-EliteBook/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HP-ProBook-EliteBook";
+				INFOPLIST_KEY_LSUIElement = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright  © 2025 chris1111, All Right Reserved.";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chris1111.HP-ProBook-EliteBook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		839DEF0E26DEC62400A1AEC3 /* Build configuration list for PBXProject "HP-ProBook-EliteBook" */ = {
+		833F39342E46DCA100FBB87A /* Build configuration list for PBXProject "HP-ProBook-EliteBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				839DEF2326DEC62500A1AEC3 /* Debug */,
-				839DEF2426DEC62500A1AEC3 /* Release */,
+				833F39472E46DCA300FBB87A /* Debug */,
+				833F39482E46DCA300FBB87A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		839DEF2526DEC62500A1AEC3 /* Build configuration list for PBXNativeTarget "HP-ProBook-EliteBook" */ = {
+		833F39492E46DCA300FBB87A /* Build configuration list for PBXNativeTarget "HP-ProBook-EliteBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				839DEF2626DEC62500A1AEC3 /* Debug */,
-				839DEF2726DEC62500A1AEC3 /* Release */,
+				833F394A2E46DCA300FBB87A /* Debug */,
+				833F394B2E46DCA300FBB87A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 839DEF0B26DEC62400A1AEC3 /* Project object */;
+	rootObject = 833F39312E46DCA100FBB87A /* Project object */;
 }

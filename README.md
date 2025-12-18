@@ -6,8 +6,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-### Latest Update 15 Dec 2025 Update OpenCore 1.0.7, OCLP 2.4.1 
-- Preparing for Tahoe
+### Latest Update 18 Dec 2025 Refactor project structure and update app files
 
 - All infos about ➦ [HP-Probook-EliteBook-Package-Creator-OC for macOS Sequoia](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Sequoia%20Support.md)
 
@@ -54,6 +53,7 @@ platinumsteel, doodoo94, jeremy19, arno608rw, Mtkhan13
 - HD 4000 Monterey 12 [Dhinak](https://github.com/DhinakG) for found using beta 6 Metal binaries
 - HD 4000 Monterey 12 [khronokernel](https://github.com/khronokernel) for fixing google fonts (WebKit)
 - HD 4000, HD 4600 Sequoia 15 Sonoma 14 Ventura 13 [Moraea](https://github.com/moraea), [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher/) for Support Sonoma 14 Ventura 13 
+- Xcode build App [sveinbjornt](https://github.com/sveinbjornt/Platypus) 
 
 - [Packager chris1111](https://github.com/chris1111)
 

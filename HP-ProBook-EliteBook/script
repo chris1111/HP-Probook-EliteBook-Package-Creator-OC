@@ -1,0 +1,81 @@
+#!/bin/bash
+# HP ProBook EliteBook
+# (c) Copyright 2018, 2025 chris1111
+PARENTDIR=$(dirname "$0")
+cd "$PARENTDIR"
+# Vars
+apptitle="HP ProBook EliteBook"
+version="1.0"
+# Set Icon directory and file
+export ICNS=$(dirname "${0}")
+iconfile="$ICNS/AppIcon.icns"
+echo "======================================================"
+echo "HP ProBook EliteBook - $( date )"
+echo "====================================================="
+# Build Package
+response=$(osascript -e 'tell app "System Events" to display dialog "Select Build to create all Program.\n\nSelect Quit for Cancel" buttons {"Quit","Build"} default button 2 with title "'"$apptitle"' '"$version"'" with icon POSIX file "'"$iconfile"'"  ')
+
+action=$(echo $response | cut -d ':' -f2)
+
+# Exit if Canceled
+if [ "$action" == "Quit" ] ; then
+  osascript -e 'display notification "Program closing" with title "'"$apptitle"'" subtitle "User cancelled"'
+  echo "User cancelled ➟ Program closing"
+  Sleep 3
+  echo "QUITAPP"
+  osascript -e 'quit app "HP-ProBook-EliteBook"'
+  exit 1
+fi
+
+action=$(echo $response | cut -d ':' -f2)
+
+# Activate App
+osascript <<EOD
+  tell application "HP-ProBook-EliteBook"
+      activate
+  end tell
+EOD
+
+# Remove Packager
+rm -rf $HOME/Desktop/HP-ProBook-EliteBook-Packager
+rm -rf $HOME/Desktop/HP-ProBook-EliteBook-macOS
+Sleep 1
+mkdir -p $HOME/Desktop/HP-ProBook-EliteBook-Packager
+Sleep 1
+./Create-Install-Media/create_app.sh
+
+Sleep 1
+# Activate App
+osascript <<EOD
+  tell application "HP-ProBook-EliteBook"
+      activate
+  end tell
+EOD
+
+echo "======================================================"
+./HPProBookEliteBookmacOS/HP-ProBook-EliteBook-Package-Creator.sh
+Sleep 1
+
+# Done
+response=$(osascript -e 'tell app "System Events" to display dialog "HP ProBook EliteBook
+Build completed!
+Done!\n" buttons {"Done"} default button 1 with title "'"$apptitle"' '"$version"'" with icon POSIX file "'"$iconfile"'" giving up after 10 ')
+
+action=$(echo $response | cut -d ':' -f2)
+
+# Activate App
+osascript <<EOD
+  tell application "HP-ProBook-EliteBook"
+      activate
+  end tell
+EOD
+
+# Remove Packager
+rm -rf $HOME/Desktop/HP-ProBook-EliteBook-macOS
+Open -R $HOME/Desktop/HP-ProBook-EliteBook-Packager/"Support Donate.html"
+
+echo "======================================================"
+echo "HP ProBook EliteBook Completed - $( date )"
+echo "======================================================"
+
+exit 0

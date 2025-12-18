@@ -54,8 +54,7 @@ platinumsteel, doodoo94, jeremy19, arno608rw, Mtkhan13
 - HD 4000 Monterey 12 [khronokernel](https://github.com/khronokernel) for fixing google fonts (WebKit)
 - HD 4000, HD 4600 Sequoia 15 Sonoma 14 Ventura 13 [Moraea](https://github.com/moraea), [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher/) for Support Sonoma 14 Ventura 13 
 - Xcode build App [sveinbjornt](https://github.com/sveinbjornt/Platypus) 
-
-- [Packager chris1111](https://github.com/chris1111)
+- Packager [chris1111](https://github.com/chris1111)
 
 ----------------------------------------------------------------------------
 * What you need

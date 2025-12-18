@@ -12,7 +12,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		83211BEF2EF38E8B007DBF97 /* HP-ProBook-EliteBook */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "HP-ProBook-EliteBook"; sourceTree = "<group>"; };
 		8335DAE92EF23E8000D6938F /* Create-Install-Media */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Create-Install-Media"; path = "Package/Create-Install-Media"; sourceTree = "<group>"; };
 		8335DAEB2EF23E9200D6938F /* HPProBookEliteBookmacOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HPProBookEliteBookmacOS; path = Package/HPProBookEliteBookmacOS; sourceTree = "<group>"; };
 		833F39392E46DCA100FBB87A /* HP-ProBook-EliteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HP-ProBook-EliteBook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +21,8 @@
 		833F39882E46E38C00FBB87A /* Exceptions for "HP-ProBook-EliteBook" folder in "HP-ProBook-EliteBook" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				HP_ProBook_EliteBook,
+				"HP-ProBook-EliteBook",
 				Info.plist,
 			);
 			target = 833F39382E46DCA100FBB87A /* HP-ProBook-EliteBook */;
@@ -63,7 +64,6 @@
 		8335D5F62EF23DBE00D6938F /* Package */ = {
 			isa = PBXGroup;
 			children = (
-				83211BEF2EF38E8B007DBF97 /* HP-ProBook-EliteBook */,
 				8335D8322EF23E2A00D6938F /* Create-Install-Media */,
 				8335DAE82EF23E2A00D6938F /* HPProBookEliteBookmacOS */,
 			);

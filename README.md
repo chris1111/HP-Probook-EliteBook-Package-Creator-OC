@@ -19,6 +19,7 @@ Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBoo
 
 View ➤ [List Update](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/List%20Update.md)
 
+#### Build Project Xcode: ➤ [Wiki Page](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/wiki/Build-Project)
 
 #### Download Latest Release Update 15 Sept 2024 (V-4): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V-4)
 - Included support Monterey 12, Ventura 13, Sonoma 14, Sequoia 15
@@ -158,7 +159,5 @@ HP Probook 3x0 G1, Probook 4x0 G1/G2, Probook 6x0 G1, Elitebook 8x0 G1, ZBook G1
 ![Readme](https://user-images.githubusercontent.com/6248794/230777388-9e48d92f-cdc5-4f36-bc76-4c8fba9f12c8.png)
 
 ![Screenshot installer](https://user-images.githubusercontent.com/6248794/229392816-1e2f223d-9cac-406c-a15c-4030f66ea121.png)
-
-#### Build Project Xcode: ➤ [Wiki Page](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/wiki/Build-Project)
 
 #### Visite Site: ➤ [Site Page](https://chris1111.github.io/HP-Probook-EliteBook-Package-Creator-OC/)

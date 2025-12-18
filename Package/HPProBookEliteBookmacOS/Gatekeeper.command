@@ -3,7 +3,7 @@
 # (c) Copyright 2024 chris1111
 
 osascript -e 'tell app "System Events" to display dialog "Disable Gatekeeper
-From macOS 10.15 to macOS 15" with icon file "System:Library:CoreServices:CoreTypes.bundle:Contents:Resources:FileVaultIcon.icns" buttons {"Disable"} default button 1 with title "Gatekeeper"'
+From macOS 10.15 to macOS 26" with icon file "System:Library:CoreServices:CoreTypes.bundle:Contents:Resources:FileVaultIcon.icns" buttons {"Disable"} default button 1 with title "Gatekeeper"'
 
 
 

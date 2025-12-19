@@ -21,7 +21,7 @@ View ➤ [List Update](https://github.com/chris1111/HP-Probook-EliteBook-Package
 
 #### ⚒️ Build Project Xcode: ➤ [Wiki Page](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/wiki/Build-Project)
 
-#### Download Latest Release Update 18 Dec 2025 (V-6): ➤ [HP-Probook-EliteBook-Package-Creator-OC](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V-6)
+#### Download Latest Release Update 19 Dec 2025 (V-6): ➤ [HP-Probook-EliteBook-Package-Creator-OC](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V-6)
 - Included support Big Sur 11, Monterey 12, Ventura 13, Sonoma 14, Sequoia 15
 ----------------------------------------------------------------------------
 

@@ -31,7 +31,6 @@ mkdir -p ./OpenCore
 mkdir -p ./POST
 mkdir -p ./Patcher
 
-
 # Create the Packages with pkgbuild
 pkgbuild --root ./Patcher --scripts ./script/PRE --identifier com.chris1111.hpprobookelitebookmacos.Patcher.pkg --version 1 --install-location / /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/Patcher.pkg
 
@@ -120,7 +119,6 @@ pkgbuild --root ./Ventura --identifier com.chris1111.hpprobookelitebookmacos.Ven
 pkgbuild --root ./Ventura/V7series --scripts ./script/Ventura/7series/Ventura --identifier com.chris1111.hpprobookelitebookmacos.V7series.pkg --version 1.0 --install-location /Private/tmp /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/V7series.pkg
 
 pkgbuild --root ./Ventura/V8series --scripts ./script/Ventura/8series/Ventura --identifier com.chris1111.hpprobookelitebookmacos.V8series.pkg --version 1.0 --install-location /Private/tmp /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/V8series.pkg
-
 
 Sleep 2
 # Expend the Packages with pkgutil
@@ -227,11 +225,13 @@ productbuild --distribution "/$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PAC
 --package-path "/$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/" \
 --resources "/$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/Resources" \
 "/$HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-ProBook-EliteBook-macOS.pkg"
+
 # Make Gatekeeper Executable
 for file in ./GateKeeper.command; do cat "$file" >> /$HOME/Desktop/HP-ProBook-EliteBook-Packager/GateKeeper.command; done
 chmod 755 /$HOME/Desktop/HP-ProBook-EliteBook-Packager/GateKeeper.command
 Sleep 2
 cp -Rp ./"Support Donate.html" /$HOME/Desktop/HP-ProBook-EliteBook-Packager
+
 # Change package Icon with seticon
 ./Build/PackageMaker/Icon/seticon -d ./Build/PackageMaker/Icon/Icon.icns /$HOME/Desktop/HP-ProBook-EliteBook-Packager/HP-ProBook-EliteBook-macOS.pkg
 Sleep 1
@@ -250,12 +250,11 @@ EOD
 echo "
 = = = = = = = = = = = = = = = = = = = = = = = = =
 Download OCLP support Sequoia 15 Sonoma 14 Ventura 13 Intel HD 4X 6X
-Support Wifi BCM43xx "
-
+Support Wifi BCM43xx
+= = = = = = = = = = = = = = = = = = = = = = = = = "
 curl -L https://github.com/chris1111/OCLP-Dev-repos/releases/download/2.4.1/OpenCore-Patcher.pkg.zip -o /$HOME/Desktop/HP-ProBook-EliteBook-Packager/"$APP_NAME"
 
 cd /$HOME/Desktop/HP-ProBook-EliteBook-Packager
-
 unzip "$APP_NAME"
 Sleep 1
 rm -rf "$APP_NAME"

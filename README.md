@@ -21,19 +21,22 @@ View ➤ [List Update](https://github.com/chris1111/HP-Probook-EliteBook-Package
 
 #### ⚒️ Build Project Xcode: ➤ [Wiki Page](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/wiki/Build-Project)
 
-#### Download Latest Release Update 18 Dec 2025 (V-5): ➤ [HP-Probook-EliteBook-Package-Creator-OC](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V-5)
+#### Download Latest Release Update 18 Dec 2025 (V-6): ➤ [HP-Probook-EliteBook-Package-Creator-OC](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V-6)
+- Included support Big Sur 11, Monterey 12, Ventura 13, Sonoma 14, Sequoia 15
+----------------------------------------------------------------------------
+
+#### Download Release Update 18 Dec 2025 (V-5): ➤ [HP-Probook-EliteBook-Package-Creator-OC](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V-5)
 - Included support Monterey 12, Ventura 13, Sonoma 14, Sequoia 15
-- View How to using latest release ➥ [Latest Release](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Latest-Release.md)
+- View How to using release V-5 ➥ [Latest Release](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Latest-Release.md)
 ----------------------------------------------------------------------------
 
 #### Download Release Update 11 April 2023 (V-3): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V-3)
 - Included support Monterey 12, Ventura 13, Sonoma 14
-
 ----------------------------------------------------------------------------
 
 #### Download Release Update 24 March 2023 (V-2): ➤ [HP-Probook-EliteBook-Package-Creator-OC ](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/releases/tag/V-2)
 - Included support Monterey 12
-
+----------------------------------------------------------------------------
 
 #### Any issue without the Log or all relevant information will be deleted. 
 - This does not work on a VM

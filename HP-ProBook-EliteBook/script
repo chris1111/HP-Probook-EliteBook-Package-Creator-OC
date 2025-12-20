@@ -36,13 +36,22 @@ osascript <<EOD
   end tell
 EOD
 
+Sleep 2
+
 # Remove Packager
 rm -rf $HOME/Desktop/HP-ProBook-EliteBook-Packager
 rm -rf $HOME/Desktop/HP-ProBook-EliteBook-macOS
+rm -rf /Private/tmp/HPProBookEliteBookmacOS
+rm -rf /Private/tmp/Create-Install-Media
+rm -rf /Private/tmp/Package-DIR
+rm -rf /Private/tmp/PackageDIR
+
+# Use /Private/tmp directory
+cp -Rp ./Create-Install-Media /Private/tmp/
 Sleep 1
 mkdir -p $HOME/Desktop/HP-ProBook-EliteBook-Packager
 Sleep 1
-./Create-Install-Media/create_app.sh
+/Private/tmp/Create-Install-Media/create_app.sh
 
 Sleep 1
 # Activate App
@@ -53,7 +62,10 @@ osascript <<EOD
 EOD
 
 echo "======================================================"
-./HPProBookEliteBookmacOS/HP-ProBook-EliteBook-Package-Creator.sh
+# Use /Private/tmp directory
+cp -Rp ./HPProBookEliteBookmacOS /Private/tmp/
+Sleep 2
+/Private/tmp/HPProBookEliteBookmacOS/HP-ProBook-EliteBook-Package-Creator.sh
 Sleep 1
 
 # Done
@@ -72,6 +84,11 @@ EOD
 
 # Remove Packager
 rm -rf $HOME/Desktop/HP-ProBook-EliteBook-macOS
+rm -rf /Private/tmp/HPProBookEliteBookmacOS
+rm -rf /Private/tmp/Create-Install-Media
+rm -rf /Private/tmp/Package-DIR
+rm -rf /Private/tmp/PackageDIR
+
 Open -R $HOME/Desktop/HP-ProBook-EliteBook-Packager/"Support Donate.html"
 
 echo "======================================================"

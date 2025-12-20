@@ -15,7 +15,6 @@ HP-ProBook-EliteBook-macOS.pkg" buttons ("OK") giving up after 2
 EOD
 
 rm -rf ./PRE/.gitkeep
-rm -rf ./Ventura/V8series/.gitkeep
 rm -rf ./OpenCore/.gitkeep
 rm -rf ./POST/.gitkeep
 rm -rf ./Patcher/.gitkeep
@@ -26,6 +25,11 @@ Sleep 1
 mkdir -p /$HOME/Desktop/HP-ProBook-EliteBook-macOS
 mkdir -p /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE
 mkdir -p /tmp/PackageDIR
+mkdir -p ./Ventura/V8series
+mkdir -p ./PRE
+mkdir -p ./OpenCore
+mkdir -p ./POST
+mkdir -p ./Patcher
 
 # Create the Packages with pkgbuild
 pkgbuild --root ./Patcher --scripts ./script/PRE --identifier com.chris1111.hpprobookelitebookmacos.Patcher.pkg --version 1 --install-location / /$HOME/Desktop/HP-ProBook-EliteBook-macOS/BUILD-PACKAGE/Patcher.pkg

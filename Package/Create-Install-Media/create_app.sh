@@ -32,11 +32,12 @@ rm -rf ./Installer/"OpenCore USB.pkg"
 rm -rf rm -rf "$APP_NAMES"
 rm -rf /tmp/Package-DIR
 rm -rf "$APP_NAME"
-rm -rf ./Installer/.gitkeep
-rm -rf ./InstallerHP/BUILD-PACKAGE/.gitkeep
-rm -rf ./Ventura/V8series/.gitkeep
-mkdir -p /tmp/Package-DIR
 Sleep 1
+mkdir -p ./Installer
+mkdir -p ./InstallerHP
+mkdir -p ./InstallerHP/BUILD-PACKAGE
+mkdir -p /tmp/Package-DIR
+mkdir -p ./Ventura/V8series
 # shell script Notifications
 osascript -e 'display notification "Installer HP-ProBook-USB-Installer" with title "Create"  sound name "default"'
 # Create the Packages with pkgbuild
@@ -65,7 +66,7 @@ Sleep 1
 # Flatten the Packages with pkgutil
 pkgutil --flatten /Private/tmp/Package-DIR ./Installer/"OpenCore USB.pkg"
 Sleep 1
-rm -rf ./InstallerHP/BUILD-PACKAGE/*.pkg
+rm -rf ./InstallerHP
 echo "
 = = = = = = = = = = = = = = = = = = = = = = = = =
 Create Install Media HP Laptop OC App"

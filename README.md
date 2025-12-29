@@ -68,8 +68,6 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 - IGPU graphics memory set to 64mb for 8 series if available on Device Configurations
 ----------------------------------------------------------------------------
 
-
-
 ### To use this program you will have to boot on a fresh installation with the 
 - Create Install Media HP Laptop tools « IMPORTANT » without adding file aml (DSDT.aml), (SSDT.aml) in  /EFI / OC / ACPI. Only with the two files that are present SSDT-IGPU.aml, SSDT-HMF.aml.
 
@@ -80,7 +78,7 @@ Important Try do not take another Bios version! it would not be dramatic but it'
 HP Probook 3x0 G1, Probook 4x0 G1/G2, Probook 6x0 G1, Elitebook 8x0 G1, ZBook G1, Folio 1040 G1
 ———————————————————————————————
 
-- 7 series laptop: HP Probook EliteBook * Ivy Bridge * ](https://ark.intel.com/content/www/us/en/ark/products/codename/29902/ivy-bridge.html#@Mobile) . Support macOS Sierra 10.12 to macOS Monterey 12
+- 7 series laptop: [HP Probook EliteBook * Ivy Bridge * ](https://ark.intel.com/content/www/us/en/ark/products/codename/29902/ivy-bridge.html#@Mobile) . Support macOS Sierra 10.12 to macOS Monterey 12
 - HP Probook 4x40s, 4x0 G0, 6x70b, 6x70B-AMD, 6x70B-NVIDIA,  Elitebook 8x70p, 2x70p, 9x70m
 
 - ———————————————————————————————
@@ -121,16 +119,12 @@ HP Probook 3x0 G1, Probook 4x0 G1/G2, Probook 6x0 G1, Elitebook 8x0 G1, ZBook G1
 
 ----------------------------------------------------------------------------
 
-
 #### 7 series High Screen (1600x900) Fix Boot USB Installer black screen ➡︎ [Fix Boot USB Installer (1600x900) black screen](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/issues/2#issuecomment-679373248)
 
 ----------------------------------------------------------------------------
 
-
-
 ### Package Creator
 <img width="654" height="612" alt="Screenshot" src="https://github.com/user-attachments/assets/ffc156c3-a2eb-4fc3-b57b-6ef83a321f35" />
-
 
 ### USB Installer
 ![Screenshot USB-1](https://user-images.githubusercontent.com/6248794/229392821-1432794d-ad57-41e2-a443-cd44e0d05ff4.png)

@@ -4,5 +4,5 @@ HP-ProBookEliteBook:
 	@$/HP-ProBook-EliteBook/HP_ProBook_EliteBook && Open ./build/Release
 
 
-.PHONY: OpenCore Creator clean
+.PHONY: HP-ProBookEliteBook clean
 

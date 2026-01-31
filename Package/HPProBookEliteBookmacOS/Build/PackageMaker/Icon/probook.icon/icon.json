@@ -1,0 +1,133 @@
+{
+  "fill" : {
+    "linear-gradient" : [
+      "srgb:0.10985,0.17045,0.23430,1.00000",
+      "srgb:0.18404,0.39417,0.63709,1.00000"
+    ],
+    "orientation" : {
+      "start" : {
+        "x" : 0.5,
+        "y" : 0
+      },
+      "stop" : {
+        "x" : 0.5,
+        "y" : 0.7
+      }
+    }
+  },
+  "groups" : [
+    {
+      "blend-mode" : "normal",
+      "layers" : [
+        {
+          "fill" : "automatic",
+          "hidden" : true,
+          "image-name" : "Applet.png",
+          "name" : "Applet",
+          "position-specializations" : [
+            {
+              "idiom" : "square",
+              "value" : {
+                "scale" : 1.75,
+                "translation-in-points" : [
+                  0,
+                  0
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "image-name" : "icon_512x512.png",
+          "name" : "icon_512x512",
+          "position-specializations" : [
+            {
+              "value" : {
+                "scale" : 1,
+                "translation-in-points" : [
+                  0,
+                  -83.70751953125
+                ]
+              }
+            },
+            {
+              "idiom" : "square",
+              "value" : {
+                "scale" : 0.5,
+                "translation-in-points" : [
+                  -0.875,
+                  -129.125
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "fill" : {
+            "linear-gradient" : [
+              "display-p3:0.33115,0.55470,0.80222,1.00000",
+              "display-p3:0.14399,0.24542,0.42921,1.00000"
+            ],
+            "orientation" : {
+              "start" : {
+                "x" : 0.5,
+                "y" : 0
+              },
+              "stop" : {
+                "x" : 0.5,
+                "y" : 0.7
+              }
+            }
+          },
+          "glass" : true,
+          "hidden" : true,
+          "image-name" : "1.arrow.png",
+          "name" : "1.arrow",
+          "position-specializations" : [
+            {
+              "idiom" : "square",
+              "value" : {
+                "scale" : 0.5,
+                "translation-in-points" : [
+                  0,
+                  -128.125
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "image-name" : "Icon2 2.png",
+          "name" : "Icon2 2",
+          "position-specializations" : [
+            {
+              "idiom" : "square",
+              "value" : {
+                "scale" : 1.75,
+                "translation-in-points" : [
+                  0,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "lighting" : "individual",
+      "shadow" : {
+        "kind" : "layer-color",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}

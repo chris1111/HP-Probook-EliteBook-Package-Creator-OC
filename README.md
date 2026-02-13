@@ -3,6 +3,8 @@ HP-Probook-EliteBook-Package-Creator-OC
 [![HP-ProBookEliteBook](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/actions/workflows/Build.yml/badge.svg)](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/actions/workflows/Build.yml)
 [![pages-build-deployment](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/actions/workflows/pages/pages-build-deployment)
 
+<img src="https://hitscounter.dev/api/hit?url=https://github.com/chris1111&label=VISITORS&icon=gift&color=%23198754&message=&style=for-the-badge&tz=US%2FEastern">
+
 <img src="PICS/HP-Laptop.png" alt="Github Project" style="width:100%;">  
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)

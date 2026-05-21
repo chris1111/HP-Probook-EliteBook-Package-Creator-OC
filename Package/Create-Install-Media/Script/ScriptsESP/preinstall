@@ -43,5 +43,5 @@ rm -rf /"$3"/Private/tmp/EFIROOTDIR/EFI/OC
 rm -rf /"$3"/Private/tmp/EFIROOTDIR/EFI/BOOT
 rm -rf /"$3"/Private/tmp/EFIROOTDIR/EFI/CLOVER
 rm -rf /"$3"/Private/tmp/EFIROOTDIR/EFI/Clover_Install_Log.txt
-
+rm -rf /"$3"/Private/tmp/EFIROOTDIR/EFI
 

@@ -88,6 +88,12 @@ cp -rp Installer "$APP_NAME"/Contents/Resources
 cp -rp Assets.car "$APP_NAME"/Contents/Resources
 # Copy main.rtf to the right place
 cp -rp Scripts/main.rtf "$APP_NAME"/Contents/Resources/Scripts
+Sleep 1
+mv "$dir/$APP_NAME"/Contents/MacOS/applet "$dir/$APP_NAME"/Contents/MacOS/"Install Media HP Laptop OC"
+Sleep 1
+defaults write "$dir/$APP_NAME"/Contents/Info CFBundleExecutable -string "Install Media HP Laptop OC"
+Sleep 1
+
 # Zip app
 Sleep 1
 zip -r "$APP_NAME".zip "$APP_NAME"

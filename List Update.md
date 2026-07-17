@@ -1,7 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
-- Release Update 21 May 2026 Clean Up EFI
+- Update 24 May 2026 Rename applet
+- Update 21 May 2026 Clean Up EFI
 - Update 27 Jan 2026 Revert Audio fix 4x40
 - Update 16 Jan 2026 RealtekRTL8111.kext V-3.0.0
 - Update 18 Dec 2025 Refactor project structure and update app files

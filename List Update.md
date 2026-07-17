@@ -2,21 +2,37 @@
 
  ```
 - Update 24 May 2026 Rename applet
+
 - Update 21 May 2026 Clean Up EFI
+
 - Update 27 Jan 2026 Revert Audio fix 4x40
+
 - Update 16 Jan 2026 RealtekRTL8111.kext V-3.0.0
+
 - Update 18 Dec 2025 Refactor project structure and update app files
+
 - Update 15 Dec 2025 Update OpenCore 1.0.7, OCLP 2.4.1 Preparing for Tahoe
+
 - Update 04 April 2025 Update OCLP 2.3.2
+
 - Update 02 April 2025 Update OCLP 2.4.0
+
 - Update 16 Mar 2025 Update OpenCore 1.0.5
+
 - Update 06 Mar 2025 Use OCLP 2.3.0
+
 - Update 22 Nov 2024 Choice ProBook 4x0-G1 Intel HD 4400/4600
+
 - Update 17 Oct 2024 Update OpenCore 1.0.3
+
 - Update 11 Oct 2024 Remove two useless Apps
+
 - Update 10 Oct 2024 Only one Bluetooth choice for all macOS
+
 - Update 02 Oct 2024 Use OCLP V-2.0.2
+
 - Update 15 Sept 2024 Add Release V4
+
 - Update 02 Sept 2024 Add Sequoia 15 support
 
 - Update 21 Jun 2024 Update CryptexFixup-V1.0.3

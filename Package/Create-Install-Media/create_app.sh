@@ -73,8 +73,9 @@ Create Install Media HP Laptop OC App"
 # Create the dir structure
 dir=$(cd $(dirname "$1"); pwd)
 /usr/bin/osacompile -o "$APP_NAME" "$SOURCE_SCRIPT"
-# Use Startup screen, LSUIElement
-defaults write "$dir/$APP_NAME"/Contents/Info LSUIElement -bool true
+# Use Startup screen and copyright
+defaults write "$dir/$APP_NAME"/Contents/Info NSHumanReadableCopyright "Copyright © 2026 chris1111, All Right Reserved."
+defaults write "$dir/$APP_NAME"/Contents/Info CFBundleShortVersionString "1.0"
 defaults write "$dir/$APP_NAME"/Contents/Info OSAAppletShowStartupScreen -bool true
 # Copy Licenses to the right place
 cp License.rtf "$APP_NAME"/Contents/Resources

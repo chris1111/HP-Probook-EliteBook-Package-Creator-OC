@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 08 Sept 2026 Refactor install media Progress Bar
+
 - Update 17 Jul 2026 Update OpenCore Configurator
 
 - Update 24 May 2026 Rename applet

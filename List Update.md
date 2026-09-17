@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 16 Sept 2026 Refactor HP package build scripts
+
 - Update 08 Sept 2026 Refactor install media Progress Bar
 
 - Update 17 Jul 2026 Update OpenCore Configurator

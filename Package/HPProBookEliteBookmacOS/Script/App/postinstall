@@ -1,11 +1,7 @@
 #!/bin/bash
 
-if [ -d "${3}/Applications/Drop EFI.app" ]; then
-    rm -rf "${3}/Applications/Drop EFI.app"
-fi
-
-if [ -d "${3}/Applications/Drop-EFI.app" ]; then
-    rm -rf "${3}/Applications/Drop-EFI.app"
+if [ -d "${3}/Applications/MacEFIMounter.app" ]; then
+    rm -rf "${3}/Applications/MacEFIMounter.app"
 fi
 
 if [ -d "${3}/Applications/IORegistryExplorer.app" ]; then
@@ -32,7 +28,7 @@ fi
 
 tar xf /Private/tmp/Apps/IORegistryExplorer.zip --directory /Applications
 
-tar xf /Private/tmp/Apps/"Drop-EFI.zip" --directory /Applications
+tar xf /Private/tmp/Apps/"MacEFIMounter.zip" --directory /Applications
 
 tar xf /Private/tmp/Apps/"Sleep-Finder.zip" --directory /Applications
 
@@ -46,13 +42,7 @@ Sleep 1
 rm -rf /Private/tmp/Apps
 Sleep 1
 
-Open /Applications/"Drop-EFI.app"
 
 osascript <<EOD
-  tell application "System Events"	get full name of current user	make new login item at end of login items with properties ¬		{path:"/Applications/Drop-EFI.app"}end tell
+  tell application "System Events"	get full name of current user	make new login item at end of login items with properties ¬		{path:"/Applications/MacEFIMounter.app"}end tell
 EOD
-
-osascript <<EOD
-  tell application "System Events"	get full name of current user	make new login item at end of login items with properties ¬		{path:"/Applications/Sleep-Finder.app"}end tell
-EOD
-

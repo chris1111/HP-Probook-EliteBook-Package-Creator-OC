@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 17 Sept 2026 Refactor the html page
+
 - Update 16 Sept 2026 Refactor HP package build scripts
 
 - Update 08 Sept 2026 Refactor install media Progress Bar

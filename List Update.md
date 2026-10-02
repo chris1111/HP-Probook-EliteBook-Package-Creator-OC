@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 29 Sept 2026 Fix Bluetooth macOS Sequoia
+
 - Update 17 Sept 2026 Refactor the html page
 
 - Update 16 Sept 2026 Refactor HP package build scripts

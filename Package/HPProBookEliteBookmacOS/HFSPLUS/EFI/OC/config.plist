@@ -1024,10 +1024,6 @@
 			<dict>
 				<key>SystemAudioVolume</key>
 				<data>QA==</data>
-				<key>bluetoothExternalDongleFailed</key>
-				<data>AA==</data>
-				<key>bluetoothInternalControllerInfo</key>
-				<data>AAAAAAAAAAAAAAAAAAA=</data>
 				<key>boot-args</key>
 				<string>alcid=12 -lilubetaall -v</string>
 				<key>csr-active-config</key>

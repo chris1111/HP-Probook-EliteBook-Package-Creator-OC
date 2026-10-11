@@ -911,8 +911,6 @@
 			<dict>
 				<key>DefaultBackgroundColor</key>
 				<data>AAAAAA==</data>
-				<key>UIScale</key>
-				<data>AQ==</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
@@ -922,13 +920,13 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>SystemAudioVolume</key>
-				<data>Rg==</data>
+				<data>QA==</data>
 				<key>boot-args</key>
 				<string>amfi=0x80 keepsyms=1 debug=0x100 alcid=13 -wegnoegpu agdpmod=vit9696 -lilubetaall -no_compat_check revpatch=sbvmm -lilubetaall -v</string>
 				<key>csr-active-config</key>
 				<data>AwgAAA==</data>
 				<key>prev-lang:kbd</key>
-				<data>ZW4tVVM6MA==</data>
+				<string>en-US:0en-US:0</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
@@ -943,6 +941,9 @@
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<array>
 				<string>rtc-blacklist</string>
+				<string>revcpu</string>
+				<string>revcpuname</string>
+				<string>revpatch</string>
 			</array>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
@@ -996,11 +997,11 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>FVF912207QX0000AD</string>
+			<string>FVF932270GU00001H</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
-			<data>3oXqMOxi</data>
+			<data>AAAAAAA=</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1008,9 +1009,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,4</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFYG3YLL40Y</string>
+			<string>FVFZ60WSL40Y</string>
 			<key>SystemUUID</key>
-			<string>E62266CC-4957-4280-A805-E89538E96394</string>
+			<string>E442E1C7-6F7C-46F3-9A16-520DBEEE003E</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>

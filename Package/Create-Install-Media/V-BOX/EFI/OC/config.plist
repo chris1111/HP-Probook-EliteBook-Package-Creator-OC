@@ -946,11 +946,11 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>FVF912207QX0000AD</string>
+			<string>FVF932270GU00001H</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
-			<data>3oXqMOxi</data>
+			<data>AAAAAAA=</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -958,9 +958,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,4</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFYG3YLL40Y</string>
+			<string>FVFZ60WSL40Y</string>
 			<key>SystemUUID</key>
-			<string>E62266CC-4957-4280-A805-E89538E96394</string>
+			<string>E442E1C7-6F7C-46F3-9A16-520DBEEE003E</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>

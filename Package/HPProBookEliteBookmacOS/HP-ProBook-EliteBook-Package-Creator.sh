@@ -15,7 +15,7 @@ cd "$(dirname "$0")" || exit 1
 # Config — edit here only
 # ---------------------------------------------------------------------------
 APP_NAME="OpenCore-Patcher.pkg.zip"
-OCLP_URL="https://github.com/chris1111/OCLP-Dev-repos/releases/download/2.4.1/OpenCore-Patcher.pkg.zip"
+OCLP_URL="https://github.com/chris1111/OCLP-Dev-repos/releases/download/3.0.0-rc.3/OpenCore-Patcher.pkg.zip"
 
 BUILD_DIR="$HOME/Desktop/HP-ProBook-EliteBook-macOS"
 PKG_STAGE="$BUILD_DIR/BUILD-PACKAGE"

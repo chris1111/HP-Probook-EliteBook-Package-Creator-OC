@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 13 Oct 2026 Add DSDT-Patcher.txt log file on Desktop
+
 - Update 10 Oct 2026 Add Graphics Support for Tahoe 26
 
 - Update 02 Oct 2026 Add boot args darkwake=1 for 8 series Laptop

@@ -36,7 +36,7 @@ View ➤ [List Update](https://github.com/chris1111/HP-Probook-EliteBook-Package
 - Old Project Tester: Screenz, mus68, MueKo, 
 platinumsteel, doodoo94, jeremy19, arno608rw, Mtkhan13
 - RehabMan for all DSDT patch, patchmatic
-- kexts inside OpenCore Credit: rehabman, vit9696, Mieze, lvs1974, FireWolf
+- kexts inside OpenCore Credit: rehabman, vit9696, Mieze, lvs1974, FireWolf, laobamac
 - Intel for IASL
 - Apple for Pkgbuild
 - [OpenCore team for OpenCore](https://github.com/acidanthera/OpenCorePkg)

@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>25B77</string>
+	<string>25G313</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>WhateverGreen</string>
 	<key>CFBundleIdentifier</key>
-	<string>as.vit9696.laobamac.WhateverGreen</string>
+	<string>as.vit9696.WhateverGreen</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.7.1d6</string>
+	<string>1.7.2</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,29 +25,29 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.7.1d6</string>
+	<string>1.7.2</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>25A352</string>
+	<string>25F70</string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>26.0</string>
+	<string>26.5</string>
 	<key>DTSDKBuild</key>
-	<string>25A352</string>
+	<string>25F70</string>
 	<key>DTSDKName</key>
-	<string>macosx26.0</string>
+	<string>macosx26.5</string>
 	<key>DTXcode</key>
-	<string>2601</string>
+	<string>2650</string>
 	<key>DTXcodeBuild</key>
-	<string>17A400</string>
+	<string>17F42</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>NVHDAEnabler</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>as.vit9696.laobamac.WhateverGreen</string>
+			<string>as.vit9696.WhateverGreen</string>
 			<key>IOClass</key>
 			<string>NVHDAEnabler</string>
 			<key>IOMatchCategory</key>
@@ -64,7 +64,7 @@
 		<key>as.vit9696.WhateverGreen</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>as.vit9696.laobamac.WhateverGreen</string>
+			<string>as.vit9696.WhateverGreen</string>
 			<key>IOClass</key>
 			<string>WhateverGreen</string>
 			<key>IOMatchCategory</key>

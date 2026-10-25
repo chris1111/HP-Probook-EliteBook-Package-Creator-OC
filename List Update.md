@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 23 Oct 2026 Improve Bluetooth/USB support for Tahoe 26
+
 - Update 17 Oct 2026 Use SimpleHDA.kext for Tahoe Audio
 
 - Update 13 Oct 2026 Add DSDT-Patcher.txt log file on Desktop

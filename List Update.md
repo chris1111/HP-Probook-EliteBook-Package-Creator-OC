@@ -1,6 +1,8 @@
 #### HP-Probook-EliteBook-Package-Creator-OC: ```List Update ⬇︎ ```
 
  ```
+- Update 25 Oct 2026 Update OpenCore 1.0.9, Update VoodooPS2Controller-2.3.8
+
 - Update 23 Oct 2026 Improve Bluetooth/USB support for Tahoe 26
 
 - Update 17 Oct 2026 Use SimpleHDA.kext for Tahoe Audio

@@ -7,7 +7,7 @@ HP-Probook-EliteBook-Package-Creator-OC
 
 Thanks to ➤ [Support Project](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/Support-HP-Probook-EliteBook-Package-Creator-OC-Project.md)
 
-### Latest Update 25 Oct 2026 Update OpenCore 1.0.9, Update VoodooPS2Controller-2.3.8
+### Latest Update 29 Oct 2026 Point OCLP download to 3.0.0-Nightly release
 
 - All infos about ➦ [HP-Probook-EliteBook-Package-Creator-OC for macOS Sequoia](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/blob/master/macOS%20Sequoia%20Support.md)
 
